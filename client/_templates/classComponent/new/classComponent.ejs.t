@@ -2,21 +2,22 @@
 to: src/components/<%= name %>/<%= name %>.js
 ---
 
-import React from 'react';
-import "./<%= name %>.css";
+import React, { Component } from 'react'
+import "./<%= name %>.css"
 
-// Function based React Component
-const <%= name %> = (props) => {
+// React Class Component
+class <% name %> extends Component {
 
-  // Default Class to apply to Component
-  let classList = `<%= name %>`;
+    // Default Class to apply to Component
+    let classList = '<%= name %>'
 
-
-  return(
-    <div className={classList}>
-      <%= name %>
-    </div>
-  );
+    render() {
+        return (
+            <div className={classList}>
+                
+            </div>
+        )
+    }
 }
 
-export default <%= name %>;
+export default <% name %>

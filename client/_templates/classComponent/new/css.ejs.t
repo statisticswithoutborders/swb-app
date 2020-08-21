@@ -1,10 +1,7 @@
-const hello = ```
-Hello!
-This is your first hygen template.
+---
+to: src/components/<%= name %>/<%= name %>.css
+---
 
-Learn what it can do here:
+.<%= name%> {
 
-https://github.com/jondot/hygen
-```
-
-console.log(hello)
+}

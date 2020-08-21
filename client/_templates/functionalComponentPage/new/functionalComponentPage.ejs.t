@@ -1,12 +1,22 @@
-const hello = ```
-Hello!
-This is your first hygen template.
+---
+to: src/pages/<%= name %>/<%= name %>.js
+---
 
-Learn what it can do here:
+import React from 'react';
+import "./<%= name %>.css";
 
-https://github.com/jondot/hygen
-```
+// Function based React Page Component 
+const <%= name %> = (props) => {
 
-console.log(hello)
+  // Default Class to apply to Component
+  let classList = `<%= name %>`;
 
 
+  return(
+    <div className={classList}>
+      <%= name %>
+    </div>
+  );
+}
+
+export default <%= name %>;

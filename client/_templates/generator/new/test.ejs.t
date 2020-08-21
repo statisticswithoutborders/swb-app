@@ -1,18 +1,14 @@
 ---
-to: src/components/<%= name %>/<%= name %>.test.js
+to: _templates/<%= name %>/<%= action || 'new' %>/test.ejs.t 
 ---
 
-import React from 'react'
-import { shallow, mount, configure } from 'enzyme'
-import <%= name %> from './<%= name %>.js'
-import Adapter from 'enzyme-adapter-react-16';
-configure({adapter: new Adapter()});
+const hello = ```
+Hello!
+This is your first hygen template.
 
+Learn what it can do here:
 
-describe('<%= name %> component', () => {
+https://github.com/jondot/hygen
+```
 
-  it('should render as expected', () => {
-    const component = shallow(<<%= name %> />)
-	 	expect(component.exists()).toBe(true);
-  })
-})
+console.log(hello)

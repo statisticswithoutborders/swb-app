@@ -6,7 +6,8 @@ import React, { Component } from 'react'
 import "./<%= name %>.css"
 
 // React Class Page Component
-class <% name %> extends Component {
+
+class <%= name %> extends Component {
 
     // Default class to apply to Component
     let classList = '<%= name %>'
@@ -14,7 +15,7 @@ class <% name %> extends Component {
     render() {
         return (
             <div className={classList}>
-                
+
             </div>
         )
     }

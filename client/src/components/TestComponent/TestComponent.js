@@ -1,15 +1,12 @@
----
-to: src/components/<%= name %>/<%= name %>.js
----
 
 import React, { Component } from 'react'
-import "./<%= name %>.css"
+import "./TestComponent.css"
 
 // React Class Component
-class <%= name %> extends Component {
+class TestComponent extends Component {
 
     // Default Class to apply to Component
-    let classList = '<%= name %>'
+    let classList = 'TestComponent'
 
     render() {
         return (
@@ -20,4 +17,4 @@ class <%= name %> extends Component {
     }
 }
 
-export default <% name %>
+export default 

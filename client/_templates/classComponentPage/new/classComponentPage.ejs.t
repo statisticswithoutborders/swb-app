@@ -14,7 +14,6 @@ export class <%= name %> extends Component {
     }
    
     render() {
-         // Default class to apply to Component
         
 
         return (

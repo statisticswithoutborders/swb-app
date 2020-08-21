@@ -9,11 +9,14 @@ import "./<%= name %>.css"
 export class <%= name %> extends Component {
     constructor(){
         super()
-    }
-    // Default class to apply to Component
-    let classList = '<%= name %>'
 
+        this.classList = '<%= name %>'
+    }
+   
     render() {
+         // Default class to apply to Component
+        
+
         return (
             <div className={classList}>
 

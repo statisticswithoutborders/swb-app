@@ -1,10 +1,14 @@
-const hello = ```
-Hello!
-This is your first hygen template.
+---
+to: src/pages/<%= name %>/<%= name %>.stories.js
+---
+import React from 'react';
+import { storiesOf } from '@storybook/react';
 
-Learn what it can do here:
+import <%= name %> from './<%= name %>';
 
-https://github.com/jondot/hygen
-```
 
-console.log(hello)
+storiesOf('<%= name %>', module)
+    .add('<%= name %>', () =>{
+      return <<%= name %> />
+    }
+)

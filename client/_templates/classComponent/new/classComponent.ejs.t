@@ -6,7 +6,10 @@ import React, { Component } from 'react'
 import "./<%= name %>.css"
 
 // React Class Component
-class <%= name %> extends Component {
+export class <%= name %> extends Component {
+    constructor(){
+        super()
+    }
 
     // Default Class to apply to Component
     let classList = '<%= name %>'

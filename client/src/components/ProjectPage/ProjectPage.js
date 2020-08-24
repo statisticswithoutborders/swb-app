@@ -8,9 +8,18 @@ const ProjectPage = (props) => {
 
   return (
     <div className={classList}>
-      Statistics Without Borders Projects
-      <div className="projectTitle">{props.projectTitle}</div>
-      <div>{props.projectPageImage}</div>
+      <div>Statistics Without Borders Projects</div>
+      <div className="projectPageTitle">{props.projectPageTitle}</div>
+      <div>Location: {props.projectPageLocation}</div>
+      <div>
+        Services: {props.projectPageServicesOne} {props.projectPageServicesTwo}{" "}
+        {props.projectPageServicesThree} {props.projectPageServicesFour}
+      </div>
+      <div
+        className="projectPageImage"
+        style={{ backgroundImage: `${props.projectPageImage}` }}
+      ></div>
+      <div>{props.projectPageDescription}</div>
     </div>
   );
 };

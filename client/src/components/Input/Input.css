@@ -1,14 +1,29 @@
-<<<<<<< HEAD
-.input {
-  /* background-color: var(--gray-liter); */
-  background-color: #3f3d56;
-  /* color: --cyan-blue-liter; */
-  color: #f5f8fb;
-  padding: 10px;
-  border-radius: 2px solid gray;
+textarea {
+  background-color: var(--gray-liter);
+  /* background-color: gray; */
+  padding: 5px;
+  width: 55%;
+  border-radius: 30px;
+  border: none;
 }
-=======
-.Input {
 
+::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--cyan-blue-liter);
+  padding-left: 5px;
+  padding-top: 5px;
+  line-height: baseline;
 }
->>>>>>> ed745d7500ec38357d97d54ab25efbfed001eec6
+
+.input-large {
+  /* background-color: gray; */
+  border-radius: 20px;
+  width: 110%;
+  height: 100px;
+}
+
+.input-large::placeholder {
+  line-height: revert;
+}

@@ -1,24 +1,22 @@
 import React from "react";
-import "./Input.css";
+import "../../index.css";
 
 // React Functional Component
 const Input = props => {
   let classList = "";
 
-  let inputBox = ["regular", "large"];
-
-  if (inputBox.includes(props.type)) {
-    classList += `input-${props.type}`;
+  if (props.large) {
+    classList += ` input-large`;
+    // classList += ` input-large-text`;
   }
 
   return (
-    <label>
-      <input
-        type={props.type}
+    <form>
+      <textarea
         placeholder={props.placeholder}
-        className={props.classlist}
-      ></input>
-    </label>
+        className={classList}
+      ></textarea>
+    </form>
   );
 };
 

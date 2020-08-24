@@ -1,126 +1,125 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap");
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 :root {
-  
-/* These are all the defaults for swb. Below is an example of usage:
+  /* These are all the defaults for swb. Below is an example of usage:
         background-color: var(--blue);
 */
 
-/* Default color palette variables */
+  /* Default color palette variables */
 
---blue: #5372AB; /* nav menu , hr big */
---blue-magenta-dark: #3F3D56; /* Home : under "What we do" */
---blue-magenta-lite: #6A6879; /* Home : members, volunteers */
---blue-medium-dark: #555870; /* Home : Learn more button text, titles */
---blue-medium-darker : #3F4256; /* Services : How can you benefit */
---blue-lite: #96AACE; /* form back ground */
---cyan-blue: #7B90B5; /* blue cards, arrows */
---cyan-blue-dark: #1C386B; /* blue buttons */
---cyan-blue-lite: #DCE8FF; /* blue button label */
---cyan-blue-liter: #F5F8FB; /* place holder text form inputs */
---yellow: #F9ECA6; /* yellow hr, yellow box */
---yellow-green: #F9F9ED; /* Home: Learn more button */
---black: #000000; /* footer - contact, projects */
---white: #FFFFFF; /* content inside card */
---gray : #C4C4C4; /* arrow below bio */
---gray-lite: #EEEEEE; /* banner text ,funding facts */
---gray-liter : #FBFBFB; /* form input fields back ground */
+  --blue: #5372ab; /* nav menu , hr big */
+  --blue-magenta-dark: #3f3d56; /* Home : under "What we do" */
+  --blue-magenta-lite: #6a6879; /* Home : members, volunteers */
+  --blue-medium-dark: #555870; /* Home : Learn more button text, titles */
+  --blue-medium-darker: #3f4256; /* Services : How can you benefit */
+  --blue-lite: #96aace; /* form back ground */
+  --cyan-blue: #7b90b5; /* blue cards, arrows */
+  --cyan-blue-dark: #1c386b; /* blue buttons */
+  --cyan-blue-lite: #dce8ff; /* blue button label */
+  --cyan-blue-liter: #f5f8fb; /* place holder text form inputs */
+  --yellow: #f9eca6; /* yellow hr, yellow box */
+  --yellow-green: #f9f9ed; /* Home: Learn more button */
+  --black: #000000; /* footer - contact, projects */
+  --white: #ffffff; /* content inside card */
+  --gray: #c4c4c4; /* arrow below bio */
+  --gray-lite: #eeeeee; /* banner text ,funding facts */
+  --gray-liter: #fbfbfb; /* form input fields back ground */
 
-/* Default font */
---paragraph-font: 'Nunito Sans', sans-serif;
+  /* Default font */
+  --paragraph-font: "Nunito Sans", sans-serif;
 
-/* Font Weights */
---paragraph-weight: 400;
---banner-weight: 700;
---title-weight: 500;
+  /* Font Weights */
+  --paragraph-weight: 400;
+  --banner-weight: 700;
+  --title-weight: 500;
 
-/* Images */
---nav-logo-world: url("./assets/images/nav_logo_world.png");
---nav-logo-name: url("./assets/images/nav_logo_name.png");
---nav-user-login: url("./assets/images/nav_user_login.png");
---home-banner: url("./assets/images/home_banner.png");
---home-globe: url("./assets/images/home_globe.png");
---home-monitor: url("./assets/images/home_monitor_eval.png");
---home-analysis: url("./assets/images/home_analysis.png");
---home-exp-design : url("./assets/images/home_exp_design");
---home-members : url("./assets/images/home_members.png");
---home-volunteers : url("./assets/images/home_volunteers.png");
---home-clients : url("./assets/images/home_clients");
---home-asante : url("./assets/images/home_asante_africa.png");
---home-stc : url("./assets/images/home_stc_ethiopia.png");
---home-chimp : url("./assets/images/home_tacugama_chimp.png");
---home-un : url("./assets/images/home_un_logo.png");
---home-unicef-sl:url("./assets/images/home_unicef_sl.png");
---home-haiti: url("./assets/images/home_haiti.png");
---home-india : url("./assets/images/outcast_india_unsplash.png");
---home-yoel : url("./assets/images/yoel_peterson_unsplash.png");
---about-swb : url("./assets/images/about_swb_two_people.png");
---about-jean : url("./assets/images/about_jean_opsomer.png");
---about-jae : url("./assets/images/about_jae_brodsky.png");
---about-davina : url("./assets/images/about_davina_durgana.png");
---about-david : url("./assets/images/about_david_whitford.png");
---about-smita : url("./assets/images/about_smita_skrivanek.png");
---about-matt : url("./assets/images/about_matt_brems.png");
---about-cathy : url("./assets/images/about_cathy_furlong.png");
---about-gary : url("./assets/images/about_gary_shapiro.png");
---about-steve : url("./assets/images/about_steve_pierson.png");
---about-give-heart : url("./assets/images/about_give_heart.png");
---about-receive-heart : url("./assets/images/about_receive_heart.png");
---about-no-fees : url("./assets/images/about_no_fees.png");
---about-donate : url("./assets/images/about_donate.png");
---project-asante : url("./assets/images/project_asante_africa.png");
---project-stc : url("./assets/images/project_stc_tigray.png");
---project-chimp : url("./assets/images/project_tacugama_chimp.png");
---project-un : url("./assets/images/project_un_logo.png");
---project-unicef-sl : url("./assets/images/project_unicef_sl.png");
---project-haiti : url("./assets/images/project_haiti.png");
---project1-asante : url("./assets/images/project1_asante_africa.png");
---project2-stc : url("./assets/images/project2_stc_child.png");
---project3-chimp : url("./assets/images/project3_chimp.png");
---project4-un : url("./assets/images/project4_un.png");
---project5-unicef : url("./assets/images/project5_unicef.png");
---project6-haiti : url("./assets/images/project6_haiti.png");
---services-consulting : url("./assets/images/services_consulting.png");
---services-monitor : url("./assets/images/services_monitor_eval.png");
---services-dashboard : url("./assets/images/services_dashboard.png");
---services_survey : url("./assets/images/services_survey.png");
---services-data-analysis : url("./assets/images/services_data_analysis.png");
---services-stat-model : url("./assets/images/services_stat_model.png");
---services-lightbulb : url("./assets/images/services_lightbulb.png");
---services-grow : url("./assets/images/services_grow.png");
---services-innovate : url("./assets/images/services_innovate.png");
---services-logo-unicef : url("./assets/images/services_logo_unicef.png");
---services-logo-ocha : url("./assets/images/services_logo_ocha.png");
---services-logo-asante : url("./assets/images/services_logo_asante.png");
---services-logo-stc : url("./assets/images/services_logo_stc.png");
---services-logo-tacugama : url("./assets/images/services_logo_tacugama.png");
---services-logo-scimetrika : url("./assets/images/services_logo_scimetrika.png");
---volunteers-workspace : url("./assets/images/volunteers_undraw_workspace.png");
---volunteers-students : url("./assets/images/volunteers_undraw_students.png");
---volunteers-chill : url("./assets/images/volunteers_undraw_chill.png");
---volunteers-community : url("./assets/images/volunteers_undraw_community.png");
---volunteers-review : url("./assets/images/volunteers_review.png");
---volunteers-email-receive : url("./assets/images/volunteers_email_receive.png");
---volunteers-email-respond : url("./assets/images/volunteers_email_respond.png");
---volunteers-crown : url("./assets/images/volunteers_crown.png");
---logo-facebook : url("./assets/images/logo_facebook.png");
---logo-linkedin : url("./assets/images/logo_linkedin.png");
---logo-twitter : url("./assets/images/logo_twitter.png");
---logo-youtube: url("./assets/images/logo_youtube.png");
---logo-email : url("./assets/images/logo_email.png");
+  /* Images */
+  --nav-logo-world: url("./assets/images/nav_logo_world.png");
+  --nav-logo-name: url("./assets/images/nav_logo_name.png");
+  --nav-user-login: url("./assets/images/nav_user_login.png");
+  --home-banner: url("./assets/images/home_banner.png");
+  --home-globe: url("./assets/images/home_globe.png");
+  --home-monitor: url("./assets/images/home_monitor_eval.png");
+  --home-analysis: url("./assets/images/home_analysis.png");
+  --home-exp-design: url("./assets/images/home_exp_design");
+  --home-members: url("./assets/images/home_members.png");
+  --home-volunteers: url("./assets/images/home_volunteers.png");
+  --home-clients: url("./assets/images/home_clients");
+  --home-asante: url("./assets/images/home_asante_africa.png");
+  --home-stc: url("./assets/images/home_stc_ethiopia.png");
+  --home-chimp: url("./assets/images/home_tacugama_chimp.png");
+  --home-un: url("./assets/images/home_un_logo.png");
+  --home-unicef-sl: url("./assets/images/home_unicef_sl.png");
+  --home-haiti: url("./assets/images/home_haiti.png");
+  --home-india: url("./assets/images/outcast_india_unsplash.png");
+  --home-yoel: url("./assets/images/yoel_peterson_unsplash.png");
+  --about-swb: url("./assets/images/about_swb_two_people.png");
+  --about-jean: url("./assets/images/about_jean_opsomer.png");
+  --about-jae: url("./assets/images/about_jae_brodsky.png");
+  --about-davina: url("./assets/images/about_davina_durgana.png");
+  --about-david: url("./assets/images/about_david_whitford.png");
+  --about-smita: url("./assets/images/about_smita_skrivanek.png");
+  --about-matt: url("./assets/images/about_matt_brems.png");
+  --about-cathy: url("./assets/images/about_cathy_furlong.png");
+  --about-gary: url("./assets/images/about_gary_shapiro.png");
+  --about-steve: url("./assets/images/about_steve_pierson.png");
+  --about-give-heart: url("./assets/images/about_give_heart.png");
+  --about-receive-heart: url("./assets/images/about_receive_heart.png");
+  --about-no-fees: url("./assets/images/about_no_fees.png");
+  --about-donate: url("./assets/images/about_donate.png");
+  --project-asante: url("./assets/images/project_asante_africa.png");
+  --project-stc: url("./assets/images/project_stc_tigray.png");
+  --project-chimp: url("./assets/images/project_tacugama_chimp.png");
+  --project-un: url("./assets/images/project_un_logo.png");
+  --project-unicef-sl: url("./assets/images/project_unicef_sl.png");
+  --project-haiti: url("./assets/images/project_haiti.png");
+  --project1-asante: url("./assets/images/project1_asante_africa.png");
+  --project2-stc: url("./assets/images/project2_stc_child.png");
+  --project3-chimp: url("./assets/images/project3_chimp.png");
+  --project4-un: url("./assets/images/project4_un.png");
+  --project5-unicef: url("./assets/images/project5_unicef.png");
+  --project6-haiti: url("./assets/images/project6_haiti.png");
+  --services-consulting: url("./assets/images/services_consulting.png");
+  --services-monitor: url("./assets/images/services_monitor_eval.png");
+  --services-dashboard: url("./assets/images/services_dashboard.png");
+  --services_survey: url("./assets/images/services_survey.png");
+  --services-data-analysis: url("./assets/images/services_data_analysis.png");
+  --services-stat-model: url("./assets/images/services_stat_model.png");
+  --services-lightbulb: url("./assets/images/services_lightbulb.png");
+  --services-grow: url("./assets/images/services_grow.png");
+  --services-innovate: url("./assets/images/services_innovate.png");
+  --services-logo-unicef: url("./assets/images/services_logo_unicef.png");
+  --services-logo-ocha: url("./assets/images/services_logo_ocha.png");
+  --services-logo-asante: url("./assets/images/services_logo_asante.png");
+  --services-logo-stc: url("./assets/images/services_logo_stc.png");
+  --services-logo-tacugama: url("./assets/images/services_logo_tacugama.png");
+  --services-logo-scimetrika: url("./assets/images/services_logo_scimetrika.png");
+  --volunteers-workspace: url("./assets/images/volunteers_undraw_workspace.png");
+  --volunteers-students: url("./assets/images/volunteers_undraw_students.png");
+  --volunteers-chill: url("./assets/images/volunteers_undraw_chill.png");
+  --volunteers-community: url("./assets/images/volunteers_undraw_community.png");
+  --volunteers-review: url("./assets/images/volunteers_review.png");
+  --volunteers-email-receive: url("./assets/images/volunteers_email_receive.png");
+  --volunteers-email-respond: url("./assets/images/volunteers_email_respond.png");
+  --volunteers-crown: url("./assets/images/volunteers_crown.png");
+  --logo-facebook: url("./assets/images/logo_facebook.png");
+  --logo-linkedin: url("./assets/images/logo_linkedin.png");
+  --logo-twitter: url("./assets/images/logo_twitter.png");
+  --logo-youtube: url("./assets/images/logo_youtube.png");
+  --logo-email: url("./assets/images/logo_email.png");
 }

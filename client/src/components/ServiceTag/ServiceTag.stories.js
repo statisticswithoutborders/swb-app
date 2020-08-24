@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-
 import ServiceTag from "./ServiceTag";
+import "../../index.css";
 
 storiesOf("ServiceTag", module)
   .add("Data Analysis", () => {
@@ -23,20 +23,20 @@ storiesOf("ServiceTag", module)
     return <ServiceTag label="risk plots" />;
   })
   .add("Data Analysis Small", () => {
-    return <ServiceTag small label="data analysis" />;
+    return <ServiceTag ServiceTag-small label="data analysis" />;
   })
   .add("Monitoring & Evaluation Small", () => {
-    return <ServiceTag small label="monitoring & evaluation" />;
+    return <ServiceTag ServiceTag-small label="monitoring & evaluation" />;
   })
   .add("Longitudinal Study Small", () => {
-    return <ServiceTag small label="longitudinal study" />;
+    return <ServiceTag ServiceTag-small label="longitudinal study" />;
   })
   .add("Database Small", () => {
-    return <ServiceTag small label="database" />;
+    return <ServiceTag ServiceTag-small label="database" />;
   })
   .add("CART models Small", () => {
-    return <ServiceTag small label="CART models" />;
+    return <ServiceTag ServiceTag-small label="CART models" />;
   })
   .add("risk plots Small", () => {
-    return <ServiceTag small label="risk plots" />;
+    return <ServiceTag ServiceTag-small label="risk plots" />;
   });

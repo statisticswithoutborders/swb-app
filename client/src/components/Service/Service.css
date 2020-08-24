@@ -1,0 +1,11 @@
+.service {
+	display: flex;
+}
+
+.service-img {
+	width: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 2em;
+}

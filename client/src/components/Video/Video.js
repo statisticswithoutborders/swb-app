@@ -2,13 +2,18 @@ import React from 'react';
 import "./Video.css";
 import ReactPlayer from "react-player"
 
-//faunalytics video
-function Video() {
+
+function Video(props) {
+  let classList=""
+    if (props.large) {
+      classList+= ` video-large`
+    }
+    if (props.small) {
+      classList+= ` video-small`
+    }
   return (
     <div>
-      <ReactPlayer className='video'
-        url="https://www.youtube.com/watch?v=xFKkTMjQoIw"
-      />
+      <ReactPlayer width= {props.width} height={props.height} className={classList} url={props.url} />
     </div>
   )
 }

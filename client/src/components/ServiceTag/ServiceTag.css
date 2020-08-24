@@ -7,7 +7,7 @@
   width: 160px;
   border-radius: 30px;
   box-shadow: 0px 5px 10px -7px #000000, 5px 5px 10px 5px rgba(0, 0, 0, 0);
-  color: grey;
+  color: var(--blue-magenta-lite);
   font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;

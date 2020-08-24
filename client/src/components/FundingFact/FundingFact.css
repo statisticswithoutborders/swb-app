@@ -19,7 +19,6 @@
 .funding-fact-image {
     width: 20%;
     height: 80%;
-    align-self: flex-end;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

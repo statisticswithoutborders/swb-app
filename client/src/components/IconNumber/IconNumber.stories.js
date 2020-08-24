@@ -1,12 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import "../../index.css"
+// import "../../index.css"
 import "./IconNumber.js"
 import './IconNumber.css';
 
 
 storiesOf('IconNumber', module)
     .add('IconNumber', () =>{
-      return <IconNumber number label="1"/>
+      return <IconNumber  />
     }
 )

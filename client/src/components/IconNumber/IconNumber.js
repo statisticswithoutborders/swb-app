@@ -1,6 +1,7 @@
 import React from 'react';
 import "./IconNumber.css";
-import "../../index.css"
+// import "../../index.css"
+
 // Function based React Component
 const IconNumber = (props) => {
 
@@ -18,7 +19,4 @@ const IconNumber = (props) => {
       {props.label}
     </div>
   );
-  
 }
-
-export default IconNumber;

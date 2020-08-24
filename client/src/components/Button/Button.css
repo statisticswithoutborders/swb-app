@@ -28,14 +28,12 @@ button{
     background-color: var(--cyan-blue-dark);
     color: var(--cyan-blue-lite);
     border: var(--cyan-blue-dark);
-    width: 130px;
-    height: 50px;
+    width: 142px;
+    height: 45px;
     font-size: 15px;
     font-weight: bold;
     border-radius: 21px;
     box-shadow: 1px 3px 5px grey;
-
-   
 }
 
 button:focus {
@@ -46,14 +44,14 @@ button:hover{
     cursor: pointer;
 }
 .button-medium{
-    width: 180px;
-    height: 70px;
+    width: 193px;
+    height: 61px;
     font-size: 20px;
 }
 
 .button-large{
-    width: 220px;
-    height: 80px;
+    width: 241px;
+    height: 70px;
     font-size: 23px;
     background-color: var(--yellow-green);
     color: var(--blue-medium-dark)

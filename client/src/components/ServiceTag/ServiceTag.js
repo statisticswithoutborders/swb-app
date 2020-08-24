@@ -5,12 +5,15 @@ import "./ServiceTag.css";
 const ServiceTag = (props) => {
 
   // Default Class to apply to Component
-  let classList = `ServiceTag`;
+  let classList = ['ServiceTag'];
+  if (props.small) {
+    classList.push("small");
+  }
 
 
   return(
-    <div className={classList}>
-      ServiceTag
+    <div className={classList.join(" ")}>
+      {props.label}
     </div>
   );
 }

@@ -1,14 +1,14 @@
 import React from 'react'
 import { shallow, mount, configure } from 'enzyme'
-import FundingFact from './FundingFact.js'
+import Input from './Input.js'
 import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 
-describe('FundingFact component', () => {
+describe('Input component', () => {
 
   it('should render as expected', () => {
-    const component = shallow(<FundingFact />)
+    const component = shallow(<Input />)
 	 	expect(component.exists()).toBe(true);
   })
 })

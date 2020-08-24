@@ -1,10 +1,13 @@
-.IconNumber {
+
+.box {
+    /* background-color: F9ECA6; */
+    background-color: blue;
+    width: 82px;
+    height: 74px;
+}
+
+IconNumber {
     color: 555870;
     font-size: 64px;
     font-family: Proxima Nova;
-}
-
-.box {
-    background-color: F9ECA6;
-    
 }

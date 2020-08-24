@@ -6,15 +6,17 @@ import "./IconNumber.css";
 const IconNumber = (props) => {
 
   // Default Class to apply to Component
-  let classList = "IconNumber"
+  // let classList = "IconNumber"
+  let classList = ""
+
   let numbers = ["digit"]
   if (numbers.includes(props.number)){
     classList += `0${props.number}`
+    console.log(classList)
   }
   
   return(
     <div className={classList}>
-      {/* style={{}} */}
       {props.label}
     </div>
   );

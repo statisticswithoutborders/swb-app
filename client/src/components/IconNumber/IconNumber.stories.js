@@ -5,8 +5,10 @@ import IconNumber from "./IconNumber.js"
 import './IconNumber.css';
 
 
+
+
 storiesOf('IconNumber', module)
     .add('IconNumber', () =>{
-      return <IconNumber  label="1"/>
+      return <IconNumber box label="01"/>
     }
 )

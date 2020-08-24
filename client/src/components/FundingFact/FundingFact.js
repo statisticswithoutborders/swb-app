@@ -7,7 +7,7 @@ const FundingFact = (props) => {
   // Default Class to apply to Component
   let classList = [`FundingFact`];
 
-if (props.imgPosition === "right"){
+if (props.imgPositionRight){
   classList.push('FundingFact-img-right')
 }
 

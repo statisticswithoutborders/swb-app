@@ -1,29 +1,3 @@
-:root {
-  
-  /* These are all the defaults for swb. Below is an example of usage:
-          background-color: var(--blue);
-  */
-  
-  /* Default color palette variables */
-  
-  --blue: #5372AB; /* nav menu , hr big */
-  --blue-magenta-dark: #3F3D56; /* Home : under "What we do" */
-  --blue-magenta-lite: #6A6879; /* Home : members, volunteers */
-  --blue-medium-dark: #555870; /* Home : Learn more button text, titles */
-  --blue-medium-darker : #3F4256; /* Services : How can you benefit */
-  --blue-lite: #96AACE; /* form back ground */
-  --cyan-blue: #7B90B5; /* blue cards, arrows */
-  --cyan-blue-dark: #1C386B; /* blue buttons */
-  --cyan-blue-lite: #DCE8FF; /* blue button label */
-  --cyan-blue-liter: #F5F8FB; /* place holder text form inputs */
-  --yellow: #F9ECA6; /* yellow hr, yellow box */
-  --yellow-green: #F9F9ED; /* Home: Learn more button */
-  --black: #000000; /* footer - contact, projects */
-  --white: #FFFFFF; /* content inside card */
-  --gray : #C4C4C4; /* arrow below bio */
-  --gray-lite: #EEEEEE; /* banner text ,funding facts */
-  --gray-liter : #FBFBFB; /* form input fields back ground */
-}
 .App {
   text-align: center;
 }

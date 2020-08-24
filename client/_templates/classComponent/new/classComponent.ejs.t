@@ -10,7 +10,7 @@ export class <%= name %> extends Component {
     constructor(){
         super()
 
-        this.classList = '<%= name %>'
+         this.state ={classlist:'<%= name %>'}
     }
 
 

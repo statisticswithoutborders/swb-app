@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9eca6;
+  background-color: var(--yellow);
   padding: 10px;
   width: 160px;
   border-radius: 30px;
@@ -12,7 +12,11 @@
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
 }
-
+.ServiceTag-medium {
+  font-size: 12px;
+  width: 130px;
+  padding: 7px;
+}
 .ServiceTag-small {
   font-size: 9px;
   width: 105px;

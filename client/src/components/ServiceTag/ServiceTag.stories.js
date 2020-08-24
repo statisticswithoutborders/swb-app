@@ -22,21 +22,39 @@ storiesOf("ServiceTag", module)
   .add("risk plots", () => {
     return <ServiceTag label="risk plots" />;
   })
+  .add("Data Analysis Medium", () => {
+    return <ServiceTag ServiceTagMedium label="data analysis" />;
+  })
+  .add("Monitoring & Evaluation Medium", () => {
+    return <ServiceTag ServiceTagMedium label="monitoring & evaluation" />;
+  })
+  .add("Longitudinal Study Medium", () => {
+    return <ServiceTag ServiceTagMedium label="longitudinal study" />;
+  })
+  .add("Database Medium", () => {
+    return <ServiceTag ServiceTagMedium label="database" />;
+  })
+  .add("CART models Medium", () => {
+    return <ServiceTag ServiceTagMedium label="CART models" />;
+  })
+  .add("risk plots Medium", () => {
+    return <ServiceTag ServiceTagMedium label="risk plots" />;
+  })
   .add("Data Analysis Small", () => {
-    return <ServiceTag ServiceTag-small label="data analysis" />;
+    return <ServiceTag ServiceTagSmall label="data analysis" />;
   })
   .add("Monitoring & Evaluation Small", () => {
-    return <ServiceTag ServiceTag-small label="monitoring & evaluation" />;
+    return <ServiceTag ServiceTagSmall label="monitoring & evaluation" />;
   })
   .add("Longitudinal Study Small", () => {
-    return <ServiceTag ServiceTag-small label="longitudinal study" />;
+    return <ServiceTag ServiceTagSmall label="longitudinal study" />;
   })
   .add("Database Small", () => {
-    return <ServiceTag ServiceTag-small label="database" />;
+    return <ServiceTag ServiceTagSmall label="database" />;
   })
   .add("CART models Small", () => {
-    return <ServiceTag ServiceTag-small label="CART models" />;
+    return <ServiceTag ServiceTagSmall label="CART models" />;
   })
   .add("risk plots Small", () => {
-    return <ServiceTag ServiceTag-small label="risk plots" />;
+    return <ServiceTag ServiceTagSmall label="risk plots" />;
   });

@@ -50,3 +50,7 @@ button{
     background-color: var(--yellow-green);
     color: var(--blue-medium-dark)
 }
+
+.button-wide{
+    width: 400px;
+}

@@ -9,6 +9,8 @@ storiesOf("Button", module)
 
 .add('Primary Large', () => <Button type = 'primary' large label="LEARN MORE" />)
 
+.add('Primary Wide', () => <Button type = 'primary' wide label = "LEARN MORE ABOUT OUR SERVICES"/>)
+
 
 
 

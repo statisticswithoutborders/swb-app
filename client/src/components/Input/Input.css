@@ -1,0 +1,8 @@
+.input {
+  /* background-color: var(--gray-liter); */
+  background-color: #3f3d56;
+  /* color: --cyan-blue-liter; */
+  color: #f5f8fb;
+  padding: 10px;
+  border-radius: 2px solid gray;
+}

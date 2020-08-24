@@ -2,7 +2,7 @@
     width: 90%;
     height: 140px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background-color: var(--gray-lite);
     border: 2px solid var(--blue);
     border-radius: 18px;
@@ -19,6 +19,7 @@
 .funding-fact-image {
     width: 20%;
     height: 80%;
+    align-self: flex-end;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

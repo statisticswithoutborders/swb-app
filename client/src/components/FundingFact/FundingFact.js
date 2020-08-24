@@ -5,12 +5,16 @@ import "./FundingFact.css";
 const FundingFact = (props) => {
 
   // Default Class to apply to Component
-  let classList = `FundingFact`;
+  let classList = [`FundingFact`];
 
+if (props.imgRight){
+  classList.push('img-right')
+}
 
   return(
-    <div className={classList}>
-      FundingFact
+    <div className={classList.join(' ')}>
+      <div className='funding-fact-image' style={{backgroundImage: props.image}}></div>
+      <p>{props.description}</p>
     </div>
   );
 }

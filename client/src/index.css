@@ -57,17 +57,17 @@ code {
 --home-globe: url("./assets/images/home_globe.png");
 --home-monitor: url("./assets/images/home_monitor_eval.png");
 --home-analysis: url("./assets/images/home_analysis.png");
---home-exp-design : url("./assets/images/home_exp_design");
+/* --home-exp-design : url("./assets/images/home_exp_design"); */
 --home-members : url("./assets/images/home_members.png");
 --home-volunteers : url("./assets/images/home_volunteers.png");
---home-clients : url("./assets/images/home_clients");
+/* --home-clients : url("./assets/images/home_clients"); */
 --home-asante : url("./assets/images/home_asante_africa.png");
 --home-stc : url("./assets/images/home_stc_ethiopia.png");
 --home-chimp : url("./assets/images/home_tacugama_chimp.png");
---home-un : url("./assets/images/home_un_logo.png");
---home-unicef-sl:url("./assets/images/home_unicef_sl.png");
---home-haiti: url("./assets/images/home_haiti.png");
---home-india : url("./assets/images/outcast_india_unsplash.png");
+/* --home-un : url("./assets/images/home_un_logo.png"); */
+/* --home-unicef-sl:url("./assets/images/home_unicef_sl.png"); */
+/* --home-haiti: url("./assets/images/home_haiti.png"); */
+/* --home-india : url("./assets/images/outcast_india_unsplash.png"); */
 --home-yoel : url("./assets/images/yoel_peterson_unsplash.png");
 --about-swb : url("./assets/images/about_swb_two_people.png");
 --about-jean : url("./assets/images/about_jean_opsomer.png");
@@ -110,7 +110,7 @@ code {
 --services-logo-stc : url("./assets/images/services_logo_stc.png");
 --services-logo-tacugama : url("./assets/images/services_logo_tacugama.png");
 --services-logo-scimetrika : url("./assets/images/services_logo_scimetrika.png");
---volunteers-workspace : url("./assets/images/volunteers_undraw_workspace.png");
+/* --volunteers-workspace : url("./assets/images/volunteers_undraw_workspace.png"); */
 --volunteers-students : url("./assets/images/volunteers_undraw_students.png");
 --volunteers-chill : url("./assets/images/volunteers_undraw_chill.png");
 --volunteers-community : url("./assets/images/volunteers_undraw_community.png");
@@ -122,5 +122,5 @@ code {
 --logo-linkedin : url("./assets/images/logo_linkedin.png");
 --logo-twitter : url("./assets/images/logo_twitter.png");
 --logo-youtube: url("./assets/images/logo_youtube.png");
---logo-email : url("./assets/images/logo_email.png");
+/* --logo-email : url("./assets/images/logo_email.png"); */
 }

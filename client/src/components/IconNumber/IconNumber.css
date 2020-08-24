@@ -9,10 +9,10 @@
 }
 
 .icon-number {
-    z-index: 2;
+  z-index: 2;
   position: relative;
-font-weight: bold;
-  color: #555870;
+  font-family: var(--paragaph-font);
+  font-weight: var(--banner-weight);
+  color: var(--blue-medium-dark);
   font-size: 64px;
-  font-family: Proxima Nova;
 }

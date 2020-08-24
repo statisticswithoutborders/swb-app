@@ -9,6 +9,6 @@ import './IconNumber.css';
 
 storiesOf('IconNumber', module)
     .add('IconNumber', () =>{
-      return <IconNumber type="digit" IconNumber box label="01"/>
+      return <IconNumber type="digit" icon-number box label="01"/>
     }
 )

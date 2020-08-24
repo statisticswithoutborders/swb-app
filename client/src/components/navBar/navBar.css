@@ -1,3 +1,20 @@
-.navBar {
+.Nav_item-wrapper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #5372ab;
+}
 
+.Nav_item {
+  width: 10vw;
+  padding: 17px;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px;
+}
+
+.Nav_link {
+  color: #5372ab;
+  text-decoration: none;
+  font-style: Inter;
 }

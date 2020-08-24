@@ -6,7 +6,7 @@ import React, { Component } from 'react'
 import "./<%= name %>.css"
 
 // React Class Component
-export class <%= name %> extends Component {
+class <%= name %> extends Component {
     constructor(){
         super()
 
@@ -23,4 +23,4 @@ export class <%= name %> extends Component {
     }
 }
 
-export default <% name %>
+export default <%= name %>

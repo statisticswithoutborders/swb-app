@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Input from "./Input";
@@ -10,3 +11,16 @@ storiesOf("Input", module).add("Input", () => (
 storiesOf("Input", module).add("Input", () => (
   <Input type="large" placeholder="Name" />
 ));
+=======
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+
+import Input from './Input';
+
+
+storiesOf('Input', module)
+    .add('Input', () =>{
+      return <Input />
+    }
+)
+>>>>>>> ed745d7500ec38357d97d54ab25efbfed001eec6

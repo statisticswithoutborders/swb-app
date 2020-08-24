@@ -1,0 +1,69 @@
+.card {
+  background-image: url("../../assets/images/services_lightbulb.png");
+  background-size: 48%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: var(--cyan-blue);
+  width: 18%;
+  height: 18%;
+  text-align: center;
+  border-radius: 5%;
+  color: white;
+  font-size: 0.6rem;
+  font-family: arial;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.card h3 {
+  font-size: 1rem;
+  text-decoration: underline;
+  padding-top: 50%;
+  margin-bottom: 0;
+}
+.card p {
+  padding: 0 1.5rem 0.5rem 1.5rem;
+  font-size: 0.6rem;
+  font-weight: lighter;
+}
+
+.monitoring {
+  background-image: url("../../assets/images/home_monitor_eval.png");
+  background-repeat: no-repeat;
+  width: 22%;
+  height: 18%;
+  text-align: center;
+  border-radius: 5%;
+  color: white;
+  background-color: var(--cyan-blue);
+  background-position-x: center;
+  font-family: arial;
+}
+.monitoring h3 {
+  padding-top: 50%;
+  text-decoration: underline;
+}
+.monitoring p {
+  padding: 0 1.5rem 1.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.statisticians {
+  background-image: url("../../assets/images/volunteers_undraw_workspace.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 65%;
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  border: 2px solid var(--cyan-blue);
+  border-radius: 5%;
+  padding: 1rem;
+}
+.statisticians h3 {
+  padding-top: 30%;
+  width: 60%;
+  margin-left: 20%;
+}
+.statisticians p {
+  font-size: 0.7rem;
+}

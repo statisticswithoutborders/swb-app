@@ -5,9 +5,13 @@ import "./Button.css";
 function Button (props) {
   let classList = '';
 
-  if (props.mediem) {
+  if (props.medium) {
 		classList += ` button-medium`;
-	}
+  }
+  
+  if (props.large) {
+    classList += ` button-large`
+  }
 
     return (
       <button className={classList}>

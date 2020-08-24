@@ -34,9 +34,17 @@ button{
     font-weight: bold;
     border-radius: 21px;
     box-shadow: 1px 3px 5px grey;
+
    
 }
 
+button:focus {
+outline: none
+}
+
+button:hover{
+    cursor: pointer;
+}
 .button-medium{
     width: 180px;
     height: 70px;

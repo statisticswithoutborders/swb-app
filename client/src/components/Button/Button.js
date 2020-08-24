@@ -18,7 +18,7 @@ function Button (props) {
   }
 
     return (
-      <button className={classList}>
+      <button className={classList} onClick = {props.callback}>
         {props.label}
       </button>
     );

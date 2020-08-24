@@ -1,16 +1,12 @@
----
-to: src/components/<%= name %>/<%= name %>.js
----
-
 import React, { Component } from 'react'
-import "./<%= name %>.css"
+import "./Input.css"
 
 // React Class Component
-class <%= name %> extends Component {
+export class Input extends Component {
     constructor(){
         super()
 
-         this.state ={classlist:'<%= name %>'}
+         this.state ={classlist:'Input'}
     }
 
 
@@ -23,4 +19,4 @@ class <%= name %> extends Component {
     }
 }
 
-export default <%= name %>
+export default Input

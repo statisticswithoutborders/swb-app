@@ -1,3 +1,11 @@
-.Service {
+.service {
+	display: flex;
+}
 
+.service-img {
+	width: 250px;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin: 1em;
+	margin-right: 2em;
 }

@@ -1,13 +1,18 @@
-
 .box {
-    background-color: var(--yellow);
-    /* background-color: blue; */
-    width: 82px;
-    height: 74px;
+    z-index: -1;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  background-color: var(--yellow);
+  width: 82px;
+  height: 74px;
 }
 
 .icon-number {
-    color: #555870;
-    font-size: 64px;
-    font-family: Proxima Nova;
+    z-index: 2;
+  position: relative;
+font-weight: bold;
+  color: #555870;
+  font-size: 64px;
+  font-family: Proxima Nova;
 }

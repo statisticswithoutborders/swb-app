@@ -19,10 +19,10 @@ const IconNumber = (props) => {
   console.log(classList)
   
   return(
-    <div className={"box"}> 
     <div className={classList}>
+    <div> 
       {props.label}
-    <div></div>
+      <div className={"box"}></div>
 
       </div>
     </div>

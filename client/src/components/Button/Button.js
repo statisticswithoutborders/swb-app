@@ -5,10 +5,12 @@ import "./Button.css";
 function Button (props) {
   let classList = '';
 
-  let types = ['small', 'large']
+  if (props.mediem) {
+		classList += ` button-medium`;
+	}
 
     return (
-      <button >
+      <button className={classList}>
         {props.label}
       </button>
     );

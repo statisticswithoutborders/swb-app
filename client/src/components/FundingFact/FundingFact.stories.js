@@ -8,9 +8,9 @@ let rightDescription = "SWB does not accept payments or remunerations of any kin
 
 storiesOf('FundingFact', module)
     .add('Image Left', () =>{
-      return <FundingFact image="var(--about-donate)" description={leftDescription} />
+      return <FundingFact image="var(--about-donate)" description={leftDescription} imgPosition="left" />
     })
     .add('Image Right', () =>{
-      return <FundingFact image="var(--about-give-heart)" description={rightDescription} imgRight />
+      return <FundingFact image="var(--about-give-heart)" description={rightDescription} imgPosition="right" />
     }
 )

@@ -7,7 +7,7 @@ import "../../index.css"
 const Objective = (props) => {
 
   // Default Class to apply to Component
-  let classList = `HowWeStarted`;
+  let classList = `Objective`;
 
 
   return (

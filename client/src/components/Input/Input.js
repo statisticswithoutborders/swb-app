@@ -1,22 +1,25 @@
-import React, { Component } from 'react'
-import "./Input.css"
+import React from "react";
+import "../../index.css";
 
-// React Class Component
-export class Input extends Component {
-    constructor(){
-        super()
+// React Functional Component
+const Input = props => {
+  let classList = "";
 
-         this.state ={classlist:'Input'}
-    }
+  if (props.small) {
+    classList += ` Input-small`;
+  }
+  if (props.large) {
+    classList += ` Input-large`;
+  }
 
+  return (
+    <form>
+      <textarea
+        placeholder={props.placeholder}
+        className={classList}
+      ></textarea>
+    </form>
+  );
+};
 
-    render() {
-        return (
-            <div className={classList}>
-
-            </div>
-        )
-    }
-}
-
-export default Input
+export default Input;

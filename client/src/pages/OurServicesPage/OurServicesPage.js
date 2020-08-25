@@ -1,6 +1,6 @@
 import React from 'react';
 import "./OurServicesPage.css";
-import Service from "../components/Service/Service.js"
+import Service from "../../components/Service/Service.js"
 
 
 const OurServicesPage = (props) => {

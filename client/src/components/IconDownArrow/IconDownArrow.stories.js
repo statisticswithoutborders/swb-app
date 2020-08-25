@@ -5,7 +5,7 @@ import IconDownArrow from './IconDownArrow';
 
 
 storiesOf('IconDownArrow', module)
-    .add('IconDownArrow', () =>{
-      return <IconDownArrow />
-    }
-)
+  .add('IconDownArrow', () => {
+    return <IconDownArrow callback="" />
+  }
+  )

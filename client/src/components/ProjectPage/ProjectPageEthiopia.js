@@ -4,7 +4,7 @@ import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
-const ProjectPageAsante = (props) => {
+const ProjectPageEthiopia= (props) => {
   // Default Class to apply to Component
   let classList = `ProjectPage`;
 
@@ -48,4 +48,4 @@ const ProjectPageAsante = (props) => {
   );
 };
 
-export default ProjectPageAsante;
+export default ProjectPageEthiopia;

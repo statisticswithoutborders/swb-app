@@ -5,6 +5,7 @@ import ProjectPage from "./ProjectPage";
 import ServiceTag from "../ServiceTag/ServiceTag";
 import ProjectPageAsante from "./ProjectPageAsante";
 import ProjectPageEthiopia from "./ProjectPageEthiopia";
+import ProjectPageChimp from "./ProjectPageChimp";
 
 storiesOf("ProjectPage", module)
   .add("ProjectPageOne", () => {
@@ -26,4 +27,7 @@ storiesOf("ProjectPage", module)
   })
   .add("ProjectPageEthiopia", () => {
     return <ProjectPageEthiopia />;
+  })
+  .add("ProjectPageChimp", () => {
+    return <ProjectPageChimp />;
   });

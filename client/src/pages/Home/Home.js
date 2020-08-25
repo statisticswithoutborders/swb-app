@@ -1,23 +1,24 @@
-import React, { Component } from 'react'
-import "./Home.css"
+import React, { Component } from "react";
+import "./Home.css";
+import "../../index.css";
+import NavBar from "../../components/NavBar/NavBar";
 
-// React Class Page Component
 class Home extends Component {
-    constructor(){
-        super()
+  constructor() {
+    super();
+    this.state = { classlist: "Home" };
+  }
 
-        this.state ={classlist:'Home'}
-    }
-   
-    render() {
-        
-
-        return (
-            <div className={classList}>
-
-            </div>
-        )
-    }
+  render() {
+    return (
+      <React.Fragment>
+        <NavBar />
+        <div>
+            
+        </div>
+      </React.Fragment>
+    );
+  }
 }
 
-export default Home
+export default Home;

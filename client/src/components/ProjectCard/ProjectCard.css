@@ -21,4 +21,6 @@
 .ProjectCard-description {
     opacity: .8;
     text-align: center;
+    line-height: 1.4;
+    margin: 0 0 10px 0;
 }

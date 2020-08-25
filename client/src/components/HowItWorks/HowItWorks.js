@@ -51,11 +51,7 @@ const HowItWorks = (props) => {
             <h3 className="HowItWorks-detail-title">
               Become an Executive
             </h3>
-            <p className="HowItWorks-detail-body">
-
-
-
-In addition, elections for the executive committee are held every two years and any SWB volunteer can be nominated or can nominate themselves for a position.</p>
+            <p className="HowItWorks-detail-body">In addition, elections for the executive committee are held every two years and any SWB volunteer can be nominated or can nominate themselves for a position.</p>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@
     align-items: center;
     color: var(--blue-medium-dark);
 
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .HowItWorks-body-container {
@@ -58,8 +58,8 @@
 }
 
 .HowItWorks-details-container {
-    height: 97%;
-    margin: 0 10% 0 0;
+    height: 93%;
+    margin: 5% 10% 0 0;
     grid-row: 1 / span 4;
     grid-column: 3;
     /* align-self: flex-end; */

@@ -19,6 +19,6 @@
 }
 
 .ProjectCard-description {
-    color: var(--gray);
+    opacity: .8;
     text-align: center;
 }

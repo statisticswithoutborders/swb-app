@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
     <div className={classList}>
       <h3>{props.projectTitle}</h3>
       <div className="ProjectCard-image" style={{backgroundImage: props.image}}></div>
-      <p className="ProjectCard-description">{props.projectDescription}</p>
+      {props.projectDescription ? <p className="ProjectCard-description">{props.projectDescription}</p> :null}
       <Button type = 'primary' medium  callback label="LEARN MORE" />
     </div>
   );

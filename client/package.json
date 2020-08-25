@@ -38,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "@storybook/react": "^6.0.16"
+    "@storybook/addon-actions": "^6.0.16",
+    "@storybook/react": "^6.0.16",
+    "storybook-react-router": "^1.0.8"
   }
 }

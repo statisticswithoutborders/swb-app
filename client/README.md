@@ -16,7 +16,7 @@ Creating a component is done from the command line using a 'generator'. There ar
 * functionalComponent - Creates a functional component and adds it to the src/components directory
 * classComponent - Creates a class component and adds it to the src/components directory
 * functionalComponentPage - Creates a functional page component and adds it to the src/pages directory
-* functionalComponent - Creates a functional component and adds it to the src/components directory
+* classComponentPage - Creates a class component and adds it to the src/pages directory
 
 To create a new component, __cd into the **client** directory__ and enter the following command in your terminal:
 ```

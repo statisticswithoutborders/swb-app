@@ -32,11 +32,30 @@ class FormContact extends Component {
 			this.state.subject,
 			this.state.message
 		);
-	}
+	} //handleSubmit()
 
 	render() {
-		return <div className={classList}></div>;
-	}
+		return (
+			<form className={this.state.classlist} onSubmit={this.handleSubmit}>
+				<label>
+					<Input small placeholder="  NAME" type="regular" />
+				</label>
+				<label>
+					<Input small placeholder="  E-MAIL" type="regular" />
+				</label>
+				<label>
+					<Input small placeholder="  ORGANIZATION" type="regular" />
+				</label>
+				<label>
+					<Input small placeholder="  SUBJECT" type="regular" />
+				</label>
+				<label>
+					<Input large placeholder="  MESSAGE" type="input-large" />
+				</label>
+				<Button type="primary" small callback label="SEND" />
+			</form>
+		); //return
+	} //render()
 }
 
 export default FormContact;

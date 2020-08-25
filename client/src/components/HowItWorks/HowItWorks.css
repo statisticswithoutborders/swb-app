@@ -18,13 +18,25 @@
 }
 
 .HowItWorks-step-image-container {
+    height: 90%;
     grid-row: 1 /span 4;
     grid-column:1 ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
-.HowItWorks-image {
+.HowItWorks-step-image {
     width: 190px;
+}
+
+.HowItWorks-path-container {
+    height: 95%;
+    grid-row: 1 /span 4;
+    grid-column: 2;
+}
+
+.HowItWorks-path-image {
+    height: 100%;
 }

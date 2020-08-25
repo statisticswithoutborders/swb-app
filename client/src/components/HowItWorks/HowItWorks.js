@@ -26,6 +26,32 @@ const HowItWorks = (props) => {
         <div className="HowItWorks-path-container" >
           <img className="HowItWorks-path-image" src={volunteersPath} />
         </div>
+        <div className="HowItWorks-details-container" >
+          <div className="HowItWorks-detail">
+            <h3 className="HowItWorks-detail-title">
+              Fill Out The Application Form
+            </h3>
+            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+          </div> 
+          <div className="HowItWorks-detail">
+            <h3 className="HowItWorks-detail-title">
+              Fill Out The Application Form
+            </h3>
+            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+          </div> 
+          <div className="HowItWorks-detail">
+            <h3 className="HowItWorks-detail-title">
+              Fill Out The Application Form
+            </h3>
+            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+          </div> 
+          <div className="HowItWorks-detail">
+            <h3 className="HowItWorks-detail-title">
+              Fill Out The Application Form
+            </h3>
+            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+          </div>
+        </div>
       </div>
     </div>
   );

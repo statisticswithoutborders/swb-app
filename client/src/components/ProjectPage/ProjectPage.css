@@ -9,6 +9,7 @@
 .projectPageTitle {
     text-align: center;
     margin: 20px;
+    font-weight: bolder;
 }
 .smallProjectTag {
     font-size: 10px;

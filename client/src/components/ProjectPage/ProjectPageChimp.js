@@ -20,9 +20,13 @@ const ProjectPageChimp = (props) => {
           <div>Location: Sierra Leone</div>
           <div>
             <div className="pPageServices">
-              <div>Services Provided:</div> <ServiceTag label="data analysis" />
+              <div>Services Provided:</div>&ensp;
+              <ServiceTag label="data analysis" />
+              &ensp;
               <ServiceTag label="CART models" />
+              &ensp;
               <ServiceTag label="risk plots" />
+              &ensp;
               <ServiceTag label="database" />
             </div>
             <div></div>

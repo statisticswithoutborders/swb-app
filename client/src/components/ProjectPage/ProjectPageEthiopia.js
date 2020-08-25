@@ -4,7 +4,7 @@ import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
-const ProjectPageEthiopia= (props) => {
+const ProjectPageEthiopia = (props) => {
   // Default Class to apply to Component
   let classList = `ProjectPage`;
 
@@ -20,7 +20,7 @@ const ProjectPageEthiopia= (props) => {
           <div>Location: Ethiopia</div>
           <div>
             <div className="pPageServices">
-              <div>Services:</div> <ServiceTag label="longitudinal study" />
+              <div>Services:</div>&ensp;<ServiceTag label="longitudinal study" />&ensp;
               <ServiceTag label="data analysis" />
             </div>
             <div></div>

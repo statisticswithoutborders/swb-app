@@ -20,8 +20,9 @@ const ProjectPageSyria = (props) => {
           <div>Location: Syria</div>
           <div>
             <div className="pPageServices">
-              <div>Services Provided:</div> <ServiceTag label="data analysis" />
-              <ServiceTag label="CART models" />
+              <div>Services Provided:</div>&ensp;
+              <ServiceTag label="optimize process" />&ensp;
+              <ServiceTag label="data comppilation" />
             </div>
             <div></div>
           </div>

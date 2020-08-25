@@ -20,7 +20,9 @@ const ProjectPageAsante = (props) => {
           <div>Location: Kenya & Tanzania</div>
           <div>
             <div className="pPageServices">
-              <div>Services:</div> <ServiceTag label="data analysis" />
+              <div>Services:</div>&ensp;
+              <ServiceTag label="data analysis" />
+              &ensp;
               <ServiceTag label="monitoring & evaluation" />
             </div>
             <div></div>

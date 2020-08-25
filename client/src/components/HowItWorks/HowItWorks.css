@@ -1,0 +1,30 @@
+.HowItWorks {
+    height: 1500px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+
+    background-color: antiquewhite;
+}
+
+.HowItWorks-body-container {
+    height: 90%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.HowItWorks-step-image-container {
+    grid-row: 1 /span 4;
+    grid-column:1 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.HowItWorks-image {
+    width: 190px;
+}

@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react";
 import Video from "./Video";
 
 storiesOf("Video", module)
-  .add("Video Large", () => {
+  .add("Video Faunalytics", () => {
     return (
       <Video
         large
@@ -15,7 +15,7 @@ storiesOf("Video", module)
     );
   })
 
-  .add("Video Small", () => {
+  .add("Video Volunteer", () => {
     return (
       <Video
         small

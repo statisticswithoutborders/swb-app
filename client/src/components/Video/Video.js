@@ -6,10 +6,10 @@ import ReactPlayer from "react-player"
 function Video(props) {
   let classList=""
     if (props.large) {
-      classList+= ` video-large`
+      classList+= ` Video-large`
     }
     if (props.small) {
-      classList+= ` video-small`
+      classList+= ` Video-small`
     }
   return (
     <div>

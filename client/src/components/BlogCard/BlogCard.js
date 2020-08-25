@@ -13,8 +13,8 @@ const BlogCard = (props) => {
       <div className="title">{props.title}</div>
       <div className="date">{props.date}</div>
       <hr />
-      <div className="post">
-        {props.post}
+      <div className="label">
+        {props.label}
       </div>
     </div>
   );

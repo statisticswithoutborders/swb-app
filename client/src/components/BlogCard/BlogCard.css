@@ -4,7 +4,10 @@
     background-color: var(--cyan-blue);
     color: var(--white);
     font-family: var(--paragraph-font);
-    font-weight: var(--title-weight);
+    font-weight: var(--paragraph-weight);
+    border-radius: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .title {
@@ -15,6 +18,11 @@
     font-size: 20px;
 }
 
-.post {
+hr {
+    color: var(--yellow)
+}
+
+
+.label {
     font-size: 18px;
 }

@@ -6,12 +6,15 @@ import "../../index.css";
 
 // Form inputs
 storiesOf("Input", module)
-  .add("Input Name", () => <Input placeholder="NAME" type="regular" />)
-  .add("Input Email", () => <Input placeholder="E-MAIL" type="regular" />)
-  .add("Input Organization", () => (
-    <Input placeholder="ORGANIZATION" type="regular" />
+  .add("Name", () => <Input small placeholder="NAME" type="regular" />)
+  .add("Email", () => <Input small placeholder="E-MAIL" type="regular" />)
+  .add("Organization", () => (
+    <Input small placeholder="ORGANIZATION" type="regular" />
   ))
-  .add("Input Subject", () => <Input placeholder="SUBJECT" type="regular" />)
-  .add("Input Message", () => (
+  .add("Subject", () => <Input small placeholder="SUBJECT" type="regular" />)
+  .add("Message", () => (
     <Input large placeholder="MESSAGE" type="input-large" />
+  ))
+  .add("Leave a Comment", () => (
+    <Input large placeholder="LEAVE A COMMENT" type="input-large" />
   ));

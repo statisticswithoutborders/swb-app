@@ -5,9 +5,11 @@ import "../../index.css";
 const Input = props => {
   let classList = "";
 
+  if (props.small) {
+    classList += ` Input-small`;
+  }
   if (props.large) {
-    classList += ` input-large`;
-    // classList += ` input-large-text`;
+    classList += ` Input-large`;
   }
 
   return (

@@ -4,6 +4,19 @@
 .banner {
     background-image: url('../../assets/images/home_banner.png');
     width: 100vw;
-    height: 580px;
-    color: white
+    height: 510px;
+    color: white;
+    padding-top: 70px;
+    padding-left: 55px;
+    
+}
+
+.statement{
+    width: 695px;
+    font-size: 25px;
+    padding: 5px 0 20px;
+}
+
+h1 {
+   font-size: 40px;
 }

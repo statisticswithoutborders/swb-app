@@ -9,7 +9,8 @@ storiesOf("Button", module)
 
 .add('Primary Large', () => <Button type = 'primary' large callback label="LEARN MORE" />)
 
-.add('Primary Wide', () => <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>)
+.add('Primary Wide', () =>
+ <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>)
 
 
 

@@ -31,25 +31,29 @@ const HowItWorks = (props) => {
             <h3 className="HowItWorks-detail-title">
               Fill Out The Application Form
             </h3>
-            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects.</p>
           </div> 
           <div className="HowItWorks-detail">
             <h3 className="HowItWorks-detail-title">
-              Fill Out The Application Form
+            Receive an Email About the Projects
             </h3>
-            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+            <p className="HowItWorks-detail-body">SWB sends out calls for volunteers via email when a new project is starting or when additional members are needed for one of the teams working on non-project tasks. A call for volunteers contains a description of the project or task, how long it is expected to last, and if any expertise or background is needed.</p>
           </div> 
           <div className="HowItWorks-detail">
             <h3 className="HowItWorks-detail-title">
-              Fill Out The Application Form
+            Respond to the Call
             </h3>
-            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+            <p className="HowItWorks-detail-body">To volunteer for a project, simply respond to the call for volunteers. When a project or task is staffed, a second email announcing that the call is closed is sent to all SWB volunteers.</p>
           </div> 
           <div className="HowItWorks-detail">
             <h3 className="HowItWorks-detail-title">
-              Fill Out The Application Form
+              Become an Executive
             </h3>
-            <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects. </p>
+            <p className="HowItWorks-detail-body">
+
+
+
+In addition, elections for the executive committee are held every two years and any SWB volunteer can be nominated or can nominate themselves for a position.</p>
           </div>
         </div>
       </div>

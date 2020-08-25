@@ -18,7 +18,7 @@
 }
 
 .HowItWorks-step-image-container {
-    height: 90%;
+    height: 93%;
     grid-row: 1 /span 4;
     grid-column:1 ;
     display: flex;
@@ -33,6 +33,7 @@
 
 .HowItWorks-path-container {
     height: 95%;
+    margin-top: 5%;
     grid-row: 1 /span 4;
     grid-column: 2;
     display: flex;
@@ -41,16 +42,16 @@
 }
 
 .HowItWorks-path-image {
-    height: 95%;
-    margin-top: 2%;
+    height: 100%;
 
 }
 
 .HowItWorks-details-container {
-    height: 95%;
+    height: 97%;
+    margin: 7% 10% 0 0;
     grid-row: 1 / span 4;
     grid-column: 3;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 
     display: flex;
     flex-direction: column;

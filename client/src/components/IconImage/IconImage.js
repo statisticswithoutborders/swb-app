@@ -1,12 +1,12 @@
 import React from 'react';
 import "./IconImage.css";
 import "../../index.css"
-// Function based React Component
+
+
+
 const IconImage = (props) => {
 
-  // Default Class to apply to Component
   let classList = `IconImage`;
-
 
   return (
     <div className={classList}>

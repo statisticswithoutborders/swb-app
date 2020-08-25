@@ -1,10 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
+import StoryRouter from 'storybook-react-router'
 import ProjectCard from './ProjectCard';
 
 
 storiesOf('ProjectCard', module)
+    .addDecorator(StoryRouter())
     .add('Without Project Details', () =>{
       return <ProjectCard projectTitle="Asante Africa Foundation" 
                           image="var(--home-asante)" 

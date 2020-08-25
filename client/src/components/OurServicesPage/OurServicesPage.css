@@ -1,0 +1,16 @@
+
+h1 {
+    text-align: center;
+    color: #565970;
+}
+
+.intro-services p{
+    text-align: center;
+    color: #403D57;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section-services {
+    margin-top: 20px;
+}

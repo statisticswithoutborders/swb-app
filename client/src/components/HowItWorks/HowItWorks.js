@@ -17,9 +17,11 @@ const HowItWorks = (props) => {
     <div className={classList}>
       <h2>How It Works</h2>
       <div className="HowItWorks-body-container">
-        <div className="HowItWorks-step-image-container">
+        <div className="HowItWorks-step-image-container-top">
           <img className="HowItWorks-step-image" src={volunteersReview} />
           <img className="HowItWorks-step-image" src={volunteersEmailRespond} />
+        </div>
+        <div className="HowItWorks-step-image-container-bottom">
           <img className="HowItWorks-step-image" src={volunteersEmailReceive} />
           <img className="HowItWorks-step-image" src={volunteersCrown} />
         </div>

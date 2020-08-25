@@ -1,9 +1,16 @@
-.ProjectPage {
+.pPageServices {
+    display: flex;
+    margin: 10px;
 }
-.projectPageImage {
-  height: 200px;
-  width: 200px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+.pPageImageGalleryDiv {
+    float: left;
+    margin: 20px;
+}
+.projectPageTitle {
+    text-align: center;
+    margin: 20px;
+}
+.smallProjectTag {
+    font-size: 10px;
+    margin-left: 50px;
 }

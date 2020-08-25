@@ -10,7 +10,7 @@ class ProjectImageGallery extends Component {
   handleImgOneClick = (e) => {
     e.preventDefault();
     let pPageImgOne = document.querySelector(".pPageImgOne");
-    pPageImgOne.classList.remove("pPageNondisplay");
+    pPageImgOne.classList.remove("pPageNonDisplay");
     let pPageImgTwo = document.querySelector(".pPageImgTwo");
     pPageImgTwo.classList.remove("pPageDisplay");
     let pPageImgThree = document.querySelector(".pPageImgThree");
@@ -25,7 +25,7 @@ class ProjectImageGallery extends Component {
   handleImgTwoClick = (e) => {
     e.preventDefault();
     let pPageImgOne = document.querySelector(".pPageImgOne");
-    pPageImgOne.classList.add("pPageNondisplay");
+    pPageImgOne.classList.add("pPageNonDisplay");
     let pPageImgTwo = document.querySelector(".pPageImgTwo");
     pPageImgTwo.classList.add("pPageDisplay");
     let pPageImgThree = document.querySelector(".pPageImgThree");
@@ -40,7 +40,7 @@ class ProjectImageGallery extends Component {
   handleImgThreeClick = (e) => {
     e.preventDefault();
     let pPageImgOne = document.querySelector(".pPageImgOne");
-    pPageImgOne.classList.add("pPageNondisplay");
+    pPageImgOne.classList.add("pPageNonDisplay");
     let pPageImgTwo = document.querySelector(".pPageImgTwo");
     pPageImgTwo.classList.remove("pPageDisplay");
     let pPageImgThree = document.querySelector(".pPageImgThree");

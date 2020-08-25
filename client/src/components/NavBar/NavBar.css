@@ -9,7 +9,7 @@
 
 .Nav_item {
   width: 5vw;
-  padding: 22px;
+  padding: 20px;
   display: inline-block;
   text-align: right;
   font-size: 17px;
@@ -27,4 +27,8 @@
 
 .logo {
   float: left;
+}
+
+.login {
+  margin-left: 50px;
 }

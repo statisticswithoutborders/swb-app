@@ -8,7 +8,6 @@ const ProjectPage = (props) => {
 
   return (
     <div className={classList}>
-      <div>Statistics Without Borders Projects</div>
       <div className="projectPageTitle">{props.projectPageTitle}</div>
       <div>Location: {props.projectPageLocation}</div>
       <div>

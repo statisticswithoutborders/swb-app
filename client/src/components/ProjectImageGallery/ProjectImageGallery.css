@@ -1,0 +1,47 @@
+.pictureGalleryDiv {
+  height: 200px;
+  width: 200px;
+}
+.pPageImgOne {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: blue;
+  display: block;
+}
+.pPageImgTwo {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: red;
+  display: none;
+}
+.pPageImgThree {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: green;
+  display: none;
+}
+.pPageDisplay {
+  display: block;
+}
+.pPageNonDisplay {
+  display: none;
+}
+.galleryImageBtn {
+  height: 7px;
+  width: 7px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  margin: 0 5px 0 5px;
+}
+.galleryBtnsDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.selectedGalleryImg {
+  background-color: grey;
+}

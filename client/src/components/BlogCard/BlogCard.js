@@ -2,11 +2,11 @@ import React from "react";
 import "./BlogCard.css";
 import "./BlogCard.stories"
 import "../../index.css"
-
+import Button from "../Button/Button"
 // Function based React Component
 const BlogCard = (props) => {
   // Default Class to apply to Component
-  let classList = "blog-card";
+  let classList = "BlogCard";
 
   return (
     <div className={classList}>
@@ -16,6 +16,7 @@ const BlogCard = (props) => {
       <div className="label">
         {props.label}
       </div>
+   
     </div>
   );
 };

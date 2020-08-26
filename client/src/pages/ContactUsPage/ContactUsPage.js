@@ -40,8 +40,8 @@ class ContactUsPage extends Component {
                             <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
                         </Link>
                     </div>
-                <Footer />
                 </div>
+                <Footer />
             </div>
         )
     }

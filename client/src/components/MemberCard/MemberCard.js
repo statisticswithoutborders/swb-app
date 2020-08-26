@@ -10,9 +10,9 @@ const MemberCard = (props) => {
 
   return(
     <div className={classList}>
-      <div class="MemberCard-images" style={{backgroundImage: props.image}}></div>
-     <h3>{props.name}</h3>
-  <h6>{props.position}</h6>
+      <div class="MemberCard-image" style={{backgroundImage: props.image}}></div>
+     <h3 className="MemberCard-name">{props.name}</h3>
+  <h6 className="MemberCard-position">{props.position}</h6>
   <hr className="Membercard-line" />
     <p className="MemberCard-about">
       {props.about}

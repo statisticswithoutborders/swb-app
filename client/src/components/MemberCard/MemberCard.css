@@ -1,6 +1,11 @@
 .MemberCard-image {
   height: 330px;
   width: 332px;
+  border-radius: 25px;
+
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .MemberCard-name {

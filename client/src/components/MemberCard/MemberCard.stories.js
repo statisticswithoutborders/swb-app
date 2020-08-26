@@ -5,11 +5,27 @@ import MemberCard from './MemberCard';
 
 storiesOf('MemberCard', module)
     .add('MemberCard', () =>{
-      return <MemberCard image="var(--about-jean: url)" name="Jean Opsomer" position="Chair" about="Jean Opsomer is Professor and Chair in the Department of Statistics at Colorado State University. His main areas of statistical expertise are survey statistics and nonparametric methods. He is delighted to be able to assist SWB as it continues to expand its operations and develops a more effective organizational structure."/>
+      return <MemberCard image="var(--about-jean)" name="Jean Opsomer" position="Chair" about="Jean Opsomer is Professor and Chair in the Department of Statistics at Colorado State University. His main areas of statistical expertise are survey statistics and nonparametric methods. He is delighted to be able to assist SWB as it continues to expand its operations and develops a more effective organizational structure."/>
     }
 )
-
-
+    .add('MemberCard', () => {
+      return <MemberCard />
+    })
+    .add('MemberCard', () => {
+      return <MemberCard />
+    })   .add('MemberCard', () => {
+      return <MemberCard />
+    })   .add('MemberCard', () => {
+      return <MemberCard />
+    })   .add('MemberCard', () => {
+      return <MemberCard />
+    })   .add('MemberCard', () => {
+      return <MemberCard />
+    })   .add('MemberCard', () => {
+      return <MemberCard />
+    })   .add('MemberCard', () => {
+      return <MemberCard />
+    })
 
 
 // --about-swb: url("./assets/images/about_swb_two_people.png");

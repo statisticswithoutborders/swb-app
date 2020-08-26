@@ -1,12 +1,23 @@
-.ProjectSummary {
-}
+
 
 h1 {
   font-size: 30px;
+  color: var(--blue-medium-darker);
+  font-weight: bold;
+  text-align: center;
 }
+
+p {
+font-size: 20px;
+color: var(--blue-medium-dark);
+opacity: 80%;
+text-align: center;
+}
+
 
 .project-layout {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: center;
 }

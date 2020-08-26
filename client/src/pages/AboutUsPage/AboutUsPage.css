@@ -1,51 +1,66 @@
-.container{
-    width:85%;
+.container {
+  width: 85%;
 }
 
-.about-img{
-    height: 400px;
-    background: no-repeat;
-    background-size: contain;
-    width: 50%;
-    display: inline-block;
-    margin-right: 40px;
-    margin-top: 30px;
+.about-img {
+  height: 400px;
+  background: no-repeat;
+  background-size: contain;
+  width: 50%;
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 30px;
 }
 
-.about-title{
-    color: #565970;
+.about-title {
+  color: #565970;
 }
 
-.about-swb p{
-    color: #565970;
-    font-size: 18px;
+.about-swb p {
+  color: #565970;
+  font-size: 18px;
 }
 
-.section-p{
-    margin-bottom: 20px;
-    overflow:hidden;
-    
+.section-p {
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .section-p-one {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .about-hr {
-    border-top: 2px solid #5373AB;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  border-top: 2px solid #5373ab;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.objective-section-one{
-    margin-top: 80px;
+.objective-section-one {
+  margin-top: 80px;
 }
 
-.objective-section{
-    margin-left: 10%;
-    margin-bottom: 70px;
+.objective-section {
+  margin-left: 10%;
+  margin-bottom: 70px;
 }
 
+.number-icons-section {
+  display: flex;
+  flex-direction: column;
+}
 
-
-
+.number-icons-header {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #565970;
+}
+.number-icons-objective {
+  display: flex;
+}
+.number-icons-text {
+}

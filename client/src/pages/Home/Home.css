@@ -3,7 +3,7 @@ body {
     color: var(--blue-medium-dark); 
 }
 .banner {
-    background-image: url('../../assets/images/home_banner.png');
+    background-image: var(--home-banner);
     width: 100vw;
     height: 510px;
     color: white;
@@ -35,10 +35,12 @@ h2{
     margin-right: 15px;
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
 }
 
 h3{
     text-align: center;
+    font-size: 15px
 }
 
 hr{
@@ -71,8 +73,27 @@ height : 32px
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: -30px;
+    
 }
 
 .wwd2{
     width: 930px;
+    font-size: 18px;
+}
+
+.projects{
+    display: flex;
+    overflow: scroll;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+
+.project{
+    margin: 0 25px;
+}
+
+.probono{
+    font-size: 18px;
 }

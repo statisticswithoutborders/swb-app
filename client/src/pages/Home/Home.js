@@ -5,6 +5,7 @@ import Button from "../../components/Button/Button";
 import Globe from "../../assets/images/home_globe.png";
 import Analysis from "../../assets/images/home_analysis.png";
 import Bullet from "../../assets/images/Slice 1.png";
+import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
 class Home extends Component {
   constructor() {
@@ -33,7 +34,7 @@ class Home extends Component {
           <h2>Our Mission</h2>
           <img src={Analysis} />
         </div>
-        <h3>
+        <h3 className = 'probono'>
           We provide pro bono services in statistics and data science, to
           improve decision making and knowledge in efforts that promote welfare
           through the proper application of statistical principles and best
@@ -93,6 +94,17 @@ class Home extends Component {
         <div>Card will go here</div>
         <div>Card will go here</div>
         <Button medium label= 'MORE SERVICES'/>
+        </div>
+        <hr/>
+        <h2>Our Projects</h2>
+        <div className = 'projects'>
+          
+          <div className = 'project'><ProjectCard image= 'var(--home-asante)' projectTitle= 'Asante Africa Foundation'/></div>
+          <div className = 'project'><ProjectCard image= 'var(--home-stc)' projectTitle = 'Save the Children - Ethiopia'/></div>
+          <div className = 'project'><ProjectCard image= 'var(--home-chimp)' projectTitle = 'Tacugama Chimpanzee Sanctuary'/></div>
+          <div className = 'project'><ProjectCard image= 'var(--home-un)' projectTitle = 'Whole of Syria Health Cluster'/></div>
+          <div className = 'project'><ProjectCard image= 'var(--home-unicef-sl)' projectTitle = 'UNICEF Sierra Leone'/></div>
+          <div className = 'project'><ProjectCard image= 'var(--home-haiti)' projectTitle = 'Haitian Earthquake Data Collection'/></div>
         </div>
       </React.Fragment>
     );

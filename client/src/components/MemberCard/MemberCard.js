@@ -1,7 +1,10 @@
 import React from 'react';
 import "./MemberCard.css";
-
+import "../../index.css"
+import{ LinkTo } from 'react-router-dom'
+import { IconDownArrow} from "../IconDownArrow/IconDownArrow"
 // Function based React Component
+
 const MemberCard = (props) => {
 
   // Default Class to apply to Component
@@ -17,6 +20,7 @@ const MemberCard = (props) => {
     <p className="MemberCard-about">
       {props.about}
     </p>
+  <div className="IconDownArrow-link">{IconDownArrow}</div>
     </div>
   );
 }

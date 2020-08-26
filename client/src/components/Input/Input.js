@@ -14,10 +14,7 @@ const Input = props => {
 
   return (
     <form>
-      <textarea
-        placeholder={props.placeholder}
-        className={classList}
-      ></textarea>
+      <input placeholder={props.placeholder} className={classList}></input>
     </form>
   );
 };

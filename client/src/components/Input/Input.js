@@ -4,7 +4,7 @@ import "../../index.css";
 // React Functional Component
 const Input = (props) => {
 	const { name, type, placeholder, small, large, value, onChange } = props;
-	let classList = "Input";
+	let classList = `Input`;
 
 	if (small) {
 		classList += ` Input-small`;

@@ -26,7 +26,8 @@ padding: 0px 80px;
   padding: 0px 105px;
 }
 
-hr {
-color: var(--blue);
+.line {
+background-color: var(--blue);
 margin-top: 150px;
+border: var(--blue) 1px solid;
 }

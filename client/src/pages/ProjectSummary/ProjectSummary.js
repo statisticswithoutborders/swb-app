@@ -53,7 +53,7 @@ class ProjectSummary extends Component {
                           projectDescription="A team of Statistics Without Borders (SWB) volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on providing solutions to advancing human health) on the design and execution of a survey in Haiti"
               />
         </div>
-        <hr></hr>
+        <hr className="line"></hr>
         <Footer />
       </div>
       </React.Fragment>

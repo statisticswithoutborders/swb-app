@@ -60,13 +60,16 @@
 .our_volunteers h3 {
   width: 60%;
   margin-left: 20%;
-  font-weight: 900;
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-size: 1rem;
 }
 .our_volunteers p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0 1.1rem 0 1.1rem;
+  margin-top: 8px;
 }
 .our_volunteers img {
-  width: 14rem;
-  height: 9rem;
+  width: 60%;
+  height: 60%;
 }

@@ -5,8 +5,6 @@ import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
 const ProjectPageUnicef = (props) => {
-  // Default Class to apply to Component
-  let classList = `ProjectPage`;
 
   return (
     <div className="ProjectPageDiv">
@@ -21,7 +19,7 @@ const ProjectPageUnicef = (props) => {
           <ProjectImageGalleryUnicef />
         </div>
         <div>
-          <div>
+          <div className="pPageLocationDiv">
             <b>Location:</b> Sierra Leone
           </div>
           <div>

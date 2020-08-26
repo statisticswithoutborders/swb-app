@@ -1,26 +1,44 @@
 .pPageServices {
-    display: flex;
-    margin: 10px;
+  display: flex;
+  margin: 10px;
 }
 .pPageImageGalleryDiv {
-    float: left;
-    margin: 15px;
+  float: left;
+  margin: 15px;
 }
 .projectPageTitle {
-    text-align: center;
-    margin: 20px;
-    font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+  font-weight: bolder;
 }
 .smallProjectTag {
-    font-size: 10px;
-    margin-left: 60px;
+  font-size: 10px;
+  margin-left: 60px;
 }
 .ProjectPageDiv {
-    margin: 20px;
+  margin: 20px;
 }
 .projectPageSWBTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--cyan-blue-dark);
+}
+@media screen and (max-width: 850px) {
+  .pPageImageGalleryDiv {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+  .pPageLocationDiv {
+    margin-left: 0;
+  }
+  .smallProjectTag {
     text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    color: var(--cyan-blue-dark);
+    margin-left: 0px;
+  }
+  .pPageServices {
+    display: flex;
+    margin-left: 0px;
+  }
 }

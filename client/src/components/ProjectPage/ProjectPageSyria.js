@@ -5,8 +5,6 @@ import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
 const ProjectPageSyria = (props) => {
-  // Default Class to apply to Component
-  let classList = `ProjectPage`;
 
   return (
     <div className="ProjectPageDiv">

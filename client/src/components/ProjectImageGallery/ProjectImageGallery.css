@@ -1,21 +1,21 @@
 .pictureGalleryDiv {
-  height: 30vh;
+  height: 40vh;
   width: 40vw;
 }
 .pPageImgOne {
-  height: 30vh;
+  height: 40vh;
   width: 40vw;
   border-radius: 15px;
   display: block;
 }
 .pPageImgTwo {
-  height: 30vh;
+  height: 40vh;
   width: 40vw;
   border-radius: 15px;
   display: none;
 }
 .pPageImgThree {
-  height: 30vh;
+  height: 40vh;
   width: 40vw;
   border-radius: 15px;
   display: none;
@@ -148,4 +148,33 @@
   background-image: var(--home-haiti);
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .pictureGalleryDiv {
+    width: 60vw;
+  }
+  .pPageImgOne {
+    width: 60vw;
+  }
+  .pPageImgTwo {
+    width: 60vw;
+  }
+  .pPageImgThree {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 675px) {
+  .pictureGalleryDiv {
+    width: 70vw;
+  }
+  .pPageImgOne {
+    width: 70vw;
+  }
+  .pPageImgTwo {
+    width: 70vw;
+  }
+  .pPageImgThree {
+    width: 70vw;
+  }
 }

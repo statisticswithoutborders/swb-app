@@ -6,7 +6,6 @@ import ServiceTag from "../ServiceTag/ServiceTag";
 // Function based React Component
 const ProjectPageAsante = (props) => {
   // Default Class to apply to Component
-  let classList = `ProjectPage`;
 
   return (
     <div className="ProjectPageDiv">
@@ -30,9 +29,11 @@ const ProjectPageAsante = (props) => {
                 <b>Services Provided:</b>
               </div>
               &ensp;
-              <ServiceTag label="data analysis" />
-              &ensp;
-              <ServiceTag label="monitoring & evaluation" />
+              <div className="pPageServices">
+                <ServiceTag  label="data analysis" />
+                &ensp;
+                <ServiceTag label="monitoring & evaluation" />
+              </div>
             </div>
           </div>
           <b>Description:</b> The Asante Africa Foundation works to empower East

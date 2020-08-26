@@ -34,23 +34,23 @@ class FormContact extends Component {
 	} //handleSubmit()
 
 	render() {
-		let classlist = "FormContact";
 		let infoAtTopOfForm = this.props.help ? (
-			<div className="FormContact-div-volunteer">
-				<h5>New Projects Procedure - Request Help</h5>
+			<div className="FormContact-div-help-volunteer">
+				<h4>New Projects Procedure - Request Help</h4>
 				<p>
 					We will be in touch within 1-2 weeks about your project. We will work
 					with you to evaluate the project needs, including assigning a team of
 					Statistics Without Borders volunteers to work on your project under
 					one or two SWB project leaders and working with you to bring the
 					project to fruition. If for any reason you do not hear from us within
-					a week, please contact us at statisticswithoutborders@gmail.com to
-					check on the status of your request.
+					a week, please contact us at{" "}
+					<strong>statisticswithoutborders@gmail.com</strong> to check on the
+					status of your request.
 				</p>
 			</div>
 		) : this.props.volunteer ? (
-			<div className="FormContact-div-volunteer">
-				<h5>Volunteering for a Project</h5>
+			<div className="FormContact-div-help-volunteer">
+				<h4>Volunteering for a Project</h4>
 				<p>
 					To volunteer with SWB, please contact us below. We try to collect as
 					much information as possible on our volunteers' statistical
@@ -65,11 +65,13 @@ class FormContact extends Component {
 
 		let attachFile =
 			this.props.help || this.props.volunteer ? (
-				<Button type="submit" small callback label="Attach File" />
+				<div className="FormContact-div-attach">
+					<Button type="submit" small callback label="Attach File" />
+				</div>
 			) : null;
 
 		return (
-			<form className={classlist} onSubmit={this.handleSubmit}>
+			<form className="FormContact" onSubmit={this.handleSubmit}>
 				{infoAtTopOfForm}
 				<div className="FormContact-div-inputs">
 					<div className="FormContact-div-name-email">

@@ -52,15 +52,23 @@ class FormContact extends Component {
 								type="text"
 								placeholder=" NAME"
 								small
-								// value={this.state.name}
-								// onChange={this.handleChange}
+								value={this.state.name}
+								onChange={this.handleChange}
 							/>
 						</label>
 						<label className="FormContact-label-email">
-							<input
+							{/* <input
 								name="email"
 								type="text"
 								placeholder=" EMAIL"
+								value={this.state.email}
+								onChange={this.handleChange}
+							/> */}
+							<Input
+								name="email"
+								type="text"
+								placeholder="EMAIL"
+								small
 								value={this.state.email}
 								onChange={this.handleChange}
 							/>
@@ -68,19 +76,35 @@ class FormContact extends Component {
 					</div>
 					<div className="FormContact-div-org-subject">
 						<label className="FormContact-label-organization">
-							<input
+							{/* <input
 								name="organization"
 								type="text"
 								placeholder=" ORGANIZATION"
 								value={this.state.organization}
 								onChange={this.handleChange}
+							/> */}
+							<Input
+								name="organization"
+								type="text"
+								placeholder="ORGANIZATION"
+								small
+								value={this.state.organization}
+								onChange={this.handleChange}
 							/>
 						</label>
 						<label className="FormContact-label-subject">
-							<input
+							{/* <input
 								name="subject"
 								type="text"
 								placeholder=" SUBJECT"
+								value={this.state.subject}
+								onChange={this.handleChange}
+							/> */}
+							<Input
+								name="subject"
+								type="text"
+								placeholder="SUBJECT"
+								small
 								value={this.state.subject}
 								onChange={this.handleChange}
 							/>
@@ -88,9 +112,17 @@ class FormContact extends Component {
 					</div>
 				</div>
 				<label className="FormContact-label-message">
-					<textarea
+					{/* <textarea
 						name="message"
 						placeholder=" MESSAGE"
+						value={this.state.message}
+						onChange={this.handleChange}
+					/> */}
+					<Input
+						name="message"
+						type="text"
+						placeholder="MESSAGE"
+						large
 						value={this.state.message}
 						onChange={this.handleChange}
 					/>

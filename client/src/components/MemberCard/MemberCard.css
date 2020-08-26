@@ -1,0 +1,18 @@
+.MemberCard-image {
+  height: 330px;
+  width: 332px;
+}
+
+.MemberCard-name {
+  font-size: 36px;
+}
+
+.MemberCard-title {
+  font-size: 30px;
+}
+.MemberCard-about {
+  font-size: 20px;
+}
+.MemberCard {
+  width: 332px;
+}

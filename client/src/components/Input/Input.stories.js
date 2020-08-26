@@ -22,11 +22,36 @@ storiesOf("Input", module)
 	.add("Name", () => (
 		<Input name="name" type="text" placeholder=" NAME" small value onChange />
 	))
-	.add("Email", () => <Input small placeholder="EMAIL" type="regular" />)
-	.add("Organization", () => (
-		<Input small placeholder="ORGANIZATION" type="regular" />
+	.add("Email", () => (
+		<Input name="email" type="text" placeholder="EMAIL" small value onChange />
 	))
-	.add("Subject", () => <Input small placeholder="SUBJECT" type="regular" />)
+	.add("Organization", () => (
+		<Input
+			name="organization"
+			type="text"
+			placeholder="ORGANIZATION"
+			small
+			value
+			onChange
+		/>
+	))
+	.add("Subject", () => (
+		<Input
+			name="subject"
+			type="text"
+			placeholder="SUBJECT"
+			small
+			value
+			onChange
+		/>
+	))
 	.add("Message", () => (
-		<Input large placeholder="MESSAGE" type="input-large" />
+		<Input
+			name="message"
+			type="text"
+			placeholder="MESSAGE"
+			large
+			value
+			onChange
+		/>
 	));

@@ -4,10 +4,12 @@
     background-color: var(--cyan-blue);
     color: var(--white);
     font-family: var(--paragraph-font);
-    font-weight: var(--paragraph-weight);
+    /* font-weight: var(--banner-weight); */
+    font-weight: 1000;
     border-radius: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 40px 45px 30px 45px;
+    box-shadow: 1px 3px 5px grey;
+    line-height: 2;
 }
 
 .title {
@@ -19,10 +21,12 @@
 }
 
 hr {
-    color: var(--yellow)
+    background-color: var(--yellow);
+    height: 2px;
 }
 
 
 .label {
     font-size: 18px;
+ 
 }

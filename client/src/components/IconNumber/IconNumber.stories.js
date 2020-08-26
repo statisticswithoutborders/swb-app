@@ -9,11 +9,11 @@ storiesOf("IconNumber", module)
     return <IconNumber type="digit" IconNumber box label="01" />;
   })
   .add("IconNumber2", () => {
-    return <IconNumber type="digit" IconNumber box label="02" />;
+    return <IconNumber type="digit" IconNumber two label="02" />;
   })
   .add("IconNumber3", () => {
-    return <IconNumber type="digit" IconNumber box label="03" />;
+    return <IconNumber type="digit" IconNumber three label="03" />;
   })
   .add("IconNumber4", () => {
-    return <IconNumber type="digit" IconNumber box label="04" />;
+    return <IconNumber type="digit" IconNumber four label="04" />;
   });

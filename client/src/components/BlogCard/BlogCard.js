@@ -2,7 +2,9 @@ import React from "react";
 import "./BlogCard.css";
 import "./BlogCard.stories"
 import "../../index.css"
-import Button from "../Button/Button"
+import Button from "../Button/Button.js"
+
+
 // Function based React Component
 const BlogCard = (props) => {
   // Default Class to apply to Component

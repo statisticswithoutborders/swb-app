@@ -39,10 +39,10 @@ class NavBar extends Component {
                 Contact
               </Link>
             </li>
-            <a href="#">
-              <img src={nav_user_login} className="login" alt="login" />
-            </a>
           </ul>
+          <a href="#">
+            <img src={nav_user_login} className="login" alt="login" />
+          </a>
         </div>
       </nav>
     );

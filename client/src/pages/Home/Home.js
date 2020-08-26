@@ -9,6 +9,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import Footer from "../../components/Footer/Footer";
 import WhoWeAreCard from "../../components/WhoWeAreCard/WhoWeAreCard";
+import BlogCard from "../../components/BlogCard/BlogCard"
 
 class Home extends Component {
   constructor() {
@@ -174,9 +175,11 @@ class Home extends Component {
         <hr className="homeHR" />
 
         <h2>SWB Blog</h2>
-        <div>Another card goes here</div>
-        <div>Another card goes here</div>
-        <div>Another card goes here</div>
+        <div className = 'blogs'>
+        <div><BlogCard title = 'Title: Blog Post 1' date = 'Date: May 20, 2020' hr label = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '/></div>
+        <div><BlogCard title = 'Title: Blog Post 2' date = 'Date: March 9, 2020' hr label = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '/></div>
+        <div><BlogCard title = 'Title: Blog Post 3' date = 'Date: February 23, 2020' hr label = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '/></div>
+        </div>
         <hr className="homeHR" />
 
         <h2>Let's Work Together - Contact Us</h2>

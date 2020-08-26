@@ -1,13 +1,12 @@
 .ProjectSummary {
-
 }
 
 h1 {
-font-size: 30px;
+  font-size: 30px;
 }
 
 .project-layout {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

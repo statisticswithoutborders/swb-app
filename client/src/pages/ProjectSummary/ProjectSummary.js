@@ -31,7 +31,6 @@ class ProjectSummary extends Component {
                           image="var(--home-asante)" 
                           projectDescription="Use Monitoring & Evaluation to assess impact of work that empowers East African youth with programs in Girls' Advancement, Accelerated Classroom Learning, and Youth Leadership and Entrepreneurship"
               />
-           {/* <ProjectCard /> */}
         <ProjectCard projectTitle="Save The Children - Ethiopia" 
                           image="var(--project-stc)" 
                           projectDescription="Design an analysis plan for a longitudinal cohort study of nearly 2,000 children in Tigray, Ethiopia, as part of a long-term evaluation of Sponsorship-funded integrated programming"

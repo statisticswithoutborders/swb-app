@@ -4,15 +4,25 @@ import "./Testimonial.css";
 // Function based React Component
 const Testimonial = (props) => {
 
-  // Default Class to apply to Component
-  let classList = `Testimonial`;
-
-
-  return(
-    <div className={classList}>
-      Testimonial
-    </div>
+  if (props.imgPostion == "left"){
+    return(
+      <div className="main"> 
+        <div className="person-left" style={{ backgroundImage: props.imgSrc }}>
+        </div> 
+        <p className="testimonal-paragraph">{props.description}<span className="name"><br />{props.name}</span></p> 
+      </div>
   );
+  } else {
+  return(
+        <div className="main"> 
+          <p className="testimonal-paragraph">{props.description}<span className="name"><br />{props.name}</span>
+          </p> 
+         <div className="person-right" style={{ backgroundImage: props.imgSrc }}>
+          </div> 
+        </div>
+  );
+  }
 }
 
 export default Testimonial;
+

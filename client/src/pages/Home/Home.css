@@ -1,5 +1,5 @@
 body {
-    font-family: "Nunito Sans", sans-serif;
+    /* font-family: "Nunito Sans", sans-serif; */
     color: var(--blue-medium-dark); 
 }
 .banner {
@@ -25,15 +25,15 @@ h1 {
 
 .mission{
     display: flex;
-    padding: 0 auto;
     justify-content: center;
+    margin-top: 20px;
 }
  
 h2{
     margin-top: 50px;
     margin-right: 15px;
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 h3{
@@ -43,4 +43,25 @@ h3{
 hr{
     border: var(--blue) .5px solid;
     margin: 50px 0;
+}
+
+ul{
+    list-style: url('../../assets/images/Slice\ 1.png');
+}
+
+
+
+.bulletpoint{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.point{
+    margin-top: 3px;
+    margin-left: 40px ;
+    font-size: 20px
+}
+
+.bullet{
+height : 32px
 }

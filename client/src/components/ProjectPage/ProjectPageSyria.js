@@ -12,6 +12,7 @@ const ProjectPageSyria = (props) => {
     <div className="SyriaPageDiv">
       <div className="projectPageTitle">Whole of Syria Health Cluster</div>
       <div className="smallProjectTag">-project4-un</div>
+      <br></br>
       <div>
         <div className="pPageImageGalleryDiv">
           <ProjectImageGallerySyria />

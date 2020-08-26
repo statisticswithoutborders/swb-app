@@ -12,6 +12,7 @@ const ProjectPageChimp = (props) => {
     <div className="asantePageDiv">
       <div className="projectPageTitle">Tacugama Chimpanzee Sanctuary</div>
       <div className="smallProjectTag">-project3-chimp</div>
+      <br></br>
       <div>
         <div className="pPageImageGalleryDiv">
           <ProjectImageGalleryChimp />

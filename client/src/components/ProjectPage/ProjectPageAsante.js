@@ -12,15 +12,21 @@ const ProjectPageAsante = (props) => {
     <div className="asantePageDiv">
       <div className="projectPageTitle">Asante Africa Foundation</div>
       <div className="smallProjectTag">-project1-asante</div>
+      <br></br>
       <div>
         <div className="pPageImageGalleryDiv">
           <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div><b>Location:</b> Kenya & Tanzania</div>
+          <div>
+            <b>Location:</b> Kenya & Tanzania
+          </div>
           <div>
             <div className="pPageServices">
-              <div><b>Services Provided:</b></div>&ensp;
+              <div>
+                <b>Services Provided:</b>
+              </div>
+              &ensp;
               <ServiceTag label="data analysis" />
               &ensp;
               <ServiceTag label="monitoring & evaluation" />

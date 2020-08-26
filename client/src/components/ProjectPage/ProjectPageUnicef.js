@@ -12,6 +12,7 @@ const ProjectPageUnicef = (props) => {
     <div className="UnicefPageDiv">
       <div className="projectPageTitle">UNICEF Sierra Leone</div>
       <div className="smallProjectTag">-project5-unicef</div>
+      <br></br>
       <div>
         <div className="pPageImageGalleryDiv">
           <ProjectImageGalleryUnicef />

@@ -132,3 +132,20 @@
   background-position: center;
   background-size: cover;
 }
+/* haiti */
+
+.haitiOne {
+  background-image: var(--project6-haiti);
+  background-position: center;
+  background-size: cover;
+}
+.haitiTwo {
+  background-image: var(--project-haiti);
+  background-position: center;
+  background-size: cover;
+}
+.haitiThree {
+  background-image: var(--home-haiti);
+  background-position: center;
+  background-size: cover;
+}

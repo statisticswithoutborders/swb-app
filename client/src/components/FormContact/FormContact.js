@@ -67,7 +67,7 @@ class FormContact extends Component {
 							<Input
 								name="email"
 								type="text"
-								placeholder="EMAIL"
+								placeholder=" EMAIL"
 								small
 								value={this.state.email}
 								onChange={this.handleChange}
@@ -86,7 +86,7 @@ class FormContact extends Component {
 							<Input
 								name="organization"
 								type="text"
-								placeholder="ORGANIZATION"
+								placeholder=" ORGANIZATION"
 								small
 								value={this.state.organization}
 								onChange={this.handleChange}
@@ -103,7 +103,7 @@ class FormContact extends Component {
 							<Input
 								name="subject"
 								type="text"
-								placeholder="SUBJECT"
+								placeholder=" SUBJECT"
 								small
 								value={this.state.subject}
 								onChange={this.handleChange}
@@ -121,7 +121,7 @@ class FormContact extends Component {
 					<Input
 						name="message"
 						type="text"
-						placeholder="MESSAGE"
+						placeholder=" MESSAGE"
 						large
 						value={this.state.message}
 						onChange={this.handleChange}

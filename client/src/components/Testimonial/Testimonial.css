@@ -1,3 +1,31 @@
-.Testimonial {
-
+.main {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
 }
+
+p {
+    border: solid 1.5px var(--blue);
+    box-shadow: 0 3px 0px 0 var(--gray);  
+    width: 45%;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: var(--paragraph-font);
+    font-size: 12px;
+    font-style: italic;
+}
+
+.person {
+    border-radius: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px; 
+}
+
+.name {
+    float: right;
+    font-weight: bolder;
+}
+

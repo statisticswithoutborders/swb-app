@@ -7,7 +7,7 @@ import "../../index.css"
 const IconNumber = (props) => {
 
 
-  let classList = "icon-number"
+  let classList = "IconNumber"
   
   let numbers = ["digit"]
 

@@ -3,13 +3,12 @@ import "./ProjectPage.css";
 import ProjectImageGalleryChimp from "../ProjectImageGallery/ProjectImageGalleryChimp";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
-// Function based React Component
 const ProjectPageChimp = (props) => {
-  // Default Class to apply to Component
-  let classList = `ProjectPage`;
-
   return (
-    <div className="asantePageDiv">
+    <div className="ProjectPageDiv">
+      <div className="projectPageSWBTitle">
+        Statistics Without Borders Projects
+      </div>
       <div className="projectPageTitle">Tacugama Chimpanzee Sanctuary</div>
       <div className="smallProjectTag">-project3-chimp</div>
       <br></br>
@@ -18,23 +17,34 @@ const ProjectPageChimp = (props) => {
           <ProjectImageGalleryChimp />
         </div>
         <div>
-          <div><b>Location:</b> Sierra Leone</div>
+          <div>
+            <b>Location:</b> Sierra Leone
+          </div>
           <div>
             <div className="pPageServices">
-              <div><b>Services Provided:</b></div>&ensp;
-              <ServiceTag label="data analysis" />
-              &ensp;
-              <ServiceTag label="CART models" />
-              &ensp;
-              <ServiceTag label="risk plots" />
-              &ensp;
-              <ServiceTag label="database" />
+              <div>
+                <b>Services Provided:</b>
+              </div>
+              <div className="serviceOuterDiv">
+                <div className="pPageServices">
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="data analysis" />
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="CART models" />
+                </div>
+                <div className="pPageServices">
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="risk plots" />
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="database" />
+                </div>
+              </div>
             </div>
             <div></div>
           </div>
-          <b>Description:</b> Since 1995, Tacugama Chimpanzee Sanctuary has rescued and
-          rehabilitated nearly 200 orphaned and illegally traded western
-          chimpanzees (Pan troglodytes versus). SWB did two projects for
+          <b>Description:</b> Since 1995, Tacugama Chimpanzee Sanctuary has
+          rescued and rehabilitated nearly 200 orphaned and illegally traded
+          western chimpanzees (Pan troglodytes versus). SWB did two projects for
           Tacugama in 2018. <br></br>
           <br></br>In a fairly rapid 3-month project, one of our Masters-level
           statisticians analyzed before-and-after data from an environmental

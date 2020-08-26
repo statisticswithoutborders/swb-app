@@ -3,13 +3,12 @@ import "./ProjectPage.css";
 import ProjectImageGalleryHaiti from "../ProjectImageGallery/ProjectImageGalleryHaiti";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
-// Function based React Component
 const ProjectPageHaiti = (props) => {
-  // Default Class to apply to Component
-  let classList = `ProjectPage`;
-
   return (
-    <div className="asantePageDiv">
+    <div className="ProjectPageDiv">
+      <div className="projectPageSWBTitle">
+        Statistics Without Borders Projects
+      </div>
       <div className="projectPageTitle">Haitian Earthquake Data Collection</div>
       <div className="smallProjectTag">-project6-haiti</div>
       <br></br>
@@ -18,26 +17,31 @@ const ProjectPageHaiti = (props) => {
           <ProjectImageGalleryHaiti />
         </div>
         <div>
-          <div><b>Location:</b> Haiti</div>
+          <div>
+            <b>Location:</b> Haiti
+          </div>
           <div>
             <div className="pPageServices">
-              <div><b>Services Provided:</b></div> &ensp;
+              <div>
+                <b>Services Provided:</b>
+              </div>{" "}
+              &ensp;
               <ServiceTag label="survey design" />
               &ensp;
               <ServiceTag label="field testing" />
             </div>
           </div>
-          <b>Description:</b> A team of Statistics Without Borders (SWB) volunteers
-          advised SciMetrika, LLC (an 8(a) firm that focuses on providing
-          solutions to advancing human health) on the design and execution of a
-          survey in Haiti. Data collected will be used to assess the impact of
-          the magnitude 7.0 Mw earthquake of January 12, 2010. The epicentre of
-          this earthquake, near the town of Léogâne, was about 16 miles WSW of
-          the Haitian capital and population center of Port-au-Prince. Thousands
-          of people died and homes, businesses, government buildings, and
-          national landmarks throughout the region collapsed or suffered
-          structural damage, resulting in the displacement of millions of
-          survivors. <br></br>
+          <b>Description:</b> A team of Statistics Without Borders (SWB)
+          volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on
+          providing solutions to advancing human health) on the design and
+          execution of a survey in Haiti. Data collected will be used to assess
+          the impact of the magnitude 7.0 Mw earthquake of January 12, 2010. The
+          epicentre of this earthquake, near the town of Léogâne, was about 16
+          miles WSW of the Haitian capital and population center of
+          Port-au-Prince. Thousands of people died and homes, businesses,
+          government buildings, and national landmarks throughout the region
+          collapsed or suffered structural damage, resulting in the displacement
+          of millions of survivors. <br></br>
           <br></br>
           In the aftermath of this (or any other) natural disaster, it is
           critical to quickly develop reliable estimates of the extent of damage

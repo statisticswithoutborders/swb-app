@@ -9,7 +9,10 @@ const ProjectPageSyria = (props) => {
   let classList = `ProjectPage`;
 
   return (
-    <div className="SyriaPageDiv">
+    <div className="ProjectPageDiv">
+      <div className="projectPageSWBTitle">
+        Statistics Without Borders Projects
+      </div>
       <div className="projectPageTitle">Whole of Syria Health Cluster</div>
       <div className="smallProjectTag">-project4-un</div>
       <br></br>
@@ -18,11 +21,17 @@ const ProjectPageSyria = (props) => {
           <ProjectImageGallerySyria />
         </div>
         <div>
-          <div><b>Location:</b> Syria</div>
+          <div>
+            <b>Location:</b> Syria
+          </div>
           <div>
             <div className="pPageServices">
-              <div><b>Services Provided:</b></div>&ensp;
-              <ServiceTag label="optimize process" />&ensp;
+              <div>
+                <b>Services Provided:</b>
+              </div>
+              &ensp;
+              <ServiceTag label="optimize process" />
+              &ensp;
               <ServiceTag label="data comppilation" />
             </div>
             <div></div>
@@ -45,8 +54,10 @@ const ProjectPageSyria = (props) => {
         <br></br>
       </div>
       <div>
-        <b>Humanitarian Response website<br></br>
-        <br></br>UN Office for the Coordination of Humanitarian Affairs</b>
+        <b>
+          Humanitarian Response website<br></br>
+          <br></br>UN Office for the Coordination of Humanitarian Affairs
+        </b>
       </div>
     </div>
   );

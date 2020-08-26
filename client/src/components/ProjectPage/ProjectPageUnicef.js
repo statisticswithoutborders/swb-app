@@ -9,7 +9,10 @@ const ProjectPageUnicef = (props) => {
   let classList = `ProjectPage`;
 
   return (
-    <div className="UnicefPageDiv">
+    <div className="ProjectPageDiv">
+      <div className="projectPageSWBTitle">
+        Statistics Without Borders Projects
+      </div>
       <div className="projectPageTitle">UNICEF Sierra Leone</div>
       <div className="smallProjectTag">-project5-unicef</div>
       <br></br>
@@ -26,14 +29,21 @@ const ProjectPageUnicef = (props) => {
               <div>
                 <b>Services Provided:</b>
               </div>
-              &ensp;
-              <ServiceTag label="baseline survey" />
-              &ensp;
-              <ServiceTag label="data analysis" />
-              &ensp;
-              <ServiceTag label="survey weighting" />
-              &ensp;
-              <ServiceTag label="data cleaning" />
+
+              <div className="serviceOuterDiv">
+                <div className="pPageServices">
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="baseline survey" />
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="data analysis" />
+                </div>
+                <div className="pPageServices">
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="survey weighting" />
+                  &ensp;
+                  <ServiceTag ServiceTagMedium label="data cleaning" />
+                </div>
+              </div>
             </div>
           </div>
           <b>Description:</b> SWB is working on a long-term project with UNICEF

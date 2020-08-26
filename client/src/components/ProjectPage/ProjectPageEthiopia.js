@@ -9,7 +9,10 @@ const ProjectPageEthiopia = (props) => {
   let classList = `ProjectPage`;
 
   return (
-    <div className="EthiopiaPageDiv">
+    <div className="ProjectPageDiv">
+      <div className="projectPageSWBTitle">
+        Statistics Without Borders Projects
+      </div>
       <div className="projectPageTitle">Save the Children - Ethiopia</div>
       <div className="smallProjectTag">-project2-stc</div>
       <br></br>
@@ -18,10 +21,17 @@ const ProjectPageEthiopia = (props) => {
           <ProjectImageGalleryEthiopia />
         </div>
         <div>
-          <div><b>Location:</b> Ethiopia</div>
+          <div>
+            <b>Location:</b> Ethiopia
+          </div>
           <div>
             <div className="pPageServices">
-              <div><b>Services Provided:</b></div>&ensp;<ServiceTag label="longitudinal study" />&ensp;
+              <div>
+                <b>Services Provided:</b>
+              </div>
+              &ensp;
+              <ServiceTag label="longitudinal study" />
+              &ensp;
               <ServiceTag label="data analysis" />
             </div>
             <div></div>

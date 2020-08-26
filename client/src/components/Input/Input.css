@@ -36,3 +36,7 @@
 	padding: 10px;
 	padding-top: 15px;
 }
+
+input:focus {
+	outline: none;
+}

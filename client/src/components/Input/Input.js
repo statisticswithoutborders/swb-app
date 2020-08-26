@@ -3,13 +3,13 @@ import "../../index.css";
 
 // React Functional Component
 const Input = (props) => {
-	const { name, type, placeholder, value, onChange } = props;
+	const { name, type, placeholder, small, large, value, onChange } = props;
 	let classList = "Input";
 
-	// if (props.small) {
-	// 	classList += ` Input-small`;
-	// }
-	if (props.large) {
+	if (small) {
+		classList += ` Input-small`;
+	}
+	if (large) {
 		classList += ` Input-large`;
 	}
 
@@ -18,11 +18,8 @@ const Input = (props) => {
 			name={name}
 			type={type}
 			placeholder={placeholder}
-			value={value}
-			onChange={onChange}
-
-			// placeholder={props.placeholder}
-			// className={classList}
+			// value={value}
+			// onChange={onChange}
 		></input>
 	);
 };

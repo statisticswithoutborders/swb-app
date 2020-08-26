@@ -11,8 +11,9 @@ storiesOf("Input", module)
 			name="name"
 			type="text"
 			placeholder=" NAME"
-			value={this.state.name}
-			onChange={this.handleChange}
+			small
+			// value={this.state.name}
+			// onChange={this.handleChange}
 		/>
 	))
 	.add("Email", () => <Input small placeholder="EMAIL" type="regular" />)
@@ -22,7 +23,4 @@ storiesOf("Input", module)
 	.add("Subject", () => <Input small placeholder="SUBJECT" type="regular" />)
 	.add("Message", () => (
 		<Input large placeholder="MESSAGE" type="input-large" />
-	))
-	.add("Leave a Comment", () => (
-		<Input large placeholder="LEAVE A COMMENT" type="input-large" />
 	));

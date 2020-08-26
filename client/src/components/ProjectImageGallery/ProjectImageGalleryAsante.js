@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./ProjectImageGallery.css";
 
 // React Class Component
-class ProjectImageGallery extends Component {
+
+class ProjectImageGalleryAsante extends Component {
   constructor() {
     super();
     this.state = {};
@@ -56,9 +57,9 @@ class ProjectImageGallery extends Component {
   render() {
     return (
       <div className="pictureGalleryDiv">
-        <div className="pPageImgOne"></div>
-        <div className="pPageImgTwo"></div>
-        <div className="pPageImgThree"></div>
+        <div className="pPageImgOne asanteOne"></div>
+        <div className="pPageImgTwo asanteTwo"></div>
+        <div className="pPageImgThree asanteThree"></div>
 
         <div className="galleryBtnsDiv">
           <div
@@ -79,4 +80,4 @@ class ProjectImageGallery extends Component {
   }
 }
 
-export default ProjectImageGallery;
+export default ProjectImageGalleryAsante;

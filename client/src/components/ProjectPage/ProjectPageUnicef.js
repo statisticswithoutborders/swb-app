@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
+import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,21 +14,20 @@ const ProjectPageUnicef = (props) => {
       <div className="smallProjectTag">-project5-unicef</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGallery />
+          <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>Location: Sierra Leone</div>
+          <div><b>Location:</b> Sierra Leone</div>
           <div>
             <div className="pPageServices">
-              <div>Services Provided:</div>&ensp;
+              <div><b>Services Provided:</b></div>&ensp;
               <ServiceTag label="baseline survey" />&ensp;
               <ServiceTag label="data analysis" />&ensp;
               <ServiceTag label="survey weighting" />&ensp;
               <ServiceTag label="data cleaning" />
             </div>
-            <div></div>
           </div>
-          Description: SWB is working on a long-term project with UNICEF to
+          <b>Description:</b> SWB is working on a long-term project with UNICEF to
           evaluate health interventions in Sierra Leone. SWB assisted with the
           design of the baseline survey, data cleaning, and survey weighting.
           Ongoing work will include data analysis and planning for a

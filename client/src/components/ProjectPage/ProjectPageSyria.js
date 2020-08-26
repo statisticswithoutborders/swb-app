@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
+import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,19 +14,19 @@ const ProjectPageSyria = (props) => {
       <div className="smallProjectTag">-project4-un</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGallery />
+          <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>Location: Syria</div>
+          <div><b>Location:</b> Syria</div>
           <div>
             <div className="pPageServices">
-              <div>Services Provided:</div>&ensp;
+              <div><b>Services Provided:</b></div>&ensp;
               <ServiceTag label="optimize process" />&ensp;
               <ServiceTag label="data comppilation" />
             </div>
             <div></div>
           </div>
-          Description: The Syrian Health Cluster, with four hubs and 118
+          <b>Description:</b> The Syrian Health Cluster, with four hubs and 118
           partners, is the coordination mechanism to provide emergency and
           trauma care, as well as to provide basic health provision where it has
           collapsed. The Syrian Health Cluster is a part of the "Whole-of-Syria"
@@ -44,8 +44,8 @@ const ProjectPageSyria = (props) => {
         <br></br>
       </div>
       <div>
-        Humanitarian Response website<br></br>
-        <br></br>UN Office for the Coordination of Humanitarian Affairs
+        <b>Humanitarian Response website<br></br>
+        <br></br>UN Office for the Coordination of Humanitarian Affairs</b>
       </div>
     </div>
   );

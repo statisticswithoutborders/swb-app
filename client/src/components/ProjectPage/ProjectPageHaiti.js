@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
+import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,20 +14,19 @@ const ProjectPageHaiti = (props) => {
       <div className="smallProjectTag">-project6-haiti</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGallery />
+          <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>Location: Haiti</div>
+          <div><b>Location:</b> Haiti</div>
           <div>
             <div className="pPageServices">
-              <div>Services Provided:</div> &ensp;
+              <div><b>Services Provided:</b></div> &ensp;
               <ServiceTag label="survey design" />
               &ensp;
               <ServiceTag label="field testing" />
             </div>
-            <div></div>
           </div>
-          Description: A team of Statistics Without Borders (SWB) volunteers
+          <b>Description:</b> A team of Statistics Without Borders (SWB) volunteers
           advised SciMetrika, LLC (an 8(a) firm that focuses on providing
           solutions to advancing human health) on the design and execution of a
           survey in Haiti. Data collected will be used to assess the impact of

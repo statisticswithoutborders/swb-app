@@ -1,25 +1,24 @@
 .pictureGalleryDiv {
-  height: 200px;
-  width: 200px;
+  height: 30vh;
+  width: 40vw;
 }
 .pPageImgOne {
-  height: 200px;
-  width: 200px;
-  border: 2px solid black;
-  background-color: blue;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 15px;
   display: block;
 }
 .pPageImgTwo {
-  height: 200px;
-  width: 200px;
-  border: 2px solid black;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 15px;
   background-color: red;
   display: none;
 }
 .pPageImgThree {
-  height: 200px;
-  width: 200px;
-  border: 2px solid black;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 15px;
   background-color: green;
   display: none;
 }
@@ -43,5 +42,12 @@
   margin-top: -20px;
 }
 .selectedGalleryImg {
-  background-color: grey;
+  background-color: black;
+}
+/* asante */
+
+.asanteOne {
+  background-image: var(--home-asante);
+  background-position: center;
+  background-size: cover;
 }

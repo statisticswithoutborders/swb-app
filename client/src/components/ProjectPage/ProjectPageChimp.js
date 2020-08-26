@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
+import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,13 +14,13 @@ const ProjectPageChimp = (props) => {
       <div className="smallProjectTag">-project3-chimp</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGallery />
+          <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>Location: Sierra Leone</div>
+          <div><b>Location:</b> Sierra Leone</div>
           <div>
             <div className="pPageServices">
-              <div>Services Provided:</div>&ensp;
+              <div><b>Services Provided:</b></div>&ensp;
               <ServiceTag label="data analysis" />
               &ensp;
               <ServiceTag label="CART models" />
@@ -31,7 +31,7 @@ const ProjectPageChimp = (props) => {
             </div>
             <div></div>
           </div>
-          Description: Since 1995, Tacugama Chimpanzee Sanctuary has rescued and
+          <b>Description:</b> Since 1995, Tacugama Chimpanzee Sanctuary has rescued and
           rehabilitated nearly 200 orphaned and illegally traded western
           chimpanzees (Pan troglodytes versus). SWB did two projects for
           Tacugama in 2018. <br></br>

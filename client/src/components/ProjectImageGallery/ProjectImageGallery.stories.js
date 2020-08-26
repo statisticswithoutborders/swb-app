@@ -1,8 +1,11 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
+import "../../index.css";
+import ProjectImageGalleryAsante from "./ProjectImageGalleryAsante";
 
-import ProjectImageGallery from "./ProjectImageGallery";
-
-storiesOf("ProjectImageGallery", module).add("ProjectImageGallery", () => {
-  return <ProjectImageGallery />;
-});
+storiesOf("ProjectImageGallery", module).add(
+  "ProjectImageGalleryAsante",
+  () => {
+    return <ProjectImageGalleryAsante />;
+  }
+);

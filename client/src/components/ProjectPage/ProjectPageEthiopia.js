@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
+import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,18 +14,18 @@ const ProjectPageEthiopia = (props) => {
       <div className="smallProjectTag">-project2-stc</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGallery />
+          <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>Location: Ethiopia</div>
+          <div><b>Location:</b> Ethiopia</div>
           <div>
             <div className="pPageServices">
-              <div>Services:</div>&ensp;<ServiceTag label="longitudinal study" />&ensp;
+              <div><b>Services Provided:</b></div>&ensp;<ServiceTag label="longitudinal study" />&ensp;
               <ServiceTag label="data analysis" />
             </div>
             <div></div>
           </div>
-          Description: Save the Children is an international non-profit
+          <b>Description:</b> Save the Children is an international non-profit
           organization dedicated to improving the lives of children. Save the
           Children requested help from SWB to design an analysis plan for a
           longitudinal cohort study of nearly 2,000 children in Tigray,

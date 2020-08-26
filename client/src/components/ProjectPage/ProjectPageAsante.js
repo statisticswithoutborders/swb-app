@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGallery from "../ProjectImageGallery/ProjectImageGallery";
+import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,20 +14,19 @@ const ProjectPageAsante = (props) => {
       <div className="smallProjectTag">-project1-asante</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGallery />
+          <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>Location: Kenya & Tanzania</div>
+          <div><b>Location:</b> Kenya & Tanzania</div>
           <div>
             <div className="pPageServices">
-              <div>Services:</div>&ensp;
+              <div><b>Services Provided:</b></div>&ensp;
               <ServiceTag label="data analysis" />
               &ensp;
               <ServiceTag label="monitoring & evaluation" />
             </div>
-            <div></div>
           </div>
-          Description: The Asante Africa Foundation works to empower East
+          <b>Description:</b> The Asante Africa Foundation works to empower East
           African youth with programs in Girls' Advancement, Accelerated
           Classroom Learning, and Youth Leadership and Entrepeneurship.
           Monitoring and Evaluation (M&E) is essential to showing the impact of

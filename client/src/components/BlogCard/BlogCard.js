@@ -13,14 +13,16 @@ const BlogCard = (props) => {
 
   return (
     <div className={classList}>
-      <div className="title">{props.title}</div>
-      <div className="date">{props.date}</div>
+      <div className="BlogCard-title">{props.title}</div>
+      <div className="BlogCard-date">{props.date}</div>
       <hr />
-      <div className="label">
+      <div className="BlogCard-label">
         {props.label}
       </div>
       <div class="alignButton">
-      <Button class="button" type="primary" callback label="READ MORE" />
+        <Link path="/">
+           <Button class="button" type="primary" callback label="READ MORE" />
+           </Link>
       </div>
     </div>
   );

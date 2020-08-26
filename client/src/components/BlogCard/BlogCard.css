@@ -1,23 +1,9 @@
-.BlogCard {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    width: 390px;
-    height: 490px;
-    background-color: var(--cyan-blue);
-    color: var(--white);
-    font-family: var(--paragraph-font);
-    font-weight: var(--banner-weight);
-    border-radius: 25px;
-    padding: 40px 45px 30px 45px;
-    box-shadow: 1px 3px 5px grey;
-    box-sizing: border-box;
-}
-.title {
+
+.BlogCard-title {
     font-size: 30px;
 }
 
-.date {
+.BlogCard-date {
     font-size: 20px;
 }
 
@@ -29,7 +15,7 @@ hr {
 }
 
 
-.label {
+.BlogCard-label {
     font-size: 18px;
     max-height: 290px;
     align-content: inherit;
@@ -44,4 +30,20 @@ hr {
     flex-direction: column-reverse;
     margin-top:auto;
     position: relative;
+}
+.BlogCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 490px;
+    background-color: var(--cyan-blue);
+    color: var(--white);
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+    /* var(--banner-weight); */
+    border-radius: 25px;
+    padding: 40px 45px 30px 45px;
+    box-shadow: 1px 3px 5px grey;
+    box-sizing: border-box;
 }

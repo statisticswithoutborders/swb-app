@@ -81,13 +81,19 @@ class Home extends Component {
           </div>
         </div>
         <hr />
-        <h2>What We Do</h2>
-        <h3>
+        <div className= "wwd">
+        <h2 >What We Do</h2>
+        <h3 className = 'wwd2'>
           We work to improve decision making and knowledge in efforts that
           promote welfare through the proper application of statistical
           principles and best practices, where access to such resources is
           limited.
         </h3>
+        <div>Card will go here</div>
+        <div>Card will go here</div>
+        <div>Card will go here</div>
+        <Button medium label= 'MORE SERVICES'/>
+        </div>
       </React.Fragment>
     );
   }

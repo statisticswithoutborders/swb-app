@@ -17,10 +17,11 @@ body {
     width: 695px;
     font-size: 25px;
     padding: 5px 0 20px;
+    font-weight: bold;
 }
 
 h1 {
-   font-size: 40px;
+   font-size: 50px;
 }
 
 .mission{
@@ -64,4 +65,14 @@ ul{
 
 .bullet{
 height : 32px
+}
+
+.wwd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wwd2{
+    width: 930px;
 }

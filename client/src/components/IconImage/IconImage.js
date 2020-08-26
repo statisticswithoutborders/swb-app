@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
 import "./IconImage.css";
-import "../../index.css"
+import "../../index.css";
 
-
-
-const IconImage = (props) => {
-
+const IconImage = props => {
   let classList = `IconImage`;
 
   return (
@@ -15,6 +12,6 @@ const IconImage = (props) => {
       </a>
     </div>
   );
-}
+};
 
 export default IconImage;

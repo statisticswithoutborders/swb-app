@@ -72,7 +72,7 @@ class FormContact extends Component {
 			</div>
 		) : null;
 
-		let attachFile =
+		let ifAttachFileNeeded =
 			this.props.help || this.props.volunteer ? (
 				<div className="FormContact-div-attach">
 					<Button type="submit" small label="Attach File" />
@@ -85,13 +85,6 @@ class FormContact extends Component {
 				<div className="FormContact-div-inputs">
 					<div className="FormContact-div-name-email">
 						<label className="FormContact-label-name">
-							{/* <input
-								name="name"
-								type="text"
-								placeholder=" NAME"
-								value={this.state.name}
-								onChange={this.handleChange}
-							/> */}
 							<Input
 								name="name"
 								type="text"
@@ -102,13 +95,6 @@ class FormContact extends Component {
 							/>
 						</label>
 						<label className="FormContact-label-email">
-							{/* <input
-								name="email"
-								type="text"
-								placeholder=" EMAIL"
-								value={this.state.email}
-								onChange={this.handleChange}
-							/> */}
 							<Input
 								name="email"
 								type="text"
@@ -121,13 +107,6 @@ class FormContact extends Component {
 					</div>
 					<div className="FormContact-div-org-subject">
 						<label className="FormContact-label-organization">
-							{/* <input
-								name="organization"
-								type="text"
-								placeholder=" ORGANIZATION"
-								value={this.state.organization}
-								onChange={this.handleChange}
-							/> */}
 							<Input
 								name="organization"
 								type="text"
@@ -138,13 +117,6 @@ class FormContact extends Component {
 							/>
 						</label>
 						<label className="FormContact-label-subject">
-							{/* <input
-								name="subject"
-								type="text"
-								placeholder=" SUBJECT"
-								value={this.state.subject}
-								onChange={this.handleChange}
-							/> */}
 							<Input
 								name="subject"
 								type="text"
@@ -157,12 +129,6 @@ class FormContact extends Component {
 					</div>
 				</div>
 				<label className="FormContact-label-message">
-					{/* <textarea
-						name="message"
-						placeholder=" MESSAGE"
-						value={this.state.message}
-						onChange={this.handleChange}
-					/> */}
 					<Input
 						name="message"
 						type="text"
@@ -172,7 +138,7 @@ class FormContact extends Component {
 						onChange={this.handleChange}
 					/>
 				</label>
-				{attachFile}
+				{ifAttachFileNeeded}
 				<Button type="submit" small label="SEND" />
 			</form>
 		); //return

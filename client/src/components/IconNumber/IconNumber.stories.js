@@ -5,15 +5,15 @@ import IconNumber from "./IconNumber.js";
 import "./IconNumber.css";
 
 storiesOf("IconNumber", module)
-  .add("IconNumber", () => {
+  .add("IconNumber1", () => {
     return <IconNumber type="digit" IconNumber box label="01" />;
   })
-  .add("IconNumber", () => {
+  .add("IconNumber2", () => {
     return <IconNumber type="digit" IconNumber box label="02" />;
   })
-  .add("IconNumber", () => {
+  .add("IconNumber3", () => {
     return <IconNumber type="digit" IconNumber box label="03" />;
   })
-  .add("IconNumber", () => {
+  .add("IconNumber4", () => {
     return <IconNumber type="digit" IconNumber box label="04" />;
   });

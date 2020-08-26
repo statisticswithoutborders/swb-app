@@ -40,12 +40,20 @@ class FormContact extends Component {
 				<div className="FormContact-div-inputs">
 					<div className="FormContact-div-name-email">
 						<label className="FormContact-label-name">
-							<input
+							{/* <input
 								name="name"
 								type="text"
 								placeholder=" NAME"
 								value={this.state.name}
 								onChange={this.handleChange}
+							/> */}
+							<Input
+								name="name"
+								type="text"
+								placeholder=" NAME"
+								small
+								// value={this.state.name}
+								// onChange={this.handleChange}
 							/>
 						</label>
 						<label className="FormContact-label-email">

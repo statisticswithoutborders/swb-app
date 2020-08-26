@@ -10,7 +10,7 @@ const MemberCard = (props) => {
 
   return(
     <div className={classList}>
-      <div class="MemberCard-image" style={{backgroundImage: props.image}}></div>
+      <div className="MemberCard-image" style={{backgroundImage: props.image}}></div>
      <h3 className="MemberCard-name">{props.name}</h3>
   <h6 className="MemberCard-position">{props.position}</h6>
   <hr className="Membercard-line" />

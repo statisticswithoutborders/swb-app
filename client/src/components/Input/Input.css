@@ -27,6 +27,7 @@
 	border-radius: 20px;
 	width: 90%;
 	min-height: 10em;
+	padding: 1em;
 	border: none;
 }
 
@@ -37,6 +38,7 @@
 	padding-top: 15px;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
 	outline: none;
 }

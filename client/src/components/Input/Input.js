@@ -13,16 +13,28 @@ const Input = (props) => {
 		classList += ` Input-large`;
 	}
 
-	return (
-		<input
-			name={name}
-			type={type}
-			placeholder={placeholder}
-			className={classList}
-			value={value}
-			onChange={onChange}
-		></input>
-	);
+	if (large) {
+		return (
+			<textarea
+				name={name}
+				placeholder={placeholder}
+				className={classList}
+				value={value}
+				onChange={onChange}
+			></textarea>
+		);
+	} else {
+		return (
+			<input
+				name={name}
+				type={type}
+				placeholder={placeholder}
+				className={classList}
+				value={value}
+				onChange={onChange}
+			></input>
+		);
+	}
 };
 
 export default Input;

@@ -46,12 +46,5 @@ storiesOf("Input", module)
 		/>
 	))
 	.add("Message", () => (
-		<Input
-			name="message"
-			type="text"
-			placeholder=" MESSAGE"
-			large
-			value
-			onChange
-		/>
+		<Input name="message" placeholder=" MESSAGE" large value onChange />
 	));

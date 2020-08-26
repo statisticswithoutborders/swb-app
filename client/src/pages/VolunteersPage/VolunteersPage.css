@@ -1,3 +1,78 @@
 .VolunteersPage {
+    width: 98%;
+}
 
+.VolunteersPage-volunteerfor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+}
+
+.VolunteersPage-volunteerfor-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.VolunteersPage-volunteerfor-video {
+    width: 45%;
+    height: 300px;
+    background-color: antiquewhite;
+    margin-top: 2%;
+}
+
+.VolunteersPage-volunteerfor-content {
+    width: 40%;
+    margin: 4% 7%;
+    line-height: 1.4;
+    
+}
+
+.VolunteersPage-section-title {
+    color: var(--blue-medium-darker);
+    margin-top: 30px;
+}
+
+.VolunteersPage-ourvolunteers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+}
+
+.VolunteersPage-volunteerfor-card-container {
+    width: 90%;
+    height: 900px;
+    margin-top: 3%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.card-placeholder {
+    justify-self: center;
+    width: 500px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.VolunteersPage-howitworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+}
+
+.VolunteersPage-hiw-container {
+    margin-top: 3%;
 }

@@ -60,6 +60,9 @@ class Home extends Component {
             promotes best practices in these areas
           </li>
         </ul>
+        <hr/>
+        <h2>What We Do</h2>
+        <p>We work to improve decision making and knowledge in efforts that promote welfare through the proper application of statistical principles and best practices, where access to such resources is limited.</p>
       </React.Fragment>
     );
   }

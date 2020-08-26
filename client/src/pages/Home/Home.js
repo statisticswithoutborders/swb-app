@@ -7,6 +7,7 @@ import Analysis from "../../assets/images/home_analysis.png";
 import Bullet from "../../assets/images/Slice 1.png";
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import Testimonial from '../../components/Testimonial/Testimonial'
+import Footer from '../../components/Footer/Footer'
 
 class Home extends Component {
   constructor() {
@@ -82,7 +83,8 @@ class Home extends Component {
             promotes best practices in these areas
           </div>
         </div>
-        <hr />
+        <hr className = 'homeHR'/>
+
         <div className= "wwd">
         <h2 >What We Do</h2>
         <h3 className = 'wwd2'>
@@ -96,7 +98,8 @@ class Home extends Component {
         <div>Card will go here</div>
         <Button medium label= 'MORE SERVICES'/>
         </div>
-        <hr/>
+                <hr className = 'homeHR'/>
+
         <h2>Our Projects</h2>
         <div className = 'projects'>
           
@@ -107,19 +110,24 @@ class Home extends Component {
           <div className = 'project'><ProjectCard image= 'var(--home-unicef-sl)' projectTitle = 'UNICEF Sierra Leone'/></div>
           <div className = 'project'><ProjectCard image= 'var(--home-haiti)' projectTitle = 'Haitian Earthquake Data Collection'/></div>
         </div>
-        <hr/>
+                <hr className = 'homeHR'/>
+
         <h2>Testimonials</h2>
         <Testimonial/>
         <Testimonial/>
-        <hr/>
+                <hr className = 'homeHR'/>
+
         <h2>SWB Blog</h2>
         <div>Another card goes here</div>
         <div>Another card goes here</div>
         <div>Another card goes here</div>
-        <hr/>
+                <hr className = 'homeHR'/>
+
         <h2>Let's Work Together - Contact Us</h2>
         <div>A form will go here</div>
         <Button label = 'SEND'/>
+        <hr className = 'homeHR'/>
+        <Footer/>
       </React.Fragment>
     );
   }

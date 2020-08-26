@@ -24,6 +24,7 @@ class FormContact extends Component {
 
 	handleSubmit(e) {
 		e.preventDefault();
+		//* callback to Parent with form data
 		this.props.formCallback(
 			this.state.name,
 			this.state.email,
@@ -31,6 +32,14 @@ class FormContact extends Component {
 			this.state.subject,
 			this.state.message
 		);
+		//* Set state to initial values to clear input fields
+		this.setState({
+			name: "",
+			email: "",
+			organization: "",
+			subject: "",
+			message: "",
+		});
 	} //handleSubmit()
 
 	render() {
@@ -66,7 +75,7 @@ class FormContact extends Component {
 		let attachFile =
 			this.props.help || this.props.volunteer ? (
 				<div className="FormContact-div-attach">
-					<Button type="submit" small callback label="Attach File" />
+					<Button type="submit" small label="Attach File" />
 				</div>
 			) : null;
 

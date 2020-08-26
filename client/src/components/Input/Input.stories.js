@@ -23,13 +23,13 @@ storiesOf("Input", module)
 		<Input name="name" type="text" placeholder=" NAME" small value onChange />
 	))
 	.add("Email", () => (
-		<Input name="email" type="text" placeholder="EMAIL" small value onChange />
+		<Input name="email" type="text" placeholder=" EMAIL" small value onChange />
 	))
 	.add("Organization", () => (
 		<Input
 			name="organization"
 			type="text"
-			placeholder="ORGANIZATION"
+			placeholder=" ORGANIZATION"
 			small
 			value
 			onChange
@@ -39,7 +39,7 @@ storiesOf("Input", module)
 		<Input
 			name="subject"
 			type="text"
-			placeholder="SUBJECT"
+			placeholder=" SUBJECT"
 			small
 			value
 			onChange
@@ -49,7 +49,7 @@ storiesOf("Input", module)
 		<Input
 			name="message"
 			type="text"
-			placeholder="MESSAGE"
+			placeholder=" MESSAGE"
 			large
 			value
 			onChange

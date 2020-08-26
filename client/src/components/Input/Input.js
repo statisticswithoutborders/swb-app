@@ -19,8 +19,8 @@ const Input = (props) => {
 			type={type}
 			placeholder={placeholder}
 			className={classList}
-			// value={value}
-			// onChange={onChange}
+			value={value}
+			onChange={onChange}
 		></input>
 	);
 };

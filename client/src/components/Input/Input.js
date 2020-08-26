@@ -2,21 +2,39 @@ import React from "react";
 import "../../index.css";
 
 // React Functional Component
-const Input = props => {
-  let classList = "";
+const Input = (props) => {
+	const { name, type, placeholder, small, large, value, onChange } = props;
+	let classList = `Input`;
 
-  if (props.small) {
-    classList += ` Input-small`;
-  }
-  if (props.large) {
-    classList += ` Input-large`;
-  }
+	if (small) {
+		classList += ` Input-small`;
+	}
+	if (large) {
+		classList += ` Input-large`;
+	}
 
-  return (
-    <form>
-      <input placeholder={props.placeholder} className={classList}></input>
-    </form>
-  );
+	if (large) {
+		return (
+			<textarea
+				name={name}
+				placeholder={placeholder}
+				className={classList}
+				value={value}
+				onChange={onChange}
+			></textarea>
+		);
+	} else {
+		return (
+			<input
+				name={name}
+				type={type}
+				placeholder={placeholder}
+				className={classList}
+				value={value}
+				onChange={onChange}
+			></input>
+		);
+	}
 };
 
 export default Input;

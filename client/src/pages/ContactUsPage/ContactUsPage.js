@@ -6,14 +6,21 @@ class ContactUsPage extends Component {
     constructor(){
         super()
 
-        this.state ={classlist:'ContactUsPage'}
+        this.state ={
+            classlist:'ContactUsPage'
+            ,formName: ""
+            ,formEmail: ""
+            ,formOrg: ""
+            ,formSubject: ""
+            ,formComment: ""
+        }
     }
    
     render() {
         
 
         return (
-            <div className={classList}>
+            <div className={this.state.classList}>
 
             </div>
         )

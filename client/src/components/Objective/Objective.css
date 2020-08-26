@@ -1,0 +1,26 @@
+.Objective{
+    display: flex;
+}
+
+.year-objective {
+   color: #565970;
+   font-family: var("--paragraph-font");
+   font-size: 45px;
+   margin-right: 50px;
+   margin-top: 5px;
+
+}
+
+.arrow-objective{
+    margin-top: 6px;
+}
+
+.text-objective {
+    color: #555870;
+    font-family: var("--paragraph-font");
+    font-size: 17px;
+    margin-left: 55px;
+    width: 65%;
+    line-height: 1.4em;
+
+}

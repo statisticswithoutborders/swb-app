@@ -117,6 +117,9 @@ class Home extends Component {
         <div>Another card goes here</div>
         <div>Another card goes here</div>
         <hr/>
+        <h2>Let's Work Together - Contact Us</h2>
+        <div>A form will go here</div>
+        <Button label = 'SEND'/>
       </React.Fragment>
     );
   }

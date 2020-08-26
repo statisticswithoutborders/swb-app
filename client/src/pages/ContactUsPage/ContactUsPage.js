@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import "./ContactUsPage.css"
 import NavBar from '../../components/NavBar/NavBar'
 import Button from '../../components/Button/Button'
@@ -30,10 +31,14 @@ class ContactUsPage extends Component {
                     <div className="ContactUsPage-form-placeholder">Form</div>
                     <p className="ContactUsPage-inquiries"><strong>For any direct inquiries, please email SWB:</strong> <a href="mailto:statisticswithoutborders@gmail.com">statisticswithoutborders@gmail.com</a></p>
                     <div className="ContactUsPage-button">
-                        <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>
+                        <Link to="/">
+                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>
+                        </Link>
                     </div>
                     <div className="ContactUsPage-button">
-                        <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
+                        <Link to="">
+                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
+                        </Link>
                     </div>
                     
                 </div>

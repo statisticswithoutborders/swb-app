@@ -6,7 +6,8 @@ import "../../index.css";
 
 //* Use notes:
 //* After you copy/paste <Input... into a Form component,
-//* change onChange to onChange={this.handleChange}.
+//* change onChange={testCallback}
+//* to onChange={this.handleChange}
 //* Create a method called handleChange in your component
 //* to implement capturing key strokes in Input
 //* Pass in event: handleChange(e)
@@ -17,13 +18,31 @@ import "../../index.css";
 //* value={this.state.subject} for Subject
 //* value={this.state.message} for Message
 
+let testCallback = (e) => {
+	console.log(e.target.value);
+};
+
 // Form inputs
 storiesOf("Input", module)
 	.add("Name", () => (
-		<Input name="name" type="text" placeholder=" NAME" small value onChange />
+		<Input
+			name="name"
+			type="text"
+			placeholder=" NAME"
+			small
+			value
+			onChange={testCallback}
+		/>
 	))
 	.add("Email", () => (
-		<Input name="email" type="text" placeholder=" EMAIL" small value onChange />
+		<Input
+			name="email"
+			type="text"
+			placeholder=" EMAIL"
+			small
+			value
+			onChange={testCallback}
+		/>
 	))
 	.add("Organization", () => (
 		<Input
@@ -32,7 +51,7 @@ storiesOf("Input", module)
 			placeholder=" ORGANIZATION"
 			small
 			value
-			onChange
+			onChange={testCallback}
 		/>
 	))
 	.add("Subject", () => (
@@ -42,9 +61,15 @@ storiesOf("Input", module)
 			placeholder=" SUBJECT"
 			small
 			value
-			onChange
+			onChange={testCallback}
 		/>
 	))
 	.add("Message", () => (
-		<Input name="message" placeholder=" MESSAGE" large value onChange />
+		<Input
+			name="message"
+			placeholder=" MESSAGE"
+			large
+			value
+			onChange={testCallback}
+		/>
 	));

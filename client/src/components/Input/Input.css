@@ -38,6 +38,10 @@
 	padding-top: 15px;
 }
 
+textarea {
+	resize: none;
+}
+
 input:focus,
 textarea:focus {
 	outline: none;

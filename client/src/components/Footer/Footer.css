@@ -33,3 +33,14 @@
 .footer-privacy-policy {
   font-size: 90%;
 }
+
+@media screen and (max-width: 600px) {
+  .Footer {
+    display: block;
+    text-align: center;
+  }
+  .Footer-Icons {
+    display: flex;
+    justify-content: center;
+  }
+}

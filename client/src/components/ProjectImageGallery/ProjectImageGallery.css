@@ -150,7 +150,7 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 890px) {
   .pictureGalleryDiv {
     width: 60vw;
   }
@@ -176,5 +176,19 @@
   }
   .pPageImgThree {
     width: 70vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pictureGalleryDiv {
+    height: 30vh;
+  }
+  .pPageImgOne {
+    height: 30vh;
+  }
+  .pPageImgTwo {
+    height: 30vh;
+  }
+  .pPageImgThree {
+    height: 30vh;
   }
 }

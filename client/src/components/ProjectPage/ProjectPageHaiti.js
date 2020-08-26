@@ -17,18 +17,20 @@ const ProjectPageHaiti = (props) => {
           <ProjectImageGalleryHaiti />
         </div>
         <div>
-          <div>
-            <b>Location:</b> Haiti
+          <div className="pPageLocationDiv">
+            <b>Location:</b>&nbsp;Haiti
           </div>
           <div>
             <div className="pPageServices">
               <div>
                 <b>Services Provided:</b>
-              </div>{" "}
+              </div>
               &ensp;
+              <div className="pPageSingleServices">
               <ServiceTag label="survey design" />
               &ensp;
               <ServiceTag label="field testing" />
+              </div>
             </div>
           </div>
           <b>Description:</b> A team of Statistics Without Borders (SWB)

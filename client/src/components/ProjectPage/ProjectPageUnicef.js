@@ -20,7 +20,7 @@ const ProjectPageUnicef = (props) => {
         </div>
         <div>
           <div className="pPageLocationDiv">
-            <b>Location:</b> Sierra Leone
+            <b>Location:</b>&nbsp;Sierra Leone
           </div>
           <div>
             <div className="pPageServices">
@@ -31,15 +31,15 @@ const ProjectPageUnicef = (props) => {
               <div className="serviceOuterDiv">
                 <div className="pPageServices">
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="baseline survey" />
+                  <ServiceTag label="baseline survey" />
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="data analysis" />
+                  <ServiceTag label="data analysis" />
                 </div>
                 <div className="pPageServices">
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="survey weighting" />
+                  <ServiceTag label="survey weighting" />
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="data cleaning" />
+                  <ServiceTag label="data cleaning" />
                 </div>
               </div>
             </div>

@@ -17,8 +17,8 @@ const ProjectPageChimp = (props) => {
           <ProjectImageGalleryChimp />
         </div>
         <div>
-          <div>
-            <b>Location:</b> Sierra Leone
+          <div className="pPageLocationDiv">
+            <b>Location:</b>&nbsp;Sierra Leone
           </div>
           <div>
             <div className="pPageServices">
@@ -28,15 +28,15 @@ const ProjectPageChimp = (props) => {
               <div className="serviceOuterDiv">
                 <div className="pPageServices">
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="data analysis" />
+                  <ServiceTag label="data analysis" />
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="CART models" />
+                  <ServiceTag label="CART models" />
                 </div>
                 <div className="pPageServices">
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="risk plots" />
+                  <ServiceTag label="risk plots" />
                   &ensp;
-                  <ServiceTag ServiceTagMedium label="database" />
+                  <ServiceTag label="database" />
                 </div>
               </div>
             </div>

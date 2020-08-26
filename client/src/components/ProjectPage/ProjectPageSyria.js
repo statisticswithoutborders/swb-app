@@ -19,8 +19,8 @@ const ProjectPageSyria = (props) => {
           <ProjectImageGallerySyria />
         </div>
         <div>
-          <div>
-            <b>Location:</b> Syria
+          <div className="pPageLocationDiv">
+            <b>Location:</b>&nbsp;Syria
           </div>
           <div>
             <div className="pPageServices">
@@ -28,9 +28,11 @@ const ProjectPageSyria = (props) => {
                 <b>Services Provided:</b>
               </div>
               &ensp;
+              <div className="pPageSingleServices">
               <ServiceTag label="optimize process" />
               &ensp;
               <ServiceTag label="data comppilation" />
+              </div>
             </div>
             <div></div>
           </div>

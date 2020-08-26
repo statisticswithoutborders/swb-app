@@ -20,8 +20,8 @@ const ProjectPageAsante = (props) => {
           <ProjectImageGalleryAsante />
         </div>
         <div>
-          <div>
-            <b>Location:</b> Kenya & Tanzania
+          <div className="pPageLocationDiv">
+            <b>Location:</b>&nbsp;Kenya & Tanzania
           </div>
           <div>
             <div className="pPageServices">
@@ -29,7 +29,7 @@ const ProjectPageAsante = (props) => {
                 <b>Services Provided:</b>
               </div>
               &ensp;
-              <div className="pPageServices">
+              <div className="pPageSingleServices">
                 <ServiceTag  label="data analysis" />
                 &ensp;
                 <ServiceTag label="monitoring & evaluation" />

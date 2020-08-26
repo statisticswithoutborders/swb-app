@@ -9,15 +9,15 @@ const Testimonial = (props) => {
       <div className="main"> 
         <div className="person-left" style={{ backgroundImage: props.imgSrc }}>
         </div> 
-        <p>{props.description}<span className="name"><br />{props.name}</span></p> 
+        <p className="testimonal-paragraph">{props.description}<span className="name"><br />{props.name}</span></p> 
       </div>
   );
   } else {
   return(
         <div className="main"> 
-          <p>{props.description}<span className="name"><br />{props.name}</span>
+          <p className="testimonal-paragraph">{props.description}<span className="name"><br />{props.name}</span>
           </p> 
-          <div className="person-right" style={{ backgroundImage: props.imgSrc }}>
+         <div className="person-right" style={{ backgroundImage: props.imgSrc }}>
           </div> 
         </div>
   );

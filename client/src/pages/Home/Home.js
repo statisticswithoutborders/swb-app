@@ -6,6 +6,7 @@ import Globe from "../../assets/images/home_globe.png";
 import Analysis from "../../assets/images/home_analysis.png";
 import Bullet from "../../assets/images/Slice 1.png";
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
+import Testimonial from '../../components/Testimonial/Testimonial'
 
 class Home extends Component {
   constructor() {
@@ -106,6 +107,16 @@ class Home extends Component {
           <div className = 'project'><ProjectCard image= 'var(--home-unicef-sl)' projectTitle = 'UNICEF Sierra Leone'/></div>
           <div className = 'project'><ProjectCard image= 'var(--home-haiti)' projectTitle = 'Haitian Earthquake Data Collection'/></div>
         </div>
+        <hr/>
+        <h2>Testimonials</h2>
+        <Testimonial/>
+        <Testimonial/>
+        <hr/>
+        <h2>SWB Blog</h2>
+        <div>Another card goes here</div>
+        <div>Another card goes here</div>
+        <div>Another card goes here</div>
+        <hr/>
       </React.Fragment>
     );
   }

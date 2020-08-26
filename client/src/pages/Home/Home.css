@@ -4,13 +4,13 @@ body {
 }
 .banner {
     background-image: var(--home-banner);
-    width: 100vw;
+    width: 100%vw;
     height: 510px;
     color: white;
     padding-top: 70px;
     padding-left: 55px;
     margin-left: -16px;
-    
+    margin-right: -16px;
 }
 
 .statement{

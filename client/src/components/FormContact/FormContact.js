@@ -35,8 +35,42 @@ class FormContact extends Component {
 
 	render() {
 		let classlist = "FormContact";
+		let infoAtTopOfForm = this.props.help ? (
+			<div className="FormContact-div-volunteer">
+				<h5>New Projects Procedure - Request Help</h5>
+				<p>
+					We will be in touch within 1-2 weeks about your project. We will work
+					with you to evaluate the project needs, including assigning a team of
+					Statistics Without Borders volunteers to work on your project under
+					one or two SWB project leaders and working with you to bring the
+					project to fruition. If for any reason you do not hear from us within
+					a week, please contact us at statisticswithoutborders@gmail.com to
+					check on the status of your request.
+				</p>
+			</div>
+		) : this.props.volunteer ? (
+			<div className="FormContact-div-volunteer">
+				<h5>Volunteering for a Project</h5>
+				<p>
+					To volunteer with SWB, please contact us below. We try to collect as
+					much information as possible on our volunteers' statistical
+					backgrounds and experiences, so please attach any relevant
+					information. This allows us to match volunteers with appropriate
+					projects. SWB never releases any identifying information about our
+					volunteers and only provides summary statistics (number of volunteers,
+					country or continent, years of experience, etc.).
+				</p>
+			</div>
+		) : null;
+
+		let attachFile =
+			this.props.help || this.props.volunteer ? (
+				<Button type="submit" small callback label="Attach File" />
+			) : null;
+
 		return (
 			<form className={classlist} onSubmit={this.handleSubmit}>
+				{infoAtTopOfForm}
 				<div className="FormContact-div-inputs">
 					<div className="FormContact-div-name-email">
 						<label className="FormContact-label-name">
@@ -127,7 +161,8 @@ class FormContact extends Component {
 						onChange={this.handleChange}
 					/>
 				</label>
-				<Button type="submit" small callback label="SEND" />
+				{attachFile}
+				<Button type="submit" small label="SEND" />
 			</form>
 		); //return
 	} //render()

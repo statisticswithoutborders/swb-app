@@ -15,7 +15,7 @@ const BlogCard = (props) => {
     <div className={classList}>
       <div className="BlogCard-title">{props.title}</div>
       <div className="BlogCard-date">{props.date}</div>
-      <hr />
+      <BlogCard-hr />
       <div className="BlogCard-label">
         {props.label}
       </div>

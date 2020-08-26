@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
+import ProjectImageGalleryChimp from "../ProjectImageGallery/ProjectImageGalleryChimp";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -14,7 +14,7 @@ const ProjectPageChimp = (props) => {
       <div className="smallProjectTag">-project3-chimp</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGalleryAsante />
+          <ProjectImageGalleryChimp />
         </div>
         <div>
           <div><b>Location:</b> Sierra Leone</div>

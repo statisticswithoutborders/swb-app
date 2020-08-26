@@ -12,14 +12,12 @@
   height: 30vh;
   width: 40vw;
   border-radius: 15px;
-  background-color: red;
   display: none;
 }
 .pPageImgThree {
   height: 30vh;
   width: 40vw;
   border-radius: 15px;
-  background-color: green;
   display: none;
 }
 .pPageDisplay {
@@ -42,12 +40,95 @@
   margin-top: -20px;
 }
 .selectedGalleryImg {
-  background-color: black;
+  background-color: var(--cyan-blue);
 }
 /* asante */
 
 .asanteOne {
+  background-image: var(--project1-asante);
+  background-position: center;
+  background-size: cover;
+}
+.asanteTwo {
+  background-image: var(--project-asante);
+  background-position: center;
+  background-size: cover;
+}
+.asanteThree {
   background-image: var(--home-asante);
+  background-position: center;
+  background-size: cover;
+}
+
+/* ethiopia */
+
+.ethiopiaOne {
+  background-image: var(--project2-stc);
+  background-position: center;
+  background-size: cover;
+}
+.ethiopiaTwo {
+  background-image: var(--project-stc);
+  background-position: center;
+  background-size: cover;
+}
+.ethiopiaThree {
+  background-image: var(--home-stc);
+  background-position: center;
+  background-size: cover;
+}
+/* chimp */
+
+.chimpOne {
+  background-image: var(--project3-chimp);
+  background-position: center;
+  background-size: cover;
+}
+.chimpTwo {
+  background-image: var(--project-chimp);
+  background-position: center;
+  background-size: cover;
+}
+.chimpThree {
+  background-image: var(--home-chimp);
+  background-position: center;
+  background-size: cover;
+}
+/* syria */
+
+.syriaOne {
+  background-image: var(--project4-un);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.syriaTwo {
+  background-image: var(--project-un);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.syriaThree {
+  background-image: var(--project4-un);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* unicef */
+
+.unicefOne {
+  background-image: var(--project5-unicef);
+  background-position: center;
+  background-size: cover;
+}
+.unicefTwo {
+  background-image: var(--project-unicef-sl);
+  background-position: center;
+  background-size: cover;
+}
+.unicefThree {
+  background-image: var(--home-unicef-sl);
   background-position: center;
   background-size: cover;
 }

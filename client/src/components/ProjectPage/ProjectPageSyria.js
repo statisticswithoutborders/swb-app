@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectPage.css";
-import ProjectImageGalleryAsante from "../ProjectImageGallery/ProjectImageGalleryAsante";
+import ProjectImageGallerySyria from "../ProjectImageGallery/ProjectImageGallerySyria";
 import ServiceTag from "../ServiceTag/ServiceTag";
 
 // Function based React Component
@@ -9,12 +9,12 @@ const ProjectPageSyria = (props) => {
   let classList = `ProjectPage`;
 
   return (
-    <div className="asantePageDiv">
+    <div className="SyriaPageDiv">
       <div className="projectPageTitle">Whole of Syria Health Cluster</div>
       <div className="smallProjectTag">-project4-un</div>
       <div>
         <div className="pPageImageGalleryDiv">
-          <ProjectImageGalleryAsante />
+          <ProjectImageGallerySyria />
         </div>
         <div>
           <div><b>Location:</b> Syria</div>

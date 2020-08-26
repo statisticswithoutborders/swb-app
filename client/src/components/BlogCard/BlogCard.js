@@ -2,7 +2,7 @@ import React from "react";
 import "./BlogCard.css";
 import "./BlogCard.stories"
 import "../../index.css"
-import Button from "../Button/Button.js"
+import Button from "../Button/Button"
 
 
 // Function based React Component
@@ -18,7 +18,9 @@ const BlogCard = (props) => {
       <div className="label">
         {props.label}
       </div>
-   
+     
+      <Button class="button" type="primary" callback label="READ MORE" />
+
     </div>
   );
 };

@@ -1,17 +1,18 @@
 .BlogCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     width: 390px;
     height: 490px;
     background-color: var(--cyan-blue);
     color: var(--white);
     font-family: var(--paragraph-font);
-    /* font-weight: var(--banner-weight); */
-    font-weight: 1000;
+    font-weight: var(--banner-weight);
     border-radius: 25px;
     padding: 40px 45px 30px 45px;
     box-shadow: 1px 3px 5px grey;
-    line-height: 2;
+    box-sizing: border-box;
 }
-
 .title {
     font-size: 30px;
 }
@@ -23,10 +24,19 @@
 hr {
     background-color: var(--yellow);
     height: 2px;
+    width:100%;
 }
 
 
 .label {
     font-size: 18px;
- 
+    
+}
+
+.button{
+    display:  inline-flexbox;
+    align-self:flex-end;
+    justify-self: center;
+    margin-bottom: 30px;
+    align-items: flex-end;
 }

@@ -15,6 +15,6 @@ storiesOf('BlogCard', module)
 }
 )
    .add('BlogCard3', () =>{
-  return <BlogCard BlogCard title="Title: Blog Post 3" date="Date: February 23, 2020" hr label="Proident elit sit pariatur eiusmod anim minim enim occaecat minim est dolore. Eiusmod quis cupidatat aute deserunt veniam nostrud excepteur qui irure duis voluptate. Et est sit velit aliqua consectetur commodo cupidatat tempor dolor. Excepteur aute est incididunt laboris exercitation. Ea ipsum sunt ut esse irure sint esse in exercitation mollit. Proident aute ipsum ipsum incididunt nisi. Fugiat laboris commodo et labore occaecat ipsum esse pariatur non pariatur."/>
+  return <BlogCard BlogCard title="Title: Blog Post 3" date="Date: February 23, 2020" hr label=""/>
 }
 )

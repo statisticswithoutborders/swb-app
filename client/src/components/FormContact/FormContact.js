@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./FormContact.css";
 import Button from "../Button/Button";
-import Input from "../Input/Input";
+// import Input from "../Input/Input";
 
 // Controlled Component
 class FormContact extends Component {
@@ -38,21 +38,50 @@ class FormContact extends Component {
 		return (
 			<form className={this.state.classlist} onSubmit={this.handleSubmit}>
 				<label>
-					<Input small placeholder="  NAME" type="regular" />
+					<input
+						name="name"
+						type="text"
+						placeholder=" NAME"
+						value={this.state.name}
+						onChange={this.handleChange}
+					/>
 				</label>
 				<label>
-					<Input small placeholder="  E-MAIL" type="regular" />
+					<input
+						name="email"
+						type="text"
+						placeholder=" EMAIL"
+						value={this.state.email}
+						onChange={this.handleChange}
+					/>
 				</label>
 				<label>
-					<Input small placeholder="  ORGANIZATION" type="regular" />
+					<input
+						name="organization"
+						type="text"
+						placeholder=" ORGANIZATION"
+						value={this.state.organization}
+						onChange={this.handleChange}
+					/>
 				</label>
 				<label>
-					<Input small placeholder="  SUBJECT" type="regular" />
+					<input
+						name="subject"
+						type="text"
+						placeholder=" SUBJECT"
+						value={this.state.subject}
+						onChange={this.handleChange}
+					/>
 				</label>
 				<label>
-					<Input large placeholder="  MESSAGE" type="input-large" />
+					<textarea
+						name="message"
+						placeholder=" MESSAGE"
+						value={this.state.message}
+						onChange={this.handleChange}
+					/>
 				</label>
-				<Button type="primary" small callback label="SEND" />
+				<Button type="submit" small callback label="SEND" />
 			</form>
 		); //return
 	} //render()

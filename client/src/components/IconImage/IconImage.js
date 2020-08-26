@@ -11,7 +11,7 @@ const IconImage = (props) => {
   return (
     <div className={classList}>
       <a href={props.url}>
-        <div className="img" style={{ backgroundImage: props.image, height: props.height }}></div>
+        <div className="IconImage-image" style={{ backgroundImage: props.image, height: props.height, width: props.height }}></div>
       </a>
     </div>
   );

@@ -7,7 +7,7 @@
     font-size: 20px;
 }
 
-hr {
+.BlogCard-hr {
     background-color: var(--yellow);
     height: 2px;
     width:100%;

@@ -4,20 +4,27 @@
   border-radius: 25px;
 
   background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .MemberCard-name {
   font-size: 36px;
 }
 
-.MemberCard-title {
+.MemberCard-line{
+  color: var(--blue-medium-dark)
+
+}
+
+.MemberCard-position {
   font-size: 30px;
+  font-weight: var(--paragraph-weight);
 }
 .MemberCard-about {
   font-size: 20px;
 }
 .MemberCard {
   width: 332px;
+  color: var(--blue-medium-dark)
 }

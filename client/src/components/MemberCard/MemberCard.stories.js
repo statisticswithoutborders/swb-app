@@ -23,15 +23,20 @@ storiesOf('MemberCard', module)
       return <MemberCard image="var(--about-smita)" name="Smita Skrivanek" position="Operations Director" about="
       Smita Skrivanek works in the field of quality and continuous improvement and consults on process improvement projects. She is interested in human rights, animal rights, environmental and social justice issues."/>
     })   
-    // .add('MemberCard', () => {
-    //   return <MemberCard image name position about/>
-    // })   .add('MemberCard', () => {
-    //   return <MemberCard image name position about/>
-    // })   .add('MemberCard', () => {
-    //   return <MemberCard image name position about/>
-    // })   .add('MemberCard', () => {
-    //   return <MemberCard image name position about/>
-    // })
+    .add('Matt Brems', () => {
+      return <MemberCard image="var(--about-matt)" name="Matt Brems" position="Marketing & Communications Director" about="
+      Matt Brems works at General Assembly as a data science instructor and is managing partner of a consultancy, BetaVector. He is interested in data visualization, missing data, and Python programming. He holds a Master's degree in statistics from The Ohio State University." />
+    })   
+    .add('Cathy Furlong', () => {
+      return <MemberCard image="var(--about-cathy)" name="Cathy Furlong" position="Past Chair (emeritus)" about="
+      Client acquisition co-chair. Cathy Furlong is currently employed in the Medicare fraud industry where she works on data mining, sampling/extrapolations, and Administrative Law Hearings with Medicare data. She holds a Masters in Statistics from American University. Her areas of interest are human rights and nature. Other areas of volunteer work are as a Fair Fax County Master Gardener, on the Glen Echo Park Waltz Committee, and with the Caucus for Women in Statistics." />
+    })  
+     .add('Gary Shapiro', () => {
+      return <MemberCard image="var(--about-Gary)" name="Gary Shapiro" position="Co-Founder" about="Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys. From 1965 to 1993 Gary was at the US..." />
+    })   
+    .add('Steve Pierson', () => {
+      return <MemberCard image="var(--about-steve)" name="Steve Pierson" position="Co-Founder" about="And also an ASA ex officio board member. Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA." />
+    })
 
 
 // --about-swb: url("./assets/images/about_swb_two_people.png");

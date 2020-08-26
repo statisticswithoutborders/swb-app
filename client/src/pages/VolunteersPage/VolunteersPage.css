@@ -46,23 +46,27 @@
     border-bottom: 2px var(--blue) solid;
 }
 
-.VolunteersPage-volunteerfor-card-container {
+.VolunteersPage-volunteerfor-card-container-top {
     width: 90%;
-    height: 900px;
     margin-top: 3%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
     
 
 }
 
-.card-placeholder {
-    justify-self: center;
-    width: 500px;
-    height: 400px;
-    background-color: antiquewhite;
+.VolunteersPage-volunteerfor-card-container-bottom {
+    width: 90%;
+    margin: 3% 0;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-evenly;
+    
+
 }
+
 
 .VolunteersPage-howitworks {
     width: 100%;

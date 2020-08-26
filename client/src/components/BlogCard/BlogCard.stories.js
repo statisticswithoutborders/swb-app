@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import './BlogCard.css'
 import BlogCard from './BlogCard.js';
 import "../../index.css"
-
+import StoryRouter from 'storybook-react-router'
 
 storiesOf('BlogCard', module)
     .add('BlogCard1', () =>{
@@ -15,6 +15,6 @@ storiesOf('BlogCard', module)
 }
 )
    .add('BlogCard3', () =>{
-  return <BlogCard BlogCard title="Title: Blog Post 3" date="Date: February 23, 2020" hr label=""/>
+  return <BlogCard BlogCard title="Title: Blog Post 3" date="Date: February 23, 2020" hr label="Aliquip incididunt velit officia fugiat fugiat excepteur nulla fugiat culpa aute. Ipsum cillum veniam ad fugiat laborum qui consequat adipisicing adipisicing labore ut est ipsum. Aliqua ea laborum duis cillum officia culpa proident qui laboris minim minim incididunt ipsum. Aliquip incididunt dolore sint aliqua duis dolor do ad. Consectetur Lorem quis exercitation amet ut mollit aute ea voluptate duis minim sint id. Eiusmod esse mollit esse ad."/>
 }
 )

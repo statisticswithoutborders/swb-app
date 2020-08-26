@@ -3,6 +3,7 @@ import "./BlogCard.css";
 import "./BlogCard.stories"
 import "../../index.css"
 import Button from "../Button/Button"
+import{ Link } from 'react-router-dom'
 
 
 // Function based React Component
@@ -18,9 +19,9 @@ const BlogCard = (props) => {
       <div className="label">
         {props.label}
       </div>
-     
+      <div class="alignButton">
       <Button class="button" type="primary" callback label="READ MORE" />
-
+      </div>
     </div>
   );
 };

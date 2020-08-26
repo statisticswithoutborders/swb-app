@@ -25,18 +25,23 @@ hr {
     background-color: var(--yellow);
     height: 2px;
     width:100%;
+    display: flexbox;
 }
 
 
 .label {
     font-size: 18px;
+    max-height: 290px;
+    align-content: inherit;
+    /* white-space: nowrap; */
+    margin-bottom: 10px;
+    overflow: hidden;
+    /* text-overflow: hidden; */
     
 }
-
-.button{
-    display:  inline-flexbox;
-    align-self:flex-end;
-    justify-self: center;
-    margin-bottom: 30px;
-    align-items: flex-end;
+.alignButton {
+    align-self:center;
+    flex-direction: column-reverse;
+    margin-top:auto;
+    position: relative;
 }

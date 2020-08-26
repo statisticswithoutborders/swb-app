@@ -18,7 +18,7 @@ class ProjectSummary extends Component {
       <div>
         <NavBar />
         <h1>Statistics Without Borders</h1>
-        <p>
+        <p className="details">
           Our projects are the core of our mission. Through these projects we
           help workers in resource-limited settings who do not have statistical
           training by partnering them with professional and student
@@ -41,7 +41,7 @@ class ProjectSummary extends Component {
               />
         <ProjectCard projectTitle="Whole of Syria Health Cluster:" 
                           image="var(--project-un)" 
-                          projectDescription="Optimize the ETL processes, reducing effort time, minimizing error risks, and improving the quality of the data that were the basis for decision making."
+                          projectDescription={[<strong><i>UN Office for the Coordination of Humanitarian Affairs Humanitarian Response Operation</i></strong>, <br/>, <br/>, "Optimize the ETL processes, reducing effort time, minimizing error risks, and improving the quality of the data that were the basis for decision making."]}
               />
         <ProjectCard projectTitle="UNICEF Sierra Leone" 
                           image="var(--project-unicef-sl)" 

@@ -1,3 +1,15 @@
 .ContactUsPage {
+   width: 100%;
+}
 
+.ContactUsPage-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactUsPage-form-placeholder {
+    width: 90%;
+    height: 500px;
+    background-color: antiquewhite;
 }

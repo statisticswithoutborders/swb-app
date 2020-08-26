@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./ProjectSummary.css";
 import NavBar from "../../components/NavBar/NavBar";
-import ProjectCard from "../../components/ProjectCard/ProjectCard"
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import Footer from "../../components/Footer/Footer";
 
 
 // React Class Page Component
@@ -52,6 +53,8 @@ class ProjectSummary extends Component {
                           projectDescription="A team of Statistics Without Borders (SWB) volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on providing solutions to advancing human health) on the design and execution of a survey in Haiti"
               />
         </div>
+        <hr></hr>
+        <Footer />
       </div>
       </React.Fragment>
     );

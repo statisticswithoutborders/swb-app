@@ -1,3 +1,40 @@
 .FormContact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 90%;
+	max-width: 35em;
+	height: 20em;
+	background-color: var(--blue-lite);
+	border-radius: 15px;
+}
 
+.FormContact-div-inputs {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.FormContact-div-name-email,
+.FormContact-div-org-subject {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+}
+
+.FormContact-label-name,
+.FormContact-label-organization {
+	margin-bottom: 2em;
+}
+
+.FormContact-label-message {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+}
+
+.FormContact-label-message > textarea {
+	width: 90%;
+	height: 5em;
 }

@@ -6,6 +6,7 @@ import ProjectImageGalleryEthiopia from "./ProjectImageGalleryEthiopia";
 import ProjectImageGalleryChimp from "./ProjectImageGalleryChimp";
 import ProjectImageGallerySyria from "./ProjectImageGallerySyria";
 import ProjectImageGalleryUnicef from "./ProjectImageGalleryUnicef";
+import ProjectImageGalleryHaiti from "./ProjectImageGalleryHaiti";
 
 storiesOf("ProjectImageGallery", module)
   .add("ProjectImageGalleryAsante", () => {
@@ -22,4 +23,7 @@ storiesOf("ProjectImageGallery", module)
   })
   .add("ProjectImageGalleryUnicef", () => {
     return <ProjectImageGalleryUnicef />;
+  })
+  .add("ProjectImageGalleryHaiti", () => {
+    return <ProjectImageGalleryHaiti />;
   });

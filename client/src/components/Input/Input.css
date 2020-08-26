@@ -1,40 +1,39 @@
 ::placeholder {
-  /* font-family: "Inter", sans-serif;
+	/* font-family: "Inter", sans-serif;
    */
-  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--cyan-blue-liter);
+	font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--cyan-blue-liter);
 }
 
 .Input-small {
-  /* background-color: gray; */
-  background-color: var(--gray-liter);
-  padding: 5px;
-  width: 35%;
-  border-radius: 30px;
-  border: none;
+	background-color: var(--gray-liter);
+	padding: 5px;
+	width: 15em;
+	border-radius: 30px;
+	border: none;
 }
 
 .Input-small::placeholder {
-  padding-left: 10px;
-  padding-top: 5px;
-  line-height: baseline;
+	padding-left: 10px;
+	padding-top: 5px;
+	line-height: baseline;
 }
 
 .Input-large {
-  /* background-color: gray; */
-  background-color: var(--gray-liter);
-  border-radius: 20px;
-  width: 80%;
-  height: 120px;
-  border: none;
+	/* background-color: gray; */
+	background-color: var(--gray-liter);
+	border-radius: 20px;
+	width: 80%;
+	height: 120px;
+	border: none;
 }
 
 .Input-large::placeholder {
-  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  padding: 10px;
-  padding-top: 15px;
+	font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	padding: 10px;
+	padding-top: 15px;
 }

@@ -18,6 +18,7 @@ const Input = (props) => {
 			name={name}
 			type={type}
 			placeholder={placeholder}
+			className={classList}
 			// value={value}
 			// onChange={onChange}
 		></input>

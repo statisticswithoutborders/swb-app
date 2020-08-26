@@ -4,17 +4,23 @@ import Input from "./Input.js";
 import "./Input.css";
 import "../../index.css";
 
+//* Use notes:
+//* After you copy/paste <Input... into a Form component,
+//* change onChange to onChange={this.handleChange}.
+//* Create a method called handleChange in your component
+//* to implement capturing key strokes in Input
+//* Pass in event: handleChange(e)
+//* Then change value to for each Input story
+//* value={this.state.name} for Name
+//* value={this.state.email} for Email
+//* value={this.state.email} for Email
+//* value={this.state.subject} for Subject
+//* value={this.state.message} for Message
+
 // Form inputs
 storiesOf("Input", module)
 	.add("Name", () => (
-		<Input
-			name="name"
-			type="text"
-			placeholder=" NAME"
-			small
-			// value={this.state.name}
-			// onChange={this.handleChange}
-		/>
+		<Input name="name" type="text" placeholder=" NAME" small value onChange />
 	))
 	.add("Email", () => <Input small placeholder="EMAIL" type="regular" />)
 	.add("Organization", () => (

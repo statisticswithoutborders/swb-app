@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import "./ContactUsPage.css"
 import NavBar from '../../components/NavBar/NavBar'
 import Button from '../../components/Button/Button'
-
+import Footer from '../../components/Footer/Footer'
 
 
 // React Class Page Component
@@ -40,7 +40,7 @@ class ContactUsPage extends Component {
                             <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
                         </Link>
                     </div>
-                    
+                <Footer />
                 </div>
             </div>
         )

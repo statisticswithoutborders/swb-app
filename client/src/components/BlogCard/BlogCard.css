@@ -1,0 +1,49 @@
+
+.BlogCard-title {
+    font-size: 30px;
+}
+
+.BlogCard-date {
+    font-size: 20px;
+}
+
+hr {
+    background-color: var(--yellow);
+    height: 2px;
+    width:100%;
+    display: flexbox;
+}
+
+
+.BlogCard-label {
+    font-size: 18px;
+    max-height: 290px;
+    align-content: inherit;
+    /* white-space: nowrap; */
+    margin-bottom: 10px;
+    overflow: hidden;
+    /* text-overflow: hidden; */
+    
+}
+.alignButton {
+    align-self:center;
+    flex-direction: column-reverse;
+    margin-top:auto;
+    position: relative;
+}
+.BlogCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 490px;
+    background-color: var(--cyan-blue);
+    color: var(--white);
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+    /* var(--banner-weight); */
+    border-radius: 25px;
+    padding: 40px 45px 30px 45px;
+    box-shadow: 1px 3px 5px grey;
+    box-sizing: border-box;
+}

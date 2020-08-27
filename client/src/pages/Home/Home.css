@@ -114,3 +114,16 @@ height : 32px
      flex-direction: column;
      margin-left: 100px;
  }
+ .form{
+     display: flex;
+     justify-content: center;
+ }
+ .cards{
+display: flex;
+justify-content: space-evenly;
+ }
+
+ .card{
+     margin: 0 25px;
+     margin-bottom: 25px
+ }

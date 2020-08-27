@@ -7,6 +7,8 @@ import volunteer_students from "../../assets/images/volunteers_undraw_students.p
 import volunteer_chill from "../../assets/images/volunteers_undraw_chill.png";
 import volunteer_community from "../../assets/images/volunteers_undraw_community.png";
 import FormContact from '../../components/FormContact/FormContact'
+import Video from '../../components/Video/Video'
+
 
 // React Class Page Component
 class VolunteersPage extends Component {
@@ -24,7 +26,9 @@ class VolunteersPage extends Component {
                 <div className="VolunteersPage-volunteerfor">
                     <h2 className="VolunteersPage-volunteerfor-title">Volunteer for SWB</h2>
                     <div className="VolunteersPage-volunteerfor-body">
-                        <div className="VolunteersPage-volunteerfor-video"></div>
+                        <div className="VolunteersPage-volunteerfor-video">
+                        <Video small /* width="675px" height="355px" */ url="https://www.youtube.com/watch?v=1y2-v3W8Ubs" />
+                        </div>
                         <div className="VolunteersPage-volunteerfor-content">
                             <p>Volunteers are the engine that drive Statistics Without Borders: Without the time, energy & knowledge of our generous volunteers, we can’t provide our expertise to our in-need client groups.<br/>
                             <br/>

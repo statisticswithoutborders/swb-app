@@ -16,7 +16,7 @@ class ProjectSummary extends Component {
   render() {
     return (
         <React.Fragment>
-      <div>
+      <div className="container">
        
         <h1>Statistics Without Borders</h1>
         <p className="details">

@@ -6,23 +6,31 @@ configure({ adapter: new Adapter() });
 import Input from "./Input";
 
 describe("<Input />", () => {
-	it("should render as expected", () => {
+	it("should render", () => {
 		const wrapper = shallow(<Input />);
 		expect(wrapper.exists()).toBe(true);
 	});
 
-	it("should render <input>", () => {
+	it("should render <input> element", () => {
 		const wrapper = shallow(<Input />);
 		expect(wrapper.find("input")).toHaveLength(1);
 	});
 
-	it("should render <input>", () => {
+	it("should render <textarea> element", () => {
+		const wrapper = shallow(<Input large />);
+		expect(wrapper.find("textarea")).toHaveLength(1);
+	});
+
+	it("should render with correct props values", () => {
 		const wrapper = shallow(
-			<Input name="name" type="text" placeholder=" NAME" value="" />
+			<Input name="name" type="text" placeholder=" NAME" small value="" />
 		);
-		expect(wrapper.find("input")).to.have.lengthOf(1);
+		expect(wrapper.find("input").props()).toEqual({
+			className: "Input Input-small",
+			name: "name",
+			type: "text",
+			placeholder: " NAME",
+			value: "",
+		});
 	});
 });
-
-// <input name="name" type="text" placeholder=" NAME" value=""></input>
-// const callback = sinon.spy();

@@ -9,7 +9,8 @@ import "../../index.css";
 class Footer extends Component {
   render() {
     return (
-      <div className="Footer">
+      <div className="Footer"><hr />
+
         <div classname="Footer-Column">
           <br></br>
           <div className="Footer-Icons">

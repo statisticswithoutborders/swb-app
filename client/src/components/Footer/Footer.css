@@ -1,4 +1,5 @@
 .Footer {
+  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -8,6 +9,13 @@
   margin-top: 25px;
   width: 100vw;
   height: auto;
+}
+hr{
+  position: absolute;
+  width: 100vw;
+  background-color: var(--blue);
+  top: 0px;
+  height: 1px;
 }
 
 .Footer-Icons {
@@ -36,6 +44,7 @@
 
 @media screen and (max-width: 600px) {
   .Footer {
+   
     display: block;
     text-align: center;
   }

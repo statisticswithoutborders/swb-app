@@ -1,12 +1,12 @@
 import React from "react";
 import { shallow, mount, configure } from "enzyme";
-import Input from "./Input.js";
 import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
+import Input from "./Input";
 
-describe("Input component", () => {
-  it("should render as expected", () => {
-    const component = shallow(<Input />);
-    expect(component.exists()).toBe(true);
-  });
+describe("<Input />", () => {
+	it("should render as expected", () => {
+		const wrapper = shallow(<Input />);
+		expect(wrapper.exists()).toBe(true);
+	});
 });

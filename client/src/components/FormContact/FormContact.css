@@ -1,0 +1,76 @@
+.FormContact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 90%;
+	max-width: 40em;
+	min-height: 20em;
+	padding: 1em;
+	background-color: var(--blue-lite);
+	border-radius: 15px;
+}
+
+.FormContact-div-help-volunteer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--white);
+}
+
+.FormContact-div-help-volunteer > h4 {
+	margin: 0.1em 0 0;
+}
+.FormContact-div-help-volunteer > p {
+	font-size: 0.75em;
+	padding: 0 2em;
+}
+
+.FormContact-div-inputs {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.FormContact-div-name-email,
+.FormContact-div-org-subject {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+}
+
+.FormContact-label-name,
+.FormContact-label-organization {
+	margin-bottom: 2em;
+}
+
+.FormContact-label-message {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin-bottom: 2em;
+}
+
+.FormContact-div-attach {
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+}
+
+.FormContact-div-attach > button {
+	width: 7em;
+	height: 2em;
+	font-size: 0.75em;
+	margin: -1.5em 0 0.5em;
+}
+
+@media screen and (max-width: 450px) {
+	.FormContact-div-inputs {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.FormContact-div-attach > button {
+		height: 1.8em;
+	}
+}

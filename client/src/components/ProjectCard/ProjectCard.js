@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
 
   return(
     <div className={classList}>
-      <h3>{props.projectTitle}</h3>
+      <h3 className="ProjectCard-title">{props.projectTitle}</h3>
       <div className="ProjectCard-image" style={{backgroundImage: props.image}}></div>
       {props.projectDescription ? <p className="ProjectCard-description">{props.projectDescription}</p> :null}
       <Link to ="/">

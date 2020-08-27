@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import "./AboutUsPage.css";
 import "../../index.css";
 import Objective from "../../components/Objective/Objective.js";
 import IconNumber from "../../../src/components/IconNumber/IconNumber";
+import FundingFact from "../../components/FundingFact/FundingFact";
+import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 
 class AboutUsPage extends Component {
   constructor() {
@@ -84,25 +88,124 @@ class AboutUsPage extends Component {
         </div>
         <hr className="about-hr"></hr>
 
+        <h1 className="number-icons-header">Objectives</h1>
         <div className="number-icons-section">
-          <h1 className="number-icons-header">Objectives</h1>
           <div className="number-icons-objectives">
-            <IconNumber type="digit" IconNumber box label="01" />
-            <div className="number-icons-text">SWB</div>
+            <div className="number-icons-icon">
+              <IconNumber type="digit" IconNumber box label="01" />
+            </div>
+            <p className="number-icons-text">
+              SWB advocates objective, impartial and sound decision making using
+              best statistical practices.
+            </p>
           </div>
           <div className="number-icons-objectives">
-            <IconNumber type="digit" IconNumber two label="02" />
-            <p>SWB</p>
+            <div className="number-icons-icon">
+              <IconNumber type="digit" IconNumber two label="02" />
+            </div>
+            <p className="number-icons-text">
+              SWB provides analytical services through client projects for
+              public benefit that support goals that are non-religious,
+              non-political, and non-personal, with a focus on developing
+              countries.
+            </p>
           </div>
           <div className="number-icons-objectives">
-            <IconNumber type="digit" IconNumber three label="03" />
-            <p>SWB</p>
+            <div className="number-icons-icon">
+              <IconNumber type="digit" IconNumber three label="03" />
+            </div>
+            <p className="number-icons-text">
+              SWB assists organizations outside of the for-profit sector, with
+              priorities given to organizations with limited access to
+              statistical resources.
+            </p>
           </div>
           <div className="number-icons-objectives">
-            <IconNumber type="digit" IconNumber four label="04" />
-            <p>SWB</p>
+            <div className="number-icons-icon">
+              <IconNumber type="digit" IconNumber four label="04" />
+            </div>
+            <p className="number-icons-text">
+              SWB strengthens its clients and their communities by helping them
+              build their capacities in statistics, data science and analytics,
+              and promotes best practices in these areas.
+            </p>
           </div>
         </div>
+        <p className="charter-text">Read the SWB Charter</p>
+        <hr className="about-hr"></hr>
+
+        <h1 className="funding-facts-header">Funding Facts</h1>
+        <div className="funding-facts-section">
+          <div className="funding-facts-fact">
+            <FundingFact
+              image="var(--about-give-heart)"
+              description="SWB does not accept payments or remunerations of any kind."
+              imgPositionRight
+            />
+          </div>
+          <div className="funding-facts-fact">
+            {" "}
+            <FundingFact
+              image="var(--about-receive-heart)"
+              description="If you would like to donate, the ASA will accept donations earmarked for SWB use."
+            />{" "}
+          </div>
+          <div className="funding-facts-fact">
+            {" "}
+            <FundingFact
+              image="var(--about-no-fees)"
+              description="SWB does not collect any volunteer fees or subscription dues."
+              imgPositionRight
+            />
+          </div>
+          <div className="funding-facts-fact">
+            {" "}
+            <FundingFact
+              image="var(--about-donate)"
+              description="All donations are used 100% for SWB projects and are never used for payments or reimbursements."
+            />
+          </div>
+        </div>
+        <p className="funding-facts-readtext">
+          Read the Volunteer Code of Conduct and Privacy Policy
+        </p>
+        <hr className="about-hr"></hr>
+
+        <h1 className="broadgreen-header">SWB and ASA: Broadgreen Solutions</h1>
+        <div className="broadgreen-section">
+          <p>
+            In 2017, the American Statistical Association and SWB explored how
+            to move SWB from an outreach group to a more established entity
+            within ASA that continues to reflect its unique characteristics. It
+            also explicitly recognized that SWB is accountable to the ASA Board
+            and that SWB volunteers are expected to adhere to the ASA Ethical
+            Guidelines for Statistical Practice. This gives SWB financial
+            support from ASA and the ability for SWB to manage limited funds in
+            a manner similar to that of the ASA chapters and sections.{" "}
+          </p>
+          <p>
+            SWB is grateful for the assistance and leadership provided by
+            Broadgreen Solutions. Broadgreen Solutions, a Certified B Corp that
+            provides transformation and advisory services, performed exhaustive
+            interviews with SWB Executive Committee members, ASA leadership, SWB
+            organizational partners and other non-profit volunteer associations
+            to discuss the pros and cons of organizational structure, and
+            provided SWB with recommmendations on our future roadmap. SWB also
+            thanks ASA Associate Executive Director Steve Porzio for his
+            invaluable guidance.
+          </p>
+          <p>
+            SWB has grown substantially over the past decade. This rapid growth
+            has enabled SWB to take on more projects, but it has also required
+            the Executive Committe to rethink both of its organizational
+            structure, policies, and procedures. Ultimately, the goal of the SWB
+            Executive Committee is to improve the ability of SWB to be an
+            effective organization promoting the greater good through
+            statistical practice, and do so as an integral part of the ASA
+            organization. SWB looks forward to these positive changes.
+          </p>
+        </div>
+        <hr className="about-hr"></hr>
       </div>
     );
   }

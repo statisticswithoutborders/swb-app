@@ -62,7 +62,6 @@
     margin: 5% 10% 0 0;
     grid-row: 1 / span 4;
     grid-column: 3;
-    /* align-self: flex-end; */
 
     display: flex;
     flex-direction: column;
@@ -77,4 +76,22 @@
 .HowItWorks-detail-body {
     line-height: 1.5;
     font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .HowItWorks-path-container {
+        display: none;
+    }
+
+    .HowItWorks-body-container {
+        grid-template-rows: 1fr .7fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+
+    .HowItWorks-details-container {
+        grid-column: 2 / span 2;
+        margin-top: 0;
+    }
+
 }

@@ -1,9 +1,15 @@
 .ProjectCard {
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--blue-medium-dark);
+    margin: 10px 15px;
+}
+
+.ProjectCard-title {
+    font-size: 20px;
+    margin-top: 80px;
 }
 
 .ProjectCard-image {
@@ -22,5 +28,11 @@
     opacity: .8;
     text-align: center;
     line-height: 1.4;
-    margin: 0 0 10px 0;
+    margin: 30px 5px;
+    font-size: 17px;
+    height: 155px;
+}
+
+.ProjectCard-description i {
+    font-size: 12px;
 }

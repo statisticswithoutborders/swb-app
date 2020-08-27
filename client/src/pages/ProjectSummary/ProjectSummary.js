@@ -17,7 +17,7 @@ class ProjectSummary extends Component {
     return (
         <React.Fragment>
       <div>
-        <NavBar />
+       
         <h1>Statistics Without Borders</h1>
         <p className="details">
           Our projects are the core of our mission. Through these projects we
@@ -54,7 +54,7 @@ class ProjectSummary extends Component {
               />
         </div>
         <hr className="line"></hr>
-        <Footer />
+       
       </div>
       </React.Fragment>
     );

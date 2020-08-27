@@ -4,9 +4,9 @@ import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 import Service from "./Service.js";
 
-describe("Service component", () => {
+describe("<Service />", () => {
 	it("should render as expected", () => {
-		const component = shallow(<Service />);
-		expect(component.exists()).toBe(true);
+		const wrapper = shallow(<Service />);
+		expect(wrapper.exists()).toBe(true);
 	});
 });

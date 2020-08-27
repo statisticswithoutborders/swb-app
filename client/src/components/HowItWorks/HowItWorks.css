@@ -121,6 +121,10 @@
 
 @media screen and (max-width: 375px) {
 
+    .HowItWorks {
+        height: 1300px;
+    }
+
     .HowItWorks-step-image-container-top {
         display: none;
     }

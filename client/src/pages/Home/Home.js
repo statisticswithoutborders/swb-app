@@ -25,7 +25,6 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavBar />
         <div className="banner">
           <div className="words">
             <h1>We Use Data For Good</h1>
@@ -240,7 +239,7 @@ class Home extends Component {
           <FormContact formCallback={this.handleSend} />
         </div>
         <hr className="homeHR" />
-        <Footer />
+       
       </React.Fragment>
     );
   }

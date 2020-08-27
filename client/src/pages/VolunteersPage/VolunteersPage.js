@@ -6,6 +6,7 @@ import volunteers_workspace from "../../assets/images/volunteers_undraw_workspac
 import volunteer_students from "../../assets/images/volunteers_undraw_students.png";
 import volunteer_chill from "../../assets/images/volunteers_undraw_chill.png";
 import volunteer_community from "../../assets/images/volunteers_undraw_community.png";
+import FormContact from '../../components/FormContact/FormContact'
 
 // React Class Page Component
 class VolunteersPage extends Component {
@@ -46,6 +47,10 @@ class VolunteersPage extends Component {
                     <div className="VolunteersPage-hiw-container">
                     <HowItWorks />
                     </div>
+                </div>
+                <div className="VolunteersPage-worktogether">
+                <h2 className="VolunteersPage-section-title">Let's Work Together!</h2>
+                <FormContact volunteer formCallback />
                 </div>
             </div>
         )

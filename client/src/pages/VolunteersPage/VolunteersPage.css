@@ -58,13 +58,8 @@
 .VolunteersPage-volunteerfor-card-container-bottom {
     width: 90%;
     margin: 3% 0;
-    /* display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-evenly;
-    
-
 }
 
 
@@ -78,5 +73,42 @@
 }
 
 .VolunteersPage-hiw-container {
+    width: 80%;
     margin-top: 3%;
+}
+
+.VolunteersPage-worktogether {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 900px) {
+
+    .VolunteersPage-volunteerfor-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    
+    .VolunteersPage-volunteerfor-video {
+        width: 98%;
+        height: 300px;
+        background-color: antiquewhite;
+        margin-top: 2%;
+    }
+    
+    .VolunteersPage-volunteerfor-content {
+        width: 98%;
+        margin: 4% 7%;
+        line-height: 1.4;
+        
+    }
 }

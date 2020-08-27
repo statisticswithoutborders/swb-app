@@ -3,11 +3,14 @@ import { storiesOf } from '@storybook/react';
 import MemberCard from './MemberCard';
 import "../../index.css"
 import StoryRouter from 'storybook-react-router'
+import IconDownArrow from "../IconDownArrow/IconDownArrow"
+
+
 
 storiesOf('MemberCard', module)
     .addDecorator(StoryRouter())
     .add('Jean Opsomer', () =>{
-      return <MemberCard image="var(--about-jean)" name="Jean Opsomer" position="Chair" about="Jean Opsomer is Professor and Chair in the Department of Statistics at Colorado State University. His main areas of statistical expertise are survey statistics and nonparametric methods. He is delighted to be able to assist SWB as it continues to expand its operations and develops a more effective organizational structure."/>
+      return <MemberCard image="var(--about-jean)" name="Jean Opsomer" position="Chair" about="Jean Opsomer is Professor and Chair in the Department of Statistics at Colorado State University. His main areas of statistical expertise are survey statistics and nonparametric methods. He is delighted to be able to assist SWB as it continues to expand its operations and develops a more effective organizational structure." />
     }
 )
     .add('Jae Brodsky', () => {
@@ -15,7 +18,7 @@ storiesOf('MemberCard', module)
     })
     .add('Davina Durgana', () => {
       return <MemberCard image="var(--about-davina)" name="Davina Durgana" position="Vice-Chair Elect" about="
-      Davina P. Durgana, PhD is an award-winning international human rights statistician who has developed leading global models to assess risk and vulnerability to modern slavery. Dr. Durgana is a Report Co-Author and Senior Statistician on the Global Slavery Index of the Minderoo Foundation’s Walk Free Initiative..." link />
+      Davina P. Durgana, PhD is an award-winning international human rights statistician who has developed leading global models to assess risk and vulnerability to modern slavery. Dr. Durgana is a Report Co-Author and Senior Statistician on the Global Slavery Index of the Minderoo Foundation’s Walk Free Initiative..." IconDownArrow />
     })   
     .add('David Whitford', () => {
       return <MemberCard image="var(--about-david)" name="David Whitford" position="Engagement Director" about="
@@ -34,22 +37,8 @@ storiesOf('MemberCard', module)
       Client acquisition co-chair. Cathy Furlong is currently employed in the Medicare fraud industry where she works on data mining, sampling/extrapolations, and Administrative Law Hearings with Medicare data. She holds a Masters in Statistics from American University. Her areas of interest are human rights and nature. Other areas of volunteer work are as a Fair Fax County Master Gardener, on the Glen Echo Park Waltz Committee, and with the Caucus for Women in Statistics." />
     })  
      .add('Gary Shapiro', () => {
-      return <MemberCard image="var(--about-gary)" name="Gary Shapiro" position="Co-Founder" about="Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys. From 1965 to 1993 Gary was at the US..." link />
+      return <MemberCard image="var(--about-gary)" name="Gary Shapiro" position="Co-Founder" about="Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys. From 1965 to 1993 Gary was at the US..." IconDownArrow  />
     })   
     .add('Steve Pierson', () => {
-      return <MemberCard image="var(--about-steve)" name="Steve Pierson" position="Co-Founder" about="And also an ASA ex officio board member. Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA." />
+      return <MemberCard image="var(--about-steve)" name="Steve Pierson" position="Co-Founder" about="And also an ASA ex officio board member. Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA."/>
     })
-
-
-// --about-swb: url("./assets/images/about_swb_two_people.png");
-
-//   --about-jae: url("./assets/images/about_jae_brodsky.png");
-//   --about-davina: url("./assets/images/about_davina_durgana.png");
-//   --about-david: url("./assets/images/about_david_whitford.png");
-//   --about-smita: url("./assets/images/about_smita_skrivanek.png");
-//   --about-matt: url("./assets/images/about_matt_brems.png");
-//   --about-cathy: url("./assets/images/about_cathy_furlong.png");
-//   --about-gary: url("./assets/images/about_gary_shapiro.png");
-//   --about-steve: url("./assets/images/about_steve_pierson.png");
-//   --about-give-heart: url("./assets/images/about_give_heart.png");
-//   --about-receive-heart: url("./assets/images/about_receive_heart.png");

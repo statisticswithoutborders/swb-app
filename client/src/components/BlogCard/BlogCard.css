@@ -14,6 +14,9 @@
     display: flexbox;
 }
 
+.MemberCard-about{
+    text-align: center;
+}
 
 .BlogCard-label {
     font-size: 18px;
@@ -31,6 +34,9 @@
     margin-top:auto;
     position: relative;
 }
+
+
+
 .BlogCard {
     box-sizing: border-box;
     display: flex;

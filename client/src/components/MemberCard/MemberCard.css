@@ -14,10 +14,10 @@
   margin-bottom: 15px;
 }
 
-.MemberCard-line{
-  color: var(--blue-medium-dark)
-
+.MemberCard-line {
+  color: var(--blue-medium-dark);
 }
+
 
 .MemberCard-position {
   font-size: 30px;
@@ -25,12 +25,15 @@
   text-align: center;
   margin-top: 12px;
   margin-bottom: 25px;
-  
 }
 .MemberCard-about {
   font-size: 20px;
+  text-align: left;
 }
+
+
+
 .MemberCard {
-  width: 332px;
-  color: var(--blue-medium-dark)
+  width: 345px;
+  color: var(--blue-medium-dark);
 }

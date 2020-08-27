@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: var(--blue-medium-darker);
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 50px 50px 50px;
+}
+
+.details {
+  font-size: 20px;
+  width: 90%;
+  color: var(--blue-medium-dark);
+  opacity: 80%;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  /* padding: 0px 100px; */
+}
+
+.project-layout {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  /* padding: 0px 100px 0px 120px; */
+}
+
+/* .line {
+  background-color: var(--blue);
+  margin-top: 150px;
+  border: var(--blue) 1px solid;
+} */

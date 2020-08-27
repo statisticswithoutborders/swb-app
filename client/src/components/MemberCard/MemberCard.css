@@ -1,0 +1,40 @@
+.MemberCard-image {
+  height: 330px;
+  width: 332px;
+  border-radius: 25px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MemberCard-name {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.MemberCard-line {
+  color: var(--blue-medium-dark);
+}
+
+
+.MemberCard-position {
+  font-size: 30px;
+  font-weight: var(--paragraph-weight);
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+.MemberCard-about {
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+.MemberCard {
+  width: 345px;
+  max-height: 1000px;
+  color: var(--blue-medium-dark);
+}

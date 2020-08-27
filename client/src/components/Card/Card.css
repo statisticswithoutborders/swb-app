@@ -1,0 +1,75 @@
+.how_you_can_benefit {
+  background-color: var(--cyan-blue);
+  max-width: 21%;
+  max-height: 18%;
+  text-align: center;
+  border-radius: 5%;
+  color: white;
+  font-size: 0.6rem;
+  font-family: var(--paragraph-font);
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.how_you_can_benefit h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.how_you_can_benefit p {
+  padding: 0 1.1rem 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+.how_you_can_benefit img {
+  width: 60%;
+  height: auto;
+}
+
+.what_we_do {
+  width: 22%;
+  height: 20%;
+  text-align: center;
+  border-radius: 5%;
+  color: white;
+  background-color: var(--cyan-blue);
+  font-family: var(--paragraph-font);
+}
+.what_we_do p {
+  padding: 0 1.9rem 2.2rem 1.9rem;
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+.what_we_do img {
+  padding-top: 10%;
+  width: 45%;
+  height: 45%;
+}
+.what_we_do h3 {
+  font-weight: 900;
+}
+
+.our_volunteers {
+  width: 28%;
+  height: 25%;
+  text-align: center;
+  border: 2px solid var(--cyan-blue);
+  border-radius: 5%;
+  padding: 1.3rem;
+  padding-top: 1.8rem;
+  font-family: var(--paragraph-font);
+  color: var(--blue-magenta-dark);
+}
+.our_volunteers h3 {
+  width: 60%;
+  margin-left: 20%;
+  font-weight: bolder;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.our_volunteers p {
+  font-size: 0.7rem;
+  padding: 0 1.1rem 0 1.1rem;
+  margin-top: 8px;
+}
+.our_volunteers img {
+  width: 60%;
+  height: 60%;
+}

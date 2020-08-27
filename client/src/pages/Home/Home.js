@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import "./Home.css";
-import NavBar from "../../components/NavBar/NavBar";
 import Button from "../../components/Button/Button";
 import Globe from "../../assets/images/home_globe.png";
 import Analysis from "../../assets/images/home_analysis.png";
 import Bullet from "../../assets/images/Slice 1.png";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import Testimonial from "../../components/Testimonial/Testimonial";
-import Footer from "../../components/Footer/Footer";
 import WhoWeAreCard from "../../components/WhoWeAreCard/WhoWeAreCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import FormContact from "../../components/FormContact/FormContact";

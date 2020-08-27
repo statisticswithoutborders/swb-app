@@ -1,26 +1,35 @@
 .how_you_can_benefit {
   background-color: var(--cyan-blue);
-  max-width: 21%;
-  max-height: 18%;
+  max-width: 33%;
   text-align: center;
   border-radius: 5%;
   color: white;
   font-size: 0.6rem;
   font-family: var(--paragraph-font);
-  padding: 1rem 1rem 0.5rem 1rem;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
 }
 .how_you_can_benefit h3 {
   font-size: 1.5rem;
-  margin-bottom: 0;
+  text-shadow: 1px 2px 2px grey;
+  width: fit-content;
+  border-bottom: .5px solid white;
+  margin: 0 auto;
+  line-height: 1;
+  padding: 10% 0% 0% 0%;
 }
 .how_you_can_benefit p {
-  padding: 0 1.1rem 0.5rem 1.1rem;
+  padding: 0% 15% 10% 15%;
   font-size: 0.9rem;
   font-weight: lighter;
+  text-shadow: 1px 2px 2px grey;
+  line-height: 1.2;
 }
 .how_you_can_benefit img {
-  width: 60%;
+  width: 50%;
   height: auto;
+  margin: 0 auto;
 }
 
 .what_we_do {

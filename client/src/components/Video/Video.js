@@ -12,7 +12,7 @@ function Video(props) {
       classList+= ` Video-small`
     }
   return (
-    <div>
+    <div className = "Video-large` `Video-small`">
       <ReactPlayer width= {props.width} height={props.height} className={classList} url={props.url} />
     </div>
   )

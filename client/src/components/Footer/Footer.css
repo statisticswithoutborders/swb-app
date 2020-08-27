@@ -10,8 +10,8 @@
   width: 100vw;
   height: auto;
 }
-hr{
-  position: absolute;
+.Footer-hr{
+  margin: 0;
   width: 100vw;
   background-color: var(--blue);
   top: 0px;

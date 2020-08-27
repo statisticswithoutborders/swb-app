@@ -1,6 +1,5 @@
 import React from "react";
 import { shallow, mount, configure } from "enzyme";
-import sinon from "sinon";
 import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 import Input from "./Input";

@@ -10,3 +10,10 @@ describe("FundingFact component", () => {
     expect(component.exists()).toBe(true);
   });
 });
+
+describe("FundingFact component", () => {
+  it("has an image", () => {
+    const component = shallow(<FundingFact />);
+    expect(component.exists()).toBe(true);
+  });
+});

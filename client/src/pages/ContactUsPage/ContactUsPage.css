@@ -2,12 +2,12 @@
    width: 98%;
 }
 
+
 .ContactUsPage-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
-    border-bottom: 3px var(--blue) solid;
 }
 
 .ContactUsPage-header {
@@ -17,7 +17,10 @@
 .ContactUsPage-form-placeholder {
     width: 90%;
     height: 500px;
-    background-color: antiquewhite;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    /* background-color: antiquewhite; */
 }
 
 .ContactUsPage-button {
@@ -31,4 +34,12 @@
 .ContactUsPage-inquiries a {
     text-decoration: none;
     color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+
+    .ContactUsPage-header {
+        font-size: 20px;
+    }
+
 }

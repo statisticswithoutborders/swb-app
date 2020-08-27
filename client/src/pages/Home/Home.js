@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./Home.css";
-import NavBar from "../../components/NavBar/NavBar";
 import Button from "../../components/Button/Button";
 import Globe from "../../assets/images/home_globe.png";
 import Analysis from "../../assets/images/home_analysis.png";
 import Bullet from "../../assets/images/Slice 1.png";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import Testimonial from "../../components/Testimonial/Testimonial";
-import Footer from "../../components/Footer/Footer";
+
 import WhoWeAreCard from "../../components/WhoWeAreCard/WhoWeAreCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import FormContact from "../../components/FormContact/FormContact";
@@ -42,13 +41,14 @@ class Home extends Component {
           <h2>Our Mission</h2>
           <img src={Analysis} />
         </div>
+        <div className = 'missionstatement'>
         <h3 className="probono">
           We provide pro bono services in statistics and data science, to
           improve decision making and knowledge in efforts that promote welfare
           through the proper application of statistical principles and best
           practices, where access to such resources is limited
         </h3>
-
+        </div>
         <div className="bulletpoint">
           {" "}
           <img src={Bullet} className="bullet" />
@@ -107,12 +107,6 @@ class Home extends Component {
         </div>
         <hr className="homeHR" />
         <h2>Who We Are</h2>
-        <h3>
-          We work to improve decision making and knowledge in efforts that
-          promote welfare through the proper application of statistical
-          principles and best practices, where access to such resources is
-          limited.
-        </h3>
         <div className="wwa">
           <div className="wwac">
             <WhoWeAreCard
@@ -238,7 +232,6 @@ class Home extends Component {
         <div className = 'form'>
           <FormContact formCallback={this.handleSend} />
         </div>
-        <hr className="homeHR" />
        
       </React.Fragment>
     );

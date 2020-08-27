@@ -1,5 +1,4 @@
 body {
-    /* font-family: "Nunito Sans", sans-serif; */
     color: var(--blue-medium-dark); 
 }
 .banner {
@@ -13,15 +12,28 @@ body {
     margin-right: -16px;
 }
 
+.banner h1{
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin-left: -3px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.banner p{
+    font-size: 20px;
+}
+
 .statement{
-    width: 695px;
-    font-size: 25px;
-    padding: 5px 0 20px;
+    width: 650px;
+    /* padding: 5px 0 20px; */
     font-weight: bold;
 }
 
 h1 {
    font-size: 50px;
+
 }
 
 .mission{
@@ -50,10 +62,6 @@ h3{
     background-color:  var(--blue) !important;
 }
 
-
-
-
-
 .bulletpoint{
     display: flex;
     margin-bottom: 30px;
@@ -77,6 +85,9 @@ height : 32px
     margin-top: -40px;
     
 }
+.wwd h2{
+    margin: 20px;
+} 
 
 .wwd2{
     width: 930px;
@@ -94,9 +105,15 @@ height : 32px
 .project{
     margin: 0 25px;
 }
-
+.missionstatement{
+    display: flex;
+    justify-content: center;
+}
 .probono{
+    display: flex;
     font-size: 18px;
+    width: 930px;
+   
 }
 
 .wwa{

@@ -35,5 +35,6 @@
 
 .MemberCard {
   width: 345px;
+  max-height: 1000px;
   color: var(--blue-medium-dark);
 }

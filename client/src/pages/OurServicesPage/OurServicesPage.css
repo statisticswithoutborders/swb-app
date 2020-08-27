@@ -61,3 +61,22 @@
     justify-content: center;
 }
 
+
+@media only screen and (max-width: 800px) {
+    .services-cards-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-card{
+        margin-bottom: 40px;
+    }
+    .clients-img-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients-img{
+        margin-bottom: 20px;
+    }
+  }
+
+

@@ -1,0 +1,194 @@
+.pictureGalleryDiv {
+  height: 40vh;
+  width: 40vw;
+}
+.pPageImgOne {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 15px;
+  display: block;
+}
+.pPageImgTwo {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 15px;
+  display: none;
+}
+.pPageImgThree {
+  height: 40vh;
+  width: 40vw;
+  border-radius: 15px;
+  display: none;
+}
+.pPageDisplay {
+  display: block;
+}
+.pPageNonDisplay {
+  display: none;
+}
+.galleryImageBtn {
+  height: 7px;
+  width: 7px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  margin: 0 5px 0 5px;
+}
+.galleryBtnsDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.selectedGalleryImg {
+  background-color: var(--cyan-blue);
+}
+/* asante */
+
+.asanteOne {
+  background-image: var(--project1-asante);
+  background-position: center;
+  background-size: cover;
+}
+.asanteTwo {
+  background-image: var(--project-asante);
+  background-position: center;
+  background-size: cover;
+}
+.asanteThree {
+  background-image: var(--home-asante);
+  background-position: center;
+  background-size: cover;
+}
+
+/* ethiopia */
+
+.ethiopiaOne {
+  background-image: var(--project2-stc);
+  background-position: center;
+  background-size: cover;
+}
+.ethiopiaTwo {
+  background-image: var(--project-stc);
+  background-position: center;
+  background-size: cover;
+}
+.ethiopiaThree {
+  background-image: var(--home-stc);
+  background-position: center;
+  background-size: cover;
+}
+/* chimp */
+
+.chimpOne {
+  background-image: var(--project3-chimp);
+  background-position: center;
+  background-size: cover;
+}
+.chimpTwo {
+  background-image: var(--project-chimp);
+  background-position: center;
+  background-size: cover;
+}
+.chimpThree {
+  background-image: var(--home-chimp);
+  background-position: center;
+  background-size: cover;
+}
+/* syria */
+
+.syriaOne {
+  background-image: var(--project4-un);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.syriaTwo {
+  background-image: var(--project-un);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.syriaThree {
+  background-image: var(--project4-un);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* unicef */
+
+.unicefOne {
+  background-image: var(--project5-unicef);
+  background-position: center;
+  background-size: cover;
+}
+.unicefTwo {
+  background-image: var(--project-unicef-sl);
+  background-position: center;
+  background-size: cover;
+}
+.unicefThree {
+  background-image: var(--home-unicef-sl);
+  background-position: center;
+  background-size: cover;
+}
+/* haiti */
+
+.haitiOne {
+  background-image: var(--project6-haiti);
+  background-position: center;
+  background-size: cover;
+}
+.haitiTwo {
+  background-image: var(--project-haiti);
+  background-position: center;
+  background-size: cover;
+}
+.haitiThree {
+  background-image: var(--home-haiti);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 890px) {
+  .pictureGalleryDiv {
+    width: 60vw;
+  }
+  .pPageImgOne {
+    width: 60vw;
+  }
+  .pPageImgTwo {
+    width: 60vw;
+  }
+  .pPageImgThree {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 675px) {
+  .pictureGalleryDiv {
+    width: 70vw;
+  }
+  .pPageImgOne {
+    width: 70vw;
+  }
+  .pPageImgTwo {
+    width: 70vw;
+  }
+  .pPageImgThree {
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pictureGalleryDiv {
+    height: 30vh;
+  }
+  .pPageImgOne {
+    height: 30vh;
+  }
+  .pPageImgTwo {
+    height: 30vh;
+  }
+  .pPageImgThree {
+    height: 30vh;
+  }
+}

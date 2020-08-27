@@ -9,4 +9,6 @@ describe("<Input />", () => {
 		const wrapper = shallow(<Input />);
 		expect(wrapper.exists()).toBe(true);
 	});
+
+	it("should render <input> with name = 'name'");
 });

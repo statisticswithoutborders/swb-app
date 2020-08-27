@@ -5,24 +5,22 @@ import "./App.css";
 import { render } from "enzyme";
 import Home from './pages/Home/Home'
 import NavBar from './components/NavBar/NavBar'
+import ContactUs from './pages/ContactUsPage/ContactUsPage'
+import Footer from './components/Footer/Footer'
 
-class App extends Component() {
-  constructor(props) {
-		super(props);
-		this.state = {
-			value: "",
-    };
-  }
-    render() {
+function App() {
+   
       return(
         <React.Fragment>
       <div>
         <NavBar/>
         <Route path = "/" component = {Home} exact = {true} />
+        <Route path = "/contactus" component = {ContactUs} exact = {true} />
       </div>
+      <Footer/>
       </React.Fragment>
       )
-    }
+    
 }
 
 export default App;

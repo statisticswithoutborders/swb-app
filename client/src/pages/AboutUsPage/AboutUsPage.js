@@ -88,6 +88,8 @@ class AboutUsPage extends Component {
         </div>
         <hr className="about-hr"></hr>
 
+        <h1>Our Members</h1>
+
         <h1 className="number-icons-header">Objectives</h1>
         <div className="number-icons-section">
           <div className="number-icons-objectives">

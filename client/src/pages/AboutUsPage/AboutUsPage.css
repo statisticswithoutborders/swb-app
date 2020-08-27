@@ -116,4 +116,8 @@
   .container {
     display: block;
   }
+  .number-icons-objectives {
+    display: flex;
+    flex-direction: column;
+  }
 }

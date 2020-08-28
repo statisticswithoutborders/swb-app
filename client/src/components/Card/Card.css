@@ -1,6 +1,7 @@
 .how_you_can_benefit {
   background-color: var(--cyan-blue);
-  max-width: 33%;
+  max-width: 30vw;
+  height: 50vh;
   text-align: center;
   border-radius: 5%;
   color: white;
@@ -33,7 +34,8 @@
 }
 
 .what_we_do {
-  max-width: 33%;
+  max-width: 30vw;
+  max-height: 55vh;
   text-align: center;
   border-radius: 5%;
   color: white;
@@ -46,7 +48,7 @@
 
 .what_we_do p {
   padding: 0% 15% 5% 15%;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: lighter;
   line-height: 1.2;
   text-shadow: 1px 2px 2px grey;
@@ -67,12 +69,12 @@
 }
 
 .our_volunteers {
-  max-width: 34%;
-
+  max-width: 35vw;
+  /* min-height: 50vh; */
   text-align: center;
   border: 2px solid var(--cyan-blue);
   border-radius: 5%;
-  padding: 1.3rem;
+  padding-bottom: 1.3rem;
   padding-top: 1.8rem;
   font-family: var(--paragraph-font);
   color: var(--blue-magenta-dark);
@@ -85,9 +87,10 @@
   font-size: 1rem;
 }
 .our_volunteers p {
-  font-size: 0.7rem;
-  padding: 0 1.1rem 0 1.1rem;
-  margin-top: 8px;
+  font-size: 0.8rem;
+  padding: 0 2.5rem 0 2.5rem;
+  margin-top: 7%;
+  
 }
 .our_volunteers img {
   width: 60%;

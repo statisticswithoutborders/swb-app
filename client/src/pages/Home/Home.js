@@ -201,7 +201,7 @@ class Home extends Component {
 
         <h2>SWB Blog</h2>
         <div className="blogs">
-          <div>
+          <div className = 'blog'  className = 'blog'>
             <BlogCard
               title="Title: Blog Post 1"
               date="Date: May 20, 2020"
@@ -209,7 +209,7 @@ class Home extends Component {
               label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
             />
           </div>
-          <div>
+          <div className = 'blog'>
             <BlogCard
               title="Title: Blog Post 2"
               date="Date: March 9, 2020"
@@ -217,7 +217,7 @@ class Home extends Component {
               label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
             />
           </div>
-          <div>
+          <div className = 'blog'>
             <BlogCard
               title="Title: Blog Post 3"
               date="Date: February 23, 2020"

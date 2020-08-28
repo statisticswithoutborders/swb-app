@@ -1,10 +1,11 @@
 .Nav_item-wrapper {
   list-style-type: none;
   margin: 0;
-  margin-left: 30%;
+  margin-left: 42%;
   padding: 0;
   color: var(--blue);
   float: right;
+  display: flex;
 }
 
 .Nav_item {
@@ -23,7 +24,7 @@
 
 .Header {
   display: flex;
-  width: 100% vw;
+  width: 100vw;
 }
 
 .logo {

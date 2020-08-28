@@ -1,4 +1,12 @@
+.title-services {
+    text-align: center;
+    color: #565970;
+    margin-top: 10px;
+}
 
+.intro-services {
+    text-align: center;
+    color: #403D57;
     margin-left: 10%;
     margin-right: 10%;
 }

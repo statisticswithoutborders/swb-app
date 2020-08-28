@@ -29,9 +29,14 @@
   margin: 20px 15px;
   font-size: 18px;
   text-align: left;
-  line-height: 125%;
-  max-height: 310px;
+  max-height: 300px;
   overflow: hidden;
+  /* text-overflow: ellipsis; */
+}
+
+.MemberCard-expand {
+  overflow: visible;
+  max-height: 1000px;
 }
 
 .MemberCard {

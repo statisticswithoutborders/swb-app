@@ -14,13 +14,13 @@
   font-size: 1.5rem;
   text-shadow: 1px 2px 2px grey;
   width: fit-content;
-  border-bottom: .5px solid white;
+  border-bottom: 0.5px solid white;
   margin: 0 auto;
   line-height: 1;
   padding: 10% 0% 0% 0%;
 }
 .how_you_can_benefit p {
-  padding: 0% 15% 10% 15%;
+  padding: 0% 15% 5% 15%;
   font-size: 0.9rem;
   font-weight: lighter;
   text-shadow: 1px 2px 2px grey;
@@ -33,31 +33,42 @@
 }
 
 .what_we_do {
-  width: 22%;
-  height: 20%;
+  max-width: 33%;
   text-align: center;
   border-radius: 5%;
   color: white;
   background-color: var(--cyan-blue);
   font-family: var(--paragraph-font);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
+
 .what_we_do p {
-  padding: 0 1.9rem 2.2rem 1.9rem;
+  padding: 0% 15% 5% 15%;
   font-size: 0.7rem;
   font-weight: lighter;
+  line-height: 1.2;
+  text-shadow: 1px 2px 2px grey;
 }
 .what_we_do img {
   padding-top: 10%;
-  width: 45%;
-  height: 45%;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
 }
 .what_we_do h3 {
   font-weight: 900;
+  text-shadow: 1px 2px 2px grey;
+  width: fit-content;
+  border-bottom: 0.5px solid white;
+  padding: 10% 0% 0% 0%;
+  margin: 0 auto;
 }
 
 .our_volunteers {
-  width: 28%;
-  height: 25%;
+  max-width: 34%;
+
   text-align: center;
   border: 2px solid var(--cyan-blue);
   border-radius: 5%;

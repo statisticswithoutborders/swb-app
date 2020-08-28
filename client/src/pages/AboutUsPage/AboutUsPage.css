@@ -3,33 +3,31 @@
   height: 100vh;
 }
 
-.about-img {
-  height: 400px;
-  background: no-repeat;
-  background-size: contain;
-  width: 45%;
-  display: inline-block;
-  margin-right: 40px;
-  margin-top: 30px;
-}
-
 .about-title {
   color: #565970;
+  margin-top: -5%;
 }
 
+.about-swb {
+  display: flex;
+  flex-direction: row;
+}
 .about-swb p {
   color: #565970;
   font-size: 18px;
 }
 
-.section-p {
-  margin-bottom: 20px;
-  overflow: hidden;
-  text-align: start;
+.about-img {
+  background: no-repeat;
+  background-size: contain;
+  width: 210%;
+  margin: 5%;
 }
 
-.section-p-one {
-  margin-top: 40px;
+.section-p {
+  margin-bottom: 25px;
+  margin-right: 16%;
+  text-align: start;
 }
 
 .about-hr {
@@ -52,14 +50,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: -3%;
 }
 
 .member-row {
   display: flex;
+  justify-content: space-evenly;
+  width: inherit;
 }
 
 .member-cards {
-  /* text-align: center; */
   margin: 5px 20px;
 }
 
@@ -78,6 +79,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: #565970;
   margin: 60px;
+  margin-top: -2%;
 }
 .number-icons-objectives {
   display: flex;
@@ -102,7 +104,18 @@
   text-align: right;
   color: #565970;
   font-size: 22px;
-  margin-right: 15%;
+  margin-right: 18%;
+  margin-bottom: -2%;
+}
+
+.charter-underline {
+  border-bottom: 0.5px gray solid;
+  text-decoration: none;
+  color: #565970;
+}
+
+.funding-facts-header {
+  margin-top: -4%;
 }
 
 .funding-facts-section {
@@ -113,35 +126,57 @@
 .funding-facts-fact {
   padding-left: 10%;
   margin: 15px;
+  line-height: 125%;
 }
 
 .funding-facts-readtext {
+  font-size: 18px;
+  color: #565970;
   float: right;
   margin-right: 5%;
+  margin-top: 2%;
+}
+
+.volunteer-underline {
+  border-bottom: 0.5px gray solid;
+  text-decoration: none;
+  color: #565970;
 }
 .broadgreen-header {
   margin-bottom: 5%;
 }
 .broadgreen-section {
-  margin: -5px 110px;
+  margin: -5px 150px;
   font-size: 22px;
   color: #565970;
-  line-height: 135%;
+  line-height: 145%;
   text-align: start;
 }
-@media screen and (max-width: 600px) {
-  .container {
-    display: block;
+
+@media screen and (max-width: 750px) {
+  .about-title {
+    margin-top: 5%;
   }
-  .about-swb-p {
-    display: block;
+  .about-swb {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-img {
+    width: 500%;
+    justify-items: left;
   }
   .member-row {
     display: block;
-    margin: auto;
+    padding: 10%;
   }
   .number-icons-objectives {
-    display: flex;
-    flex-direction: column;
+    display: block;
+  }
+  .broadgreen-section {
+    display: inline;
+    font-size: 95%;
+  }
+  .objective-section {
+    display: inline;
   }
 }

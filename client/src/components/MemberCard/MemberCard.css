@@ -39,3 +39,23 @@
   max-height: 1000px;
   color: var(--blue-medium-dark);
 }
+@media screen and (max-width: 750px) {
+  .MemberCard-image {
+    width: 75%;
+    margin-left: 10%;
+  }
+  .MemberCard-name {
+    width: 65%;
+    margin-left: 15%;
+  }
+  .MemberCard-position {
+    width: 65%;
+    margin-left: 15%;
+  }
+  .MemberCard-about {
+    width: 65%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 95%;
+  }
+}

@@ -20,12 +20,12 @@ class AboutUsPage extends Component {
         <h1 className="about-title">We are SWB</h1>
 
         <div class="about-swb">
+          <div
+            className="about-img"
+            style={{ backgroundImage: "var(--about-swb)", float: "left" }}
+          ></div>
           <p className="about-swb-p">
-            <div
-              className="about-img"
-              style={{ backgroundImage: "var(--about-swb)", float: "left" }}
-            ></div>
-            <div className="section-p section-p-one">
+            <div className="section-p">
               Statistics Without Borders (SWB) is a volunteer Outreach Group of
               the American Statistical Association (ASA) that provides pro bono
               services in statistics and data science. We work to improve
@@ -54,6 +54,7 @@ class AboutUsPage extends Component {
           </p>
         </div>
         <hr className="about-hr"></hr>
+
         <h1 className="about-title">How We Started</h1>
         <div className="objective-section objective-section-one">
           <Objective
@@ -180,8 +181,8 @@ class AboutUsPage extends Component {
               <IconNumber type="digit" IconNumber box label="01" />
             </div>
             <p className="number-icons-text">
-              SWB advocates objective, impartial and sound decision making using
-              best statistical practices.
+              SWB advocates objective, impartial, and sound decision making
+              using best statistical practices.
             </p>
           </div>
           <div className="number-icons-objectives">
@@ -216,7 +217,12 @@ class AboutUsPage extends Component {
             </p>
           </div>
         </div>
-        <p className="charter-text">Read the SWB Charter</p>
+        <p className="charter-text">
+          Read the{" "}
+          <a href="" className="charter-underline">
+            SWB Charter
+          </a>
+        </p>
         <hr className="about-hr"></hr>
 
         <h1 className="funding-facts-header">Funding Facts</h1>
@@ -252,7 +258,10 @@ class AboutUsPage extends Component {
           </div>
         </div>
         <p className="funding-facts-readtext">
-          Read the Volunteer Code of Conduct and Privacy Policy
+          Read the{" "}
+          <a href="" className="volunteer-underline">
+            Volunteer Code of Conduct and Privacy Policy
+          </a>
         </p>
         <hr className="about-hr"></hr>
 

@@ -157,7 +157,6 @@ h3 {
 }
 
 @media (max-width: 1199.98px) {
-
   .card .what_we_do {
     width: 300px;
   }
@@ -184,7 +183,7 @@ h3 {
     width: 250px;
   }
 
-  .WhoWeAreCard-title{
+  .WhoWeAreCard-title {
     font-size: 30px;
   }
   .WhoWeAreCard-image {
@@ -192,7 +191,7 @@ h3 {
     height: 250px;
   }
   .card {
-      margin: 10px 5px
+    margin: 10px 5px;
   }
 
   .card .what_we_do {
@@ -216,24 +215,90 @@ h3 {
   }
 
   .BlogCard-label {
-      font-size: 14px;
+    font-size: 14px;
   }
 
-  .wwd2{
-      width: 736px;
+  .wwd2 {
+    width: 736px;
   }
 
   .banner h1 {
     font-size: 30px;
   }
-  
+
   .banner p {
     font-size: 15px;
     width: 300px;
   }
 
-  .project{
-      margin: 0 15px;
+  .project {
+    margin: 0 15px;
   }
-  
+}
+
+@media (max-width: 575.98px) {
+  .cards {
+    flex-direction: column;
+  }
+  .banner h1 {
+    font-size: 20px;
+    margin: 14px;
+    margin-left: -3px;
+  }
+
+  .banner p {
+    font-size: 10px;
+    width: 180px;
+  }
+
+  .words{
+    margin-left: -20px;
+    margin-top: -60px;
+  }
+
+  .banner{
+      height: 200px;
+  }
+
+  .button-large{
+      width: 120px;
+      font-size: 15px;
+      height: 35px;
+  }
+
+  .globe{
+      width: 100px;
+      height: 110px;
+  }
+
+  .analysis{
+    width: 100px;
+    height: 110px;
+}
+
+.om{
+    margin-top: 3px;
+    margin-left: 15px ;
+}
+
+.wwd2{
+    width: 343px;
+}
+
+.wwa{
+    flex-direction: column;
+    justify-content: center;
+}
+.WhoWeAreCard{
+    margin:  0 12%;
+}
+
+.blogs{
+    flex-direction: column;
+
+}
+
+.blog {
+    margin: 10px 12%
+}
 }

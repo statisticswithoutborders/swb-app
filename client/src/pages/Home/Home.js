@@ -39,9 +39,9 @@ class Home extends Component {
           </div>
         </div>
         <div className="mission">
-          <img src={Globe} />
-          <h2>Our Mission</h2>
-          <img src={Analysis} />
+          <img className = 'globe'src={Globe} />
+          <h2 className = 'om'>Our Mission</h2>
+          <img className = 'analysis' src={Analysis} />
         </div>
         <div className = 'missionstatement'>
         <h3 className="probono">

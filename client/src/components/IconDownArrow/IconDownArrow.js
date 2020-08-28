@@ -5,16 +5,19 @@ import "./IconDownArrow.css";
 const IconDownArrow = (props) => {
 
 
-  let classList = `IconDownArrow`;
+  let classList = [`IconDownArrow`];
+  if (props.arrowUp) {
+    classList.push('IconDownArrow-up')
+  }
 
   const handleClick = () => {
-    props.callback()
+    props.callBack()
   }
 
   return (
-    <div className={classList}>
+    <div className={classList.join(' ')}>
       <div>
-        <div onClick={handleClick} style={{ color: "#C4C4C4", cursor: 'pointer' }}>&#9660;</div>
+        <div onClick={handleClick} style={{ cursor: 'pointer' }}>&#9660;</div>
       </div>
 
     </div>

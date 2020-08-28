@@ -7,13 +7,16 @@
     font-size: 20px;
 }
 
-hr {
+.BlogCard-hr {
     background-color: var(--yellow);
     height: 2px;
     width:100%;
     display: flexbox;
 }
 
+.MemberCard-about{
+    text-align: center;
+}
 
 .BlogCard-label {
     font-size: 18px;
@@ -31,6 +34,9 @@ hr {
     margin-top:auto;
     position: relative;
 }
+
+
+
 .BlogCard {
     box-sizing: border-box;
     display: flex;

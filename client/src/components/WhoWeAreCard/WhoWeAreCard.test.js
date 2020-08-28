@@ -5,8 +5,6 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 
-
-
 describe('WhoWeAreCard component', () => {
 
   const wrapper = shallow(<WhoWeAreCard link='/' />)

@@ -1,3 +1,5 @@
+
+
 .Nav_item-wrapper {
   list-style-type: none;
   margin: 0;
@@ -23,7 +25,7 @@
 
 .Header {
   display: flex;
-  width: 100% vw;
+  width: 100%;
 }
 
 .logo {
@@ -36,3 +38,5 @@
   margin-top: 5px;
   height: 40px;
 }
+
+

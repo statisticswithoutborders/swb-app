@@ -18,7 +18,7 @@ storiesOf('MemberCard', module)
     })
     .add('Davina Durgana', () => {
       return <MemberCard image="var(--about-davina)" name="Davina Durgana" position="Vice-Chair Elect" about="
-      Davina P. Durgana, PhD is an award-winning international human rights statistician who has developed leading global models to assess risk and vulnerability to modern slavery. Dr. Durgana is a Report Co-Author and Senior Statistician on the Global Slavery Index of the Minderoo Foundation’s Walk Free Initiative...   Voluptate magna dolor ex aliquip. Magna fugiat mollit ad consectetur cupidatat ea enim esse ut quis laboris cillum. Laboris minim eu ex mollit culpa eu do tempor fugiat quis eu. Magna dolore eiusmod proident reprehenderit laborum laboris qui fugiat ea elit. Fugiat qui incididunt fugiat Lorem." IconDownArrow />
+      Davina P. Durgana, PhD is an award-winning international human rights statistician who has developed leading global models to assess risk and vulnerability to modern slavery. Dr. Durgana is a Report Co-Author and Senior Statistician on the Global Slavery Index of the Minderoo Foundation’s Walk Free Initiative...   Voluptate magna dolor ex aliquip. Magna fugiat mollit ad consectetur cupidatat ea enim esse ut quis laboris cillum. Laboris minim eu ex mollit culpa eu do tempor fugiat quis eu. Magna dolore eiusmod proident reprehenderit laborum laboris qui fugiat ea elit. Fugiat qui incididunt fugiat Lorem.The End" IconDownArrow />
     })   
     .add('David Whitford', () => {
       return <MemberCard image="var(--about-david)" name="David Whitford" position="Engagement Director" about="

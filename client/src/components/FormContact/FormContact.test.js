@@ -7,11 +7,11 @@ import FormContact from "./FormContact.js";
 describe("<FormContact />", () => {
 	const wrapperS = shallow(<FormContact />);
 	const wrapperM = mount(<FormContact />);
-	// const testName = "Joe";
-	// beforeAll(() => {
-	// 	const inputName = wrapperM.find("input").first();
-	// 	inputName.simulate("change", { target: { name: testName } });
-	// });
+
+	beforeAll(() => {
+		let input = wrapperM.find("input").first();
+		input.simulate("change", { target: { value: "Joe", name: "name" } });
+	});
 
 	it("should render", () => {
 		expect(wrapperS.exists()).toBe(true);
@@ -35,12 +35,16 @@ describe("<FormContact />", () => {
 		expect(wrapperVol.find(".FormContact-div-help-volunteer")).toHaveLength(1);
 	});
 
+	//* Test if this.handleChange method is updating state on keydown event
 	it("should update state property name to 'Joe'", () => {
-		let input = wrapperM.find("input").first();
-		input.simulate("change", { target: { value: "Joe", name: "name" } });
 		expect(wrapperM.state("name")).toEqual("Joe");
 	});
-	// it("should submit data on submit", () => {
+
+	//* Test if this.handleSubmit method is submitting data
+	it("should submit name onSubmit", () => {
+		let form = wrapperM.find("form");
+		form.simulate("submit");
+	});
 	// const testState = {
 	// 		name: "Joe",
 	// 		email: "joe@g.com",

@@ -8,11 +8,6 @@ describe("<FormContact />", () => {
 	const wrapperS = shallow(<FormContact />);
 	const wrapperM = mount(<FormContact />);
 
-	beforeAll(() => {
-		let input = wrapperM.find("input").first();
-		input.simulate("change", { target: { value: "Joe", name: "name" } });
-	});
-
 	it("should render", () => {
 		expect(wrapperS.exists()).toBe(true);
 	});
@@ -37,41 +32,8 @@ describe("<FormContact />", () => {
 
 	//* Test if this.handleChange method is updating state on keydown event
 	it("should update state property name to 'Joe'", () => {
+		let input = wrapperM.find("input").first();
+		input.simulate("change", { target: { value: "Joe", name: "name" } });
 		expect(wrapperM.state("name")).toEqual("Joe");
 	});
-
-	//* Test if this.handleSubmit method is submitting data
-	it("should submit name onSubmit", () => {
-		let form = wrapperM.find("form");
-		form.simulate("submit");
-	});
-	// const testState = {
-	// 		name: "Joe",
-	// 		email: "joe@g.com",
-	// 		organization: "Work Company",
-	// 		subject: "Just saying hiya",
-	// 		message: "Hiya Luna!",
-	// };
-
-	// const testCallback = (name, email, organization, subject, message) => {
-	// 	return "Joe, joe@g.com, Work Company, Just saying hiya, Hiya Luna!"
-	// };
-	// const expectedData =
-	// 	"Joe, joe@g.com, Work Company, Just saying hiya, Hiya Luna!";
-
-	// const myMock = jest.fn();
-	// const myMockData = () => {
-	//   let myData = myMock
-	// 	.mockReturnValueOnce("Joe")
-	// 	.mockReturnValueOnce("joe@g.com")
-	// 	.mockReturnValueOnce("Work Company")
-	// 	.mockReturnValueOnce("Just saying hiya")
-	//   .mockReturnValueOnce("Hiya Luna!");
-	//   return myData;
-	// };
-	// const wrapper = mount(<FormContact formCallback={myMockData} />);
-	// wrapper.find("[type='submit']").simulate("submit");
-	// expect(find(.))
-	// expect(testSubmit.toHaveBeenCalledWith(expectedData));
-	// });
 });

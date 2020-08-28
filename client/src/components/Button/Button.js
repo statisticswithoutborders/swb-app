@@ -1,27 +1,30 @@
 import React from "react";
 import "./Button.css";
 
+function Button(props) {
+	let classList = "";
 
-function Button (props) {
-  let classList = '';
+	if (props.small) {
+		classList += ` button-small`;
+	}
 
-  if (props.medium) {
-		classList += ` button-medium`
-  }
-  
-  if (props.large) {
-    classList += ` button-large`
-  }
+	if (props.medium) {
+		classList += ` button-medium`;
+	}
 
-  if (props.wide) {
-    classList += ` button-wide`
-  }
+	if (props.large) {
+		classList += ` button-large`;
+	}
 
-    return (
-      <button className={classList} onClick = {props.callback}>
-        {props.label}
-      </button>
-    );
-  };
-  
-  export default Button;
+	if (props.wide) {
+		classList += ` button-wide`;
+	}
+
+	return (
+		<button className={classList} onClick={props.callback}>
+			{props.label}
+		</button>
+	);
+}
+
+export default Button;

@@ -30,27 +30,47 @@ const HowItWorks = (props) => {
         </div>
         <div className="HowItWorks-details-container" >
           <div className="HowItWorks-detail">
-            <h3 className="HowItWorks-detail-title">
-              Fill Out The Application Form
-            </h3>
+            <div className="HowItWorks-detail-header">
+              <h3 className="HowItWorks-detail-title">
+                Fill Out The Application Form
+              </h3>
+              <div className="HowItWorks-detail-header-imgcontainer">
+                <img src={volunteersReview} />
+              </div>
+            </div>
             <p className="HowItWorks-detail-body">Contacting us to match with appropriate volunteer projects.</p>
           </div> 
           <div className="HowItWorks-detail">
-            <h3 className="HowItWorks-detail-title">
-            Receive an Email About the Projects
-            </h3>
+            <div className="HowItWorks-detail-header">
+              <h3 className="HowItWorks-detail-title">
+                Receive An Email About Projects
+              </h3>
+              <div className="HowItWorks-detail-header-imgcontainer">
+                <img src={volunteersEmailRespond} />
+              </div>
+            </div>
             <p className="HowItWorks-detail-body">SWB sends out calls for volunteers via email when a new project is starting or when additional members are needed for one of the teams working on non-project tasks. A call for volunteers contains a description of the project or task, how long it is expected to last, and if any expertise or background is needed.</p>
           </div> 
           <div className="HowItWorks-detail">
-            <h3 className="HowItWorks-detail-title">
-            Respond to the Call
-            </h3>
+            <div className="HowItWorks-detail-header">
+              <h3 className="HowItWorks-detail-title">
+                Respond To The Call
+              </h3>
+              <div className="HowItWorks-detail-header-imgcontainer">
+                <img src={volunteersEmailReceive} />
+              </div>
+            </div>
             <p className="HowItWorks-detail-body">To volunteer for a project, simply respond to the call for volunteers. When a project or task is staffed, a second email announcing that the call is closed is sent to all SWB volunteers.</p>
           </div> 
           <div className="HowItWorks-detail">
-            <h3 className="HowItWorks-detail-title">
-              Become an Executive
-            </h3>
+            <div className="HowItWorks-detail-header">
+              <h3 className="HowItWorks-detail-title">
+                Become An Executive
+              </h3>
+              <div className="HowItWorks-detail-header-imgcontainer">
+                <img src={volunteersCrown} />
+              </div>
+            </div>
             <p className="HowItWorks-detail-body">In addition, elections for the executive committee are held every two years and any SWB volunteer can be nominated or can nominate themselves for a position.</p>
           </div>
         </div>

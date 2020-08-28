@@ -10,15 +10,14 @@ function Video(props) {
   if (props.small) {
     classList += ` Video-small`;
   }
+
   return (
-    <div className="Video-large` `Video-small`">
-      <ReactPlayer
-        width={props.width}
-        height={props.height}
-        className={classList}
+      <ReactPlayer controls
+      height={props.height} width={props.width}
+      className={classList}
         url={props.url}
       />
-    </div>
+    
   );
 }
 export default Video;

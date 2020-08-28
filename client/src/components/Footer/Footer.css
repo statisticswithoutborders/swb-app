@@ -7,15 +7,14 @@
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   margin-top: 25px;
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 .Footer-hr{
   margin: 0;
-  width: 100vw;
+  width: 100%;
   background-color: var(--blue);
-  top: 0px;
-  height: 1px;
+  
 }
 
 .Footer-Icons {

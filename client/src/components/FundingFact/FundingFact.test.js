@@ -1,8 +1,8 @@
 import React from "react";
 import { shallow, mount, configure } from "enzyme";
-import FundingFact from "./FundingFact.js";
 import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
+import FundingFact from "./FundingFact.js";
 
 describe("FundingFact component", () => {
   let leftDescription = "All donations are used 100% for SWB projects and are never used for payments or reimbursements."

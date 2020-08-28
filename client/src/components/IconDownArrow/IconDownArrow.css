@@ -1,9 +1,20 @@
 .IconDownArrow {
+<<<<<<< HEAD
   margin-left: 50%;
   margin-right: 50%;
   color: var(--gray);
+=======
+    margin-left: 50%;
+    margin-right: 50%;
+    color: var(--gray); 
+    
+>>>>>>> 38b768dd4b4ee311d76d46dfd6eef5b1f54649bb
 }
 
 .IconDownArrow-up {
   transform: scaleY(-1);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 38b768dd4b4ee311d76d46dfd6eef5b1f54649bb

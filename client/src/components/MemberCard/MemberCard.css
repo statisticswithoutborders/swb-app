@@ -2,16 +2,15 @@
   height: 330px;
   width: 332px;
   border-radius: 25px;
-  background-size: 90%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .MemberCard-name {
-  font-size: 30px;
+  font-size: 36px;
   text-align: center;
   margin-bottom: 15px;
-  margin-top: 15px;
 }
 
 .MemberCard-line {
@@ -19,15 +18,14 @@
 }
 
 .MemberCard-position {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: var(--paragraph-weight);
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 12px;
+  margin-bottom: 25px;
 }
 .MemberCard-about {
-  margin: 20px 15px;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   max-height: 300px;
   overflow: hidden;
@@ -44,6 +42,7 @@
   max-height: 1000px;
   color: var(--blue-medium-dark);
 }
+
 @media screen and (max-width: 750px) {
   .MemberCard-image {
     width: 75%;

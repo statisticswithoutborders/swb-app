@@ -42,8 +42,8 @@ class ContactUsPage extends Component {
                         </Link>
                     </div>
                     <div className="ContactUsPage-button">
-                        <Link to="">
-                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
+                        <Link to="/">
+                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR VOLUNTEERS"/>
                         </Link>
                     </div>
                 </div>

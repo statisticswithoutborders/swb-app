@@ -2,12 +2,11 @@
    width: 98%;
 }
 
-
 .ContactUsPage-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .ContactUsPage-header {
@@ -16,11 +15,10 @@
 
 .ContactUsPage-form-placeholder {
     width: 90%;
-    height: 500px;
+    height: 400px;
     display: flex;
 	flex-direction: column;
 	align-items: center;
-    /* background-color: antiquewhite; */
 }
 
 .ContactUsPage-button {
@@ -28,6 +26,8 @@
 }
 
 .ContactUsPage-inquiries {
+    font-size: 12px;
+    text-align: center;
     margin: 30px 0;
 }
 

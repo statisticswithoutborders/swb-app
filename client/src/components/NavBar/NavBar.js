@@ -14,7 +14,7 @@ class NavBar extends Component {
 
           <img src={nav_logo_name} className="logo" alt="name" />
           <ul className="Nav_item-wrapper">
-            <li className="Nav_item">
+            <li className="Nav_item nav-item-services">
               <Link className="Nav_link" to="#">
                 Services
               </Link>

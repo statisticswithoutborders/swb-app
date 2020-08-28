@@ -19,7 +19,7 @@ function App() {
   return (
     <React.Fragment>
       <div>
-        <NavBar />
+        <NavBar/>
         <Route path="/" component={Home} exact={true}/>
         <Route path="/contactus" component={ContactUs} exact={true}/>
         <Route path="/projects/" component={Projects} exact={true}/>
@@ -29,7 +29,7 @@ function App() {
         <Route path="/projects/haiti" component={ProjectHaiti} />
         <Route path="/projects/syria" component={ProjectSyria} />
         <Route path="/projects/unicef" component={ProjectUnicef} />
-        <Footer />
+        <Footer/>
       </div>
     </React.Fragment>
   );

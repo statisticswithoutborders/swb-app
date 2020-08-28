@@ -75,5 +75,103 @@
     "fields": {
       "service_name": "survey baseline"
     }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 12,
+    "fields": {
+      "service_name": "survey design"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 13,
+    "fields": {
+      "service_name": "field testing"
+    }
+  },
+  {
+    "model": "swb.Project",
+    "pk": 14,
+    "fields": {
+      "project_title": "Asante Africa Foundation",
+      "project_tag": "-project1-asante",
+      "project_location": "Kenya & Tanzania",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "project_description": "The Asante Africa Foundation works to empower East African youth with programs in Girls' Advancement, Accelerated Classroom Learning, and Youth Leadership and Entrepreneurship. Monitoring and Evaluation (M&E) is essential to showing the impact of their work and planning future efforts. In 2018, three SWB volunteers (two from Africa and one from India) delivered six 2-hour webinars on M&E to the East African staff. The webinars were a combination of lectures introducing basic concepts and terminology, and discussions about how to improve on-going projects. One of the SWB volunteers now has a connection to the Asante team and will continue to serve as a mentor.",
+      "project_services": [1, 2]
+    }
+  },
+  {
+    "model": "swb.Project",
+    "pk": 15,
+    "fields": {
+      "project_title": "Save the Children - Ethiopia",
+      "project_tag": "-project2-stc",
+      "project_location": "Ethiopia",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "project_description": "Save the Children is an international non-profit organization dedicated to improving the lives of children. Save the Children requested help from SWB to design an analysis plan for a longitudinal cohort study of nearly 2,000 children in Tigray, Ethiopia, as part of a long-term evaluation of Sponsorship-funded integrated programming. Sponsorship-funded programming operates in the areas of maternal and child health, early childhood care and development, basic education, school health and nutrition, and adolescent development. This valuation focuses on educational and early childhood interventions. Data will be collected every two years from 2017 and continuing through 2027. Statistical challenges include analysis of missing data, definition of random effects and correlation structure, use of propensity scores, and causal inference. SWB’s team includes a graduate student and a medical school professor, both in the US, a post-doctoral fellow in Spain and a semi-retired academic researcher from Canada.",
+      "project_services": [1, 3]
+    }
+  },
+  {
+    "model": "swb.Project",
+    "pk": 16,
+    "fields": {
+      "project_title": "Tacugama Chimpanzee Sanctuary",
+      "project_tag": "-project3-chimp",
+      "project_location": "Sierra Leone",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "project_description": "Description: Since 1995, Tacugama Chimpanzee Sanctuary has rescued and rehabilitated nearly 200 orphaned and illegally traded western chimpanzees (Pan troglodytes verus). SWB did two projects for Tacugama in 2018. In a fairly rapid 3-month project, one of our Masters-level statisticians analyzed before-and-after data from an environmental awareness campaign conducted by the conservation manager in order to reduce the negative impact of construction along the Bandajuma-Jendema road near the Liberian border. McNemar's test was used to demonstrate the success of the campaign in improving awareness of the illegality of chimpanzee trading and risks associated with bushmeat consumption. GLMM models indicated that individuals who encounter bushmeat and/or use it as part of their daily lives may lack a corresponding awareness of the health risks, and be at highest risk for diseases such as Ebola. SWB was asked to investigate the causes of an ataxia-like mystery disease responsible for the deaths of over 50 chimpanzees since 2005. Tacugama veterinarians have long recognized important risk factors such as time of year and forested enclosure but were anxious to investigate further. The SWB team included a medical school professor and a recent graduate in Industrial Engineering. Project work continued for nearly a year while SWB volunteers explored the data with Cox survival analysis, competing risk plots, and CART models. We also created an electronic database for the veterinarians, enabling them to record more types of data in a consistent and easily accessible form.",
+      "project_services": [1, 4, 5, 6]
+    }
+  },
+  {
+    "model": "swb.Project",
+    "pk": 17,
+    "fields": {
+      "project_title": "Whole of Syria Health Cluster",
+      "project_tag": "-project4-un",
+      "project_location": "Syria",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "project_description": "The Syrian Health Cluster, with four hubs and 118 partners, is the coordination mechanism to provide emergency and trauma care, as well as to provide basic health provision where it has collapsed. The Syrian Health Cluster is a part of the “Whole-of-Syria” approach, which allows for a more effective and accountable humanitarian action inside Syria. By request from Luis Hernando Aguilar of the Cluster at the time, a team of six SWB volunteers - from England, France, Kenya, the Netherlands, and the United States - spent one month completing and documenting an automatic data compilation system using ETL scripts in R to replace Excel macros. The scripts helped optimize the ETL processes, reducing effort time, minimizing error risks, and improving the quality of the data that were the basis for decision making.",
+      "project_services": [7, 8]
+    }
+  },
+  {
+    "model": "swb.Project",
+    "pk": 18,
+    "fields": {
+      "project_title": "UNICEF Sierra Leone",
+      "project_tag": "-project5-un",
+      "project_location": "Sierra Leone",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "project_description": "SWB is working on a long-term project with UNICEF to evaluate health interventions in Sierra Leone. SWB assisted with the design of the baseline survey, data cleaning, and survey weighting. Ongoing work will include data analysis and planning for a post-intervention survey. An unsolicited comment from our main UNICEF contact follows: “… [your SWB volunteer] did an outstanding job. I could not have done it without her. She was so patient with cleaning the data and dealing with unexpected problems related to revisits. …”",
+      "project_services": [1, 9, 10, 11]
+    }
+  },
+  {
+    "model": "swb.Project",
+    "pk": 19,
+    "fields": {
+      "project_title": "Haitian Earthquake Data Collection",
+      "project_tag": "-project6-haiti",
+      "project_location": "Haiti",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "project_description": "A team of Statistics Without Borders (SWB) volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on providing solutions to advancing human health) on the design and execution of a survey in Haiti.  Data collected will be used to assess the impact of the magnitude 7.0 Mw earthquake of January 12, 2010.  The epicentre of this earthquake, near the town of Léogâne, was about 16 miles WSW of the Haitian capital and population center of Port-au-Prince.  Thousands of people died and homes, businesses, government buildings, and national landmarks throughout the region collapsed or suffered structural damage, resulting in the displacement of millions of survivors.",
+      "project_services": [12, 13]
+    }
   }
 ]

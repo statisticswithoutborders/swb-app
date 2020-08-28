@@ -11,7 +11,7 @@ class Service(models.Model):
 
 
 class Project(models.Model):
-    project_title = models.CharField(max_length=200)
+    project_title = models.CharField(max_length=200, unique=True)
     project_tag = models.CharField(max_length=100, default=" ")
     project_location = models.CharField(max_length=100, default=" ")
     photo_urlOne = models.TextField(default='urlOne')

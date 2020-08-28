@@ -2,6 +2,7 @@ import React from 'react'
 import { shallow, mount, configure } from 'enzyme'
 import WhoWeAreCard from './WhoWeAreCard.js'
 import Adapter from 'enzyme-adapter-react-16';
+import { MemoryRouter } from 'react-router';
 configure({adapter: new Adapter()});
 
 
@@ -37,11 +38,11 @@ describe('Contains All Component Elements', () =>{
 })
 
 describe('Component Props Render Correctly', () =>{
-  let label = "Our Team"
+  let buttonLabel = "Our Team"
   let image = "var(--home-members)"
   let title = "Members"
 
-  const wrapper = shallow(<WhoWeAreCard title={title} buttonLabel={label} image={image} link='/' />)
+  const wrapper = shallow(<WhoWeAreCard title={title} buttonLabel={buttonLabel} image={image} link='/' />)
 
   it('Title prop renders', () => {
     
@@ -49,13 +50,16 @@ describe('Component Props Render Correctly', () =>{
   })
   
   it('image prop renders', () => {
-    let style = wrapper.get(0).style
-    expect(style).toHaveProperty('backgroundImage', image)
+    const wrapper = mount(<MemoryRouter>
+      <WhoWeAreCard title={title} buttonLabel={buttonLabel} image={image} link='/' />
+    </MemoryRouter>)
+    const elem = wrapper.find('.WhoWeAreCard').childAt(1)
+  expect(elem.prop('style')).toEqual({'backgroundImage': `${image}`})
   })
   
   it('buttonLabel prop renders', () => {
-    
-    expect(wrapper.find('Button.label').text()).toEqual(title)
+    const button = wrapper.find('Button')
+    expect(button.prop('label')).toEqual(buttonLabel)
   })
 
 })

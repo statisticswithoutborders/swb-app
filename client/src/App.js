@@ -14,6 +14,8 @@ import ProjectEthiopia from "./components/ProjectPage/ProjectPageEthiopia";
 import ProjectHaiti from "./components/ProjectPage/ProjectPageHaiti";
 import ProjectSyria from "./components/ProjectPage/ProjectPageSyria";
 import ProjectUnicef from "./components/ProjectPage/ProjectPageUnicef";
+import Services from "./pages/OurServicesPage/OurServicesPage"
+import Volunteers from "./pages/VolunteersPage/VolunteersPage"
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
         <Route path="/projects/haiti" component={ProjectHaiti} />
         <Route path="/projects/syria" component={ProjectSyria} />
         <Route path="/projects/unicef" component={ProjectUnicef} />
+        <Route path="/ourservices" component={Services}/>
+        <Route path="/volunteers" component={Volunteers}/>
+        
         <Footer/>
       </div>
     </React.Fragment>

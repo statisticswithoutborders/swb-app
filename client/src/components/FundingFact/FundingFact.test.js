@@ -7,6 +7,7 @@ import FundingFact from "./FundingFact.js";
 describe("FundingFact component", () => {
   let leftDescription = "All donations are used 100% for SWB projects and are never used for payments or reimbursements."
   let testImage = "var(--about-donate)"
+  
   const wrapper = shallow(<FundingFact image={testImage} description={leftDescription} />);
 
   it("should render as expected", () => {
@@ -29,4 +30,13 @@ describe("FundingFact component", () => {
     expect(wrapper.find('.FundingFact-p').text()).toEqual(leftDescription)
   });
 
+  it("image on left if no imgPositionRight prop", () => {
+    expect(wrapper.contains(<div className='FundingFact' ><div className='FundingFact-image' style={{backgroundImage: testImage}}></div><p className="FundingFact-p">{leftDescription}</p></div>)).toBe(true)
+  });
+
+
+  it("image is on the right", () => {
+    const wrapper = shallow(<FundingFact image={testImage} description={leftDescription} imgPositionRight />);
+    expect(wrapper.contains(<div className='FundingFact FundingFact-img-right'><div className='FundingFact-image' style={{backgroundImage: testImage}}></div><p className="FundingFact-p">{leftDescription}</p></div>)).toBe(true);
+  });
 });

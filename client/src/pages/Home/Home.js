@@ -237,12 +237,6 @@ class Home extends Component {
             />
           </div>
         </div>
-        <hr className="homeHR" />
-
-        <h2>Let's Work Together - Contact Us</h2>
-        <div className = 'form'>
-          <FormContact formCallback={this.handleSend} />
-        </div>
        
       </React.Fragment>
     );

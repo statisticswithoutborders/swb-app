@@ -1,0 +1,79 @@
+[
+  {
+    "model": "swb.Service",
+    "pk": 1,
+    "fields": {
+      "service_name": "data analysis"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 2,
+    "fields": {
+      "service_name": "monitoring & evaluation"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 3,
+    "fields": {
+      "service_name": "longitudinal study"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 4,
+    "fields": {
+      "service_name": "CART models"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 5,
+    "fields": {
+      "service_name": "database"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 6,
+    "fields": {
+      "service_name": "risk plots"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 7,
+    "fields": {
+      "service_name": "data compilation"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 8,
+    "fields": {
+      "service_name": "optimize process"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 9,
+    "fields": {
+      "service_name": "data cleaning"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 10,
+    "fields": {
+      "service_name": "survey weighting"
+    }
+  },
+  {
+    "model": "swb.Service",
+    "pk": 11,
+    "fields": {
+      "service_name": "survey baseline"
+    }
+  }
+]

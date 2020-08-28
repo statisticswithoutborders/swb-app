@@ -59,7 +59,6 @@
   justify-content: space-evenly;
   width: inherit;
 }
-
 .member-cards {
   margin: 5px 20px;
 }
@@ -159,11 +158,16 @@
   }
   .about-swb {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .about-swb-p .section-p {
+    text-align: middle;
+    padding-left: 25%;
   }
   .about-img {
-    width: 500%;
-    justify-items: left;
+    width: 100%;
+    padding-top: 50%;
+    background-position: center;
   }
   .member-row {
     display: block;

@@ -22,7 +22,7 @@ class AboutUsPage extends Component {
         <div class="about-swb">
           <div
             className="about-img"
-            style={{ backgroundImage: "var(--about-swb)", float: "left" }}
+            style={{ backgroundImage: "var(--about-swb)" }}
           ></div>
           <p className="about-swb-p">
             <div className="section-p">
@@ -90,7 +90,7 @@ class AboutUsPage extends Component {
 
         <h1>Our Members</h1>
         <div className="member-parent-container">
-          <div className="member-row">
+          <div className="member-row member-row-one">
             <div className="member-cards">
               <MemberCard
                 image="var(--about-jean)"
@@ -158,7 +158,7 @@ class AboutUsPage extends Component {
                 image="var(--about-gary)"
                 name="Gary Shapiro"
                 position="Co-Founder"
-                about="Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys. From 1965 to 1993 Gary was at the US..."
+                about="Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys. From 1965 to 1993 Gary was at the US...Voluptate magna dolor ex aliquip. Magna fugiat mollit ad consectetur cupidatat ea enim esse ut quis laboris cillum. Laboris minim eu ex mollit culpa eu do tempor fugiat quis eu. Magna dolore eiusmod proident reprehenderit laborum laboris qui fugiat ea elit. Fugiat qui incididunt fugiat Lorem.The End"
                 IconDownArrow
               />
             </div>

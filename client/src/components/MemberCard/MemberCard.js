@@ -33,13 +33,16 @@ const MemberCard = props => {
       <h6 className="MemberCard-position">{props.position}</h6>
       <hr className="MemberCard-line" />
       <p className={divClasses.join(" ")}>{props.about}</p>
-      <div className="IconDownArrow-link">
-        {divClasses[1] ? (
-          <IconDownArrow callBack={onClick} arrowUp />
-        ) : (
-          <IconDownArrow callBack={onClick} />
-        )}
-      </div>
+
+      {props.IconDownArrow ? (
+        <div className="IconDownArrow-link">
+          {divClasses[1] ? (
+            <IconDownArrow callBack={onClick} arrowUp />
+          ) : (
+            <IconDownArrow callBack={onClick} />
+          )}
+        </div>
+      ) : null}
     </div>
   );
 };

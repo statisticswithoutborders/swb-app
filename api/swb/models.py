@@ -33,3 +33,33 @@ class Member(models.Model):
         return self.member_name
 
 
+class Contact(models.Model):
+    contact_name = models.CharField(max_length=100, default=" ")
+    contact_email: models.EmailField(max_length=200, default=" ")
+    contact_organization: models.CharField(max_length=100, default=" ")
+    contact_subject: models.CharField(max_length=100, default=" ")
+    contact_message: models.TextField(default=" ")
+
+    def __str__(self):
+        return self.contact_name
+
+
+class Volunteer(models.Model):
+    volunteer_name = models.CharField(max_length=100, default=" ")
+    volunteer_email: models.EmailField(max_length=200, default=" ")
+    volunteer_organization: models.CharField(max_length=100, default=" ")
+    volunteer_subject: models.CharField(max_length=100, default=" ")
+    volunteer_message: models.TextField(default=" ")
+
+    def __str__(self):
+        return self.volunteer_name
+
+class NewProject(models.Model):
+    new_project_name = models.CharField(max_length=100, default=" ")
+    new_project_email: models.EmailField(max_length=200, default=" ")
+    new_project_organization: models.CharField(max_length=100, default=" ")
+    new_project_subject: models.CharField(max_length=100, default=" ")
+    new_project_message: models.TextField(default=" ")
+
+    def __str__(self):
+        return self.new_project_name

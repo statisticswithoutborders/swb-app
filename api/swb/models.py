@@ -63,3 +63,11 @@ class NewProject(models.Model):
 
     def __str__(self):
         return self.new_project_name
+    
+class Blog(models.Model):
+    blog_title = models.CharField(max_length=200, default=" ")
+    blog_date = models.DateField(auto_now=False, default=" ")
+    blog_body = models.TextField(default="Enter text here")
+    
+    def __str__(self):
+        return self.blog_title

@@ -83,21 +83,21 @@
   }
   .MemberCard-name {
     width: 65%;
-    margin-left: 15%;
+    margin-left: 18%;
   }
   .MemberCard-image {
     margin-left: -5%;
   }
   .MemberCard-position {
     width: 65%;
-    margin-left: 15%;
+    margin-left: 18%;
   }
   .MemberCard-line {
     margin-left: 1%;
   }
   .MemberCard-about {
     width: 65%;
-    margin-left: 15%;
+    margin-left: 18%;
     text-align: center;
     font-size: 85%;
     overflow: hidden;

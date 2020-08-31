@@ -192,6 +192,9 @@
     padding-top: 50%;
     background-position: center;
   }
+  .member-header {
+    margin-bottom: -15%;
+  }
   .member-row {
     display: block;
     padding: 10%;

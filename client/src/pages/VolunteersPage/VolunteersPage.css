@@ -21,7 +21,11 @@
 
 .VolunteersPage-volunteerfor-video {
     width: 45%;
+    height: auto;
     margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .VolunteersPage-volunteerfor-content {

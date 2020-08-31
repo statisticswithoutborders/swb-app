@@ -43,3 +43,19 @@
     font-size: 1.5rem;
     padding-right:15px;
 }
+
+@media screen and (max-width: 500px) {
+
+    .person-right {
+        display: none;
+    }
+
+    .person-left {
+        display: none;
+    }
+
+    .testimonal-paragraph {
+        width: 100vw;
+    }
+
+}    

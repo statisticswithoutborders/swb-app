@@ -13,6 +13,7 @@ import Card from "../../components/Card/Card"
 import Monitor from "../../assets/images/home_monitor_eval.png";
 import DataAnalysis from "../../assets/images/home_data_analysis.png";
 import ExpDesign from "../../assets/images/home_exp_design.png";
+import { Link } from "react-router-dom"
 
 class Home extends Component {
   constructor() {
@@ -32,21 +33,24 @@ class Home extends Component {
               consultancy and training in statistics and data science to promote
               objective and transparent decision making.
             </p>
+            <Link to = "/ourservices">
             <Button large label="LEARN MORE" />
+            </Link>
           </div>
         </div>
         <div className="mission">
-          <img src={Globe} />
-          <h2>Our Mission</h2>
-          <img src={Analysis} />
+          <img className = 'globe'src={Globe} />
+          <h2 className = 'om'>Our Mission</h2>
+          <img className = 'analysis' src={Analysis} />
         </div>
+        <div className = 'missionstatement'>
         <h3 className="probono">
           We provide pro bono services in statistics and data science, to
           improve decision making and knowledge in efforts that promote welfare
           through the proper application of statistical principles and best
           practices, where access to such resources is limited
         </h3>
-
+        </div>
         <div className="bulletpoint">
           {" "}
           <img src={Bullet} className="bullet" />
@@ -101,36 +105,33 @@ class Home extends Component {
           <div className = 'card'><Card what_we_do image = {DataAnalysis} title ='Data Analysis' description = 'Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. '/></div>
           <div className = 'card'><Card what_we_do image = {ExpDesign} title = 'Experimental Design' description = 'Experimental design is a method of planning a set of procedures to investigate a relationship between variables. This is a branch of statistics that focuses on the analysis of the resultant data.'/></div>
           </div>
-          <Button medium label="MORE SERVICES" />
+         <Link to= '/ourservices'><Button medium label="MORE SERVICES" /></Link>
         </div>
         <hr className="homeHR" />
         <h2>Who We Are</h2>
-        <h3>
-          We work to improve decision making and knowledge in efforts that
-          promote welfare through the proper application of statistical
-          principles and best practices, where access to such resources is
-          limited.
-        </h3>
         <div className="wwa">
           <div className="wwac">
             <WhoWeAreCard
               title="Members"
               image="var(--home-members)"
-              buttonLabel="Our Team"
+              buttonLabel="OUR TEAM"
+              link = "/aboutus"
             />
           </div>
           <div className="wwac">
             <WhoWeAreCard
               title="Volunteers"
               image="var(--home-volunteers)"
-              buttonLabel="Join Us"
+              buttonLabel="JOIN US"
+              link = "/volunteers"
             />
           </div>
           <div className="wwac">
             <WhoWeAreCard
               title="Clients"
               image="var(--home-clients)"
-              buttonLabel="Work With Us"
+              buttonLabel="WORK WITH US"
+              link = "/contactus"
             />
           </div>
         </div>
@@ -143,36 +144,42 @@ class Home extends Component {
             <ProjectCard
               image="var(--home-asante)"
               projectTitle="Asante Africa Foundation"
+              link = "/projects/asante"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-stc)"
               projectTitle="Save the Children - Ethiopia"
+              link = "/projects/ethiopia"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-chimp)"
               projectTitle="Tacugama Chimpanzee Sanctuary"
+              link = "/projects/chimp"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-un)"
               projectTitle="Whole of Syria Health Cluster"
+              link = "/projects/syria"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-unicef-sl)"
               projectTitle="UNICEF Sierra Leone"
+              link = "/projects/unicef"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-haiti)"
               projectTitle="Haitian Earthquake Data Collection"
+              link = "/projects/haiti"
             />
           </div>
         </div>
@@ -205,7 +212,7 @@ class Home extends Component {
 
         <h2>SWB Blog</h2>
         <div className="blogs">
-          <div>
+          <div className = 'blog'  className = 'blog'>
             <BlogCard
               title="Title: Blog Post 1"
               date="Date: May 20, 2020"
@@ -213,7 +220,7 @@ class Home extends Component {
               label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
             />
           </div>
-          <div>
+          <div className = 'blog'>
             <BlogCard
               title="Title: Blog Post 2"
               date="Date: March 9, 2020"
@@ -221,7 +228,7 @@ class Home extends Component {
               label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
             />
           </div>
-          <div>
+          <div className = 'blog'>
             <BlogCard
               title="Title: Blog Post 3"
               date="Date: February 23, 2020"
@@ -230,13 +237,6 @@ class Home extends Component {
             />
           </div>
         </div>
-        <hr className="homeHR" />
-
-        <h2>Let's Work Together - Contact Us</h2>
-        <div className = 'form'>
-          <FormContact formCallback={this.handleSend} />
-        </div>
-        <hr className="homeHR" />
        
       </React.Fragment>
     );

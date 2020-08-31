@@ -53,7 +53,7 @@ let students_description =
 let retirees_img = volunteer_chill;
 let retirees_title = "Retirees";
 let retirees_description =
-  "Anyone who has retired and who would like to continue working in teh statistical community.  SWB accepts projects across multiple disciplines and has a need for any volunteers with years of experience in their specific areas.";
+  "Anyone who has retired and who would like to continue working in the statistical community.  SWB accepts projects across multiple disciplines and has a need for any volunteers with years of experience in their specific areas.";
 let non_statisticians__img = volunteer_community;
 let non_statisticians_title = "Non-statisticians";
 let non_statisticians_description =

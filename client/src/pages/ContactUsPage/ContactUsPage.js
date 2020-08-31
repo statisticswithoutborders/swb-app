@@ -4,10 +4,12 @@ import "./ContactUsPage.css";
 import Button from "../../components/Button/Button";
 import FormContact from "../../components/FormContact/FormContact";
 
-// React Class Page Component
+// * Add API url below
+const url = ``;
+
 class ContactUsPage extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 			classList: "ContactUsPage",
 			name: "",
@@ -19,6 +21,8 @@ class ContactUsPage extends Component {
 	}
 
 	handleSend(name, email, organization, subject, message) {
+		//* Add API POST code here
+		console.log(url);
 		console.log(name, email, organization, subject, message);
 	}
 

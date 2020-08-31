@@ -71,42 +71,42 @@ class Footer extends Component {
           <h3>Projects</h3>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <Link className="footer-text-link" to="/projects/asante">
                 Asante Africa Foundation
               </Link>
             </Router>
           </p>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <Link className="footer-text-link" to="/projects/ethiopia">
                 Save the Children
               </Link>
             </Router>
           </p>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <Link className="footer-text-link" to="projects/chimp">
                 Tacugama Chimpanzee Sanctuary
               </Link>
             </Router>
           </p>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <Link className="footer-text-link" to="/projects/syria">
                 Whole of Syria Health Cluster
               </Link>
             </Router>
           </p>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <Link className="footer-text-link" to="/projects/unicef">
                 UNICEF Sierra Leone
               </Link>
             </Router>
           </p>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <Link className="footer-text-link" to="/projects/haiti">
                 Haitian Earthquake Data Collection
               </Link>
             </Router>
@@ -116,9 +116,9 @@ class Footer extends Component {
           <h3>About</h3>
           <p>
             <Router>
-              <Link className="footer-text-link" to="">
+              <a href = "https://www.amstat.org/"className="footer-text-link">
                 American Statistical Association
-              </Link>
+              </a>
             </Router>
           </p>
           <p>

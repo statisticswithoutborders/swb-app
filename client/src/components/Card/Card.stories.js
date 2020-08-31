@@ -54,7 +54,7 @@ let retirees_img = volunteer_chill;
 let retirees_title = "Retirees";
 let retirees_description =
   "Anyone who has retired and who would like to continue working in teh statistical community.  SWB accepts projects across multiple disciplines and has a need for any volunteers with years of experience in their specific areas.";
-let non_statisticians_img = volunteer_community;
+let non_statisticians__img = volunteer_community;
 let non_statisticians_title = "Non-statisticians";
 let non_statisticians_description =
   "Anyone who has knowledge or experience  in related fields (data science, CS, genetics, etc.) and would like more experience working on statistical projects are welcome to volunteer.";
@@ -119,6 +119,7 @@ storiesOf("Card", module)
   .add("OurVolunteers-Students", () => (
     <Card
       our_volunteers
+      volunteer_ns_image
       image={students_img}
       title={students_title}
       description={students_description}
@@ -135,7 +136,7 @@ storiesOf("Card", module)
   .add("OurVolunteers-Non-Statisticians", () => (
     <Card
       our_volunteers
-      image={non_statisticians_img}
+      image={non_statisticians__img}
       title={non_statisticians_title}
       description={non_statisticians_description}
     />

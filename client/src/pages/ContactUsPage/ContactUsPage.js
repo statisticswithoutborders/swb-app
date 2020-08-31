@@ -31,13 +31,13 @@ class ContactUsPage extends Component {
                     <div className="ContactUsPage-form-placeholder">Form</div>
                     <p className="ContactUsPage-inquiries"><strong>For any direct inquiries, please email SWB:</strong> <a href="mailto:statisticswithoutborders@gmail.com">statisticswithoutborders@gmail.com</a></p>
                     <div className="ContactUsPage-button">
-                        <Link to="/">
+                        <Link to="/ourservices">
                             <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>
                         </Link>
                     </div>
                     <div className="ContactUsPage-button">
-                        <Link to="">
-                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
+                        <Link to="/volunteers">
+                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR VOLUNTEERS"/>
                         </Link>
                     </div>
                 </div>

@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
   .MemberCard {
     width: 75%;
     margin-left: 18%;

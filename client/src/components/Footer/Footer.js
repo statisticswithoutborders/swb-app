@@ -70,46 +70,46 @@ class Footer extends Component {
         <div classname="Footer-Column">
           <h3>Projects</h3>
           <p>
-            <Router>
+          
               <Link className="footer-text-link" to="/projects/asante">
                 Asante Africa Foundation
               </Link>
-            </Router>
+            
           </p>
           <p>
-            <Router>
+          
               <Link className="footer-text-link" to="/projects/ethiopia">
                 Save the Children
               </Link>
-            </Router>
+            
           </p>
           <p>
-            <Router>
-              <Link className="footer-text-link" to="projects/chimp">
+          
+              <Link className="footer-text-link" to="/projects/chimp">
                 Tacugama Chimpanzee Sanctuary
               </Link>
-            </Router>
+            
           </p>
           <p>
-            <Router>
+          
               <Link className="footer-text-link" to="/projects/syria">
                 Whole of Syria Health Cluster
               </Link>
-            </Router>
+            
           </p>
           <p>
-            <Router>
+          
               <Link className="footer-text-link" to="/projects/unicef">
                 UNICEF Sierra Leone
               </Link>
-            </Router>
+            
           </p>
           <p>
-            <Router>
+          
               <Link className="footer-text-link" to="/projects/haiti">
                 Haitian Earthquake Data Collection
               </Link>
-            </Router>
+            
           </p>
         </div>
         <div classname="Footer-Column">

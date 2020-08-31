@@ -154,5 +154,86 @@
       "project_description": "A team of Statistics Without Borders (SWB) volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on providing solutions to advancing human health) on the design and execution of a survey in Haiti.  Data collected will be used to assess the impact of the magnitude 7.0 Mw earthquake of January 12, 2010.  The epicentre of this earthquake, near the town of Léogâne, was about 16 miles WSW of the Haitian capital and population center of Port-au-Prince.  Thousands of people died and homes, businesses, government buildings, and national landmarks throughout the region collapsed or suffered structural damage, resulting in the displacement of millions of survivors.",
       "project_services": [12, 13]
     }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Jean Opsomer",
+      "member_picture_url": "",
+      "member_role": "Chair",
+      "member_about": "Jean Opsomer is Professor and Chair in the Department of Statistics at Colorado State University. His main areas of statistical expertise are survey statistics and nonparametric methods. He is delighted to be able to assist SWB as it continues to expand its operations and develops a more effective organizational structure."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Jea Brodsky",
+      "member_picture_url": "",
+      "member_role": "Vice Chair",
+      "member_about": "Jae Brodsky works in statistical genetics on problems in machine learning, big data analysis, and Bayesian techniques. She has a Ph.D. in statistics from UCLA and previously worked at the FDA."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Davina Durgana",
+      "member_picture_url": "",
+      "member_role": "Vice-Chair Elect",
+      "member_about": "Davina P. Durgana, PhD is an award-winning international human rights statistician who has developed leading global models to assess risk and vulnerability to modern slavery. Dr. Durgana is a Report Co-Author and Senior Statistician on the Global Slavery Index of the Minderoo Foundation’s Walk Free Initiative."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "David Whitford",
+      "member_picture_url": "",
+      "member_role": "Engagement Director",
+      "member_about": "David Whitford was formerly with the U.S Census Bureau and led the division of statisticians responsible for statistical aspects of the Decennial Censuses and the monthly American Community Survey. He currently provides consultation on survey methodology to developing countries, governments, and NGOs. His interests are dual system estimation, record linkage, R, tennis, and travel."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Smita Skrivanek",
+      "member_picture_url": "",
+      "member_role": "Operations Director",
+      "member_about": "Smita Skrivanek works in the field of quality and continuous improvement and consults on process improvement projects. She is interested in human rights, animal rights, environmental and social justice issues."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Matt Brems",
+      "member_picture_url": "",
+      "member_role": "Marketing & Communications Director",
+      "member_about": "Matt Brems works at General Assembly as a data science instructor and is managing partner of a consultancy, BetaVector. He is interested in data visualization, missing data, and Python programming. He holds a Master's degree in statistics from The Ohio State University."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Cathy Furlong",
+      "member_picture_url": "",
+      "member_role": "Past Chair (emeritus)",
+      "member_about": "Client acquisition co-chair. Cathy Furlong is currently employed in the Medicare fraud industry where she works on data mining, sampling/extrapolations, and Administrative Law Hearings with Medicare data. She holds a Masters in Statistics from American University. Her areas of interest are human rights and nature. Other areas of volunteer work are as a Fair Fax County Master Gardener, on the Glen Echo Park Waltz Committee, and with the Caucus for Women in Statistics."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Gary Shapiro",
+      "member_picture_url": "",
+      "member_role": "Co-Founder",
+      "member_about": "Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Steve Pierson",
+      "member_picture_url": "",
+      "member_role": "Co-Founder",
+      "member_about": "And also an ASA ex officio board member. Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA."
+    }
   }
 ]

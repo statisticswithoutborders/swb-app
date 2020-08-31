@@ -28,6 +28,10 @@ describe('MemberCard elements render', () => {
 	 	expect(wrapper.find('.MemberCard-position')).toHaveLength(1)
   })
 
+  it('line element renders', () => {
+    expect(wrapper.find('.MemberCard-line')).toHaveLength(1)
+ })
+
   it('about element renders', () => {
 	 	expect(wrapper.find('.MemberCard-about')).toHaveLength(1)
   })

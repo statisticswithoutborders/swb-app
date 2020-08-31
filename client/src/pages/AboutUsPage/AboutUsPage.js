@@ -219,7 +219,10 @@ class AboutUsPage extends Component {
         </div>
         <p className="charter-text">
           Read the{" "}
-          <a href="" className="charter-underline">
+          <a
+            href="https://swb.wildapricot.org/resources/Documents/SWB%20Charter%20v202.pdf"
+            className="charter-underline"
+          >
             SWB Charter
           </a>
         </p>
@@ -258,9 +261,20 @@ class AboutUsPage extends Component {
           </div>
         </div>
         <p className="funding-facts-readtext">
-          Read the{" "}
-          <a href="" className="volunteer-underline">
-            Volunteer Code of Conduct and Privacy Policy
+          {" "}
+          Read the&nbsp;
+          <a
+            href="https://swb.wildapricot.org/resources/Documents/POLICY%20-%20Code%20of%20Conduct%20for%20SWB%20Volunteers.pdf"
+            className="volunteer-underline"
+          >
+            Volunteer Code of Conduct
+          </a>
+          &nbsp;and&nbsp;
+          <a
+            href="https://swb.wildapricot.org/resources/Documents/Policy%20-%20Privacy%20Statement%20v002.pdf"
+            className="privacy-policy-underline"
+          >
+            Privacy Policy
           </a>
         </p>
         <hr className="about-hr"></hr>

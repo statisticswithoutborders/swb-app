@@ -31,7 +31,7 @@
 }
 
 .about-hr {
-  border-top: 2px solid #5373ab;
+  border-top: 2px solid var(--blue);
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -60,7 +60,7 @@
 .member-row {
   display: flex;
   justify-content: space-evenly;
-  width: inherit;
+  width: 100%;
 }
 .member-cards {
   margin: 5px 20px;
@@ -145,6 +145,11 @@
   text-decoration: none;
   color: var(--blue-medium-dark);
 }
+.privacy-policy-underline {
+  border-bottom: 0.5px gray solid;
+  text-decoration: none;
+  color: var(--blue-medium-dark);
+}
 .broadgreen-header {
   margin-bottom: 5%;
 }
@@ -164,6 +169,9 @@
   }
   .member-row {
     padding: 10%;
+  }
+  .member-cards {
+    margin: -3%;
   }
 }
 

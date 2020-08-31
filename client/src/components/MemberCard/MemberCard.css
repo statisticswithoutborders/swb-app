@@ -45,28 +45,38 @@
 
 @media screen and (max-width: 1050px) {
   .MemberCard {
-    display: flex;
-    flex-direction: column;
-    width: 65%;
+    width: 75%;
+  }
+  .MemberCard-parent {
+    display: block;
   }
   .MemberCard-image {
-    background-attachment: cover;
-    background-size: 75%;
+    background-size: 50%;
+    margin-bottom: -25%;
   }
   .MemberCard-name {
     margin-left: 50%;
+    align-items: center;
+    font-size: 1em;
   }
+  .MemberCard-line {
+    margin-left: 50%;
+  }
+
   .MemberCard-position {
+    font-size: 1em;
     margin-left: 50%;
   }
   .MemberCard-about {
-    width: 110%;
-    margin-left: 30%;
+    margin-left: 20%;
+    width: 120%;
     overflow: hidden;
+    font-size: 1em;
+    text-align: start;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .MemberCard {
     width: 75%;
     margin-left: 18%;
@@ -75,15 +85,21 @@
     width: 65%;
     margin-left: 15%;
   }
+  .MemberCard-image {
+    margin-left: -5%;
+  }
   .MemberCard-position {
     width: 65%;
     margin-left: 15%;
+  }
+  .MemberCard-line {
+    margin-left: 1%;
   }
   .MemberCard-about {
     width: 65%;
     margin-left: 15%;
     text-align: center;
-    font-size: 95%;
+    font-size: 85%;
     overflow: hidden;
   }
 }

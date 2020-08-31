@@ -3,14 +3,12 @@ import { storiesOf } from "@storybook/react";
 
 import Video from "./Video";
 
+
 storiesOf("Video", module)
   .add("Video Faunalytics", () => {
     return (
       <Video
-        large
-        width="900px"
-        height="500px"
-        url="https://www.youtube.com/watch?v=xFKkTMjQoIw"
+     url="https://www.youtube.com/embed/xFKkTMjQoIw"
       />
     );
   })
@@ -18,10 +16,7 @@ storiesOf("Video", module)
   .add("Video Volunteer", () => {
     return (
       <Video
-        small
-        width="675px"
-        height="355px"
-        url="https://www.youtube.com/watch?v=1y2-v3W8Ubs"
+     url="https://www.youtube.com/watch?v=1y2-v3W8Ubs&t=1s"
       />
     );
   });

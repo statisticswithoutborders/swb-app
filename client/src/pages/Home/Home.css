@@ -1,0 +1,129 @@
+body {
+    /* font-family: "Nunito Sans", sans-serif; */
+    color: var(--blue-medium-dark); 
+}
+.banner {
+    background-image: var(--home-banner);
+    width: 100%vw;
+    height: 510px;
+    color: white;
+    padding-top: 70px;
+    padding-left: 55px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.statement{
+    width: 695px;
+    font-size: 25px;
+    padding: 5px 0 20px;
+    font-weight: bold;
+}
+
+h1 {
+   font-size: 50px;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+ 
+h2{
+    margin-top: 50px;
+    margin-right: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 15px
+}
+
+.homeHR{
+    border: var(--blue) 1px solid;
+    height: 1px;
+    margin: 50px 0;
+    background-color:  var(--blue) !important;
+}
+
+
+
+
+
+.bulletpoint{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.point{
+    margin-top: 3px;
+    margin-left: 40px ;
+    font-size: 20px
+}
+
+.bullet{
+height : 32px
+}
+
+.wwd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -40px;
+    
+}
+
+.wwd2{
+    width: 930px;
+    font-size: 18px;
+}
+
+.projects{
+    display: flex;
+    overflow: scroll;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+
+.project{
+    margin: 0 25px;
+}
+
+.probono{
+    font-size: 18px;
+}
+
+.wwa{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ .blogs{
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .testimonials{
+     display: flex;
+     flex-direction: column;
+     margin-left: 100px;
+ }
+ .form{
+     display: flex;
+     justify-content: center;
+ }
+ .cards{
+display: flex;
+justify-content: space-evenly;
+ }
+
+ .card{
+     margin: 0 25px;
+     margin-bottom: 25px
+ }

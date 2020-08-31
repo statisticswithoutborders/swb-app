@@ -1,0 +1,10 @@
+.IconDownArrow {
+    margin-left: 50%;
+    margin-right: 50%;
+    color: var(--gray); 
+    
+}
+
+.IconDownArrow-up {
+    transform: scaleY(-1)
+}

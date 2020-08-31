@@ -9,3 +9,7 @@ storiesOf('IconDownArrow', module)
     return <IconDownArrow />
   }
   )
+  .add('IconUpArrow', () => {
+    return <IconDownArrow inverted/>
+  }
+  )

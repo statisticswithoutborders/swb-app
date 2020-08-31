@@ -40,7 +40,7 @@ class NavBar extends Component {
               </Link>
             </li>
           </ul>
-          <a href="#">
+          <a href="http://link">
             <img src={nav_user_login} className="login" alt="login" />
           </a>
         </div>

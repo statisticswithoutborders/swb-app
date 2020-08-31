@@ -88,7 +88,7 @@ class AboutUsPage extends Component {
         </div>
         <hr className="about-hr"></hr>
 
-        <h1>Our Members</h1>
+        <h1 className="member-header">Our Members</h1>
         <div className="member-parent-container">
           <div className="member-row member-row-one">
             <div className="member-cards">

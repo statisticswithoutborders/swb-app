@@ -4,8 +4,8 @@
 }
 
 .about-title {
-  color: #565970;
-  margin-top: -5%;
+  color: var(--blue-medium-dark);
+  margin-top: 5%;
 }
 
 .about-swb {
@@ -13,7 +13,7 @@
   flex-direction: row;
 }
 .about-swb p {
-  color: #565970;
+  color: var(--blue-medium-dark);
   font-size: 18px;
 }
 
@@ -45,7 +45,10 @@
   margin-bottom: 70px;
   text-align: start;
 }
-
+.member-header {
+  color: var(--blue-medium-dark);
+  font-size: 2em;
+}
 .member-parent-container {
   display: flex;
   flex-direction: row;
@@ -76,7 +79,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #565970;
+  color: var(--blue-medium-dark);
   margin: 60px;
   margin-top: -2%;
 }
@@ -96,12 +99,12 @@
 .number-icons-text {
   justify-content: row;
   width: 80%;
-  color: #565970;
+  color: var(--blue-medium-dark);
 }
 
 .charter-text {
   text-align: right;
-  color: #565970;
+  color: var(--blue-medium-dark);
   font-size: 22px;
   margin-right: 18%;
   margin-bottom: -2%;
@@ -110,11 +113,12 @@
 .charter-underline {
   border-bottom: 0.5px gray solid;
   text-decoration: none;
-  color: #565970;
+  color: var(--blue-medium-dark);
 }
 
 .funding-facts-header {
   margin-top: -4%;
+  color: var(--blue-medium-dark);
 }
 
 .funding-facts-section {
@@ -130,7 +134,7 @@
 
 .funding-facts-readtext {
   font-size: 18px;
-  color: #565970;
+  color: var(--blue-medium-dark);
   float: right;
   margin-right: 5%;
   margin-top: 2%;
@@ -139,7 +143,7 @@
 .volunteer-underline {
   border-bottom: 0.5px gray solid;
   text-decoration: none;
-  color: #565970;
+  color: var(--blue-medium-dark);
 }
 .broadgreen-header {
   margin-bottom: 5%;
@@ -147,9 +151,20 @@
 .broadgreen-section {
   margin: -5px 150px;
   font-size: 22px;
-  color: #565970;
+  color: var(--blue-medium-dark);
   line-height: 145%;
   text-align: start;
+}
+
+@media screen and (max-width: 950px) {
+  .MemberCard {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+  .member-row {
+    padding: 10%;
+  }
 }
 
 @media screen and (max-width: 750px) {

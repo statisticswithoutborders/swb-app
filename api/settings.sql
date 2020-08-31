@@ -2,12 +2,20 @@ CREATE DATABASE swb;
 CREATE USER swb_user WITH PASSWORD 'swb';
 GRANT ALL PRIVILEGES ON DATABASE swb TO swb_user;
 
---instructions
+--instructions:
 
---to create swb database in psql run:
+-- if you already have an swb database run:
+--DROP DATABASE swb;
+--DROP USER swb_user;
+
+--Then, to create swb database in psql run inside top level api directory:
 --psql -U postgres -f settings.sql
 
---to seed database cd into api and into virtual environment and run:
+--In your virtual environment (pipenv shell) translate the models into the schema for our database, run:
+--python3 manage.py makemigrations
+--python3 manage.py migrate
+
+--To seed database still inside virtual environment, run:
 --python3 manage.py loaddata swb.json
 
 --to view database in localhost:8000/admin create superuser:

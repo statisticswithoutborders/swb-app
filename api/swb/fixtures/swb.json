@@ -1,98 +1,84 @@
 [
   {
     "model": "swb.Service",
-    "pk": 1,
     "fields": {
       "service_name": "data analysis"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 2,
     "fields": {
       "service_name": "monitoring & evaluation"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 3,
     "fields": {
       "service_name": "longitudinal study"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 4,
     "fields": {
       "service_name": "CART models"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 5,
     "fields": {
       "service_name": "database"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 6,
     "fields": {
       "service_name": "risk plots"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 7,
     "fields": {
       "service_name": "data compilation"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 8,
     "fields": {
       "service_name": "optimize process"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 9,
     "fields": {
       "service_name": "data cleaning"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 10,
     "fields": {
       "service_name": "survey weighting"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 11,
     "fields": {
       "service_name": "survey baseline"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 12,
     "fields": {
       "service_name": "survey design"
     }
   },
   {
     "model": "swb.Service",
-    "pk": 13,
     "fields": {
       "service_name": "field testing"
     }
   },
   {
     "model": "swb.Project",
-    "pk": 14,
     "fields": {
       "project_title": "Asante Africa Foundation",
       "project_tag": "-project1-asante",
@@ -106,7 +92,6 @@
   },
   {
     "model": "swb.Project",
-    "pk": 15,
     "fields": {
       "project_title": "Save the Children - Ethiopia",
       "project_tag": "-project2-stc",
@@ -120,7 +105,6 @@
   },
   {
     "model": "swb.Project",
-    "pk": 16,
     "fields": {
       "project_title": "Tacugama Chimpanzee Sanctuary",
       "project_tag": "-project3-chimp",
@@ -134,7 +118,6 @@
   },
   {
     "model": "swb.Project",
-    "pk": 17,
     "fields": {
       "project_title": "Whole of Syria Health Cluster",
       "project_tag": "-project4-un",
@@ -148,7 +131,6 @@
   },
   {
     "model": "swb.Project",
-    "pk": 18,
     "fields": {
       "project_title": "UNICEF Sierra Leone",
       "project_tag": "-project5-un",
@@ -162,7 +144,6 @@
   },
   {
     "model": "swb.Project",
-    "pk": 19,
     "fields": {
       "project_title": "Haitian Earthquake Data Collection",
       "project_tag": "-project6-haiti",

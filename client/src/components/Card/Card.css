@@ -1,7 +1,15 @@
 .how_you_can_benefit {
   background-color: var(--cyan-blue);
+<<<<<<< HEAD
   width: 30%;
   height: 50%;
+=======
+  /* max-width: 21%;
+  max-height: 18%; */
+  height: 330px;
+  width: 280px;
+  text-align: center;
+>>>>>>> acbbc0c6c338a845a8c2f9a6965ace05bff4e872
   border-radius: 5%;
   color: white;
   font-size: 0.6rem;

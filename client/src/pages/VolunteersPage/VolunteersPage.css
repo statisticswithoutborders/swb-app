@@ -1,0 +1,135 @@
+.VolunteersPage {
+    width: 98%;
+    max-width: 1500px;
+}
+
+.VolunteersPage-volunteerfor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+}
+
+.VolunteersPage-volunteerfor-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.VolunteersPage-volunteerfor-video {
+    width: 45%;
+    margin-top: 2%;
+}
+
+.VolunteersPage-volunteerfor-content {
+    width: 40%;
+    margin: 4% 7%;
+    line-height: 1.4;
+    
+}
+
+.VolunteersPage-section-title {
+    color: var(--blue-medium-darker);
+    margin-top: 30px;
+}
+
+.VolunteersPage-ourvolunteers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+}
+
+.VolunteersPage-volunteerfor-card-container-top {
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.VolunteersPage-volunteerfor-card-container-bottom {
+    width: 90%;
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.VolunteersPage-howitworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+}
+
+.VolunteersPage-hiw-container {
+    width: 80%;
+    margin-top: 3%;
+}
+
+.VolunteersPage-worktogether {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--blue-medium-dark);
+    border-bottom: 2px var(--blue) solid;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 900px) {
+
+    .VolunteersPage-volunteerfor-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+
+    .VolunteersPage-volunteerfor-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+    
+    .VolunteersPage-volunteerfor-video {
+        width: 98%;
+        margin-top: 2%;
+    }
+    
+    .VolunteersPage-volunteerfor-content {
+        width: 98%;
+        margin: 4% 7%;
+        line-height: 1.4;
+        
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .VolunteersPage-volunteerfor-card-container-top {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .VolunteersPage-volunteerfor-card-container-bottom {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

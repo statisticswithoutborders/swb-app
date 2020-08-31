@@ -1,6 +1,6 @@
 import React from "react";
 import "./Video.css";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 
 function Video(props) {
   let classList = "";

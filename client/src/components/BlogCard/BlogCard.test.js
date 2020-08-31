@@ -1,14 +1,12 @@
-import React from 'react'
-import { shallow, mount, configure } from 'enzyme'
-import BlogCard from './BlogCard.js'
-import Adapter from 'enzyme-adapter-react-16';
-configure({adapter: new Adapter()});
+import React from "react";
+import { shallow, mount, configure } from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
+configure({ adapter: new Adapter() });
+import BlogCard from "./BlogCard.js";
 
-
-describe('BlogCard component', () => {
-
-  it('should render as expected', () => {
-    const component = shallow(<BlogCard />)
-	 	expect(component.exists()).toBe(true);
-  })
-})
+describe("<BlogCard />", () => {
+	it("should render", () => {
+		const component = shallow(<BlogCard />);
+		expect(component.exists()).toBe(true);
+	});
+});

@@ -66,7 +66,7 @@ class NewProject(models.Model):
     
 class Blog(models.Model):
     blog_title = models.CharField(max_length=200, default=" ")
-    blog_date = models.DateField(auto_now=False, default=" ")
+    blog_date = models.DateField(auto_now=True)
     blog_body = models.TextField(default="Enter text here")
     
     def __str__(self):

@@ -25,3 +25,30 @@ describe('Component Images Render', () => {
 	 	expect(wrapper.find('.HowItWorks-path-image')).toHaveLength(1);
   })
 })
+
+describe('Component Text Renders', () => {
+
+  it('Title Components render', () => {
+    const wrapper = shallow(<HowItWorks />)
+	 	expect(wrapper.find('.HowItWorks-detail-title')).toHaveLength(4);
+  })
+
+  it('Title components contain text', () => {
+    const wrapper = shallow(<HowItWorks />)
+    wrapper.find('.HowItWorks-detail-title').forEach(node =>{
+     expect(node.text()).toMatch(/ /);
+    })
+  })
+
+  it('Detail Components render', () => {
+    const wrapper = shallow(<HowItWorks />)
+	 	expect(wrapper.find('.HowItWorks-detail-body')).toHaveLength(4);
+  })
+
+  it('Detail components contain text', () => {
+    const wrapper = shallow(<HowItWorks />)
+    wrapper.find('.HowItWorks-detail-body').forEach( node => {
+     expect(node.text()).toMatch(new RegExp('volunteer'));
+    })
+  })
+})

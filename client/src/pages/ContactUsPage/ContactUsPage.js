@@ -33,9 +33,7 @@ class ContactUsPage extends Component {
 					<h2 className="ContactUsPage-header">
 						Let's Work Together - Contact Us
 					</h2>
-					<div className="ContactUsPage-form-placeholder">
-						<FormContact formCallback={this.handleSend} />
-					</div>
+					<FormContact formCallback={this.handleSend} />
 					<p className="ContactUsPage-inquiries">
 						<strong>For any direct inquiries, please email SWB:</strong>{" "}
 						<a href="mailto:statisticswithoutborders@gmail.com">

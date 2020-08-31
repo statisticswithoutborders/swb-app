@@ -6,17 +6,12 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
 	padding-bottom: 15px;
 }
 
 .ContactUsPage-header {
 	color: var(--blue-medium-dark);
-}
-
-.ContactUsPage-form-placeholder {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .ContactUsPage-button {

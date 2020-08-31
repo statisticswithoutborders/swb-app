@@ -23,4 +23,13 @@ class Project(models.Model):
     def __str__(self):
         return self.project_title
 
+class Member(models.Model):
+    member_name = models.CharField(max_length=100, unique=True, default=" ")
+    member_picture_url = models.TextField(default=" ")
+    member_role = models.CharField(max_length=100, default=" ")
+    member_about = models.TextField(default=" ")
+
+    def __str__(self):
+        return self.member_name
+
 

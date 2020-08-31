@@ -8,7 +8,7 @@ configure({adapter: new Adapter()});
 describe('HowItWorks component', () => {
 
   it('should render as expected', () => {
-    const component = shallow(<HowItWorks />)
-	 	expect(component.exists()).toBe(true);
+    const wrapper = shallow(<HowItWorks />)
+	 	expect(wrapper.exists()).toBe(true);
   })
 })

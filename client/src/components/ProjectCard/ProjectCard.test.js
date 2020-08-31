@@ -8,7 +8,25 @@ configure({adapter: new Adapter()});
 describe('ProjectCard component', () => {
 
   it('should render as expected', () => {
-    const component = shallow(<ProjectCard />)
-	 	expect(component.exists()).toBe(true);
+    const wrapper = shallow(<ProjectCard />)
+	 	expect(wrapper.exists()).toBe(true);
+  })
+})
+
+describe('Elements Render', () => {
+
+  it('Title renders as expected', () => {
+    const wrapper = shallow(<ProjectCard />)
+	 	expect(wrapper.find('.ProjectCard-title')).toHaveLength(1)
+  })
+
+  it('Image renders as expected', () => {
+    const wrapper = shallow(<ProjectCard />)
+	 	expect(wrapper.find('.ProjectCard-image')).toHaveLength(1)
+  })
+
+  it('button renders as expected', () => {
+    const wrapper = shallow(<ProjectCard />)
+	 	expect(wrapper.find('Button')).toHaveLength(1)
   })
 })

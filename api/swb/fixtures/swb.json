@@ -96,9 +96,9 @@
       "project_title": "Save the Children - Ethiopia",
       "project_tag": "-project2-stc",
       "project_location": "Ethiopia",
-      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
-      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
-      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/save_the_children/save_children_1.jpg",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/save_the_children/save_children_4.jpg",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/save_the_children/save_children_2.jpg",
       "project_description": "Save the Children is an international non-profit organization dedicated to improving the lives of children. Save the Children requested help from SWB to design an analysis plan for a longitudinal cohort study of nearly 2,000 children in Tigray, Ethiopia, as part of a long-term evaluation of Sponsorship-funded integrated programming. Sponsorship-funded programming operates in the areas of maternal and child health, early childhood care and development, basic education, school health and nutrition, and adolescent development. This valuation focuses on educational and early childhood interventions. Data will be collected every two years from 2017 and continuing through 2027. Statistical challenges include analysis of missing data, definition of random effects and correlation structure, use of propensity scores, and causal inference. SWB’s team includes a graduate student and a medical school professor, both in the US, a post-doctoral fellow in Spain and a semi-retired academic researcher from Canada.",
       "project_services": [1, 3]
     }
@@ -109,9 +109,9 @@
       "project_title": "Tacugama Chimpanzee Sanctuary",
       "project_tag": "-project3-chimp",
       "project_location": "Sierra Leone",
-      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
-      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
-      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/tacugama_chimpanzee/tacugama_1.jpg",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/tacugama_chimpanzee/tacugama_2.jpg",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/tacugama_chimpanzee/tacugama_1.jpg",
       "project_description": "Description: Since 1995, Tacugama Chimpanzee Sanctuary has rescued and rehabilitated nearly 200 orphaned and illegally traded western chimpanzees (Pan troglodytes verus). SWB did two projects for Tacugama in 2018. In a fairly rapid 3-month project, one of our Masters-level statisticians analyzed before-and-after data from an environmental awareness campaign conducted by the conservation manager in order to reduce the negative impact of construction along the Bandajuma-Jendema road near the Liberian border. McNemar's test was used to demonstrate the success of the campaign in improving awareness of the illegality of chimpanzee trading and risks associated with bushmeat consumption. GLMM models indicated that individuals who encounter bushmeat and/or use it as part of their daily lives may lack a corresponding awareness of the health risks, and be at highest risk for diseases such as Ebola. SWB was asked to investigate the causes of an ataxia-like mystery disease responsible for the deaths of over 50 chimpanzees since 2005. Tacugama veterinarians have long recognized important risk factors such as time of year and forested enclosure but were anxious to investigate further. The SWB team included a medical school professor and a recent graduate in Industrial Engineering. Project work continued for nearly a year while SWB volunteers explored the data with Cox survival analysis, competing risk plots, and CART models. We also created an electronic database for the veterinarians, enabling them to record more types of data in a consistent and easily accessible form.",
       "project_services": [1, 4, 5, 6]
     }
@@ -122,9 +122,9 @@
       "project_title": "Whole of Syria Health Cluster",
       "project_tag": "-project4-un",
       "project_location": "Syria",
-      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
-      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
-      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/un_logo_small.png",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/un_logo_small.png",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/un_logo_small.png",
       "project_description": "The Syrian Health Cluster, with four hubs and 118 partners, is the coordination mechanism to provide emergency and trauma care, as well as to provide basic health provision where it has collapsed. The Syrian Health Cluster is a part of the “Whole-of-Syria” approach, which allows for a more effective and accountable humanitarian action inside Syria. By request from Luis Hernando Aguilar of the Cluster at the time, a team of six SWB volunteers - from England, France, Kenya, the Netherlands, and the United States - spent one month completing and documenting an automatic data compilation system using ETL scripts in R to replace Excel macros. The scripts helped optimize the ETL processes, reducing effort time, minimizing error risks, and improving the quality of the data that were the basis for decision making.",
       "project_services": [7, 8]
     }
@@ -135,9 +135,9 @@
       "project_title": "UNICEF Sierra Leone",
       "project_tag": "-project5-un",
       "project_location": "Sierra Leone",
-      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
-      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
-      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/sierra_leone/sierra_leone_5.jpeg",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/sierra_leone/sierra_leone_2.jpeg",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/sierra_leone/sierra_leone_3.jpeg",
       "project_description": "SWB is working on a long-term project with UNICEF to evaluate health interventions in Sierra Leone. SWB assisted with the design of the baseline survey, data cleaning, and survey weighting. Ongoing work will include data analysis and planning for a post-intervention survey. An unsolicited comment from our main UNICEF contact follows: “… [your SWB volunteer] did an outstanding job. I could not have done it without her. She was so patient with cleaning the data and dealing with unexpected problems related to revisits. …”",
       "project_services": [1, 9, 10, 11]
     }
@@ -148,11 +148,92 @@
       "project_title": "Haitian Earthquake Data Collection",
       "project_tag": "-project6-haiti",
       "project_location": "Haiti",
-      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
-      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
-      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_4.png",
+      "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/haiti/haiti_1.jpg",
+      "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/haiti/haiti_3.jpg",
+      "photo_urlThree": "https://swb.wildapricot.org/resources/Site/projects/haiti/haiti_1.jpg",
       "project_description": "A team of Statistics Without Borders (SWB) volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on providing solutions to advancing human health) on the design and execution of a survey in Haiti.  Data collected will be used to assess the impact of the magnitude 7.0 Mw earthquake of January 12, 2010.  The epicentre of this earthquake, near the town of Léogâne, was about 16 miles WSW of the Haitian capital and population center of Port-au-Prince.  Thousands of people died and homes, businesses, government buildings, and national landmarks throughout the region collapsed or suffered structural damage, resulting in the displacement of millions of survivors.",
       "project_services": [12, 13]
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Jean Opsomer",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/Jean%20Opsomer.png",
+      "member_role": "Chair",
+      "member_about": "Jean Opsomer is Professor and Chair in the Department of Statistics at Colorado State University. His main areas of statistical expertise are survey statistics and nonparametric methods. He is delighted to be able to assist SWB as it continues to expand its operations and develops a more effective organizational structure."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Jea Brodsky",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/Jae%20Brodsky.png",
+      "member_role": "Vice Chair",
+      "member_about": "Jae Brodsky works in statistical genetics on problems in machine learning, big data analysis, and Bayesian techniques. She has a Ph.D. in statistics from UCLA and previously worked at the FDA."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Davina Durgana",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Pictures/Screen%20Shot%202020-03-17%20at%201.16.16%20PM.png",
+      "member_role": "Vice-Chair Elect",
+      "member_about": "Davina P. Durgana, PhD is an award-winning international human rights statistician who has developed leading global models to assess risk and vulnerability to modern slavery. Dr. Durgana is a Report Co-Author and Senior Statistician on the Global Slavery Index of the Minderoo Foundation’s Walk Free Initiative."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "David Whitford",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/DavidWhitford.jpg",
+      "member_role": "Engagement Director",
+      "member_about": "David Whitford was formerly with the U.S Census Bureau and led the division of statisticians responsible for statistical aspects of the Decennial Censuses and the monthly American Community Survey. He currently provides consultation on survey methodology to developing countries, governments, and NGOs. His interests are dual system estimation, record linkage, R, tennis, and travel."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Smita Skrivanek",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/Smita%20Skrivanek.jpg",
+      "member_role": "Operations Director",
+      "member_about": "Smita Skrivanek works in the field of quality and continuous improvement and consults on process improvement projects. She is interested in human rights, animal rights, environmental and social justice issues."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Matt Brems",
+      "member_picture_url": "https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/11915/thumb_bremsbw.png",
+      "member_role": "Marketing & Communications Director",
+      "member_about": "Matt Brems works at General Assembly as a data science instructor and is managing partner of a consultancy, BetaVector. He is interested in data visualization, missing data, and Python programming. He holds a Master's degree in statistics from The Ohio State University."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Cathy Furlong",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/CathyFurlong.jpg",
+      "member_role": "Past Chair (emeritus)",
+      "member_about": "Client acquisition co-chair. Cathy Furlong is currently employed in the Medicare fraud industry where she works on data mining, sampling/extrapolations, and Administrative Law Hearings with Medicare data. She holds a Masters in Statistics from American University. Her areas of interest are human rights and nature. Other areas of volunteer work are as a Fair Fax County Master Gardener, on the Glen Echo Park Waltz Committee, and with the Caucus for Women in Statistics."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Gary Shapiro",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/Gary%20Shapiro.jpg",
+      "member_role": "Co-Founder",
+      "member_about": "Currently the new client acquisition co-chair. Gary Shapiro is retired from Westat, where he was Senior Statistician from 1996 to 2009. Gary was the lead statistician, senior statistician, or/and task leader on over 30 projects, mostly involving survey sample design, weighting, and variance estimation. Prior to being at Westat, Gary was a Senior Statistician at Abt Associates from 1993 to 1996, where he was the lead statistician for a number of surveys."
+    }
+  },
+  {
+    "model": "swb.Member",
+    "fields": {
+      "member_name": "Steve Pierson",
+      "member_picture_url": "https://swb.wildapricot.org/resources/Site/executive_committee/Pierson-color-copy.png",
+      "member_role": "Co-Founder",
+      "member_about": "And also an ASA ex officio board member. Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA."
     }
   }
 ]

@@ -33,4 +33,3 @@ class Member(models.Model):
         return self.member_name
 
 
-

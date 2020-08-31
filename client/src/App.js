@@ -14,28 +14,30 @@ import ProjectEthiopia from "./components/ProjectPage/ProjectPageEthiopia";
 import ProjectHaiti from "./components/ProjectPage/ProjectPageHaiti";
 import ProjectSyria from "./components/ProjectPage/ProjectPageSyria";
 import ProjectUnicef from "./components/ProjectPage/ProjectPageUnicef";
-import Services from "./pages/OurServicesPage/OurServicesPage"
-import Volunteers from "./pages/VolunteersPage/VolunteersPage"
+import Services from "./pages/OurServicesPage/OurServicesPage";
+import Volunteers from "./pages/VolunteersPage/VolunteersPage";
+import Contact from "./pages/ContactUsPage";
 
 function App() {
-  return (
-      <div>
-        <NavBar/>
-        <Route path="/" component={Home} exact={true}/>
-        <Route path="/contactus" component={ContactUs} exact={true}/>
-        <Route path="/projects/" component={Projects} exact={true}/>
-        <Route path="/projects/asante" component={ProjectAsante}/>
-        <Route path="/projects/chimp" component={ProjectChimp}/>
-        <Route path="/projects/ethiopia" component={ProjectEthiopia} />
-        <Route path="/projects/haiti" component={ProjectHaiti} />
-        <Route path="/projects/syria" component={ProjectSyria} />
-        <Route path="/projects/unicef" component={ProjectUnicef} />
-        <Route path="/ourservices" component={Services}/>
-        <Route path="/volunteers" component={Volunteers}/>
-        
-        <Footer/>
-      </div>
-  );
+	return (
+		<div>
+			<NavBar />
+			<Route path="/" component={Home} exact={true} />
+			<Route path="/contactus" component={ContactUs} exact={true} />
+			<Route path="/projects/" component={Projects} exact={true} />
+			<Route path="/projects/asante" component={ProjectAsante} />
+			<Route path="/projects/chimp" component={ProjectChimp} />
+			<Route path="/projects/ethiopia" component={ProjectEthiopia} />
+			<Route path="/projects/haiti" component={ProjectHaiti} />
+			<Route path="/projects/syria" component={ProjectSyria} />
+			<Route path="/projects/unicef" component={ProjectUnicef} />
+			<Route path="/ourservices" component={Services} />
+			<Route path="/volunteers" component={Volunteers} />
+			<Route path="/contact" component={Contact} />
+
+			<Footer />
+		</div>
+	);
 }
 
 export default App;

@@ -5,6 +5,14 @@ import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
 
 
+describe('MemberCard component renders', () => {
+
+  it('should render as expected', () => {
+    const component = shallow(<MemberCard />)
+	 	expect(component.exists()).toBe(true);
+  })
+})
+
 describe('MemberCard component', () => {
 
   it('should render as expected', () => {
@@ -12,3 +20,4 @@ describe('MemberCard component', () => {
 	 	expect(component.exists()).toBe(true);
   })
 })
+

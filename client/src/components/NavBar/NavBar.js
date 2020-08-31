@@ -15,27 +15,27 @@ class NavBar extends Component {
           <img src={nav_logo_name} className="logo" alt="name" />
           <ul className="Nav_item-wrapper">
             <li className="Nav_item nav-item-services">
-              <Link className="Nav_link" to="#">
+              <Link className="Nav_link" to="/ourservices">
                 Services
               </Link>
             </li>
             <li className="Nav_item">
-              <Link className="Nav_link" to="#">
+              <Link className="Nav_link" to="/projects">
                 Projects
               </Link>
             </li>
             <li className="Nav_item">
-              <Link className="Nav_link" to="#">
+              <Link className="Nav_link" to="volunteers">
                 Volunteers
               </Link>
             </li>
             <li className="Nav_item">
-              <Link className="Nav_link" to="#">
+              <Link className="Nav_link" to="/aboutus">
                 About
               </Link>
             </li>
             <li className="Nav_item">
-              <Link className="Nav_link" to="#">
+              <Link className="Nav_link" to="/contactus">
                 Contact
               </Link>
             </li>

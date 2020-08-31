@@ -22,7 +22,7 @@ describe('Test Image clicks', () => {
      
      });
      expect(wrapper.find('.asanteOne')).toHaveLength(1)
-     expect(wrapper.find('.asanteOne')).toHaveLength(0)
-     expect(wrapper.find('.asanteOne')).toHaveLength(0)
+     expect(wrapper.find('.asanteTwo')).toHaveLength(0)
+     expect(wrapper.find('.asanteThree')).toHaveLength(0)
   })
 })

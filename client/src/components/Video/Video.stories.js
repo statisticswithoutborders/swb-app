@@ -8,9 +8,7 @@ storiesOf("Video", module)
   .add("Video Faunalytics", () => {
     return (
       <Video
-        height="auto"
-        width="100%"
-        url="https://www.youtube.com/watch?v=xFKkTMjQoIw"
+     url="https://www.youtube.com/embed/xFKkTMjQoIw"
       />
     );
   })
@@ -18,9 +16,7 @@ storiesOf("Video", module)
   .add("Video Volunteer", () => {
     return (
       <Video
-        height="auto"
-        width="100%"
-        url="https://www.youtube.com/watch?v=1y2-v3W8Ubs"
+     url="https://www.youtube.com/watch?v=1y2-v3W8Ubs&t=1s"
       />
     );
   });

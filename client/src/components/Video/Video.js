@@ -3,18 +3,10 @@ import "./Video.css";
 import ReactPlayer from "react-player";
 
 function Video(props) {
-  let classList = "";
-  if (props.large) {
-    classList += ` Video-large`;
-  }
-  if (props.small) {
-    classList += ` Video-small`;
-  }
 
   return (
       <ReactPlayer controls
-      height={props.height} width={props.width}
-      className={classList}
+      min-height="500px" width="100%"
         url={props.url}
       />
     

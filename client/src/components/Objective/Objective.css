@@ -7,12 +7,12 @@
    font-family: var("--paragraph-font");
    font-size: 45px;
    margin-right: 50px;
-   margin-top: 5px;
+   margin-top: 2px;
 
 }
 
 .arrow-objective{
-    margin-top: 6px;
+    margin-top: 3px;
 }
 
 .text-objective {
@@ -20,7 +20,7 @@
     font-family: var("--paragraph-font");
     font-size: 17px;
     margin-left: 55px;
-    width: 65%;
     line-height: 1.4em;
+    margin-top: 5px;
 
 }

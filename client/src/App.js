@@ -19,7 +19,6 @@ import Volunteers from "./pages/VolunteersPage/VolunteersPage"
 
 function App() {
   return (
-    <React.Fragment>
       <div>
         <NavBar/>
         <Route path="/" component={Home} exact={true}/>
@@ -36,7 +35,6 @@ function App() {
 
         <Footer/>
       </div>
-    </React.Fragment>
   );
 }
 

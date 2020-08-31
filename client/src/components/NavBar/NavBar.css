@@ -3,19 +3,18 @@
 .Nav_item-wrapper {
   list-style-type: none;
   margin: 0;
-  margin-left: 42%;
+  margin-left: 48%;
   padding: 0;
   color: var(--blue);
-  float: right;
   display: flex;
 }
 
 .Nav_item {
   width: 100%vw;
-  padding: 20px;
   display: inline-block;
   text-align: right;
   font-size: 17px;
+  margin: 5%
 }
 
 .Nav_link {
@@ -35,9 +34,39 @@
 }
 
 .login {
-  margin-left: 50px;
+  margin-left: 170px;
   margin-top: 5px;
   height: 40px;
 }
+
+@media (max-width: 1199.98px) { 
+  .Nav_item-wrapper{
+    margin-left: 32%
+  }
+}
+
+@media (max-width: 991.98px) { 
+  .Nav_item-wrapper{
+    margin-left: 9%
+  }
+}
+
+@media (max-width: 575.98px) { 
+  .Nav_item-wrapper{
+    margin-left: 0%;
+    width: 1vw
+  } 
+  .Nav_item {
+    margin: 2% 
+  }
+
+  .Nav_link{
+    font-size: 15px;
+  }
+  .login{
+    margin-left: 0%;
+  }
+}
+
 
 

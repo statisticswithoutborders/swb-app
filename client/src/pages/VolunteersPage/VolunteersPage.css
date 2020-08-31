@@ -21,7 +21,6 @@
 
 .VolunteersPage-volunteerfor-video {
     width: 45%;
-    height: auto;
     margin-top: 2%;
     display: flex;
     justify-content: center;
@@ -92,13 +91,7 @@
 
 @media screen and (max-width: 700px) {
 
-    .VolunteersPage-volunteerfor-card-container-top {
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    
-    .VolunteersPage-volunteerfor-card-container-bottom {
+    .VolunteersPage-volunteerfor-card-container {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;

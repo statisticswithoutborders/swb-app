@@ -1,7 +1,16 @@
+.Card-image {
+  margin-top: 5%;
+  width: 75%;
+  padding-top: 45%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .how_you_can_benefit {
   background-color: var(--cyan-blue);
-  width: 30%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   border-radius: 5%;
   color: white;
   font-size: 0.6rem;
@@ -9,6 +18,7 @@
   padding-top: 2%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .how_you_can_benefit h3 {
@@ -34,7 +44,7 @@
 }
 
 .what_we_do {
-  width: 30%;
+  width: 100%;
   text-align: center;
   border-radius: 5%;
   color: white;
@@ -42,6 +52,7 @@
   font-family: var(--paragraph-font);
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -52,6 +63,7 @@
   line-height: 1.2;
   text-shadow: 1px 2px 2px grey;
   text-align: center;
+  margin-bottom: 10%;
 }
 .what_we_do img {
   padding-top: 10%;
@@ -73,12 +85,10 @@
   grid-auto-rows: auto;
   align-content: center;
   justify-items: center;
-  width: 35%;
-  height: 21rem;
+  width: 100%;
+  height: 100%;
   border: 2px solid var(--cyan-blue);
   border-radius: 5%;
-  padding-bottom: 1.3rem;
-  padding-top: 1.8rem;
   font-family: var(--paragraph-font);
   color: var(--blue-magenta-dark);
   text-align: center;
@@ -93,20 +103,19 @@
 .our_volunteers p {
   width: 75%;
   font-size: 0.8rem;
+  margin-bottom: 5%;
 }
-.our_volunteers img {
-  width: 65%;
-}
-@media only screen and (max-width: 1000px) {
+
+/* @media only screen and (max-width: 1000px) {
   .what_we_do {
     width: 50%;
   }
-}
+} */
 
 @media only screen and (max-width: 575px) {
-  .how_you_can_benefit {
+  /* .how_you_can_benefit {
     width: 50%;
-  }
+  } */
   .how_you_can_benefit p {
     text-align: center;
   }
@@ -120,10 +129,10 @@
   .what_we_do p {
     font-size: 0.8rem;
   }
-  .our_volunteers {
+  /* .our_volunteers {
     height: auto;
     width: 50%;
-  }
+  } */
   .our_volunteers h3 {
     font-size: 1rem;
     text-align: center;
@@ -135,10 +144,10 @@
 }
 
 @media only screen and (min-width: 1450px) {
-  .our_volunteers img {
+  /* .our_volunteers img {
     width: 40%;
     height: auto;
-  }
+  } */
   .our_volunteers p {
     text-align: center;
   }

@@ -10,7 +10,6 @@ const ProjectPageHaiti = (props) => {
         Statistics Without Borders Projects
       </div>
       <div className="projectPageTitle">Haitian Earthquake Data Collection</div>
-      <div className="smallProjectTag">-project6-haiti</div>
       <br></br>
       <div>
         <div className="pPageImageGalleryDiv">

@@ -106,16 +106,16 @@
   margin-bottom: 5%;
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   .what_we_do {
     width: 50%;
   }
-}
+} */
 
 @media only screen and (max-width: 575px) {
-  .how_you_can_benefit {
+  /* .how_you_can_benefit {
     width: 50%;
-  }
+  } */
   .how_you_can_benefit p {
     text-align: center;
   }
@@ -129,10 +129,10 @@
   .what_we_do p {
     font-size: 0.8rem;
   }
-  .our_volunteers {
+  /* .our_volunteers {
     height: auto;
     width: 50%;
-  }
+  } */
   .our_volunteers h3 {
     font-size: 1rem;
     text-align: center;
@@ -144,10 +144,10 @@
 }
 
 @media only screen and (min-width: 1450px) {
-  .our_volunteers img {
+  /* .our_volunteers img {
     width: 40%;
     height: auto;
-  }
+  } */
   .our_volunteers p {
     text-align: center;
   }

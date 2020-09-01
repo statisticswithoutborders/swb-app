@@ -60,6 +60,7 @@ class Footer extends Component {
                 <Link className="footer-text-link" to="">
                   Volunteer Application
               </Link>
+<<<<<<< HEAD
               </Router>
             </p>
             <p>
@@ -128,6 +129,76 @@ class Footer extends Component {
               <Router>
                 <Link className="footer-text-link" to="">
                   Press Publications
+=======
+            </Router>
+          </p>
+          <p>
+            <Router>
+              <Link className="footer-text-link" to="">
+                <span className="footer-privacy-policy">Privacy Policy</span>
+              </Link>
+            </Router>
+          </p>
+        </div>
+        <div classname="Footer-Column">
+          <h3>Projects</h3>
+          <p>
+          
+              <Link className="footer-text-link" to="/projects/asante">
+                Asante Africa Foundation
+              </Link>
+            
+          </p>
+          <p>
+          
+              <Link className="footer-text-link" to="/projects/ethiopia">
+                Save the Children
+              </Link>
+            
+          </p>
+          <p>
+          
+              <Link className="footer-text-link" to="/projects/chimp">
+                Tacugama Chimpanzee Sanctuary
+              </Link>
+            
+          </p>
+          <p>
+          
+              <Link className="footer-text-link" to="/projects/syria">
+                Whole of Syria Health Cluster
+              </Link>
+            
+          </p>
+          <p>
+          
+              <Link className="footer-text-link" to="/projects/unicef">
+                UNICEF Sierra Leone
+              </Link>
+            
+          </p>
+          <p>
+          
+              <Link className="footer-text-link" to="/projects/haiti">
+                Haitian Earthquake Data Collection
+              </Link>
+            
+          </p>
+        </div>
+        <div classname="Footer-Column">
+          <h3>About</h3>
+          <p>
+            <Router>
+              <a href = "https://www.amstat.org/"className="footer-text-link">
+                American Statistical Association
+              </a>
+            </Router>
+          </p>
+          <p>
+            <Router>
+              <Link className="footer-text-link" to="">
+                Press Publications
+>>>>>>> e24ac318115982588aafb97497a0945d74b892ae
               </Link>
               </Router>
             </p>

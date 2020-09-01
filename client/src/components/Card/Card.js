@@ -15,6 +15,10 @@ const Card = (props) => {
   if (props.our_volunteers) {
     classList += ` our_volunteers`;
   }
+  if (props.volunteer_ns_image) {
+    classList += ` volunteer_ns_image`;
+  }
+
   return (
     <div className={classList}>
       <img src={props.image}></img>

@@ -9,7 +9,8 @@ storiesOf('ProjectCard', module)
     .add('Without Project Details', () =>{
       return <div style={{width: "350px"}}>
       <ProjectCard projectTitle="Asante Africa Foundation" 
-                          image="var(--home-asante)" 
+                    image="var(--home-asante)" 
+                    link="/"
               />
             </div>
     })
@@ -17,8 +18,10 @@ storiesOf('ProjectCard', module)
     .add('With Project Details', () =>{
       return <div style={{width: "350px"}}>
       <ProjectCard projectTitle="Asante Africa Foundation" 
-                          image="var(--home-asante)" 
-                          projectDescription="Use Monitoring & Evaluation to assess impact of work that empowers East African youth with programs in Girls' Advancement, Accelerated Classroom Learning, and Youth Leadership and Entrepreneurship"
+                    image="var(--home-asante)" 
+                    projectDescription="Use Monitoring & Evaluation to assess impact of work that empowers East African youth with programs in Girls' Advancement, Accelerated Classroom Learning, and Youth Leadership and Entrepreneurship"
+                    link="/"
+
               />
             </div>
     }

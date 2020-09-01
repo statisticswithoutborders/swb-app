@@ -1,0 +1,209 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.about-title {
+  color: var(--blue-medium-dark);
+  margin-top: 5%;
+}
+
+.about-swb {
+  display: flex;
+  flex-direction: row;
+}
+.about-swb p {
+  color: var(--blue-medium-dark);
+  font-size: 18px;
+}
+
+.about-img {
+  background: no-repeat;
+  background-size: contain;
+  width: 210%;
+  margin: 5%;
+}
+
+.section-p {
+  margin-bottom: 25px;
+  margin-right: 16%;
+  text-align: start;
+}
+
+.about-hr {
+  border-top: 2px solid var(--blue);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.objective-section-one {
+  margin-top: 80px;
+}
+
+.objective-section {
+  margin-left: 10%;
+  margin-bottom: 70px;
+  text-align: start;
+}
+.member-header {
+  color: var(--blue-medium-dark);
+  font-size: 2em;
+}
+.member-parent-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: -3%;
+}
+
+.member-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.member-cards {
+  margin: 5px 20px;
+}
+
+.number-icons-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 85%;
+}
+
+.number-icons-header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--blue-medium-dark);
+  margin: 60px;
+  margin-top: -2%;
+}
+.number-icons-objectives {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 22px;
+  padding: 20px;
+  padding-left: 10%;
+  width: 90%;
+  text-align: start;
+}
+.number-icons-icon {
+  justify-content: flex-start;
+  width: 15%;
+}
+.number-icons-text {
+  justify-content: row;
+  width: 80%;
+  color: var(--blue-medium-dark);
+}
+
+.charter-text {
+  text-align: right;
+  color: var(--blue-medium-dark);
+  font-size: 22px;
+  margin-right: 18%;
+  margin-bottom: -2%;
+}
+
+.charter-underline {
+  border-bottom: 0.5px gray solid;
+  text-decoration: none;
+  color: var(--blue-medium-dark);
+}
+
+.funding-facts-header {
+  margin-top: -4%;
+  color: var(--blue-medium-dark);
+}
+
+.funding-facts-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-facts-fact {
+  padding-left: 10%;
+  margin: 15px;
+  line-height: 125%;
+}
+
+.funding-facts-readtext {
+  font-size: 18px;
+  color: var(--blue-medium-dark);
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.volunteer-underline {
+  border-bottom: 0.5px gray solid;
+  text-decoration: none;
+  color: var(--blue-medium-dark);
+}
+.privacy-policy-underline {
+  border-bottom: 0.5px gray solid;
+  text-decoration: none;
+  color: var(--blue-medium-dark);
+}
+.broadgreen-header {
+  margin-bottom: 5%;
+}
+.broadgreen-section {
+  margin: -5px 150px;
+  font-size: 22px;
+  color: var(--blue-medium-dark);
+  line-height: 145%;
+  text-align: start;
+}
+
+@media screen and (max-width: 950px) {
+  .MemberCard {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+  .member-row {
+    padding: 10%;
+  }
+  .member-cards {
+    margin: -3%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-title {
+    margin-top: 5%;
+  }
+  .about-swb {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-swb-p .section-p {
+    text-align: middle;
+    padding-left: 25%;
+  }
+  .about-img {
+    width: 100%;
+    padding-top: 50%;
+    background-position: center;
+  }
+  .member-row {
+    display: block;
+    padding: 10%;
+  }
+  .number-icons-objectives {
+    display: block;
+  }
+  .broadgreen-section {
+    display: inline;
+    font-size: 95%;
+  }
+  .objective-section {
+    display: inline;
+  }
+}

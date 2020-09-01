@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import "./ContactUsPage.css"
 import NavBar from '../../components/NavBar/NavBar'
 import Button from '../../components/Button/Button'
-
-
+import Footer from '../../components/Footer/Footer'
+import FormContact from '../../components/FormContact/FormContact'
 
 // React Class Page Component
 class ContactUsPage extends Component {
@@ -20,27 +20,32 @@ class ContactUsPage extends Component {
             ,formComment: ""
         }
     }
+
+    handleSend(name, email, organization, subject, message){
+        console.log(name, email, organization, subject, message);
+    }
    
     render() {
         
 
         return (
             <div className={this.state.classList}>
-                <NavBar />
                 <div className="ContactUsPage-body">
-                    <div className="ContactUsPage-form-placeholder">Form</div>
+                    <h2 className="ContactUsPage-header">Let's Work Together - Contact Us</h2>
+                    <div className="ContactUsPage-form-placeholder">
+                        <FormContact formCallback={this.handleSend} />
+                    </div>
                     <p className="ContactUsPage-inquiries"><strong>For any direct inquiries, please email SWB:</strong> <a href="mailto:statisticswithoutborders@gmail.com">statisticswithoutborders@gmail.com</a></p>
                     <div className="ContactUsPage-button">
-                        <Link to="/">
+                        <Link to="/ourservices">
                             <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>
                         </Link>
                     </div>
                     <div className="ContactUsPage-button">
-                        <Link to="">
-                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR Volunteers"/>
+                        <Link to="/volunteers">
+                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR VOLUNTEERS"/>
                         </Link>
                     </div>
-                    
                 </div>
             </div>
         )

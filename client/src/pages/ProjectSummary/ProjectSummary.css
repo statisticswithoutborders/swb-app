@@ -11,14 +11,14 @@ h1 {
 }
 
 .details {
-  font-size: 20px;
-  width: 90%;
+  font-size: 18px;
+  width: 85%;
   color: var(--blue-medium-dark);
   opacity: 80%;
   text-align: center;
   font-weight: bold;
   margin: auto;
-  /* padding: 0px 100px; */
+  padding-bottom: 2em; 
 }
 
 .project-layout {
@@ -28,6 +28,10 @@ h1 {
   flex-wrap: wrap;
   text-align: center;
   margin: auto;
-  /* padding: 0px 100px 0px 120px; */
+  justify-content: center;
 }
 
+.card-size {
+  width: 30%;
+  height: auto;
+}

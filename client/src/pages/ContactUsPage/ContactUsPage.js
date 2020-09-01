@@ -1,55 +1,69 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import "./ContactUsPage.css"
-import NavBar from '../../components/NavBar/NavBar'
-import Button from '../../components/Button/Button'
-import Footer from '../../components/Footer/Footer'
-import FormContact from '../../components/FormContact/FormContact'
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./ContactUsPage.css";
+import Button from "../../components/Button/Button";
+import FormContact from "../../components/FormContact/FormContact";
 
-// React Class Page Component
+// * Add API url below
+const url = ``;
+
 class ContactUsPage extends Component {
-    constructor(){
-        super()
+	constructor(props) {
+		super(props);
+		this.state = {
+			classList: "ContactUsPage",
+			name: "",
+			email: "",
+			organization: "",
+			subject: "",
+			message: "",
+		};
+	}
 
-        this.state ={
-            classList:'ContactUsPage'
-            ,formName: ""
-            ,formEmail: ""
-            ,formOrg: ""
-            ,formSubject: ""
-            ,formComment: ""
-        }
-    }
+	handleSend(name, email, organization, subject, message) {
+		//* Add API POST code here
+		console.log(url);
+		console.log(name, email, organization, subject, message);
+	}
 
-    handleSend(name, email, organization, subject, message){
-        console.log(name, email, organization, subject, message);
-    }
-   
-    render() {
-        
-
-        return (
-            <div className={this.state.classList}>
-                <div className="ContactUsPage-body">
-                    <h2 className="ContactUsPage-header">Let's Work Together - Contact Us</h2>
-                    <div className="ContactUsPage-form-placeholder">
-                        <FormContact formCallback={this.handleSend} />
-                    </div>
-                    <p className="ContactUsPage-inquiries"><strong>For any direct inquiries, please email SWB:</strong> <a href="mailto:statisticswithoutborders@gmail.com">statisticswithoutborders@gmail.com</a></p>
-                    <div className="ContactUsPage-button">
-                        <Link to="/">
-                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR SERVICES"/>
-                        </Link>
-                    </div>
-                    <div className="ContactUsPage-button">
-                        <Link to="/">
-                            <Button type = 'primary' wide callback label = "LEARN MORE ABOUT OUR VOLUNTEERS"/>
-                        </Link>
-                    </div>
-                </div>
-            </div>
-        )
-    }
+	render() {
+		return (
+			<div className={this.state.classList}>
+				<div className="ContactUsPage-body">
+					<h2 className="ContactUsPage-header">
+						Let's Work Together - Contact Us
+					</h2>
+					<FormContact formCallback={this.handleSend} />
+					<p className="ContactUsPage-inquiries">
+						<strong>For any direct inquiries, please email SWB:</strong>{" "}
+						<a href="mailto:statisticswithoutborders@gmail.com">
+							statisticswithoutborders@gmail.com
+						</a>
+					</p>
+					<div className="ContactUsPage-button">
+						<Link to="/ourservices">
+							<Button
+								type="primary"
+								wide
+								callback
+								label="LEARN MORE ABOUT OUR SERVICES"
+							/>
+						</Link>
+					</div>
+					<div className="ContactUsPage-button">
+						<Link to="/volunteers">
+							<Button
+								type="primary"
+								wide
+								callback
+								label="LEARN MORE ABOUT OUR VOLUNTEERS"
+							/>
+						</Link>
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
 
-export default ContactUsPage
+export default ContactUsPage;

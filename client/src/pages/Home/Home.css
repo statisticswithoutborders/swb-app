@@ -1,0 +1,304 @@
+body {
+  color: var(--blue-medium-dark);
+}
+.banner {
+  background-image: var(--home-banner);
+  width: 100vw;
+  height: 510px;
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+  margin-left: -16px;
+  margin-right: -16px;
+  background-position: cover;
+}
+
+.banner h1 {
+  color: white;
+  display: flex;
+  justify-content: start;
+  margin-left: -3px;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+.statement {
+  width: 650px;
+  /* padding: 5px 0 20px; */
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-right: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.homeHR {
+  border: var(--blue) 1px solid;
+  height: 1px;
+  margin: 50px 0;
+  background-color: var(--blue) !important;
+}
+
+.bulletpoint {
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.point {
+  margin-top: 3px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.bullet {
+  height: 32px;
+}
+
+.wwd {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -40px;
+}
+.wwd h2 {
+  margin: 20px;
+}
+
+.wwd2 {
+  width: 930px;
+  font-size: 18px;
+}
+
+.projects {
+  display: flex;
+  overflow: scroll;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.project {
+  margin: 0 40px;
+  width: 300px;
+}
+
+.project .ProjectCard-title {
+  width: 400px;
+}
+
+.project .ProjectCard-image {
+  width: 300px;
+  height: 15px;
+}
+.missionstatement {
+  display: flex;
+  justify-content: center;
+}
+.probono {
+  display: flex;
+  font-size: 18px;
+  width: 930px;
+}
+
+.wwa {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blogs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 0 25px;
+  margin-bottom: 25px;
+}
+
+.blog {
+  margin: 0 25px;
+}
+
+@media (max-width: 1199.98px) {
+  .card .what_we_do {
+    width: 300px;
+  }
+
+  .blog {
+    margin: 0 10px;
+  }
+
+  .blog .BlogCard {
+    width: 300px;
+  }
+
+  .blog .BlogCard-title {
+    font-size: 25px;
+  }
+
+  .blog .BlogCard-date {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .WhoWeAreCard {
+    width: 250px;
+  }
+
+  .WhoWeAreCard-title {
+    font-size: 30px;
+  }
+  .WhoWeAreCard-image {
+    width: 250px;
+    height: 250px;
+  }
+  .card {
+    margin: 10px 5px;
+  }
+
+  .card .what_we_do {
+    width: 250px;
+  }
+
+  .blog {
+    margin: 0 5px;
+  }
+
+  .blog .BlogCard {
+    width: 250px;
+  }
+
+  .blog .BlogCard-title {
+    font-size: 15px;
+  }
+
+  .blog .BlogCard-date {
+    font-size: 10px;
+  }
+
+  .BlogCard-label {
+    font-size: 14px;
+  }
+
+  .wwd2 {
+    width: 736px;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner p {
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .project {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cards {
+    flex-direction: column;
+  }
+  .banner h1 {
+    font-size: 20px;
+    margin: 14px;
+    margin-left: -3px;
+  }
+
+  .banner p {
+    font-size: 10px;
+    width: 180px;
+  }
+
+  .words{
+    margin-left: -20px;
+    margin-top: -60px;
+  }
+
+  .banner{
+      height: 200px;
+  }
+
+  .button-large{
+      width: 120px;
+      font-size: 15px;
+      height: 35px;
+  }
+
+  .globe{
+      width: 100px;
+      height: 110px;
+  }
+
+  .analysis{
+    width: 100px;
+    height: 110px;
+}
+
+.om{
+    margin-top: 3px;
+    margin-left: 15px ;
+}
+
+.wwd2{
+    width: 343px;
+}
+
+.wwa{
+    flex-direction: column;
+    justify-content: center;
+}
+.WhoWeAreCard{
+    margin:  0 12%;
+}
+
+.blogs{
+    flex-direction: column;
+
+}
+
+.blog {
+    margin: 10px 12%
+}
+}

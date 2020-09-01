@@ -150,7 +150,7 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1025px) {
   .pictureGalleryDiv {
     width: 60vw;
     height: 35vh;
@@ -196,17 +196,17 @@
     height: 30vh;
   }
 }
-@media screen and (max-height: 600px) {
-    .pictureGalleryDiv {
-      height: 70vh;
-    }
-    .pPageImgOne {
-      height: 70vh;
-    }
-    .pPageImgTwo {
-      height: 70vh;
-    }
-    .pPageImgThree {
-      height: 70vh;
-    }
+@media screen and (max-height: 550px) {
+  .pictureGalleryDiv {
+    height: 70vh;
   }
+  .pPageImgOne {
+    height: 70vh;
+  }
+  .pPageImgTwo {
+    height: 70vh;
+  }
+  .pPageImgThree {
+    height: 70vh;
+  }
+}

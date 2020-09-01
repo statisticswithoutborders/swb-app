@@ -21,7 +21,7 @@ const Card = (props) => {
 
   return (
     <div className={classList}>
-      <img src={props.image}></img>
+      <div className="Card-image" style={{backgroundImage: props.image}}/>
       <h3>{props.title}</h3>
       <p>{props.description}</p>
     </div>

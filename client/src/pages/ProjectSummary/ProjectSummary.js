@@ -29,30 +29,42 @@ class ProjectSummary extends Component {
           developing nations.
         </p>
         <div className="project-layout">
+          <div className="card-size">
         <ProjectCard projectTitle="Asante Africa Foundation" 
                           image="var(--home-asante)" 
                           projectDescription="Use Monitoring & Evaluation to assess impact of work that empowers East African youth with programs in Girls' Advancement, Accelerated Classroom Learning, and Youth Leadership and Entrepreneurship"
               />
+              </div>
+              <div className="card-size">
         <ProjectCard projectTitle="Save The Children - Ethiopia" 
                           image="var(--project-stc)" 
                           projectDescription="Design an analysis plan for a longitudinal cohort study of nearly 2,000 children in Tigray, Ethiopia, as part of a long-term evaluation of Sponsorship-funded integrated programming"
               />
+              </div>
+              <div className="card-size">
         <ProjectCard projectTitle="Tacugama Chimpanzee Sanctuary" 
                           image="var(--project-chimp)" 
                           projectDescription="Analyze before-and-after data from an environmental awareness campaign and investigate the causes of an ataxia-like mystery disease responsible for the deaths of over 50 chimpanzees since 2005"
               />
+              </div>
+              <div className="card-size">
         <ProjectCard projectTitle="Whole of Syria Health Cluster:" 
                           image="var(--project-un)" 
                           projectDescription={[<strong><i>UN Office for the Coordination of Humanitarian Affairs Humanitarian Response Operation</i></strong>, <br/>, <br/>, "Optimize the ETL processes, reducing effort time, minimizing error risks, and improving the quality of the data that were the basis for decision making."]}
               />
+              </div>
+              <div className="card-size">
         <ProjectCard projectTitle="UNICEF Sierra Leone" 
                           image="var(--project-unicef-sl)" 
                           projectDescription="Design of the baseline survey, data cleaning, and survey weighting. Ongoing work will include data analysis and planning for a post-intervention survey.."
               />
+              </div>
+              <div className="card-size">
         <ProjectCard projectTitle="Haitian Earthquake Data Collection" 
                           image="var(--project-haiti)" 
                           projectDescription="A team of Statistics Without Borders (SWB) volunteers advised SciMetrika, LLC (an 8(a) firm that focuses on providing solutions to advancing human health) on the design and execution of a survey in Haiti"
               />
+              </div>
         </div>
    
       </div>

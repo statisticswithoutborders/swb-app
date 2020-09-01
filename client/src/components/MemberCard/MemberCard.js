@@ -8,7 +8,7 @@ const MemberCard = props => {
   let classList = `MemberCard`;
 
   const [divClasses, toggleHidden] = useState(["MemberCard-about"]);
-  const toggle = () => toggleHidden(!isHidden);
+  // const toggle = () => toggleHidden(!isHidden);
 
   // let IconDownArrowClasses = ["MemberCard-about"]
 

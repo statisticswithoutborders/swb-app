@@ -1,10 +1,15 @@
 .VolunteersPage {
-    width: 98%;
+    width: 100%;
     max-width: 1500px;
+    margin: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .VolunteersPage-section {
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +27,10 @@
 .VolunteersPage-volunteerfor-video {
     width: 45%;
     margin-top: 2%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .VolunteersPage-volunteerfor-content {
@@ -43,6 +52,10 @@
     justify-content: space-evenly;
 }
 
+.VolunteersPage-card {
+    width: 30%;
+}
+
 .VolunteersPage-hiw-container {
     width: 80%;
     margin-top: 3%;
@@ -52,6 +65,14 @@
     border:none;
     padding-bottom: 5%;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .VolunteersPage-card {
+        width: 40%;
+    }
+} 
+
 
 @media screen and (max-width: 900px) {
 
@@ -84,19 +105,31 @@
         
     }
 
+    .VolunteersPage-card {
+        width: 45%;
+        
+    }
+
 }
 
 @media screen and (max-width: 700px) {
 
-    .VolunteersPage-volunteerfor-card-container-top {
+    .VolunteersPage-volunteerfor-card-container {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        margin: 0%;
     }
+
+    .VolunteersPage-card {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     
-    .VolunteersPage-volunteerfor-card-container-bottom {
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+    .VolunteersPage-card {
+        width: 90%;
     }
 }

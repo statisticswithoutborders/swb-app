@@ -1,8 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Input from "./Input.js";
-import "./Input.css";
-import "../../index.css";
 
 //* Use notes:
 //* After you copy/paste <Input... into a Form component,

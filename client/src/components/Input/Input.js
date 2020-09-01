@@ -1,5 +1,5 @@
 import React from "react";
-import "../../index.css";
+import "./Input.css";
 
 // React Functional Component
 const Input = (props) => {

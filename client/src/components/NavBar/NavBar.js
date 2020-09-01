@@ -4,15 +4,18 @@ import "./NavBar.css";
 import nav_logo_world from "../../assets/images/nav_logo_world.png";
 import nav_logo_name from "../../assets/images/nav_logo_name.png";
 import nav_user_login from "../../assets/images/nav_user_login.png";
+import { slide as Menu } from 'react-burger-menu'
+
 
 class NavBar extends Component {
   render() {
     return (
       <nav className="Nav">
         <div className="Header">
-          <img src={nav_logo_world} className="logo" alt="world" />
 
-          <img src={nav_logo_name} className="logo" alt="name" />
+         <Link to='/'>  <img src={nav_logo_world} className="logo" alt="world" /></Link>
+
+         <Link to = '/'> <img src={nav_logo_name} className="logo" alt="name" /> </Link>
           <ul className="Nav_item-wrapper">
             <li className="Nav_item nav-item-services">
               <Link className="Nav_link" to="/ourservices">
@@ -45,7 +48,8 @@ class NavBar extends Component {
           </a>
         </div>
       </nav>
-    );
+    )
+    }
   }
 }
 

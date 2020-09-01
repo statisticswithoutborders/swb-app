@@ -1,14 +1,17 @@
 .pPageServices {
   display: flex;
   margin: 10px;
+  margin-bottom: 20px;
 }
 .pPageImageGalleryDiv {
   float: left;
   margin: 15px;
+  margin-top: -30px;
 }
 .projectPageTitle {
   text-align: center;
   margin: 20px;
+  margin-bottom: 50px;
   font-weight: bolder;
 }
 .smallProjectTag {
@@ -16,7 +19,7 @@
   margin-left: 60px;
 }
 .ProjectPageDiv {
-  margin: 20px;
+  margin: 30px;
 }
 .projectPageSWBTitle {
   text-align: center;
@@ -27,6 +30,7 @@
 .pPageSingleServices {
   display: flex;
 }
+
 @media screen and (max-width: 890px) {
   .pPageImageGalleryDiv {
     float: none;
@@ -35,6 +39,7 @@
   }
   .pPageLocationDiv {
     margin-left: 0;
+    margin-top: 20px;
   }
   .smallProjectTag {
     text-align: center;
@@ -46,7 +51,10 @@
   }
   .ProjectPageDiv {
     font-size: 14px;
-}
+  }
+  .ProjectPageDiv {
+    margin: 40px;
+  }
 }
 @media screen and (max-width: 500px) {
   .pPageSingleServices {
@@ -66,7 +74,7 @@
     margin-top: -8px;
   }
   .ProjectPageDiv {
-      font-size: 12px;
+    font-size: 12px;
   }
   .smallProjectTag {
     display: none;
@@ -76,5 +84,8 @@
   }
   .projectPageTitle {
     font-size: 14px;
+  }
+  .ProjectPageDiv {
+    margin: 20px;
   }
 }

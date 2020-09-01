@@ -153,15 +153,19 @@
 @media screen and (max-width: 890px) {
   .pictureGalleryDiv {
     width: 60vw;
+    height: 35vh;
   }
   .pPageImgOne {
     width: 60vw;
+    height: 35vh;
   }
   .pPageImgTwo {
     width: 60vw;
+    height: 35vh;
   }
   .pPageImgThree {
     width: 60vw;
+    height: 35vh;
   }
 }
 @media screen and (max-width: 675px) {
@@ -192,3 +196,17 @@
     height: 30vh;
   }
 }
+@media screen and (max-height: 600px) {
+    .pictureGalleryDiv {
+      height: 70vh;
+    }
+    .pPageImgOne {
+      height: 70vh;
+    }
+    .pPageImgTwo {
+      height: 70vh;
+    }
+    .pPageImgThree {
+      height: 70vh;
+    }
+  }

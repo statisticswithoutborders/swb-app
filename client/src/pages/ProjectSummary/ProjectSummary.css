@@ -35,3 +35,37 @@ h1 {
   width: 30%;
   height: auto;
 }
+
+@media screen and (max-width: 700px) {
+ .project-layout {
+   width: 60%;
+ }
+
+ h1 {
+   font-size: 16px;
+ }
+
+ .details {
+   font-size: 10px;
+   width: 60%;
+ }
+ .ProjectCard-description {
+  font-size: 10px;
+ }
+
+
+ .ProjectCard-title {
+   font-size: 10px;
+ }
+
+ .button-medium {
+   width: 100%;
+   height: auto;
+   font-size: 10px;
+ }
+
+ .ProjectCard-description i {
+   font-size: 8px;
+ }
+
+}

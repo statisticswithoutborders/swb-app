@@ -27,7 +27,7 @@ class VolunteersPage extends Component {
                     <h2 className="VolunteersPage-volunteerfor-title">Volunteer for SWB</h2>
                     <div className="VolunteersPage-volunteerfor-body">
                         <div className="VolunteersPage-volunteerfor-video">
-                        <Video small /* width="675px" height="355px" */ url="https://www.youtube.com/watch?v=1y2-v3W8Ubs" />
+                        <Video url="https://www.youtube.com/watch?v=1y2-v3W8Ubs" />
                         </div>
                         <div className="VolunteersPage-volunteerfor-content">
                             <p>Volunteers are the engine that drive Statistics Without Borders: Without the time, energy & knowledge of our generous volunteers, we can’t provide our expertise to our in-need client groups.<br/>

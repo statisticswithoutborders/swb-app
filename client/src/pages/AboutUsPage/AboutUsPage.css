@@ -62,9 +62,6 @@
   justify-content: space-evenly;
   width: 100%;
 }
-.member-cards {
-  margin: 5px 20px;
-}
 
 .number-icons-section {
   display: flex;
@@ -161,20 +158,6 @@
   text-align: start;
 }
 
-@media screen and (max-width: 1050px) {
-  .MemberCard {
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-  }
-  .member-row {
-    padding: 10%;
-  }
-  .member-cards {
-    margin: -3%;
-  }
-}
-
 @media screen and (max-width: 750px) {
   .about-title {
     margin-top: 5%;
@@ -198,12 +181,11 @@
     display: flex;
     flex-direction: row;
   }
-  .member-header {
-    margin-bottom: -15%;
-  }
   .member-row {
-    display: block;
-    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
   }
   .number-icons-objectives {
     display: block;
@@ -212,9 +194,9 @@
     width: 10%;
   }
   .number-icons-text {
+    display: inline-block;
     text-align: start;
-    margin-top: 10%;
-    margin-right: auto;
+    margin-top: 15%;
     font-size: 80%;
   }
   .broadgreen-section {

@@ -1,10 +1,14 @@
+.MemberCard-parent {
+  width: 100%;
+}
 .MemberCard-image {
-  height: 330px;
-  width: 332px;
+  width: 100%;
+  padding-top: 100%;
   border-radius: 25px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 10%;
 }
 
 .MemberCard-name {
@@ -41,4 +45,16 @@
   width: 345px;
   max-height: 1000px;
   color: var(--blue-medium-dark);
+}
+
+@media screen and (max-width: 1150px) {
+  .MemberCard {
+    width: 17em;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .MemberCard {
+    display: block;
+  }
 }

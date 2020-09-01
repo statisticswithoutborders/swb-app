@@ -1,26 +1,38 @@
-.Objective{
-    display: flex;
+.Objective {
+  display: flex;
 }
 
 .year-objective {
-   color: #565970;
-   font-family: var("--paragraph-font");
-   font-size: 45px;
-   margin-right: 50px;
-   margin-top: 2px;
-
+  color: #565970;
+  font-family: var("--paragraph-font");
+  font-size: 45px;
+  margin-right: 50px;
+  margin-top: 2px;
 }
 
-.arrow-objective{
-    margin-top: 3px;
+.arrow-objective {
+  margin-top: 3px;
 }
 
 .text-objective {
-    color: #555870;
-    font-family: var("--paragraph-font");
-    font-size: 17px;
-    margin-left: 55px;
-    line-height: 1.4em;
-    margin-top: 5px;
+  color: #555870;
+  font-family: var("--paragraph-font");
+  font-size: 17px;
+  margin-left: 55px;
+  line-height: 1.4em;
+  margin-top: 5px;
+}
 
+@media screen and (max-width: 600px) {
+  .Objective {
+    display: flex;
+    flex-direction: row;
+  }
+  .year-objective {
+    font-size: 25px;
+    margin-right: auto;
+  }
+  .text-objective {
+    text-align: start;
+  }
 }

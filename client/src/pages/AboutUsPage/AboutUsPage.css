@@ -161,7 +161,7 @@
   text-align: start;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
   .MemberCard {
     display: flex;
     flex-direction: column;
@@ -183,14 +183,20 @@
     display: flex;
     flex-direction: column;
   }
-  .about-swb-p .section-p {
+  .section-p {
+    font-size: 90%;
     text-align: middle;
-    padding-left: 25%;
+    margin-right: auto;
+    margin: 10px 20px;
   }
   .about-img {
     width: 100%;
     padding-top: 50%;
     background-position: center;
+  }
+  .objective-section {
+    display: flex;
+    flex-direction: row;
   }
   .member-header {
     margin-bottom: -15%;
@@ -202,11 +208,29 @@
   .number-icons-objectives {
     display: block;
   }
+  .number-icons-icon {
+    width: 10%;
+  }
+  .number-icons-text {
+    text-align: start;
+    margin-top: 10%;
+    margin-right: auto;
+    font-size: 80%;
+  }
   .broadgreen-section {
     display: inline;
     font-size: 95%;
   }
+  .broadgreen-section p {
+    margin: 10px 20px;
+  }
   .objective-section {
     display: inline;
+  }
+  .charter-text {
+    font-size: 90%;
+  }
+  .funding-facts-readtext {
+    font-size: 90%;
   }
 }

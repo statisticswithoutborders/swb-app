@@ -10,7 +10,6 @@ const ProjectPageChimp = (props) => {
         Statistics Without Borders Projects
       </div>
       <div className="projectPageTitle">Tacugama Chimpanzee Sanctuary</div>
-      <div className="smallProjectTag">-project3-chimp</div>
       <br></br>
       <div>
         <div className="pPageImageGalleryDiv">

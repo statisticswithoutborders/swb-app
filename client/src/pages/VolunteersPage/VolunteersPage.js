@@ -23,11 +23,11 @@ class VolunteersPage extends Component {
 
         return (
             <div className={this.state.classList}>
-                <div className="VolunteersPage-volunteerfor">
+                <div className="VolunteersPage-section">
                     <h2 className="VolunteersPage-volunteerfor-title">Volunteer for SWB</h2>
                     <div className="VolunteersPage-volunteerfor-body">
                         <div className="VolunteersPage-volunteerfor-video">
-                        <Video small /* width="675px" height="355px" */ url="https://www.youtube.com/watch?v=1y2-v3W8Ubs" />
+                        <Video url="https://www.youtube.com/watch?v=1y2-v3W8Ubs" />
                         </div>
                         <div className="VolunteersPage-volunteerfor-content">
                             <p>Volunteers are the engine that drive Statistics Without Borders: Without the time, energy & knowledge of our generous volunteers, we can’t provide our expertise to our in-need client groups.<br/>
@@ -36,23 +36,23 @@ class VolunteersPage extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="VolunteersPage-ourvolunteers">
+                <div className="VolunteersPage-section">
                     <h2 className="VolunteersPage-section-title">Our Volunteers</h2>
-                    <div className="VolunteersPage-volunteerfor-card-container-top">
+                    <div className="VolunteersPage-volunteerfor-card-container">
                         <Card our_volunteers image={volunteers_workspace} title="Currently Employed Statisticians" description="Statisticians who are currently working are valuable contributors to our projects.  Volunteers cannot participate in projects where there is a conflict of interest but are eligible for any projects that do not conflict with their job." />
                         <Card our_volunteers image={volunteer_students} title="Students" description="Although SWB cannot provide statistical training or classes, any students who are looking or real-world experience are welcome to volunteer on our projects" />
                     </div>
-                    <div className="VolunteersPage-volunteerfor-card-container-bottom">
+                    <div className="VolunteersPage-volunteerfor-card-container">
                         <Card our_volunteers image={volunteer_chill} title="Retirees" description="Anyone who has retired and who would like to continue working in teh statistical community.  SWB accepts projects across multiple disciplines and has a need for any volunteers with years of experience in their specific areas." />
                         <Card our_volunteers image={volunteer_community} title="Non-statisticians" description="Anyone who has knowledge or experience  in related fields (data science, CS, genetics, etc.) and would like more experience working on statistical projects are welcome to volunteer." />
                     </div>
                     </div>
-                <div className="VolunteersPage-howitworks">
+                <div className="VolunteersPage-section">
                     <div className="VolunteersPage-hiw-container">
                     <HowItWorks />
                     </div>
                 </div>
-                <div className="VolunteersPage-worktogether">
+                <div className="VolunteersPage-section VolunteersPage-worktogether">
                 <h2 className="VolunteersPage-section-title">Let's Work Together!</h2>
                 <FormContact volunteer formCallback />
                 </div>

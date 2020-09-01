@@ -14,10 +14,12 @@ import ProjectEthiopia from "./components/ProjectPage/ProjectPageEthiopia";
 import ProjectHaiti from "./components/ProjectPage/ProjectPageHaiti";
 import ProjectSyria from "./components/ProjectPage/ProjectPageSyria";
 import ProjectUnicef from "./components/ProjectPage/ProjectPageUnicef";
+import Services from "./pages/OurServicesPage/OurServicesPage"
+import Volunteers from "./pages/VolunteersPage/VolunteersPage"
+import AboutUs from "./pages/AboutUsPage/AboutUsPage"
 
 function App() {
   return (
-    <React.Fragment>
       <div>
         <NavBar/>
         <Route path="/" component={Home} exact={true}/>
@@ -29,9 +31,11 @@ function App() {
         <Route path="/projects/haiti" component={ProjectHaiti} />
         <Route path="/projects/syria" component={ProjectSyria} />
         <Route path="/projects/unicef" component={ProjectUnicef} />
+        <Route path="/ourservices" component={Services}/>
+        <Route path="/volunteers" component={Volunteers}/>
+        <Route path="/aboutus" component={AboutUs}/>
         <Footer/>
       </div>
-    </React.Fragment>
   );
 }
 

@@ -1,10 +1,10 @@
+
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import MemberCard from './MemberCard';
 import "../../index.css"
 import StoryRouter from 'storybook-react-router'
 import IconDownArrow from "../IconDownArrow/IconDownArrow"
-
 
 
 storiesOf('MemberCard', module)

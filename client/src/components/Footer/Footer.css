@@ -1,14 +1,20 @@
 .Footer {
+  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  margin-top: -75px;
-  margin-bottom: 50px;
+  margin-top: 25px;
   width: 100vw;
   height: auto;
+}
+.Footer-hr{
+  margin: 0;
+  width: 100%;
+  background-color: var(--blue);
+  
 }
 
 .Footer-Icons {
@@ -37,6 +43,7 @@
 
 @media screen and (max-width: 600px) {
   .Footer {
+   
     display: block;
     text-align: center;
   }

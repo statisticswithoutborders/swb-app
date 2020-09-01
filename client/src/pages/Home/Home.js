@@ -237,7 +237,9 @@ class Home extends Component {
             />
           </div>
         </div>
-       
+        <hr className="homeHR" />
+
+       <div className = "form"><FormContact/></div>
       </React.Fragment>
     );
   }

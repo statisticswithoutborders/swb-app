@@ -155,7 +155,10 @@ h3 {
 .blog {
   margin: 0 25px;
 }
-
+.form {
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 1199.98px) {
   .card .what_we_do {
     width: 300px;

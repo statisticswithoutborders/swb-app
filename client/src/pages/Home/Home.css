@@ -11,6 +11,7 @@ body {
   margin-left: -16px;
   margin-right: -16px;
   background-position: cover;
+  max-width: 1440px;
 }
 
 .banner h1 {
@@ -145,11 +146,13 @@ h3 {
 .cards {
   display: flex;
   justify-content: space-evenly;
+
 }
 
 .card {
   margin: 0 25px;
   margin-bottom: 25px;
+  width: 30%;
 }
 
 .blog {
@@ -160,9 +163,9 @@ h3 {
     justify-content: center;
 }
 @media (max-width: 1199.98px) {
-  .card .what_we_do {
+  /* .card .what_we_do {
     width: 300px;
-  }
+  } */
 
   .blog {
     margin: 0 10px;
@@ -193,13 +196,13 @@ h3 {
     width: 250px;
     height: 250px;
   }
-  .card {
+  /* .card {
     margin: 10px 5px;
-  }
+  } */
 
-  .card .what_we_do {
+  /* .card .what_we_do {
     width: 250px;
-  }
+  } */
 
   .blog {
     margin: 0 5px;

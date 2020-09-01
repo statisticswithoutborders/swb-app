@@ -10,9 +10,6 @@ import WhoWeAreCard from "../../components/WhoWeAreCard/WhoWeAreCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import FormContact from "../../components/FormContact/FormContact";
 import Card from "../../components/Card/Card"
-import Monitor from "../../assets/images/home_monitor_eval.png";
-import DataAnalysis from "../../assets/images/home_data_analysis.png";
-import ExpDesign from "../../assets/images/home_exp_design.png";
 import { Link } from "react-router-dom"
 
 class Home extends Component {
@@ -101,9 +98,9 @@ class Home extends Component {
             limited.
           </h3>
           <div className = 'cards'>
-          <div className = 'card'><Card what_we_do image={Monitor} title = 'Monitoring & Evaluation'description = 'Monitoring and Evaluation is used to assess the performance of projects, institutions and programmes set up by governments, international organisations and NGOs.'/> </div>
-          <div className = 'card'><Card what_we_do image = {DataAnalysis} title ='Data Analysis' description = 'Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. '/></div>
-          <div className = 'card'><Card what_we_do image = {ExpDesign} title = 'Experimental Design' description = 'Experimental design is a method of planning a set of procedures to investigate a relationship between variables. This is a branch of statistics that focuses on the analysis of the resultant data.'/></div>
+          <div className = 'card'><Card what_we_do image= "var(--home-monitor)" title = 'Monitoring & Evaluation'description = 'Monitoring and Evaluation is used to assess the performance of projects, institutions and programmes set up by governments, international organisations and NGOs.'/> </div>
+          <div className = 'card'><Card what_we_do image = "var(--home-data-analysis)" title ='Data Analysis' description = 'Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. '/></div>
+          <div className = 'card'><Card what_we_do image = "var(--home-exp-design)" title = 'Experimental Design' description = 'Experimental design is a method of planning a set of procedures to investigate a relationship between variables. This is a branch of statistics that focuses on the analysis of the resultant data.'/></div>
           </div>
          <Link to= '/ourservices'><Button medium label="MORE SERVICES" /></Link>
         </div>
@@ -239,7 +236,7 @@ class Home extends Component {
         </div>
         <hr className="homeHR" />
 
-       <div className = "form"><FormContact/></div>
+       <div className ="form"><FormContact/></div>
       </React.Fragment>
     );
   }

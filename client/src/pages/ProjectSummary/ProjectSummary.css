@@ -38,11 +38,22 @@ h1 {
 
 @media screen and (max-width: 700px) {
  .project-layout {
-   width: 60%;
+   width: 70%;
+ }
+
+ .ProjectCard {
+  width: 100%;
+ }
+
+ .card-size {
+   width: 30%;
+   height: auto;
+   padding: 2%;
  }
 
  h1 {
-   font-size: 16px;
+   font-size: 18px;
+   margin: 50px 70px;
  }
 
  .details {
@@ -50,18 +61,21 @@ h1 {
    width: 60%;
  }
  .ProjectCard-description {
-  font-size: 10px;
+  font-size: 8px;
+  min-height: 130px;
  }
 
 
  .ProjectCard-title {
-   font-size: 10px;
+   font-size: 9px;
+   width: 110%;
  }
 
  .button-medium {
    width: 100%;
    height: auto;
    font-size: 10px;
+   padding: 10px;
  }
 
  .ProjectCard-description i {

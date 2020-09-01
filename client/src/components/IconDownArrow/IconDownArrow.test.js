@@ -11,4 +11,10 @@ describe('IconDownArrow component', () => {
     const component = shallow(<IconDownArrow />)
 	 	expect(component.exists()).toBe(true);
   })
+
+  it("should render <div> element", () => {
+    const wrapper = shallow(<div />);
+    expect(wrapper.find("div")).toHaveLength(1);
+  });
+
 })

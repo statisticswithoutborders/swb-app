@@ -11,7 +11,9 @@ class VolunteersPage extends Component {
     constructor(){
         super()
 
-        this.state ={classlist:'VolunteersPage'}
+        this.state ={
+            classList:'VolunteersPage'
+        }
     }
    
     render() {

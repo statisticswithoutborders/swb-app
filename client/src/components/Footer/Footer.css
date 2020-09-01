@@ -6,14 +6,8 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-<<<<<<< HEAD
   margin-top: 25px;
-  width: 100%;
-=======
-  margin-top: -75px;
-  margin-bottom: 50px;
   width: 100vw;
->>>>>>> e24ac318115982588aafb97497a0945d74b892ae
   height: auto;
 }
 .Footer-hr{

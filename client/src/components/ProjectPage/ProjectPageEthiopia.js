@@ -13,7 +13,6 @@ const ProjectPageEthiopia = (props) => {
         Statistics Without Borders Projects
       </div>
       <div className="projectPageTitle">Save the Children - Ethiopia</div>
-      <div className="smallProjectTag">-project2-stc</div>
       <br></br>
       <div>
         <div className="pPageImageGalleryDiv">

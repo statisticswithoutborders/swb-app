@@ -12,7 +12,6 @@ const ProjectPageUnicef = (props) => {
         Statistics Without Borders Projects
       </div>
       <div className="projectPageTitle">UNICEF Sierra Leone</div>
-      <div className="smallProjectTag">-project5-unicef</div>
       <br></br>
       <div>
         <div className="pPageImageGalleryDiv">

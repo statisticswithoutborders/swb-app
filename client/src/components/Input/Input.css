@@ -9,7 +9,8 @@
 .Input-small {
 	background-color: var(--gray-liter);
 	padding: 5px;
-	width: 15em;
+	width: 20rem;
+	height: 2.5rem;
 	border-radius: 30px;
 	border: none;
 }
@@ -23,7 +24,7 @@
 .Input-large {
 	background-color: var(--gray-liter);
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	min-height: 10em;
 	padding: 1em;
 	border: none;
@@ -43,4 +44,10 @@ textarea {
 input:focus,
 textarea:focus {
 	outline: none;
+}
+
+@media screen and (max-width: 800px) {
+	.Input-small {
+		width: 15rem;
+	}
 }

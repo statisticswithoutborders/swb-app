@@ -16,7 +16,7 @@ import ProjectSyria from "./components/ProjectPage/ProjectPageSyria";
 import ProjectUnicef from "./components/ProjectPage/ProjectPageUnicef";
 import Services from "./pages/OurServicesPage/OurServicesPage";
 import Volunteers from "./pages/VolunteersPage/VolunteersPage";
-import Contact from "./pages/ContactUsPage";
+import Contact from "./pages/ContactUsPage/ContactUsPage";
 
 function App() {
 	return (

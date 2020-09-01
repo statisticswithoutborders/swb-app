@@ -16,6 +16,7 @@ import ProjectSyria from "./components/ProjectPage/ProjectPageSyria";
 import ProjectUnicef from "./components/ProjectPage/ProjectPageUnicef";
 import Services from "./pages/OurServicesPage/OurServicesPage"
 import Volunteers from "./pages/VolunteersPage/VolunteersPage"
+import AboutUs from "./pages/AboutUsPage/AboutUsPage"
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <Route path="/projects/unicef" component={ProjectUnicef} />
         <Route path="/ourservices" component={Services}/>
         <Route path="/volunteers" component={Volunteers}/>
-
+        <Route path="/aboutus" component={AboutUs}/>
         <Footer/>
       </div>
   );

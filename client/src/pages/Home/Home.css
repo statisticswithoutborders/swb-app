@@ -90,7 +90,7 @@ h3 {
 }
 
 .wwd2 {
-  width: 930px;
+  width: 100%;
   font-size: 18px;
 }
 
@@ -117,6 +117,7 @@ h3 {
 .missionstatement {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .probono {
   display: flex;
@@ -194,7 +195,9 @@ h3 {
     flex-direction: column;
     justify-content: center;
   }
-
+.mission{
+  width: 100%;
+}
   .WhoWeAreCard {
     margin: 0 auto;
     /* width: 100%;
@@ -207,14 +210,9 @@ h3 {
     width: 250px;
     height: 250px;
   }
-  /* .card {
-    margin: 10px 5px;
-  } */
-
-  /* .card .what_we_do {
-    width: 250px;
-  } */
-
+  .probono{
+    width: 100%
+  }
 
   .blog {
     margin: 0 5px;

@@ -20,3 +20,13 @@ GRANT ALL PRIVILEGES ON DATABASE swb TO swb_user;
 
 --to view database in localhost:8000/admin create superuser:
 --python3 manage.py createsuperuser
+
+--to run the server:
+--python3 manage.py runserver
+
+--API!!!!!!
+
+--to view projects and services as api with crud use:
+--localhost:8000/projects 
+--localhost:8000/services
+

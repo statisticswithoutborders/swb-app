@@ -81,7 +81,6 @@
     "model": "swb.Project",
     "fields": {
       "project_title": "Asante Africa Foundation",
-      "project_tag": "-project1-asante",
       "project_location": "Kenya & Tanzania",
       "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_1.png",
       "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/AAF/aaf_3.png",
@@ -94,7 +93,6 @@
     "model": "swb.Project",
     "fields": {
       "project_title": "Save the Children - Ethiopia",
-      "project_tag": "-project2-stc",
       "project_location": "Ethiopia",
       "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/save_the_children/save_children_1.jpg",
       "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/save_the_children/save_children_4.jpg",
@@ -107,7 +105,6 @@
     "model": "swb.Project",
     "fields": {
       "project_title": "Tacugama Chimpanzee Sanctuary",
-      "project_tag": "-project3-chimp",
       "project_location": "Sierra Leone",
       "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/tacugama_chimpanzee/tacugama_1.jpg",
       "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/tacugama_chimpanzee/tacugama_2.jpg",
@@ -120,7 +117,6 @@
     "model": "swb.Project",
     "fields": {
       "project_title": "Whole of Syria Health Cluster",
-      "project_tag": "-project4-un",
       "project_location": "Syria",
       "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/un_logo_small.png",
       "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/un_logo_small.png",
@@ -133,7 +129,6 @@
     "model": "swb.Project",
     "fields": {
       "project_title": "UNICEF Sierra Leone",
-      "project_tag": "-project5-un",
       "project_location": "Sierra Leone",
       "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/sierra_leone/sierra_leone_5.jpeg",
       "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/sierra_leone/sierra_leone_2.jpeg",
@@ -146,7 +141,6 @@
     "model": "swb.Project",
     "fields": {
       "project_title": "Haitian Earthquake Data Collection",
-      "project_tag": "-project6-haiti",
       "project_location": "Haiti",
       "photo_urlOne": "https://swb.wildapricot.org/resources/Site/projects/haiti/haiti_1.jpg",
       "photo_urlTwo": "https://swb.wildapricot.org/resources/Site/projects/haiti/haiti_3.jpg",

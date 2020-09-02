@@ -21,7 +21,7 @@ import AboutUs from "./pages/AboutUsPage/AboutUsPage"
 function App() {
   return (
       <div>
-        <NavBar/>
+        {/* <NavBar/> */}
         <Route path="/" component={Home} exact={true}/>
         <Route path="/contactus" component={ContactUs} exact={true}/>
         <Route path="/projects/" component={Projects} exact={true}/>

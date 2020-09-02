@@ -24,7 +24,7 @@ let grow_img = "var(--services-grow)";
 let grow_title = "Grow";
 let grow_description =
   "Test and experiment with reliable and accurate data to expand projects and yield desired results for social good.";
-let innovate_img = "var(--services-grow)";
+let innovate_img = "var(--services-innovate)";
 let innovate_title = "Innovate";
 let innovate_description =
   "Use data to come up with creative solutions to real-world problems that leave a lasting positive impact.";

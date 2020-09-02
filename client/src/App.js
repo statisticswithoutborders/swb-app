@@ -34,7 +34,7 @@ function App() {
         <Route path="/ourservices" component={Services}/>
         <Route path="/volunteers" component={Volunteers}/>
         <Route path="/aboutus" component={AboutUs}/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
   );
 }

@@ -26,7 +26,8 @@ GRANT ALL PRIVILEGES ON DATABASE swb TO swb_user;
 
 --API!!!!!!
 
---to view projects and services as api with crud use:
+--to view as api with crud use:
 --localhost:8000/projects 
 --localhost:8000/services
+--localhost:8000/members
 

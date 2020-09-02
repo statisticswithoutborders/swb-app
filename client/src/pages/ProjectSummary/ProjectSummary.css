@@ -1,5 +1,8 @@
 .container {
-  text-align: center;
+  width: 100vw;
+}
+.swb-projects {
+  width: 100%;
 }
 
 h1 {
@@ -18,21 +21,26 @@ h1 {
   text-align: center;
   font-weight: bold;
   margin: auto;
-  /* padding: 0px 100px; */
 }
 
 .project-layout {
-  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
-  margin: auto;
-  /* padding: 0px 100px 0px 120px; */
+  justify-content: flex-end;
+  width: 100%;
+}
+.project-row {
+  width: 90%;
+  margin-top: -20%;
+  display: flex;
 }
 
-/* .line {
-  background-color: var(--blue);
-  margin-top: 150px;
-  border: var(--blue) 1px solid;
-} */
+.project-card {
+  width: 30%;
+  padding-top: 28%;
+}
+
+.project-card-syria {
+  margin-bottom: 10%;
+}

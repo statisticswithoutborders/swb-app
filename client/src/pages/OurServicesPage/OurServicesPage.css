@@ -55,9 +55,11 @@
 }
 
 .services-form {
+	width: 100%;
 	display: flex;
-	justify-content: center;
-	margin-bottom: 3rem;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 4rem;
 }
 
 .video-section {
@@ -65,19 +67,8 @@
 	justify-content: center;
 }
 
-/* @media only screen and (max-width: 800px) {
-    .services-cards-flex {
-        flex-direction: column;
-        align-items: center;
-    }
-    .services-card{
-        margin-bottom: 40px;
-    }
-    .clients-img-row{
-        flex-direction: column;
-        align-items: center;
-    }
-    .clients-img{
-        margin-bottom: 20px;
-    }
-  } */
+/* @media all and (max-width: 768px){
+	.services-form-h2 {
+	
+	}
+}; */

@@ -258,7 +258,7 @@ class Home extends Component {
 					</div>
 				</div>
 				<hr className="homeHR" />
-				<h2 className="Home-form-h2">Let's Work Together - Contact Us</h2>
+				<h2 className="Home-form-h2">Let's Work Together</h2>
 				<div className="Home-form">
 					<FormContact />
 				</div>

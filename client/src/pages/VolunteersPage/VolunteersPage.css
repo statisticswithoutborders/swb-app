@@ -1,135 +1,134 @@
 .VolunteersPage {
-    width: 100%;
-    max-width: 1500px;
-    margin: 0;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	width: 100%;
+	max-width: 1500px;
+	margin: 0;
+	border: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .VolunteersPage-section {
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--blue-medium-dark);
-    border-bottom: 2px var(--blue) solid;
+	width: 98%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--blue-medium-dark);
+	border-bottom: 2px var(--blue) solid;
 }
 
 .VolunteersPage-volunteerfor-body {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 5%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
 }
 
 .VolunteersPage-volunteerfor-video {
-    width: 45%;
-    margin-top: 2%;
-    margin-left: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 45%;
+	margin-top: 2%;
+	margin-left: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .VolunteersPage-volunteerfor-content {
-    width: 40%;
-    margin: 4% 7%;
-    line-height: 1.4;
-    
+	width: 40%;
+	margin: 4% 7%;
+	line-height: 1.4;
 }
 
 .VolunteersPage-section-title {
-    color: var(--blue-medium-darker);
-    margin-top: 30px;
+	color: var(--blue-medium-darker);
+	margin-top: 30px;
 }
 
 .VolunteersPage-volunteerfor-card-container {
-    width: 90%;
-    margin: 3% 0;
-    display: flex;
-    justify-content: space-evenly;
+	width: 90%;
+	margin: 3% 0;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .VolunteersPage-card {
-    width: 30%;
+	width: 30%;
 }
 
 .VolunteersPage-hiw-container {
-    width: 80%;
-    margin-top: 3%;
+	width: 80%;
+	margin-top: 3%;
 }
 
 .VolunteersPage-worktogether {
-    border:none;
-    padding-bottom: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 4rem;
+	border: none;
 }
 
-
 @media screen and (max-width: 1200px) {
-    .VolunteersPage-card {
-        width: 40%;
-    }
-} 
-
+	.VolunteersPage-card {
+		width: 40%;
+	}
+}
 
 @media screen and (max-width: 900px) {
+	.VolunteersPage-volunteerfor-body {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 5%;
+	}
 
-    .VolunteersPage-volunteerfor-body {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5%;
-    }
+	.VolunteersPage-volunteerfor-body {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-bottom: 5%;
+	}
 
-    .VolunteersPage-volunteerfor-body {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-bottom: 5%;
-    }
-    
-    .VolunteersPage-volunteerfor-video {
-        width: 98%;
-        margin-top: 2%;
-    }
-    
-    .VolunteersPage-volunteerfor-content {
-        width: 98%;
-        margin: 4% 7%;
-        line-height: 1.4;
-        
-    }
+	.VolunteersPage-volunteerfor-video {
+		width: 98%;
+		margin-top: 2%;
+	}
 
-    .VolunteersPage-card {
-        width: 45%;
-        
-    }
+	.VolunteersPage-volunteerfor-content {
+		width: 98%;
+		margin: 4% 7%;
+		line-height: 1.4;
+	}
 
+	.VolunteersPage-card {
+		width: 45%;
+	}
 }
 
 @media screen and (max-width: 700px) {
+	.VolunteersPage-volunteerfor-card-container {
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 0%;
+	}
 
-    .VolunteersPage-volunteerfor-card-container {
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 0%;
-    }
-
-    .VolunteersPage-card {
-        width: 70%;
-        margin-bottom: 5%;
-    }
+	.VolunteersPage-card {
+		width: 70%;
+		margin-bottom: 5%;
+	}
 }
 
 @media screen and (max-width: 600px) {
-    
-    .VolunteersPage-card {
-        width: 90%;
-    }
+	.VolunteersPage-card {
+		width: 90%;
+	}
+
+	/* .VolunteersPage-section-title {
+
+    } */
 }

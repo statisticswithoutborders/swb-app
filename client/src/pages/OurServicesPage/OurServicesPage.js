@@ -157,11 +157,8 @@ class OurServicesPage extends Component {
 					Faunalytics: Working with Statistics Without Borders
 				</h1>
 				<div class="video-section">
-					<div>
+					<div class="video-size">
 						<Video
-							large
-							width="900px"
-							height="500px"
 							url="https://www.youtube.com/watch?v=xFKkTMjQoIw"
 						/>
 					</div>

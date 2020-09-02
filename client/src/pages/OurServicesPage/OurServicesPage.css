@@ -67,6 +67,10 @@
 	justify-content: center;
 }
 
+.video-size {
+	width: 70%;
+}
+
 /* @media all and (max-width: 768px){
 	.services-form-h2 {
 	

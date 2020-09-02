@@ -1,5 +1,5 @@
 body {
-  color: var(--blue-medium-dark);
+	color: var(--blue-medium-dark);
 }
 .banner {
   background-image: var(--home-banner);
@@ -15,78 +15,78 @@ body {
 }
 
 .banner h1 {
-  color: white;
-  display: flex;
-  justify-content: start;
-  margin-left: -3px;
-  font-size: 50px;
-  margin-top: 20px;
+	color: white;
+	display: flex;
+	justify-content: start;
+	margin-left: -3px;
+	font-size: 50px;
+	margin-top: 20px;
 }
 
 .banner p {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .statement {
-  width: 650px;
-  /* padding: 5px 0 20px; */
-  font-weight: bold;
+	width: 650px;
+	/* padding: 5px 0 20px; */
+	font-weight: bold;
 }
 
 h1 {
-  font-size: 50px;
+	font-size: 50px;
 }
 
 .mission {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
 }
 
 h2 {
-  margin-top: 50px;
-  margin-right: 15px;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
+	margin-top: 50px;
+	margin-right: 15px;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
 }
 
 h3 {
-  text-align: center;
-  font-size: 15px;
+	text-align: center;
+	font-size: 15px;
 }
 
 .homeHR {
-  border: var(--blue) 1px solid;
-  height: 1px;
-  margin: 50px 0;
-  background-color: var(--blue) !important;
+	border: var(--blue) 1px solid;
+	height: 1px;
+	margin: 50px 0;
+	background-color: var(--blue) !important;
 }
 
 .bulletpoint {
-  display: flex;
-  margin-bottom: 30px;
-  margin-left: 50px;
+	display: flex;
+	margin-bottom: 30px;
+	margin-left: 50px;
 }
 
 .point {
-  margin-top: 3px;
-  margin-left: 40px;
-  font-size: 20px;
+	margin-top: 3px;
+	margin-left: 40px;
+	font-size: 20px;
 }
 
 .bullet {
-  height: 32px;
+	height: 32px;
 }
 
 .wwd {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: -40px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: -40px;
 }
 .wwd h2 {
-  margin: 20px;
+	margin: 20px;
 }
 
 .wwd2 {
@@ -95,24 +95,24 @@ h3 {
 }
 
 .projects {
-  display: flex;
-  overflow: scroll;
-  justify-content: space-between;
-  width: 100vw;
+	display: flex;
+	overflow: scroll;
+	justify-content: space-between;
+	width: 100vw;
 }
 
 .project {
-  margin: 0 40px;
-  width: 300px;
+	margin: 0 40px;
+	width: 300px;
 }
 
 .project .ProjectCard-title {
-  width: 400px;
+	width: 400px;
 }
 
 .project .ProjectCard-image {
-  width: 300px;
-  height: 15px;
+	width: 300px;
+	height: 15px;
 }
 .missionstatement {
   display: flex;
@@ -126,8 +126,8 @@ h3 {
 }
 
 .wwa {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .wwac h2 {
@@ -135,59 +135,65 @@ h3 {
 }
 
 .blogs {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 .testimonials {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
 }
-.form {
-  display: flex;
-  justify-content: center;
-}
+
 .cards {
-  display: flex;
-  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
 }
 .analysis {
-  width: 135px;
+	width: 135px;
 }
 
 .card {
-  margin: 0 25px;
-  margin-bottom: 25px;
+	margin: 0 25px;
+	margin-bottom: 25px;
 }
 
 .blog {
-  margin: 0 25px;
+	margin: 0 25px;
 }
-.form {
-  display: flex;
-  justify-content: center;
+
+/* .Home-form-h2 {
+
+} */
+
+.Home-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 4rem;
 }
+
 @media (max-width: 1199.98px) {
-  /* .card .what_we_do {
+	/* .card .what_we_do {
     width: 300px;
   } */
 
-  .blog {
-    margin: 0 10px;
-  }
+	.blog {
+		margin: 0 10px;
+	}
 
-  .blog .BlogCard {
-    width: 300px;
-  }
+	.blog .BlogCard {
+		width: 300px;
+	}
 
-  .blog .BlogCard-title {
-    font-size: 25px;
-  }
+	.blog .BlogCard-title {
+		font-size: 25px;
+	}
 
-  .blog .BlogCard-date {
-    font-size: 15px;
-  }
+	.blog .BlogCard-date {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 991.98px) {
@@ -214,42 +220,42 @@ h3 {
     width: 100%
   }
 
-  .blog {
-    margin: 0 5px;
-  }
+	.blog {
+		margin: 0 5px;
+	}
 
-  .blog .BlogCard {
-    width: 250px;
-  }
+	.blog .BlogCard {
+		width: 250px;
+	}
 
-  .blog .BlogCard-title {
-    font-size: 15px;
-  }
+	.blog .BlogCard-title {
+		font-size: 15px;
+	}
 
-  .blog .BlogCard-date {
-    font-size: 10px;
-  }
+	.blog .BlogCard-date {
+		font-size: 10px;
+	}
 
-  .BlogCard-label {
-    font-size: 14px;
-  }
+	.BlogCard-label {
+		font-size: 14px;
+	}
 
   .wwd2 {
     width:100%
   }
 
-  .banner h1 {
-    font-size: 30px;
-  }
+	.banner h1 {
+		font-size: 30px;
+	}
 
-  .banner p {
-    font-size: 15px;
-    width: 300px;
-  }
+	.banner p {
+		font-size: 15px;
+		width: 300px;
+	}
 
-  .project {
-    margin: 0 15px;
-  }
+	.project {
+		margin: 0 15px;
+	}
 }
 
 @media (max-width: 575.98px) {

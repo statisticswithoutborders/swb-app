@@ -19,24 +19,24 @@ import Volunteers from "./pages/VolunteersPage/VolunteersPage";
 import AboutUs from "./pages/AboutUsPage/AboutUsPage";
 
 function App() {
-	return (
-		<div className=".App">
-			{/* <NavBar/> */}
-			<Route path="/" component={Home} exact={true} />
-			<Route path="/contactus" component={ContactUs} exact={true} />
-			<Route path="/projects/" component={Projects} exact={true} />
-			<Route path="/projects/asante" component={ProjectAsante} />
-			<Route path="/projects/chimp" component={ProjectChimp} />
-			<Route path="/projects/ethiopia" component={ProjectEthiopia} />
-			<Route path="/projects/haiti" component={ProjectHaiti} />
-			<Route path="/projects/syria" component={ProjectSyria} />
-			<Route path="/projects/unicef" component={ProjectUnicef} />
-			<Route path="/ourservices" component={Services} />
-			<Route path="/volunteers" component={Volunteers} />
-			<Route path="/aboutus" component={AboutUs} />
-			<Footer />
-		</div>
-	);
+  return (
+      <div>
+        <NavBar/>
+        <Route path="/" component={Home} exact={true}/>
+        <Route path="/contactus" component={ContactUs} exact={true}/>
+        <Route path="/projects/" component={Projects} exact={true}/>
+        <Route path="/projects/asante" component={ProjectAsante}/>
+        <Route path="/projects/chimp" component={ProjectChimp}/>
+        <Route path="/projects/ethiopia" component={ProjectEthiopia} />
+        <Route path="/projects/haiti" component={ProjectHaiti} />
+        <Route path="/projects/syria" component={ProjectSyria} />
+        <Route path="/projects/unicef" component={ProjectUnicef} />
+        <Route path="/ourservices" component={Services}/>
+        <Route path="/volunteers" component={Volunteers}/>
+        <Route path="/aboutus" component={AboutUs}/>
+        <Footer/>
+      </div>
+  );
 }
 
 export default App;

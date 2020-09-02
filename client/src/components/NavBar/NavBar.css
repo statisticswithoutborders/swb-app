@@ -3,18 +3,18 @@
 .Nav_item-wrapper {
   list-style-type: none;
   margin: 0;
-  margin-left: 30%;
+  margin-left: 48%;
   padding: 0;
   color: var(--blue);
-  float: right;
+  display: flex;
 }
 
 .Nav_item {
   width: 100%vw;
-  padding: 20px;
   display: inline-block;
   text-align: right;
   font-size: 17px;
+  margin: 5%
 }
 
 .Nav_link {
@@ -34,9 +34,64 @@
 }
 
 .login {
-  margin-left: 50px;
+  margin-left: 170px;
   margin-top: 5px;
   height: 40px;
 }
+
+.Nav-hamburger {
+  width: 8%;
+  display: none;
+  padding-right: 2%;
+}
+
+.Nav-hamburger-img {
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) { 
+  .Nav_item-wrapper{
+    margin-left: 32%
+  }
+}
+
+@media (max-width: 991.98px) { 
+  .Header {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .Nav_item-wrapper{
+    display: none;
+    margin-left: 9%
+  }
+  .Nav-login-container {
+    display: none;
+  }
+
+  .Nav-hamburger {
+    display: initial;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 575.98px) { 
+  .Nav-hamburger {
+    width: 15%;
+    padding-right: 3%;
+  }
+
+  .Nav_item {
+    margin: 2% 
+  }
+
+  .Nav_link{
+    font-size: 15px;
+  }
+  .login{
+    margin-left: 0%;
+  }
+}
+
 
 

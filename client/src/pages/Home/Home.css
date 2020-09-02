@@ -2,16 +2,16 @@ body {
 	color: var(--blue-medium-dark);
 }
 .banner {
-	background-image: var(--home-banner);
-	width: 100vw;
-	height: 510px;
-	color: white;
-	padding-top: 70px;
-	padding-left: 55px;
-	margin-left: -16px;
-	/* margin-right: -80px; */
-	background-position: cover;
-	max-width: 1440px;
+  background-image: var(--home-banner);
+  width: 100vw;
+  height: 510px;
+  color: white;
+  padding-top: 70px;
+  padding-left: 55px;
+
+  /* margin-right: -80px; */
+  background-position: cover;
+  max-width: 1440px;
 }
 
 .banner h1 {
@@ -90,8 +90,8 @@ h3 {
 }
 
 .wwd2 {
-	width: 930px;
-	font-size: 18px;
+  width: 100%;
+  font-size: 18px;
 }
 
 .projects {
@@ -115,13 +115,14 @@ h3 {
 	height: 15px;
 }
 .missionstatement {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .probono {
-	display: flex;
-	font-size: 18px;
-	width: 930px;
+  display: flex;
+  font-size: 18px;
+  width: 100%;
 }
 
 .wwa {
@@ -130,7 +131,7 @@ h3 {
 }
 
 .wwac h2 {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .blogs {
@@ -196,54 +197,56 @@ h3 {
 }
 
 @media (max-width: 991.98px) {
-	.wwa {
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.WhoWeAreCard {
-		margin: 0 auto;
-		/* width: 100%;
+  .wwa {
+    flex-direction: column;
+    justify-content: center;
+  }
+.mission{
+  width: 100%;
+}
+  .WhoWeAreCard {
+    margin: 0 auto;
+    /* width: 100%;
     height: 100%; */
-	}
-	.WhoWeAreCard-title {
-		font-size: 30px;
-	}
-	.WhoWeAreCard-image {
-		width: 250px;
-		height: 250px;
-	}
-	/* .card {
-    margin: 10px 5px;
-  } */
-
-	/* .card .what_we_do {
+  }
+  .WhoWeAreCard-title {
+    font-size: 30px;
+  }
+  .WhoWeAreCard-image {
     width: 250px;
-  } */
+    height: 250px;
+  }
+  .probono{
+    width: 100%
+  }
+.blogs {
+  flex-direction: column;
+  align-items: center;
 
+}
 	.blog {
-		margin: 0 5px;
+		margin: 0.5rem;
 	}
 
 	.blog .BlogCard {
-		width: 250px;
+		width: 300px;
 	}
 
 	.blog .BlogCard-title {
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	.blog .BlogCard-date {
-		font-size: 10px;
+		font-size: 15px;
 	}
 
 	.BlogCard-label {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
-	.wwd2 {
-		width: 736px;
-	}
+  .wwd2 {
+    width:100%
+  }
 
 	.banner h1 {
 		font-size: 30px;
@@ -260,88 +263,97 @@ h3 {
 }
 
 @media (max-width: 575.98px) {
-	.cards {
-		flex-direction: column;
-		justify-content: center;
-	}
-	.card {
-		max-width: 300px;
-	}
-	.banner h1 {
-		font-size: 20px;
-		margin: 14px;
-		margin-left: -3px;
-	}
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    max-width: 300px;
+  }
+  .globe {
+    display: none;
+  }
+  .analysis {
+    display: none;
+  }
+  .missionstatement h3 {
+    max-width: 300px;
+  }
 
-	.banner p {
-		font-size: 10px;
-		width: 180px;
-	}
+  .banner h1 {
+    font-size: 20px;
+    margin: 0;
+    /* text-align: center */
+  }
 
-	.words {
-		margin-left: -20px;
-		margin-top: -60px;
-	}
+  .banner p {
+    font-size: 10px;
+    width: 180px;
+  }
 
-	.banner {
-		height: 200px;
-	}
+  .words {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
 
-	.button-large {
-		width: 120px;
-		font-size: 15px;
-		height: 35px;
-	}
+  .banner {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    padding: 0
+  }
 
-	.globe {
-		width: 100px;
-		height: 110px;
-	}
+  .button-large {
+    width: 120px !important;
+    font-size: 15px !important;
+    height: 35px !important;
+   margin: .5rem
+  }
 
-	.analysis {
-		width: 100px;
-		height: 110px;
-	}
+  .wwd2 {
+    width: 300px;
+  }
 
-	.om {
-		margin-top: 3px;
-		margin-left: 15px;
-	}
+  .wwa {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .WhoWeAreCard {
+    margin: 0 auto;
+  }
 
-	.wwd2 {
-		width: 343px;
-	}
+  .blogs {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-	.wwa {
-		flex-direction: column;
-		justify-content: center;
-	}
-	.WhoWeAreCard {
-		margin: 0 auto;
-	}
+  .blog {
+    margin: 0.7em auto;
+  }
 
-	.blogs {
-		flex-direction: column;
-		justify-content: center;
-	}
+  .testimonials {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .bullet {
+    display: none;
+  }
+  .bulletpoint {
+    margin-left: auto;
+  }
+  .point {
+    text-align: center;
+    margin-left: 0;
+  }
+  .om {
+    margin: 0;
+  }
 
-	.blog {
-		margin: 0.7em auto;
-	}
+  .statement {
 
-	.testimonials {
-		flex-direction: column;
-		justify-content: center;
-		margin: 0 auto;
-	}
-	.bullet {
-		display: none;
-	}
-	.bulletpoint {
-		margin-left: auto;
-	}
-
-	/* .Home-form-h2 {
-
-  } */
+  }
 }

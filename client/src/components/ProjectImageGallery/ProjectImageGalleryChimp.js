@@ -63,7 +63,7 @@ class ProjectImageGalleryChimp extends Component {
 
         <div className="galleryBtnsDiv">
           <div
-            className="galleryImageBtn gBOne"
+            className="galleryImageBtn gBOne selectedGalleryImg"
             onClick={this.handleImgOneClick}
           ></div>
           <div

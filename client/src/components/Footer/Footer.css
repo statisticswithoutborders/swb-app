@@ -10,9 +10,9 @@
 	height: auto;
 }
 .Footer-hr {
-	margin: 0;
-	width: 100%;
-	color: var(--blue);
+	border-top: 2px solid var(--blue);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .Footer-Icons {

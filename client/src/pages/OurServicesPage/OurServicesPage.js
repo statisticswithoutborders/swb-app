@@ -16,37 +16,37 @@ import sci from "../../assets/images/services_logo_scimetrika.png";
 import FormContact from "../../components/FormContact/FormContact.js";
 import Video from "../../components/Video/Video.js";
 
-let learn_img = lightbulb;
+let learn_img = "var(--services-lightbulb)";
 let learn_title = "Learn";
 let learn_description =
-	"Exploratory data analysis. Get insights to drive your organization's projects and fulfill its purpose.";
-let grow_img = grow;
+  "Exploratory data analysis. Get insights to drive your organization's projects and fulfill its purpose.";
+let grow_img = "var(--services-grow)";
 let grow_title = "Grow";
 let grow_description =
-	"Test and experiment with reliable and accurate data to expand projects and yield desired results for social good.";
-let innovate_img = innovate;
+  "Test and experiment with reliable and accurate data to expand projects and yield desired results for social good.";
+let innovate_img = "var(--services-innovate)";
 let innovate_title = "Innovate";
 let innovate_description =
-	"Use data to come up with creative solutions to real-world problems that leave a lasting positive impact.";
+  "Use data to come up with creative solutions to real-world problems that leave a lasting positive impact.";
 
 class OurServicesPage extends Component {
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
 
-		this.handleSend = this.handleSend.bind(this);
+    this.handleSend = this.handleSend.bind(this);
 
-		this.state = {
-			name: "",
-			organization: "",
-			email: "",
-			subject: "",
-			message: "",
-		};
-	}
+    this.state = {
+      name: "",
+      organization: "",
+      email: "",
+      subject: "",
+      message: "",
+    };
+  }
 
-	handleSend(e) {
-		e.preventDefault();
-	}
+  handleSend(e) {
+    e.preventDefault();
+  }
 
 	render() {
 		return (
@@ -65,58 +65,58 @@ class OurServicesPage extends Component {
                 resource-limited settings who do not have statistical training by partnering them with
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
-						image="var(--services-consulting)"
-						alt="Services: Data Science Consulting"
-					/>
-				</div>
-				<div class="section-services">
-					<Service
-						title="Monitoring &amp; Evaluation"
-						description="Our projects are the core of our mission. Through these projects we help workers in
+            image="var(--services-consulting)"
+            alt="Services: Data Science Consulting"
+          />
+        </div>
+        <div class="section-services">
+          <Service
+            title="Monitoring &amp; Evaluation"
+            description="Our projects are the core of our mission. Through these projects we help workers in
                 resource-limited settings who do not have statistical training by partnering them with
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
-						image="var(--services-monitor)"
-						alt="Services: Monitoring &amp; Evaluation"
-					/>
-				</div>
-				<div class="section-services">
-					<Service
-						title="Dashboard Data"
-						description="Our projects are the core of our mission. Through these projects we help workers in
+            image="var(--services-monitor)"
+            alt="Services: Monitoring &amp; Evaluation"
+          />
+        </div>
+        <div class="section-services">
+          <Service
+            title="Dashboard Data"
+            description="Our projects are the core of our mission. Through these projects we help workers in
                 resource-limited settings who do not have statistical training by partnering them with 
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
-						image="var(--services-dashboard)"
-						alt="Services: Dashboard Data"
-					/>
-				</div>
-				<div class="section-services">
-					<Service
-						title="Survey Sampling"
-						description="Our projects are the core of our mission. Through these projects we help workers in
+            image="var(--services-dashboard)"
+            alt="Services: Dashboard Data"
+          />
+        </div>
+        <div class="section-services">
+          <Service
+            title="Survey Sampling"
+            description="Our projects are the core of our mission. Through these projects we help workers in
                 resource-limited settings who do not have statistical training by partnering them with 
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
-						image="var(--services-survey)"
-						alt="Services: Survey Sampling"
-					/>
-				</div>
-				<div class="section-services">
-					<Service
-						title="Data Analysis"
-						description="Our projects are the core of our mission. Through these projects we help workers in
+            image="var(--services-survey)"
+            alt="Services: Survey Sampling"
+          />
+        </div>
+        <div class="section-services">
+          <Service
+            title="Data Analysis"
+            description="Our projects are the core of our mission. Through these projects we help workers in
                 resource-limited settings who do not have statistical training by partnering them with 
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
-						image="var(--services-data-analysis)"
-						alt="Services: Data Analysis"
-					/>
-				</div>
-				<div class="section-services">
-					<Service
-						title="Statistical Model"
-						description="Our projects are the core of our mission. Through these projects we help workers in
+            image="var(--services-data-analysis)"
+            alt="Services: Data Analysis"
+          />
+        </div>
+        <div class="section-services">
+          <Service
+            title="Statistical Model"
+            description="Our projects are the core of our mission. Through these projects we help workers in
                 resource-limited settings who do not have statistical training by partnering them with 
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."

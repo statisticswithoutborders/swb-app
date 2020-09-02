@@ -8,7 +8,7 @@ body {
   color: white;
   padding-top: 70px;
   padding-left: 55px;
-  margin-left: -16px;
+
   /* margin-right: -80px; */
   background-position: cover;
   max-width: 1440px;
@@ -270,13 +270,15 @@ h3 {
   .missionstatement h3 {
     max-width: 300px;
   }
-  .banner {
+  /* .words {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-  }
+  } */
   .banner h1 {
     font-size: 20px;
     margin: 14px;
+    text-align: center
   }
 
   .banner p {
@@ -285,20 +287,29 @@ h3 {
   }
 
   .words {
-    margin-left: -20px;
-    margin-top: -60px;
+    /* margin-left: -20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .words button {
+
   }
 
   .banner {
     height: 200px;
+    display: flex;
+    justify-content: center;
   }
 
-.button-large {
+  .button-large {
     width: 120px !important;
     font-size: 15px !important;
     height: 35px !important;
+    margin: 5px;
+    margin-left: 70px;
   }
-
 
   .wwd2 {
     width: 300px;
@@ -332,17 +343,15 @@ h3 {
   .bulletpoint {
     margin-left: auto;
   }
-  .point{
+  .point {
     text-align: center;
     margin-left: 0;
   }
-  .om{
-margin: 0
+  .om {
+    margin: 0;
   }
 
-  .statement{
-    margin: 0 auto;
+  .statement {
+
   }
-
-
 }

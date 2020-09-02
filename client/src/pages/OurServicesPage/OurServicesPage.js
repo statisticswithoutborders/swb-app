@@ -50,7 +50,7 @@ class OurServicesPage extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="ourServicePageDiv">
 				<h1 class="title-services">What We Do</h1>
 				<p class="intro-services">
 					We work to improve decision making and knowledge in efforts that
@@ -215,6 +215,7 @@ class OurServicesPage extends Component {
 					<FormContact help formCallback={this.handleSend} />
 				</div>
 			</div>
+		
 		);
 	}
 }

@@ -14,9 +14,9 @@ import ProjectEthiopia from "./components/ProjectPage/ProjectPageEthiopia";
 import ProjectHaiti from "./components/ProjectPage/ProjectPageHaiti";
 import ProjectSyria from "./components/ProjectPage/ProjectPageSyria";
 import ProjectUnicef from "./components/ProjectPage/ProjectPageUnicef";
-import Services from "./pages/OurServicesPage/OurServicesPage"
-import Volunteers from "./pages/VolunteersPage/VolunteersPage"
-import AboutUs from "./pages/AboutUsPage/AboutUsPage"
+import Services from "./pages/OurServicesPage/OurServicesPage";
+import Volunteers from "./pages/VolunteersPage/VolunteersPage";
+import AboutUs from "./pages/AboutUsPage/AboutUsPage";
 
 function App() {
   return (

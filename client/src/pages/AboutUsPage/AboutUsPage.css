@@ -1,6 +1,8 @@
 .container {
   width: 100%;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-title {
@@ -9,24 +11,37 @@
 }
 
 .about-swb {
+  width: 98%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2px solid var(--blue);
+  padding-bottom: 3%;
 }
 .about-swb p {
+  width: 45%;
   color: var(--blue-medium-dark);
   font-size: 18px;
+  margin-right: 2%;
+  line-height: 1.4;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-img {
   background: no-repeat;
   background-size: contain;
-  width: 210%;
-  margin: 5%;
+  background-position: center;
+  width: 42%;
+  padding-top: 27%;
+  margin: 0 1% 0 0;
 }
 
 .section-p {
   margin-bottom: 25px;
-  margin-right: 16%;
   text-align: start;
 }
 
@@ -36,16 +51,27 @@
   margin-bottom: 100px;
 }
 
-.objective-section-one {
-  margin-top: 80px;
+.aboutus-section {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid var(--blue);
 }
 
+.aboutus-bottom-section {
+  border: none;
+  padding-bottom: 7%;
+}
+
+
 .objective-section {
-  margin-left: 10%;
-  margin-bottom: 70px;
+  width: 100%;
+  margin: 3% 0 10% 5%;
   text-align: start;
 }
 .member-header {
+  margin: 7% 0;
   color: var(--blue-medium-dark);
   font-size: 2em;
 }
@@ -53,8 +79,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-  margin-bottom: -3%;
+  padding-bottom: 2%;
+}
+
+.member-cards {
+  min-width: 28%;
+  margin: 2% 2%;
 }
 
 .member-row {
@@ -62,15 +94,12 @@
   justify-content: space-evenly;
   width: 100%;
 }
-.member-cards {
-  margin: 5px 20px;
-}
 
 .number-icons-section {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-  width: 85%;
+  width: 100%;
 }
 
 .number-icons-header {
@@ -81,7 +110,6 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--blue-medium-dark);
   margin: 60px;
-  margin-top: -2%;
 }
 .number-icons-objectives {
   display: flex;
@@ -103,11 +131,11 @@
 }
 
 .charter-text {
-  text-align: right;
+  align-self: flex-end;
   color: var(--blue-medium-dark);
   font-size: 22px;
   margin-right: 18%;
-  margin-bottom: -2%;
+  margin-bottom: 3%;
 }
 
 .charter-underline {
@@ -117,27 +145,28 @@
 }
 
 .funding-facts-header {
-  margin-top: -4%;
   color: var(--blue-medium-dark);
 }
 
 .funding-facts-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .funding-facts-fact {
+  width: 100%;
   padding-left: 10%;
-  margin: 15px;
+  margin: 1.5% 0;
   line-height: 125%;
 }
 
 .funding-facts-readtext {
   font-size: 18px;
   color: var(--blue-medium-dark);
-  float: right;
+  align-self: flex-end;
   margin-right: 5%;
-  margin-top: 2%;
+  margin: 2% 7%;
 }
 
 .volunteer-underline {
@@ -154,56 +183,119 @@
   margin-bottom: 5%;
 }
 .broadgreen-section {
-  margin: -5px 150px;
+  width: 90%;
+  /* margin: -5px 150px; */
   font-size: 22px;
   color: var(--blue-medium-dark);
   line-height: 145%;
   text-align: start;
 }
 
-@media screen and (max-width: 950px) {
-  .MemberCard {
+@media screen and (max-width: 900px) {
+  .about-title {
+    margin: 5% 0 5% 0;
+  }
+  .about-swb {
+    width: 95%;
     display: flex;
     flex-direction: column;
-    width: 65%;
+    align-items: center;
   }
-  .member-row {
-    padding: 10%;
+
+  .about-swb p {
+    width: 98%;
+    margin-left: 5%;
   }
-  .member-cards {
-    margin: -3%;
+
+  .section-p {
+    width: 100%;
+    font-size: 90%;
+   
+  }
+  .about-img {
+    width: 100%;
+    padding-top: 60%;
+    background-position: center;
+  }
+
+  .number-icons-section {
+    width: 100%;
+  }
+  .number-icons-objectives { 
+    width: 100%;
+    padding: 0;
+  }
+
+  .funding-facts-readtext {
+    width: 94%;
+    margin: 8% 0;
+    align-self: center;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .about-title {
-    margin-top: 5%;
-  }
-  .about-swb {
+  
+  .objective-section {
+    width: 90%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .member-parent-container {
     flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
   }
-  .about-swb-p .section-p {
-    text-align: middle;
-    padding-left: 25%;
-  }
-  .about-img {
-    width: 100%;
-    padding-top: 50%;
-    background-position: center;
-  }
-  .member-row {
-    display: block;
-    padding: 10%;
+
+  .number-icons-section {
+    width: 98%;
   }
   .number-icons-objectives {
-    display: block;
+    width: 98%;
+    flex-direction: column;
+  }
+  .number-icons-icon {
+    width: 5%;
+  }
+  .number-icons-text {
+    width: 100%;
+    display: inline-block;
+    text-align: start;
+    margin-top: 15%;
+    font-size: 80%;
   }
   .broadgreen-section {
     display: inline;
     font-size: 95%;
   }
-  .objective-section {
-    display: inline;
+  .broadgreen-section p {
+    margin: 10px 20px;
+  }
+
+  .charter-text {
+    margin: 0 0 8% 0;
+    font-size: 90%;
+  }
+
+  .funding-facts-header {
+    margin: 8% 0 4% 0;
+  }
+
+  .funding-facts-fact {
+    width: 95%;
+    margin: 3% 2%;
+    padding: 0;
+  }
+  
+
+  .broadgreen-header {
+    width: 95%;
+    margin: 8% 0 4% 0;
+  }
+
+  .broadgreen-section {
+    width: 98%;
   }
 }

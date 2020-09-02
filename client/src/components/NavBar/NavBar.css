@@ -39,6 +39,16 @@
   height: 40px;
 }
 
+.Nav-hamburger {
+  width: 10%;
+  justify-self: flex-end;
+  /* display: none; */
+}
+
+.Nav-hamburger-img {
+  width: 20%;
+}
+
 @media (max-width: 1199.98px) { 
   .Nav_item-wrapper{
     margin-left: 32%

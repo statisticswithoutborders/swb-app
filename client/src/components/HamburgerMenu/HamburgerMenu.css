@@ -2,28 +2,53 @@
     margin-top: 0;
     
     width: 20%;
-    background-color: var(--gray-lite);
+    background-color: #ffffff;
     
     position: absolute;
-    right: 0;
+    right: 2%;
     top: 0;
+
+    font-weight: 500;
 }
 
 .HamburgerMenu-menu-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
 
     font-size: 30px;
     padding-inline-start: 3%;
     list-style-type: none;
     cursor: pointer;
+
+    margin: 10% 3%;
+}
+
+.HamburgerMenu-list-item {
+    margin-top: 1%;
 }
 
 .HamburgerMenu h1{
+    color: var(--blue);
     text-align: right;
-    margin-right: 10%;
-    margin-top: 2%;
+    margin: 5% 10% 0 0;
     cursor: pointer;
+}
+
+
+@media (max-width: 575.98px) {
+    .HamburgerMenu {
+        width: 30%;
+        line-height: 1;
+    }
+
+    .HamburgerMenu-menu-list {
+        justify-content: flex-start;
+    }
+
+    .HamburgerMenu-list-item {
+        margin-top: 1%;
+    }
+    
 }

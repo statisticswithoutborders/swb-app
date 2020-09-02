@@ -215,6 +215,7 @@ h3 {
     width: 250px;
   } */
 
+
   .blog {
     margin: 0 5px;
   }
@@ -236,7 +237,7 @@ h3 {
   }
 
   .wwd2 {
-    width: 736px;
+    width:100%
   }
 
   .banner h1 {
@@ -270,15 +271,11 @@ h3 {
   .missionstatement h3 {
     max-width: 300px;
   }
-  /* .words {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  } */
+
   .banner h1 {
     font-size: 20px;
-    margin: 14px;
-    text-align: center
+    margin: 0;
+    /* text-align: center */
   }
 
   .banner p {
@@ -287,28 +284,25 @@ h3 {
   }
 
   .words {
-    /* margin-left: -20px; */
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     
-  }
-  .words button {
-
   }
 
   .banner {
-    height: 200px;
+    height: 25%;
     display: flex;
     justify-content: center;
+    padding: 0
   }
 
   .button-large {
     width: 120px !important;
     font-size: 15px !important;
     height: 35px !important;
-    margin: 5px;
-    margin-left: 70px;
+   margin: .5rem
   }
 
   .wwd2 {

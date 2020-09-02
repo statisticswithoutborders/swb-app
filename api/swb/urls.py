@@ -13,4 +13,6 @@ urlpatterns = [
     path('contacts/<int:pk>', views.ContactDetail.as_view(), name='contact_detail'),
     path('volunteers/', views.VolunteerList.as_view(), name='volunteer_list'),
     path('volunteers/<int:pk>', views.VolunteerDetail.as_view(), name='volunteer_detail'),
+    path('new_projects/', views.NewProjectList.as_view(), name='new_project_list'),
+    path('new_projects/<int:pk>', views.NewProjectDetail.as_view(), name='new_project_detail'),
 ]

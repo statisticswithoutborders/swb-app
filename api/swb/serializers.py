@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Project, Service, Member, Contact, Volunteer
+from .models import Project, Service, Member, Contact, Volunteer, NewProject
 
 
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
@@ -21,20 +21,34 @@ class ServiceSerializer(serializers.HyperlinkedModelSerializer):
         model = Service
         fields = ('id', 'service_name',)
 
+
 class MemberSerializer(serializers.ModelSerializer):
-    
+
     class Meta:
         model = Member
-        fields = ('id', 'member_name', 'member_picture_url', 'member_role', 'member_about')
+        fields = ('id', 'member_name', 'member_picture_url',
+                  'member_role', 'member_about')
+
 
 class ContactSerializer(serializers.ModelSerializer):
-    
+
     class Meta:
         model = Contact
-        fields = ('id', 'contact_name', 'contact_email', 'contact_organization', 'contact_subject', 'contact_message')
+        fields = ('id', 'contact_name', 'contact_email',
+                  'contact_organization', 'contact_subject', 'contact_message')
+
 
 class VolunteerSerializer(serializers.ModelSerializer):
-    
+
     class Meta:
         model = Volunteer
-        fields = ('id', 'volunteer_name', 'volunteer_email', 'volunteer_organization', 'volunteer_subject', 'volunteer_message')
+        fields = ('id', 'volunteer_name', 'volunteer_email',
+                  'volunteer_organization', 'volunteer_subject', 'volunteer_message')
+
+
+class NewProjectSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = NewProject
+        fields = ('id', 'new_project_name', 'new_project_email',
+                  'new_project_organization', 'new_project_subject', 'new_project_message')

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Project, Service, Member, Contact
+from .models import Project, Service, Member, Contact, Volunteer
 
 
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
@@ -32,3 +32,9 @@ class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
         fields = ('id', 'contact_name', 'contact_email', 'contact_organization', 'contact_subject', 'contact_message')
+
+class VolunteerSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = Volunteer
+        fields = ('id', 'volunteer_name', 'volunteer_email', 'volunteer_organization', 'volunteer_subject', 'volunteer_message')

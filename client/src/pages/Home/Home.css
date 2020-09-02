@@ -4,37 +4,41 @@ body {
 .banner {
   background-image: var(--home-banner);
   width: 100vw;
-  height: 510px;
+  height: 100%;
   color: white;
-  padding-top: 70px;
-  padding-left: 55px;
-
-  /* margin-right: -80px; */
-  background-position: cover;
-  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: cover; */
+  background-origin: border-box ;
+ 
 }
 
 .banner h1 {
 	color: white;
 	display: flex;
 	justify-content: start;
-	margin-left: -3px;
 	font-size: 50px;
-	margin-top: 20px;
+  margin-top: 1%;
+  margin: 0 0 !important;
+  
 }
 
 .banner p {
 	font-size: 20px;
 }
-
+.words{
+  margin-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 .statement {
-	width: 650px;
-	/* padding: 5px 0 20px; */
-	font-weight: bold;
+	width: 50%;
+  font-weight: bold;
+  margin: 1% 0;
 }
 
 h1 {
-	font-size: 50px;
+  font-size: 50px;
 }
 
 .mission {
@@ -179,6 +183,14 @@ h3 {
     width: 300px;
   } */
 
+  .banner{
+
+  }
+.words button{
+  width: auto;
+  padding: 0 2%
+
+}
 	.blog {
 		margin: 0 10px;
 	}
@@ -197,6 +209,11 @@ h3 {
 }
 
 @media (max-width: 991.98px) {
+
+  .words .button{
+
+    
+  }
   .wwa {
     flex-direction: column;
     justify-content: center;
@@ -241,7 +258,7 @@ h3 {
 	}
 
 	.BlogCard-label {
-		font-size: 15px;
+		font-size: 1px;
 	}
 
   .wwd2 {
@@ -254,7 +271,7 @@ h3 {
 
 	.banner p {
 		font-size: 15px;
-		width: 300px;
+		width: 50%;
 	}
 
 	.project {
@@ -263,6 +280,10 @@ h3 {
 }
 
 @media (max-width: 575.98px) {
+  .statement{
+    font-size: 18px !important;
+    width: 50% !important;
+  }
   .cards {
     flex-direction: column;
     justify-content: center;
@@ -281,8 +302,8 @@ h3 {
   }
 
   .banner h1 {
-    font-size: 20px;
-    margin: 0;
+    font-size: 30px;
+    margin: 0 auto;
     /* text-align: center */
   }
 

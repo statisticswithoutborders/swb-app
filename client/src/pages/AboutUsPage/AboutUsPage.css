@@ -52,7 +52,7 @@
 }
 
 .aboutus-section {
-  width: 90%;
+  width: 98%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,7 +66,7 @@
 
 
 .objective-section {
-  width: 100%;
+  width: 90%;
   margin: 3% 0 10% 5%;
   text-align: start;
 }

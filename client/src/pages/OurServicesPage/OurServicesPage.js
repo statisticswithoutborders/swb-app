@@ -120,71 +120,75 @@ class OurServicesPage extends Component {
                 resource-limited settings who do not have statistical training by partnering them with 
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
-            image="var(--services-stat-model)"
-            alt="Services: Statistical Model"
-          />
-        </div>
-        <hr className="services-hr" />
-        <h1 className="title-services">How You Can Benefit</h1>
-        <div className="services-cards-flex">
-          <div className="services-card">
-            <Card
-              how_you_can_benefit
-              image={learn_img}
-              title={learn_title}
-              description={learn_description}
-            />
-          </div>
-          <div className="services-card">
-            <Card
-              how_you_can_benefit
-              image={grow_img}
-              title={grow_title}
-              description={grow_description}
-            />
-          </div>
-          <div className="services-card">
-            <Card
-              how_you_can_benefit
-              image={innovate_img}
-              title={innovate_title}
-              description={innovate_description}
-            />
-          </div>
-        </div>
-        <hr className="services-hr" />
-        <h1 className="title-services">
-          Faunalytics: Working with Statistics Without Borders
-        </h1>
-        <div class="video-section">
-          <Video url="https://www.youtube.com/watch?v=xFKkTMjQoIw" />
-        </div>
-        <hr className="services-hr" />
-        <h1 className="title-services">Our Clients</h1>
-        <p className="clients">
-          Oranizations that have used our pro-bono services
-        </p>
-        <div className="clients-img-row">
-          <a href="https://www.unicef.org/">
-            {" "}
-            <div className="clients-img">
-              <img src={unicef} />
-            </div>
-          </a>
-          <a href="https://www.unocha.org/">
-            {" "}
-            <div className="clients-img">
-              <img src={ocha} />
-            </div>
-          </a>
-        </div>
-        <div className="clients-img-row">
-          <a href="https://www.asante.org/">
-            {" "}
-            <div className="clients-img">
-              <img src={asante} />
-            </div>
-          </a>
+						image="var(--services-stat-model)"
+						alt="Services: Statistical Model"
+					/>
+				</div>
+				<hr className="services-hr" />
+				<h1 className="title-services">How You Can Benefit</h1>
+				<div className="services-cards-flex">
+					<div className="services-card">
+						<Card
+							how_you_can_benefit
+							image={learn_img}
+							title={learn_title}
+							description={learn_description}
+						/>
+					</div>
+					<div className="services-card">
+						<Card
+							how_you_can_benefit
+							image={grow_img}
+							title={grow_title}
+							description={grow_description}
+						/>
+					</div>
+					<div className="services-card">
+						<Card
+							how_you_can_benefit
+							image={innovate_img}
+							title={innovate_title}
+							description={innovate_description}
+						/>
+					</div>
+				</div>
+				<hr className="services-hr" />
+				<h1 className="title-services">
+					Faunalytics: Working with Statistics Without Borders
+				</h1>
+				<div class="video-section">
+					<div class="video-size">
+						<Video
+							url="https://www.youtube.com/watch?v=xFKkTMjQoIw"
+						/>
+					</div>
+				</div>
+				<hr className="services-hr" />
+				<h1 className="title-services">Our Clients</h1>
+				<p className="clients">
+					Oranizations that have used our pro-bono services
+				</p>
+				<div className="clients-img-row">
+					<a href="https://www.unicef.org/">
+						{" "}
+						<div className="clients-img">
+							<img src={unicef} />
+						</div>
+					</a>
+					<a href="https://www.unocha.org/">
+						{" "}
+						<div className="clients-img">
+							<img src={ocha} />
+						</div>
+					</a>
+				</div>
+				<div className="clients-img-row">
+					<a href="https://www.asante.org/">
+						{" "}
+						<div className="clients-img">
+							<img src={asante} />
+						</div>
+					</a>
 
           <a href="https://www.savethechildren.org/">
             {" "}

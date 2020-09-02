@@ -9,8 +9,8 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import WhoWeAreCard from "../../components/WhoWeAreCard/WhoWeAreCard";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import FormContact from "../../components/FormContact/FormContact";
-import Card from "../../components/Card/Card"
-import { Link } from "react-router-dom"
+import Card from "../../components/Card/Card";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   constructor() {
@@ -30,23 +30,23 @@ class Home extends Component {
               consultancy and training in statistics and data science to promote
               objective and transparent decision making.
             </p>
-            <Link to = "/ourservices">
-            <Button large label="LEARN MORE" />
+            <Link to="/ourservices">
+              <Button large label="LEARN MORE" />
             </Link>
           </div>
         </div>
         <div className="mission">
-          <img className = 'globe'src={Globe} />
-          <h2 className = 'om'>Our Mission</h2>
-          <img className = 'analysis' src={Analysis} />
+          <img className="globe" src={Globe} />
+          <h2 className="om">Our Mission</h2>
+          <img className="analysis" src={Analysis} />
         </div>
-        <div className = 'missionstatement'>
-        <h3 className="probono">
-          We provide pro bono services in statistics and data science, to
-          improve decision making and knowledge in efforts that promote welfare
-          through the proper application of statistical principles and best
-          practices, where access to such resources is limited
-        </h3>
+        <div className="missionstatement">
+          <h3 className="probono">
+            We provide pro bono services in statistics and data science, to
+            improve decision making and knowledge in efforts that promote
+            welfare through the proper application of statistical principles and
+            best practices, where access to such resources is limited
+          </h3>
         </div>
         <div className="bulletpoint">
           {" "}
@@ -97,12 +97,35 @@ class Home extends Component {
             principles and best practices, where access to such resources is
             limited.
           </h3>
-          <div className = 'cards'>
-          <div className = 'card'><Card what_we_do image= "var(--home-monitor)" title = 'Monitoring & Evaluation'description = 'Monitoring and Evaluation is used to assess the performance of projects, institutions and programmes set up by governments, international organisations and NGOs.'/> </div>
-          <div className = 'card'><Card what_we_do image = "var(--home-data-analysis)" title ='Data Analysis' description = 'Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. '/></div>
-          <div className = 'card'><Card what_we_do image = "var(--home-exp-design)" title = 'Experimental Design' description = 'Experimental design is a method of planning a set of procedures to investigate a relationship between variables. This is a branch of statistics that focuses on the analysis of the resultant data.'/></div>
+          <div className="cards">
+            <div className="card">
+              <Card
+                what_we_do
+                image="var(--home-monitor)"
+                title="Monitoring & Evaluation"
+                description="Monitoring and Evaluation is used to assess the performance of projects, institutions and programmes set up by governments, international organisations and NGOs."
+              />{" "}
+            </div>
+            <div className="card">
+              <Card
+                what_we_do
+                image="var(--home-data-analysis)"
+                title="Data Analysis"
+                description="Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making. "
+              />
+            </div>
+            <div className="card">
+              <Card
+                what_we_do
+                image="var(--home-exp-design)"
+                title="Experimental Design"
+                description="Experimental design is a method of planning a set of procedures to investigate a relationship between variables. This is a branch of statistics that focuses on the analysis of the resultant data."
+              />
+            </div>
           </div>
-         <Link to= '/ourservices'><Button medium label="MORE SERVICES" /></Link>
+          <Link to="/ourservices">
+            <Button medium label="MORE SERVICES" />
+          </Link>
         </div>
         <hr className="homeHR" />
         <h2>Who We Are</h2>
@@ -112,7 +135,7 @@ class Home extends Component {
               title="Members"
               image="var(--home-members)"
               buttonLabel="OUR TEAM"
-              link = "/aboutus"
+              link="/aboutus"
             />
           </div>
           <div className="wwac">
@@ -120,7 +143,7 @@ class Home extends Component {
               title="Volunteers"
               image="var(--home-volunteers)"
               buttonLabel="JOIN US"
-              link = "/volunteers"
+              link="/volunteers"
             />
           </div>
           <div className="wwac">
@@ -128,7 +151,7 @@ class Home extends Component {
               title="Clients"
               image="var(--home-clients)"
               buttonLabel="WORK WITH US"
-              link = "/contactus"
+              link="/contactus"
             />
           </div>
         </div>
@@ -141,42 +164,42 @@ class Home extends Component {
             <ProjectCard
               image="var(--home-asante)"
               projectTitle="Asante Africa Foundation"
-              link = "/projects/asante"
+              link="/projects/asante"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-stc)"
               projectTitle="Save the Children - Ethiopia"
-              link = "/projects/ethiopia"
+              link="/projects/ethiopia"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-chimp)"
               projectTitle="Tacugama Chimpanzee Sanctuary"
-              link = "/projects/chimp"
+              link="/projects/chimp"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-un)"
               projectTitle="Whole of Syria Health Cluster"
-              link = "/projects/syria"
+              link="/projects/syria"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-unicef-sl)"
               projectTitle="UNICEF Sierra Leone"
-              link = "/projects/unicef"
+              link="/projects/unicef"
             />
           </div>
           <div className="project">
             <ProjectCard
               image="var(--home-haiti)"
               projectTitle="Haitian Earthquake Data Collection"
-              link = "/projects/haiti"
+              link="/projects/haiti"
             />
           </div>
         </div>
@@ -185,7 +208,7 @@ class Home extends Component {
         <h2>Testimonials</h2>
         <div className="testimonials">
           {" "}
-          <div>
+          <div className = "testimonial">
             <Testimonial
               description={
                 'Being an SWB volunteer is probably one of the best things I did. The experience helped me change my career track. Volunteering for SWB gave me experience that helped me move into the area of global health. I had the opportunity to learn from an expert(Gary Shapiro) about conducting surveys in a resource-poor country. We produced 6 publications and presentations and I wrote a chapter on Developing Leadership Skills through Volunteering for the book "Leadership and Women in statistics."'
@@ -195,7 +218,7 @@ class Home extends Component {
               imgPostion="right"
             />
           </div>
-          <div>
+          <div className = "testimonial">
             {" "}
             <Testimonial
               description="Statistics Without Borders is an incredible way to give back to others. To be able to leverage the knowledge you've gained is an immensely rewarding experience. That being said, it is a commitment! We're using a huge network of volunteers to work with organizations around the world. It's important to be responsive and to communicate well with others, because we all rely on each other. If you're eager to get your hands into some volunteer work, SWB is a great place to look!"
@@ -209,7 +232,7 @@ class Home extends Component {
 
         <h2>SWB Blog</h2>
         <div className="blogs">
-          <div className = 'blog'  className = 'blog'>
+          <div className="blog" className="blog">
             <BlogCard
               title="Title: Blog Post 1"
               date="Date: May 20, 2020"
@@ -217,7 +240,7 @@ class Home extends Component {
               label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
             />
           </div>
-          <div className = 'blog'>
+          <div className="blog">
             <BlogCard
               title="Title: Blog Post 2"
               date="Date: March 9, 2020"
@@ -225,7 +248,7 @@ class Home extends Component {
               label="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
             />
           </div>
-          <div className = 'blog'>
+          <div className="blog">
             <BlogCard
               title="Title: Blog Post 3"
               date="Date: February 23, 2020"
@@ -236,7 +259,9 @@ class Home extends Component {
         </div>
         <hr className="homeHR" />
 
-       <div className ="form"><FormContact/></div>
+        <div className="form">
+          <FormContact />
+        </div>
       </React.Fragment>
     );
   }

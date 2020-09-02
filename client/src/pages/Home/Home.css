@@ -219,25 +219,29 @@ h3 {
   .probono{
     width: 100%
   }
+.blogs {
+  flex-direction: column;
+  align-items: center;
 
+}
 	.blog {
-		margin: 0 5px;
+		margin: 0.5rem;
 	}
 
 	.blog .BlogCard {
-		width: 250px;
+		width: 300px;
 	}
 
 	.blog .BlogCard-title {
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	.blog .BlogCard-date {
-		font-size: 10px;
+		font-size: 15px;
 	}
 
 	.BlogCard-label {
-		font-size: 14px;
+		font-size: 15px;
 	}
 
   .wwd2 {

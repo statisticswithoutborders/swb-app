@@ -270,10 +270,13 @@ h3 {
   .missionstatement h3 {
     max-width: 300px;
   }
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
   .banner h1 {
     font-size: 20px;
     margin: 14px;
-    margin-left: -3px;
   }
 
   .banner p {
@@ -306,10 +309,6 @@ h3 {
     height: 110px;
   }
 
-  .om {
-    margin-top: 3px;
-    margin-left: 15px;
-  }
 
   .wwd2 {
     width: 300px;

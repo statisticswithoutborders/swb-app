@@ -279,6 +279,11 @@
     font-size: 90%;
   }
 
+  .funding-facts-fact {
+    display: flex;
+    justify-content: center;
+  }
+
   .funding-facts-header {
     margin: 8% 0 4% 0;
   }

@@ -1,54 +1,51 @@
 .Footer {
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  margin-top: 25px;
-  width: 100vw;
-  height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	margin-top: 25px;
+	width: 100vw;
+	height: auto;
 }
-.Footer-hr{
-  margin: 0;
-  width: 100%;
-  background-color: var(--blue);
-  
+.Footer-hr {
+	border-top: 2px solid var(--blue);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .Footer-Icons {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .IconImage {
-  width: 50px;
-  margin-bottom: 20px;
+	width: 50px;
+	margin-bottom: 20px;
 }
 
 .footer-text-link {
-  text-decoration: none;
-  color: black;
-  line-height: 25px;
+	text-decoration: none;
+	color: black;
+	line-height: 25px;
 }
 
 .footer-email-link {
-  font-size: 120%;
+	font-size: 120%;
 }
 
 .footer-privacy-policy {
-  font-size: 90%;
+	font-size: 90%;
 }
 
 @media screen and (max-width: 600px) {
-  .Footer {
-   
-    display: block;
-    text-align: center;
-  }
-  .Footer-Icons {
-    display: flex;
-    justify-content: center;
-  }
+	.Footer {
+		display: block;
+		text-align: center;
+	}
+	.Footer-Icons {
+		display: flex;
+		justify-content: center;
+	}
 }

@@ -4,6 +4,8 @@ import StoryRouter from "storybook-react-router";
 import Footer from "./Footer";
 import "./Footer.css";
 
-storiesOf("Footer", module).add("Footer", () => {
+storiesOf("Footer", module)
+.addDecorator(StoryRouter())
+.add("Footer", () => {
   return <Footer />;
 });

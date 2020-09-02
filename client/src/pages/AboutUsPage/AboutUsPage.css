@@ -64,16 +64,14 @@
   padding-bottom: 7%;
 }
 
-.objective-section-one {
-  margin-top: 80px;
-}
 
 .objective-section {
-  margin-left: 10%;
-  margin-bottom: 70px;
+  width: 100%;
+  margin: 3% 0 10% 5%;
   text-align: start;
 }
 .member-header {
+  margin: 7% 0;
   color: var(--blue-medium-dark);
   font-size: 2em;
 }
@@ -101,7 +99,7 @@
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-  width: 85%;
+  width: 100%;
 }
 
 .number-icons-header {
@@ -133,7 +131,7 @@
 }
 
 .charter-text {
-  text-align: right;
+  align-self: flex-end;
   color: var(--blue-medium-dark);
   font-size: 22px;
   margin-right: 18%;
@@ -151,13 +149,15 @@
 }
 
 .funding-facts-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .funding-facts-fact {
+  width: 100%;
   padding-left: 10%;
-  margin: 15px;
+  margin: 1.5% 0;
   line-height: 125%;
 }
 
@@ -183,19 +183,20 @@
   margin-bottom: 5%;
 }
 .broadgreen-section {
-  margin: -5px 150px;
+  width: 90%;
+  /* margin: -5px 150px; */
   font-size: 22px;
   color: var(--blue-medium-dark);
   line-height: 145%;
   text-align: start;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
   .about-title {
-    margin-top: 5%;
+    margin: 5% 0 5% 0;
   }
   .about-swb {
-    width: 98%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,6 +204,7 @@
 
   .about-swb p {
     width: 98%;
+    margin-left: 5%;
   }
 
   .section-p {
@@ -212,25 +214,53 @@
   }
   .about-img {
     width: 100%;
-    padding-top: 50%;
+    padding-top: 60%;
     background-position: center;
   }
+
+  .number-icons-section {
+    width: 100%;
+  }
+  .number-icons-objectives { 
+    width: 100%;
+    padding: 0;
+  }
+
+  .funding-facts-readtext {
+    width: 94%;
+    margin: 8% 0;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  
   .objective-section {
+    width: 90%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
+
+
   .member-parent-container {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
   }
+
+  .number-icons-section {
+    width: 98%;
+  }
   .number-icons-objectives {
-    display: block;
+    width: 98%;
+    flex-direction: column;
   }
   .number-icons-icon {
-    width: 10%;
+    width: 5%;
   }
   .number-icons-text {
+    width: 100%;
     display: inline-block;
     text-align: start;
     margin-top: 15%;
@@ -243,13 +273,29 @@
   .broadgreen-section p {
     margin: 10px 20px;
   }
-  .objective-section {
-    display: inline;
-  }
+
   .charter-text {
+    margin: 0 0 8% 0;
     font-size: 90%;
   }
-  .funding-facts-readtext {
-    font-size: 90%;
+
+  .funding-facts-header {
+    margin: 8% 0 4% 0;
+  }
+
+  .funding-facts-fact {
+    width: 95%;
+    margin: 3% 2%;
+    padding: 0;
+  }
+  
+
+  .broadgreen-header {
+    width: 95%;
+    margin: 8% 0 4% 0;
+  }
+
+  .broadgreen-section {
+    width: 98%;
   }
 }

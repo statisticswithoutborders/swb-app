@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Project, Service, Member
+from .models import Project, Service, Member, Contact
 
 
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
@@ -26,3 +26,9 @@ class MemberSerializer(serializers.ModelSerializer):
     class Meta:
         model = Member
         fields = ('id', 'member_name', 'member_picture_url', 'member_role', 'member_about')
+
+class ContactSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        model = Contact
+        fields = ('id', 'contact_name', 'contact_email', 'contact_organization', 'contact_subject', 'contact_message')

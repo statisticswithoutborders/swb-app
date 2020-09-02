@@ -211,6 +211,7 @@ class OurServicesPage extends Component {
 					</a>
 				</div>
 				<hr className="services-hr" />
+				<h2 className="services-form-h2">Let's Work Together - Contact Us</h2>
 				<div className="services-form">
 					<FormContact help formCallback={this.handleSend} />
 				</div>

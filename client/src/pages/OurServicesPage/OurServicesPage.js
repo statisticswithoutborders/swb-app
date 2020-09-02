@@ -48,20 +48,20 @@ class OurServicesPage extends Component {
     e.preventDefault();
   }
 
-  render() {
-    return (
-      <div>
-        <h1 class="title-services">What We Do</h1>
-        <p class="intro-services">
-          We work to improve decision making and knowledge in efforts that
-          promote welfare through the proper application of statistical
-          principles and best practices, where access to such resources is
-          limited.
-        </p>
-        <div class="section-services">
-          <Service
-            title="Data Science Consulting"
-            description="Our projects are the core of our mission. Throught these projects, we help workers in
+	render() {
+		return (
+			<div className="ourServicePageDiv">
+				<h1 class="title-services">What We Do</h1>
+				<p class="intro-services">
+					We work to improve decision making and knowledge in efforts that
+					promote welfare through the proper application of statistical
+					principles and best practices, where access to such resources is
+					limited.
+				</p>
+				<div class="section-services">
+					<Service
+						title="Data Science Consulting"
+						description="Our projects are the core of our mission. Throught these projects, we help workers in
                 resource-limited settings who do not have statistical training by partnering them with
                 professional and student statisticians. The scope of our work is diverse, ranging from
                 survey design to analysis to efforts to provide statistical software for developing nations."
@@ -190,31 +190,32 @@ class OurServicesPage extends Component {
 						</div>
 					</a>
 
-          <a href="https://www.savethechildren.org/">
-            {" "}
-            <div className="clients-img">
-              <img src={stc} />
-            </div>
-          </a>
-          <a href="https://www.tacugama.com/">
-            <div className="clients-img">
-              <img src={tacugam} />
-            </div>
-          </a>
-          <a href="https://www.scimetrika.com/">
-            <div className="clients-img">
-              <img src={sci} />
-            </div>
-          </a>
-        </div>
-        <hr className="services-hr" />
-        <h2 className="services-form-h2">Let's Work Together</h2>
-        <div className="services-form">
-          <FormContact help formCallback={this.handleSend} />
-        </div>
-      </div>
-    );
-  }
+					<a href="https://www.savethechildren.org/">
+						{" "}
+						<div className="clients-img">
+							<img src={stc} />
+						</div>
+					</a>
+					<a href="https://www.tacugama.com/">
+						<div className="clients-img">
+							<img src={tacugam} />
+						</div>
+					</a>
+					<a href="https://www.scimetrika.com/">
+						<div className="clients-img">
+							<img src={sci} />
+						</div>
+					</a>
+				</div>
+				<hr className="services-hr" />
+				<h2 className="services-form-h2">Let's Work Together - Contact Us</h2>
+				<div className="services-form">
+					<FormContact help formCallback={this.handleSend} />
+				</div>
+			</div>
+		
+		);
+	}
 }
 
 export default OurServicesPage;

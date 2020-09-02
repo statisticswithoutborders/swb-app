@@ -46,8 +46,32 @@ textarea:focus {
 	outline: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	.Input-small {
 		width: 15rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.Input-small {
+		width: 13rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.Input-small {
+		width: 10rem;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	.Input-small {
+		width: 15rem;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.Input-small {
+		width: 13rem;
 	}
 }

@@ -290,10 +290,10 @@ h3 {
     height: 200px;
   }
 
-  .button-large {
-    width: 120px;
-    font-size: 15px;
-    height: 35px;
+.button-large {
+    width: 120px !important;
+    font-size: 15px !important;
+    height: 35px !important;
   }
 
   .globe {
@@ -347,5 +347,9 @@ h3 {
     text-align: center;
     margin-left: 0;
   }
-  
+  .om{
+
+  }
+
+
 }

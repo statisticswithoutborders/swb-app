@@ -43,12 +43,8 @@
         line-height: 1;
     }
 
-    .HamburgerMenu-menu-list {
-        justify-content: flex-start;
-    }
-
     .HamburgerMenu-list-item {
-        margin-top: 1%;
+        margin-top: 0;
     }
     
 }

@@ -157,14 +157,7 @@ class OurServicesPage extends Component {
           Faunalytics: Working with Statistics Without Borders
         </h1>
         <div class="video-section">
-          <div>
-            <Video
-              large
-              width="900px"
-              height="500px"
-              url="https://www.youtube.com/watch?v=xFKkTMjQoIw"
-            />
-          </div>
+          <Video url="https://www.youtube.com/watch?v=xFKkTMjQoIw" />
         </div>
         <hr className="services-hr" />
         <h1 className="title-services">Our Clients</h1>
@@ -211,7 +204,7 @@ class OurServicesPage extends Component {
           </a>
         </div>
         <hr className="services-hr" />
-        <h2 className="services-form-h2">Let's Work Together - Contact Us</h2>
+        <h2 className="services-form-h2">Let's Work Together</h2>
         <div className="services-form">
           <FormContact help formCallback={this.handleSend} />
         </div>

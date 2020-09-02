@@ -121,7 +121,7 @@ h3 {
 .probono {
   display: flex;
   font-size: 18px;
-  width: 930px;
+  width: 100%;
 }
 
 .wwa {
@@ -130,7 +130,7 @@ h3 {
 }
 
 .wwac h2 {
-font-size: 30px;
+  font-size: 30px;
 }
 
 .blogs {
@@ -150,24 +150,22 @@ font-size: 30px;
 .cards {
   display: flex;
   justify-content: space-evenly;
-
 }
-.analysis{
+.analysis {
   width: 135px;
 }
 
 .card {
   margin: 0 25px;
   margin-bottom: 25px;
-
 }
 
 .blog {
   margin: 0 25px;
 }
 .form {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 1199.98px) {
   /* .card .what_we_do {
@@ -192,13 +190,13 @@ font-size: 30px;
 }
 
 @media (max-width: 991.98px) {
-  .wwa{
+  .wwa {
     flex-direction: column;
     justify-content: center;
   }
 
   .WhoWeAreCard {
-    margin: 0 auto; 
+    margin: 0 auto;
     /* width: 100%;
     height: 100%; */
   }
@@ -263,6 +261,15 @@ font-size: 30px;
   .card {
     max-width: 300px;
   }
+  .globe {
+    display: none;
+  }
+  .analysis {
+    display: none;
+  }
+  .missionstatement h3 {
+    max-width: 300px;
+  }
   .banner h1 {
     font-size: 20px;
     margin: 14px;
@@ -274,68 +281,71 @@ font-size: 30px;
     width: 180px;
   }
 
-  .words{
+  .words {
     margin-left: -20px;
     margin-top: -60px;
   }
 
-  .banner{
-      height: 200px;
+  .banner {
+    height: 200px;
   }
 
-  .button-large{
-      width: 120px;
-      font-size: 15px;
-      height: 35px;
+  .button-large {
+    width: 120px;
+    font-size: 15px;
+    height: 35px;
   }
 
-  .globe{
-      width: 100px;
-      height: 110px;
-  }
-
-  .analysis{
+  .globe {
     width: 100px;
     height: 110px;
-}
+  }
 
-.om{
+  .analysis {
+    width: 100px;
+    height: 110px;
+  }
+
+  .om {
     margin-top: 3px;
-    margin-left: 15px ;
-}
+    margin-left: 15px;
+  }
 
-.wwd2{
-    width: 343px;
-}
+  .wwd2 {
+    width: 300px;
+  }
 
-.wwa{
+  .wwa {
     flex-direction: column;
     justify-content: center;
+  }
+  .WhoWeAreCard {
+    margin: 0 auto;
+  }
 
-}
-.WhoWeAreCard{
-  margin: 0 auto;
-}
-
-.blogs{
+  .blogs {
     flex-direction: column;
     justify-content: center;
+  }
 
-}
+  .blog {
+    margin: 0.7em auto;
+  }
 
-.blog {
-margin: .7em auto;
-}
-
-.testimonials{
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-}
-.bullet{
-  display: none;
-}
-.bulletpoint{
-  margin-left: auto;
-}
+  .testimonials {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .bullet {
+    display: none;
+  }
+  .bulletpoint {
+    margin-left: auto;
+  }
+  .point{
+    text-align: center;
+    margin-left: 0;
+  }
+  
 }

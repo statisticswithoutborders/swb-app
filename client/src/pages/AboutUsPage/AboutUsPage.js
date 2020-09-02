@@ -89,7 +89,7 @@ class AboutUsPage extends Component {
         <div className="aboutus-section">
           <h1 className="member-header">Our Members</h1>
           <div className="member-parent-container">
-            <div className="member-row member-row-one">
+            {/* <div className="member-row"> */}
               <div className="member-cards">
                 <MemberCard
                   image="var(--about-jean)"
@@ -115,8 +115,8 @@ class AboutUsPage extends Component {
                   IconDownArrow
                 />
               </div>
-            </div>
-            <div className="member-row">
+            {/* </div> */}
+            {/* <div className="member-row"> */}
               <div className="member-cards">
                 <MemberCard
                   image="var(--about-david)"
@@ -142,8 +142,8 @@ class AboutUsPage extends Component {
                   about="Matt Brems works at General Assembly as a data science instructor and is managing partner of a consultancy, BetaVector. He is interested in data visualization, missing data, and Python programming. He holds a Master's degree in statistics from The Ohio State University."
                 />
               </div>
-            </div>
-            <div className="member-row">
+            {/* </div> */}
+            {/* <div className="member-row"> */}
               <div className="member-cards">
                 <MemberCard
                   image="var(--about-cathy)"
@@ -169,7 +169,7 @@ class AboutUsPage extends Component {
                   about="And also an ASA ex officio board member. Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA."
                 />
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="aboutus-section">

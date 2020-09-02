@@ -1,0 +1,29 @@
+.HamburgerMenu {
+    margin-top: 0;
+    
+    width: 20%;
+    background-color: var(--gray-lite);
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.HamburgerMenu-menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: 30px;
+    padding-inline-start: 3%;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.HamburgerMenu h1{
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+}

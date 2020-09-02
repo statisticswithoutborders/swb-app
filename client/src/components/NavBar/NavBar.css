@@ -40,9 +40,9 @@
 }
 
 .Nav-hamburger {
-  width: 10%;
+  width: 30%;
   justify-self: flex-end;
-  /* display: none; */
+  display: none;
 }
 
 .Nav-hamburger-img {
@@ -56,8 +56,20 @@
 }
 
 @media (max-width: 991.98px) { 
+  .Header {
+    justify-content: space-between;
+  }
+
   .Nav_item-wrapper{
+    display: none;
     margin-left: 9%
+  }
+  .Nav-login-container {
+    display: none;
+  }
+
+  .Nav-hamburger {
+    display: initial;
   }
 }
 

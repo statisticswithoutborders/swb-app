@@ -28,10 +28,11 @@ class NavBar extends Component {
     return (
       <nav className="Nav">
         <div className="Header">
-
+        <div className="Nav-logo-images">
          <Link to='/'>  <img src={nav_logo_world} className="logo" alt="world" /></Link>
-
          <Link to = '/'> <img src={nav_logo_name} className="logo" alt="name" /> </Link>
+         </div>
+         <div className="Nav-link-container">
           <ul className="Nav_item-wrapper">
             <li className="Nav_item nav-item-services">
               <Link className="Nav_link" to="/ourservices">
@@ -62,6 +63,7 @@ class NavBar extends Component {
           <a className="Nav-login-container" href="http://link">
             <img src={nav_user_login} className="login" alt="login" />
           </a>
+          </div>
           <div className="Nav-hamburger" onClick={this.toggleHamburger}>
             <img className="Nav-hamburger-img" src={hamburgerIcon} />
             {this.state.menuOpen ? 

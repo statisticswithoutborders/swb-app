@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow, mount, configure } from 'enzyme'
-import IconNumber from './IconNumber.js'
 import Adapter from 'enzyme-adapter-react-16';
 configure({adapter: new Adapter()});
+import IconNumber from './IconNumber.js'
 
 
 describe('IconNumber component', () => {

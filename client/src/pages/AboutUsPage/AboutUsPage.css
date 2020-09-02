@@ -1,5 +1,8 @@
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-title {
@@ -8,8 +11,10 @@
 }
 
 .about-swb {
+  width: 98%;
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid var(--blue)
 }
 .about-swb p {
   color: var(--blue-medium-dark);
@@ -35,6 +40,18 @@
   margin-bottom: 100px;
 }
 
+.aboutus-section {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid var(--blue);
+}
+
+.aboutus-bottom-section {
+  border: none;
+  padding-bottom: 7%;
+}
+
 .objective-section-one {
   margin-top: 80px;
 }
@@ -53,7 +70,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  margin-bottom: -3%;
+  padding-bottom: 2%;
 }
 
 .member-row {
@@ -77,7 +94,6 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--blue-medium-dark);
   margin: 60px;
-  margin-top: -2%;
 }
 .number-icons-objectives {
   display: flex;
@@ -103,7 +119,7 @@
   color: var(--blue-medium-dark);
   font-size: 22px;
   margin-right: 18%;
-  margin-bottom: -2%;
+  margin-bottom: 3%;
 }
 
 .charter-underline {
@@ -113,7 +129,6 @@
 }
 
 .funding-facts-header {
-  margin-top: -4%;
   color: var(--blue-medium-dark);
 }
 
@@ -131,9 +146,9 @@
 .funding-facts-readtext {
   font-size: 18px;
   color: var(--blue-medium-dark);
-  float: right;
+  align-self: flex-end;
   margin-right: 5%;
-  margin-top: 2%;
+  margin: 2% 7%;
 }
 
 .volunteer-underline {

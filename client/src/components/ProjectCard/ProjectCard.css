@@ -1,37 +1,36 @@
 .ProjectCard {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--blue-medium-dark);
-    margin: 10px 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--blue-medium-dark);
+  /* margin: 10px 15px; */
 }
 
 .ProjectCard-title {
-    font-size: 20px;
-    margin-top: 5%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 5%;
 }
 
 .ProjectCard-image {
-    width: 90%;
-    padding-top: 90%;
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    border-radius: 25px;
-    margin-bottom: 5%;
+  width: 80%;
+  padding-top: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+  margin-bottom: 5%;
 }
 
 .ProjectCard-description {
-    opacity: .8;
-    text-align: center;
-    line-height: 1.4;
-    margin:2% 1% 5% 1%;
-    font-size: 17px;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 1.4;
+  margin: 2% 1% 5% 1%;
+  height: 200px;
 }
 
-.ProjectCard-description i {
-    font-size: 12px;
+button {
+  margin-top: 8%;
 }

@@ -54,8 +54,6 @@ class ProjectSummary extends Component {
                   link="/projects/chimp"
                 />
               </div>
-            </div>
-            <div className="project-row">
               <div className="project-card project-card-syria">
                 <ProjectCard
                   projectTitle="Whole of Syria Health Cluster:"
@@ -75,7 +73,7 @@ class ProjectSummary extends Component {
                   link="/projects/syria"
                 />
               </div>
-              <div className="project-card">
+              <div className="project-card project-card-unicef">
                 <ProjectCard
                   projectTitle="UNICEF Sierra Leone"
                   image="var(--project-unicef-sl)"

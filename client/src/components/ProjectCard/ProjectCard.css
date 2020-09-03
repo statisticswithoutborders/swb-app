@@ -4,10 +4,11 @@
   flex-direction: column;
   align-items: center;
   color: var(--blue-medium-dark);
-  margin: 10px 15px;
+  /* margin: 10px 15px; */
 }
 
 .ProjectCard-title {
+  height: 50px;
   font-size: 20px;
   margin-top: 5%;
 }
@@ -15,11 +16,9 @@
 .ProjectCard-image {
   width: 80%;
   padding-top: 80%;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   border-radius: 25px;
   margin-bottom: 5%;
 }
@@ -29,6 +28,7 @@
   text-align: center;
   line-height: 1.4;
   margin: 2% 1% 5% 1%;
+  height: 200px;
 }
 
 button {

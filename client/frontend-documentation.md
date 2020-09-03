@@ -9,24 +9,24 @@ cd into client directory and run "npm install" to install the basic dependencies
 $ npm install
 ```
 
-### react dependencies
+## React dependencies
     * react
     * react-dom
     * react-router-dom
     * react-player
 
-### testing depencies
+## Testing depencies
     * jest
     * enzyme
     * enzyme-adapter-react-16
 
-### other dependencies
+## Other dependencies
     * storybook
     * react-burger-menu
 
-### deployment links
-    * deployed site :https://swbapp.netlify.app/
-    * deployed storybook :https://statisticswithoutborders.github.io/swb-app/index.html
+### Deployment links
+    * deployed site: https://swbapp.netlify.app/
+    * deployed storybook: https://statisticswithoutborders.github.io/swb-app/index.html
 
 ### Next steps for project
     * Implement authentication to allow admin user to make changes to the web site content.

@@ -45,7 +45,7 @@ class FormContact extends Component {
 	render() {
 		let infoAtTopOfForm = this.props.help ? (
 			<div className="FormContact-div-help-volunteer">
-				<h4>New Projects Procedure - Request Help</h4>
+				<h4>New Projects Request</h4>
 				<p>
 					We will be in touch within 1-2 weeks about your project. We will work
 					with you to evaluate the project needs, including assigning a team of

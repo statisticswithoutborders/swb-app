@@ -1,20 +1,43 @@
+.Nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
 
+.Header {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav-logo-images {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Nav-link-container {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .Nav_item-wrapper {
   list-style-type: none;
   margin: 0;
-  margin-left: 48%;
   padding: 0;
   color: var(--blue);
   display: flex;
+  justify-content: flex-end;
 }
 
 .Nav_item {
-  width: 100%vw;
   display: inline-block;
-  text-align: right;
-  font-size: 17px;
-  margin: 5%
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5% 10% 5% 5%
 }
 
 .Nav_link {
@@ -23,20 +46,17 @@
   font-style: Inter;
 }
 
-.Header {
-  display: flex;
-  width: 100%;
-}
-
 .logo {
   float: left;
   height: 50px;
 }
 
+.Nav-login-container {
+  width: 4%;
+}
+
 .login {
-  margin-left: 170px;
-  margin-top: 5px;
-  height: 40px;
+  height: 30px;
 }
 
 .Nav-hamburger {

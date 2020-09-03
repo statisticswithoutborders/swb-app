@@ -30,9 +30,7 @@ class ContactUsPage extends Component {
 		return (
 			<div className={this.state.classList}>
 				<div className="ContactUsPage-body">
-					<h2 className="ContactUsPage-header">
-						Let's Work Together - Contact Us
-					</h2>
+					<h2 className="ContactUsPage-header">Let's Work Together</h2>
 					<FormContact formCallback={this.handleSend} />
 					<p className="ContactUsPage-inquiries">
 						<strong>For any direct inquiries, please email SWB:</strong>{" "}

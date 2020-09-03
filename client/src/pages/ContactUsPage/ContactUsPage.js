@@ -43,7 +43,6 @@ class ContactUsPage extends Component {
 							<Button
 								type="primary"
 								wide
-								callback
 								label="LEARN MORE ABOUT OUR SERVICES"
 							/>
 						</Link>
@@ -53,7 +52,6 @@ class ContactUsPage extends Component {
 							<Button
 								type="primary"
 								wide
-								callback
 								label="LEARN MORE ABOUT OUR VOLUNTEERS"
 							/>
 						</Link>

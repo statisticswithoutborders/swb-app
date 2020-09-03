@@ -33,4 +33,5 @@ GRANT ALL PRIVILEGES ON DATABASE swb TO swb_user;
 --localhost:8000/contacts
 --localhost:8000/volunteers
 --localhost:8000/new_projects
+--localhost:8000/blogs
 

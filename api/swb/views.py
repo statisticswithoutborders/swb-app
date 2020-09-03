@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import generics
-from .serializers import ProjectSerializer, ServiceSerializer, MemberSerializer, ContactSerializer, VolunteerSerializer, NewProjectSerializer
-from .models import Project, Service, Member, Contact, Volunteer, NewProject
+from .serializers import ProjectSerializer, ServiceSerializer, MemberSerializer, ContactSerializer, VolunteerSerializer, NewProjectSerializer, BlogSerializer
+from .models import Project, Service, Member, Contact, Volunteer, NewProject, Blog
 
 # Create your views here.
 
@@ -64,3 +64,13 @@ class NewProjectList(generics.ListCreateAPIView):
 class NewProjectDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = NewProject.objects.all()
     serializer_class = NewProjectSerializer
+
+
+class BlogList(generics.ListCreateAPIView):
+    queryset = Blog.objects.all()
+    serializer_class = BlogSerializer
+
+
+class BlogDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Blog.objects.all()
+    serializer_class = BlogSerializer

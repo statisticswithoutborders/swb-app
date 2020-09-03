@@ -16,8 +16,7 @@ h1 {
 .projectsummary-details {
   font-size: 20px;
   width: 90%;
-  color: var(--blue-medium-dark);
-  opacity: 80%;
+  color: #6c6e82;
   text-align: center;
   font-weight: bold;
   margin: auto;

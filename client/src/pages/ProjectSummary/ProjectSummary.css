@@ -1,5 +1,8 @@
 .container {
-  text-align: center;
+  width: 100vw;
+}
+.swb-projects {
+  width: 100%;
 }
 
 h1 {
@@ -18,21 +21,41 @@ h1 {
   text-align: center;
   font-weight: bold;
   margin: auto;
-  /* padding: 0px 100px; */
 }
 
 .project-layout {
-  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
-  margin: auto;
-  /* padding: 0px 100px 0px 120px; */
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10%;
+}
+.project-row {
+  width: 100%;
+  margin-top: -20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-/* .line {
-  background-color: var(--blue);
-  margin-top: 150px;
-  border: var(--blue) 1px solid;
+.project-card {
+  min-width: 300px;
+  width: 30%;
+  padding-top: 28%;
+}
+
+.un-text {
+  color: var(--cyan-blue-dark);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 10px;
+}
+
+/* @media screen and (max-width: 900px) {
+  .project-layout {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 } */

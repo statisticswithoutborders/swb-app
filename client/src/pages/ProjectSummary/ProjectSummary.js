@@ -18,8 +18,8 @@ class ProjectSummary extends Component {
       <React.Fragment>
         <div className="container">
           <div className="swb-projects">
-            <h1>Statistics Without Borders</h1>
-            <p className="details">
+            <h1>Statistics Without Borders Projects</h1>
+            <p className="projectsummary-details">
               Our projects are the core of our mission. Through these projects
               we help workers in resource-limited settings who do not have
               statistical training by partnering them with professional and

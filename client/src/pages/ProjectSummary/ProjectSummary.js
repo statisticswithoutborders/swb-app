@@ -61,15 +61,16 @@ class ProjectSummary extends Component {
                   projectTitle="Whole of Syria Health Cluster:"
                   image="var(--project-un)"
                   projectDescription={[
-                    <strong>
-                      <i>
-                        UN Office for the Coordination of Humanitarian Affairs
-                        Humanitarian Response Operation
-                      </i>
-                    </strong>,
+                    <span className="un-text">
+                      UN Office for the Coordination of Humanitarian Affairs
+                      Humanitarian Response Operation
+                    </span>,
                     <br />,
-                    <br />,
-                    "Optimize the ETL processes, reducing effort time, minimizing error risks, and improving the quality of the data that were the basis for decision making.",
+                    <span className="optomize-text">
+                      Optimize the ETL processes, reducing effort time,
+                      minimizing error risks, and improving the quality of the
+                      data that were the basis for decision making.
+                    </span>,
                   ]}
                   link="/projects/syria"
                 />

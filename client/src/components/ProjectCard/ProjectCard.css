@@ -29,13 +29,8 @@
   text-align: center;
   line-height: 1.4;
   margin: 2% 1% 5% 1%;
-  font-size: 17px;
-}
-
-.ProjectCard-description i {
-  font-size: 12px;
 }
 
 button {
-  margin-top: 7%;
+  margin-top: 8%;
 }

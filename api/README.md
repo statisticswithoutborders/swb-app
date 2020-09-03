@@ -2,7 +2,7 @@
 
 ### **About**
 
-###### The Statistics Without Borders (SWB) api is the backend database for the SWB website. First we designed our models based of information in the website design. Next we created serializers, views and url paths to allow the database to be viewed as an api. 
+###### The Statistics Without Borders (SWB) api is the backend database for the SWB website. First we designed our models based off the information in the website design. Next we created serializers, views and url paths to allow the database to be viewed as an api. 
 ###### SWB is a volunteer organization from within the American Statistical Association that uses statistics and data science to support regions across the world where resources are limited, promoting welfare and the proper application of accumulated data.
 
 ###### SWB website front-end link: https://swbapp.netlify.app

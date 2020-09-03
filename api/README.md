@@ -1,6 +1,6 @@
 # **Statistics Without Borders API**
 
-### About
+### **About**
 
 ###### The Statistics Without Borders (SWB) api is the backend database for the SWB website. SWB is a volunteer organization from within the American Statistical Association that uses statistics and data science to support regions across the world where resources are limited, promoting welfare and the proper application of accumulated data.
 
@@ -14,7 +14,7 @@
 - ###### Psycopg2-binary
 - ###### Django Rest Framework
 
-### Setup
+### **Setup**
 
 ###### 1. Make sure you have Python 3, postgreSQL and pipenv installed on your computer
 
@@ -91,7 +91,7 @@ localhost:8000/new_projects
 localhost:8000/blogs
 ```
 
-### Models
+### **Models**
 
 #### _Project_
 
@@ -172,10 +172,10 @@ localhost:8000/blogs
 - ###### blog_date
 - ###### blog_body
 
-##### **Recommended next step:**
+#### **Recommended next step:**
 
 ###### Apply authentication to the api so that only authenticated users can access full CRUD functions.
 
-##### Authors:
+#### **Authors:**
 
 ###### _Anthony Maddox and Jennifer Houck_

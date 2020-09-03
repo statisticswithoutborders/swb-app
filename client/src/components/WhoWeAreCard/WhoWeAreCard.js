@@ -14,8 +14,8 @@ const WhoWeAreCard = (props) => {
     <div className={classList.join(" ")}>
       <h2 className="WhoWeAreCard-title">{props.title}</h2>
       <div className="WhoWeAreCard-image" style={{backgroundImage: props.image}}></div>
-      <Link to ={props.link}>
-      <Button type = 'primary' medium  callback label={props.buttonLabel} />
+      <Link to={props.link}>
+      <Button type='primary' medium  label={props.buttonLabel} />
       </Link>
     </div>
   );

@@ -93,7 +93,7 @@ localhost:8000/blogs
 
 ### Models
 
-##### _Project_
+#### _Project_
 
 ###### **Description:** The Project model represents the information found on an individual project page from the website. The project_service field is linked to the Service model.
 
@@ -107,7 +107,7 @@ localhost:8000/blogs
 - ###### project_description
 - ###### project_services
 
-##### _Service_
+#### _Service_
 
 ###### **Description:** The Service model represents the service tags found on project pages.
 
@@ -115,7 +115,7 @@ localhost:8000/blogs
 
 - ###### service_name
 
-##### _Member_
+#### _Member_
 
 ###### **Description:** The Member model represents information about each current member found on the member cards on the about us page.
 
@@ -126,7 +126,7 @@ localhost:8000/blogs
 - ###### member_role
 - ###### member_about
 
-##### _Contact_
+#### _Contact_
 
 ###### **Description:** The Contact model represents information entered in the contact us form.
 
@@ -138,7 +138,7 @@ localhost:8000/blogs
 - ###### contact_subject
 - ###### contact_message
 
-##### _Volunteer_
+#### _Volunteer_
 
 ###### **Description:** The Volunteer model represents information entered in the volunteer form.
 
@@ -150,7 +150,7 @@ localhost:8000/blogs
 - ###### volunteer_subject
 - ###### volunteer_message
 
-##### _NewProject_
+#### _NewProject_
 
 ###### **Description:** The NewProject model represents information entered in the new project form.
 
@@ -162,7 +162,7 @@ localhost:8000/blogs
 - ###### new_project_subject
 - ###### new_project_message
 
-##### _Blog_
+#### _Blog_
 
 ###### **Description:** The Blog model represents information found on the blog cards under the blog section of the home page.
 
